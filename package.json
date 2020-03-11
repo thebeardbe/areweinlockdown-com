@@ -1,0 +1,16 @@
+{
+  "name": "areweinlockdown-com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://thebeardbe.github.io/areweinlockdown-com",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
