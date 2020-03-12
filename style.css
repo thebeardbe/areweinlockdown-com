@@ -19,15 +19,19 @@ h3{font-size:15px;}
 #center #page-title,
 #center .section-title{text-align:center;}
 #center #page-title{margin:40px 0;}
-#center h2 {text-align: center;}
+#center h2 {text-align: center; text-decoration: underline;}
 #center h3 {text-align: center;}
-#center .remark {color: rgb(30, 140, 155);}
+#center .remark {color: rgb(30, 140, 155); text-decoration: none;}
 #center .section-title{margin-bottom:30px;}
 #center #virus{width:350px;height:350px;margin:0 auto 40px auto;background:url(images/virus.png) 0 0 no-repeat;background-size: 100% 100%;text-align:center;}
 #center #virus #result{padding-top:150px;display:block;font-size:90px;font-weight:bold;color:rgb(6, 179, 185)}
 #center .status-note{padding-bottom:20px;font-size:16px;font-weight:bold;text-align:center;}
 #center #counter{height:40px;margin-bottom:25px;text-align:center;}
 #center #counter .dcountstyle{font-size:18px;font-weight:bold;}
+#center #remark {text-align: center;margin: 75px 0 50px 0px;font-size: 18px;display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
+#center #remark .icon-text {flex-grow: 1; max-width: 150px;}
+#center #remark .icon-text .text {display: block;}
+#center #remakr .icon-text .icon {width: 150px;}
 #center #measures {text-align: center;margin: 75px 0 50px 0px;font-size: 18px;display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
 #center #measures .icon-text {flex-grow: 1; max-width: 200px;}
 #center #measures .icon-text .text {display: block;}
