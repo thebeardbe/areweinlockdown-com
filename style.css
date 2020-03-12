@@ -1,0 +1,45 @@
+@charset "utf-8";/*
+Theme: "Is er al een regering" by WebKrunch
+URL: http://www.webkrunch.be
+E-mail: info@webkrunch.be
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,700);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+body{margin:0;padding:0;background:#fff;color:#111;font-family:'Lato',arial,sans-serif;font-size:12px;}
+a,ul,h2,h3,p{margin:0;padding:0;}
+a{color:#444;text-decoration:none;}
+p{padding-bottom:10px;}
+h1{font-size:30px;}
+h1,h2,h3{margin:20px 0;}
+h2{font-size:22px;text-transform:uppercase;}
+h3{font-size:15px;}
+.frame{width:760px;margin:0 auto 0 auto;position:relative;}
+.clearfix{clear:both;}
+.low-opacity{opacity:0.4}
+#center #page-title,
+#center .section-title{text-align:center;}
+#center #page-title{margin:40px 0;}
+#center .section-title{margin-bottom:30px;}
+#center #virus{width:350px;height:350px;margin:0 auto 40px auto;background:url(images/virus.png) 0 0 no-repeat;background-size: 100% 100%;text-align:center;}
+#center #virus #result{padding-top:150px;display:block;font-size:90px;font-weight:bold;color:rgb(6, 179, 185);}
+#center .status-note{padding-bottom:20px;font-size:16px;font-weight:bold;text-align:center;}
+#center #counter{height:40px;margin-bottom:25px;text-align:center;}
+#center #counter .dcountstyle{font-size:18px;font-weight:bold;}
+#center #social{text-align: center;margin-bottom:50px;font-size: 18px;}
+#center #social ul{list-style-type:none;text-align:center;}
+#center #social ul li{width:190px;display:inline-block;overflow:hidden;}
+#copyrights{padding:20px 0;text-align:center;}
+#copyrights #webkrunch{width:50px;height:23px;display:inline-block;background:url(images/annickandthebeard.png) 0 0 no-repeat;text-indent:-9999px;}
+
+@media only screen and (max-width:1279px){
+}
+@media only screen and (max-width:1023px){
+}
+@media only screen and (max-width:767px){
+	.frame{width:400px;}
+}
+@media only screen and (max-width:479px){
+	.frame{width:300px;}
+@media only screen and (max-width:319px){
+	.frame{width:220px;}
+}
