@@ -7,24 +7,36 @@ E-mail: info@webkrunch.be
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 body{margin:0;padding:0;background:#fff;color:#111;font-family:'Lato',arial,sans-serif;font-size:12px;}
 a,ul,h2,h3,p{margin:0;padding:0;}
-a{color:#444;text-decoration:none;}
+a{color:rgb(30, 140, 155);text-decoration:none;font-weight:bolder;}
 p{padding-bottom:10px;}
 h1{font-size:30px;}
 h1,h2,h3{margin:20px 0;}
 h2{font-size:22px;text-transform:uppercase;}
 h3{font-size:15px;}
-.frame{width:760px;margin:0 auto 0 auto;position:relative;}
+.frame{width:1279px;margin:0 auto 0 auto;position:relative;}
 .clearfix{clear:both;}
 .low-opacity{opacity:0.4}
 #center #page-title,
 #center .section-title{text-align:center;}
 #center #page-title{margin:40px 0;}
+#center h2 {text-align: center;}
+#center h3 {text-align: center;}
 #center .section-title{margin-bottom:30px;}
 #center #virus{width:350px;height:350px;margin:0 auto 40px auto;background:url(images/virus.png) 0 0 no-repeat;background-size: 100% 100%;text-align:center;}
-#center #virus #result{padding-top:150px;display:block;font-size:90px;font-weight:bold;color:rgb(6, 179, 185);}
+#center #virus #result{padding-top:150px;display:block;font-size:90px;font-weight:bold;color:rgb(6, 179, 185)}
 #center .status-note{padding-bottom:20px;font-size:16px;font-weight:bold;text-align:center;}
 #center #counter{height:40px;margin-bottom:25px;text-align:center;}
 #center #counter .dcountstyle{font-size:18px;font-weight:bold;}
+#center #measures {text-align: center;margin: 75px 0 50px 0px;font-size: 18px;display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
+#center #measures .icon-text {flex-grow: 1; max-width: 200px;}
+#center #measures .icon-text .text {display: block;}
+#center #measures .icon-text img {width: 200px;}
+#center #info {text-align: center; margin: 75px 0 50px 0px;font-size: 18px;display: flex; flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
+#center #info .icon-text {flex-grow: 1; max-width: 256px;}
+#center #info .icon-text .icon {min-height: 150px; margin-bottom: 25px; display: inline-block; vertical-align: middle;}
+#center #info .icon-text .icon img {display: inline-block; height: 100%; vertical-align: middle;}
+
+#center #info .icon-text .text {display: block;}
 #center #social{text-align: center;margin-bottom:50px;font-size: 18px;}
 #center #social ul{list-style-type:none;text-align:center;}
 #center #social ul li{width:190px;display:inline-block;overflow:hidden;}
