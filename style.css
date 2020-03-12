@@ -21,6 +21,7 @@ h3{font-size:15px;}
 #center #page-title{margin:40px 0;}
 #center h2 {text-align: center;}
 #center h3 {text-align: center;}
+#center .remark {color: rgb(30, 140, 155);}
 #center .section-title{margin-bottom:30px;}
 #center #virus{width:350px;height:350px;margin:0 auto 40px auto;background:url(images/virus.png) 0 0 no-repeat;background-size: 100% 100%;text-align:center;}
 #center #virus #result{padding-top:150px;display:block;font-size:90px;font-weight:bold;color:rgb(6, 179, 185)}
