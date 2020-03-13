@@ -7,7 +7,7 @@ E-mail: info@webkrunch.be
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 body{margin:0;padding:0;background:#fff;color:#111;font-family:'Lato',arial,sans-serif;font-size:12px;}
 a,ul,h2,h3,p{margin:0;padding:0;}
-a{color:rgb(30, 140, 155);text-decoration:none;font-weight:bolder;}
+a{color: #62c4c3;text-decoration:none;font-weight:bolder;}
 p{padding-bottom:10px;}
 h1{font-size:30px;}
 h1,h2,h3{margin:20px 0;}
@@ -21,10 +21,11 @@ h3{font-size:15px;}
 #center #page-title{margin:40px 0;}
 #center h2 {text-align: center; text-decoration: underline;font-size: 28px;}
 #center h3 {text-align: center;}
-#center .remark {color: rgb(30, 140, 155); text-decoration: none;}
+#center .remark {color:#62c4c3; text-decoration: none;}
 #center .section-title{margin-bottom:30px;}
+#center #selection {text-align:center; font-size: 2em; margin-bottom: 25px;}
 #center #virus{width:350px;height:350px;margin:0 auto 40px auto;background:url(images/virus.png) 0 0 no-repeat;background-size: 100% 100%;text-align:center;}
-#center #virus #result{padding-top:150px;display:block;font-size:90px;font-weight:bold;color:rgb(6, 179, 185)}
+#center #virus #result{padding-top:150px;display:block;font-size:90px;font-weight:bold;color:#62c4c3}
 #center .status-note{padding-bottom:20px;font-size:16px;font-weight:bold;text-align:center;}
 #center #counter{height:40px;margin-bottom:25px;text-align:center;}
 #center #counter .dcountstyle{font-size:18px;font-weight:bold;}
