@@ -11,7 +11,7 @@ a{color:rgb(30, 140, 155);text-decoration:none;font-weight:bolder;}
 p{padding-bottom:10px;}
 h1{font-size:30px;}
 h1,h2,h3{margin:20px 0;}
-h2{font-size:22px;text-transform:uppercase;}
+h2{font-size:22px;text-transform:uppercase;color: rgb(30, 140, 155);}
 h3{font-size:15px;}
 .frame{width:1279px;margin:0 auto 0 auto;position:relative;}
 .clearfix{clear:both;}
@@ -19,7 +19,7 @@ h3{font-size:15px;}
 #center #page-title,
 #center .section-title{text-align:center;}
 #center #page-title{margin:40px 0;}
-#center h2 {text-align: center; text-decoration: underline;}
+#center h2 {text-align: center; text-decoration: underline;font-size: 28px;}
 #center h3 {text-align: center;}
 #center .remark {color: rgb(30, 140, 155); text-decoration: none;}
 #center .section-title{margin-bottom:30px;}
@@ -31,11 +31,15 @@ h3{font-size:15px;}
 #center #remark {text-align: center;margin: 75px 0 50px 0px;font-size: 18px;display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
 #center #remark .icon-text {flex-grow: 1; max-width: 150px;}
 #center #remark .icon-text .text {display: block;}
-#center #remakr .icon-text .icon {width: 150px;}
+#center #remark .icon-text .icon {width: 150px;}
 #center #measures {text-align: center;margin: 75px 0 50px 0px;font-size: 18px;display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
 #center #measures .icon-text {flex-grow: 1; max-width: 200px;}
 #center #measures .icon-text .text {display: block;}
 #center #measures .icon-text img {width: 200px;}
+#center #symptoms {text-align: center;margin: 75px 0 50px 0px;font-size: 18px;display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
+#center #symptoms .icon-text {flex-grow: 1; max-width: 200px;}
+#center #symptoms .icon-text .text {display: block;}
+#center #symptoms .icon-text img {width: 200px;}
 #center #info {text-align: center; margin: 75px 0 50px 0px;font-size: 18px;display: flex; flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
 #center #info .icon-text {flex-grow: 1; max-width: 256px;}
 #center #info .icon-text .icon {min-height: 150px; margin-bottom: 25px; display: inline-block; vertical-align: middle;}
