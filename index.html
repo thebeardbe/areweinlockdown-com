@@ -29,7 +29,7 @@
 
   gtag('config', 'UA-2550570-18');
 </script>
-
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
@@ -105,6 +105,29 @@
                     <span class="text">Avoid groups</span>
                 </div>
             </div>
+            <h2>What are the symptoms?</h2>
+            <div id="symptoms">
+                <div class="icon-text">
+                    <img src="images/fever.png">
+                    <span class="text">Fever</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/cough.png">
+                    <span class="text">Dry cough</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/breath.png">
+                    <span class="text">Shortness of breath</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/throat.png">
+                    <span class="text">Sore throat</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/headache.png">
+                    <span class="text">Headaches</span>
+                </div>
+            </div>
             <h2>More information about Sars-COV-2 can be found in the following places</h2>
             <div id="info">
                 <div class="icon-text">
@@ -139,5 +162,19 @@
             Icons provided by <a href="https://www.iconfinder.com/p/coronavirus-awareness-icons">Iconfinder</a>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#1d8a8a"
+    },
+    "button": {
+      "background": "#62ffaa"
+    }
+  },
+  "theme": "edgeless"
+});
+</script>
 </body>
 </html>
