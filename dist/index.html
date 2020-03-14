@@ -62,14 +62,14 @@
                         dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
                     })
                 });
-                $(document).ready(function() {
-                    $("#country-dropdown").change(function() {
+                $(document).ready(function () {
+                    $("#country-dropdown").change(function () {
                         var selected_value = $("#country-dropdown").val();
                         console.log(selected_value);
-                        $.getJSON(url, function(data) {
-                            $.each(data, function(key, entry) {
+                        $.getJSON(url, function (data) {
+                            $.each(data, function (key, entry) {
                                 if (entry.abbreviation === selected_value) {
-                                    $("#answer").load("answers/"+entry.situation);
+                                    $("#answer").load("answers/" + entry.situation);
                                 };
                             });
                         });
@@ -77,6 +77,7 @@
                 });
 
             </script>
+            <h3 class="remark">Last update: 2020-03-14 11:40:50 CET</h3>
             <div id="counter"></div>
             <!--<script type="text/javascript">
       var government=new dcountup("May 26, 2019 8:00:00", "days")
@@ -156,8 +157,7 @@
                     </a>
                 </div>
                 <div class="icon-text">
-                    <a href="https://bit.ly/covid19-data"
-                        target="_blank">
+                    <a href="https://bit.ly/covid19-data" target="_blank">
                         <span class="icon"><img src="images/info-beautifull.png" width="150px"></span>
                         <span class="text"></span>
                     </a>
