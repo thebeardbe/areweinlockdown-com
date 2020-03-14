@@ -9,9 +9,19 @@
     "situation": "fr.html"
   },
   {
+    "name": "Germany",
+    "abbreviation": "DE",
+    "situation": "de.html"
+  },
+  {
     "name": "Italy",
     "abbreviation": "IT",
     "situation": "yes.html"
+  },
+  {
+    "name": "Netherlands",
+    "abbreviation": "NL",
+    "situation": "nl.html"
   },
   {
     "name": "Venezuela",
