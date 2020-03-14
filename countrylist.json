@@ -4,19 +4,24 @@
     "situation": "be.html"
   },
   {
+    "name": "China",
+    "abbreviation": "CN",
+    "situation": "cn.html"
+  },
+  [{
+    "name": "France",
+    "abbreviation": "Fr",
+    "situation": "fr.html"
+  },
+  {
     "name": "Italy",
     "abbreviation": "IT",
     "situation": "yes.html"
   },
   {
-    "name": "China",
-    "abbreviation": "CN",
-    "situation": "cn.html"
-  },
-  {
-    "name": "Germany",
-    "abbreviation": "DE",
-    "situation": "no.html"
+    "name": "Venezuela",
+    "abbreviation": "VE",
+    "situation": "yes.html"
   }
 ]
 
