@@ -75,9 +75,24 @@
     "situation": "no.html"
   },
   {
+    "name": "Finland",
+    "abbreviation": "FI",
+    "situation": "no.html"
+  },
+  {
+    "name": "Faroe Islands",
+    "abbreviation": "FO",
+    "situation": "no.html"
+  },
+  {
     "name": "France",
     "abbreviation": "Fr",
     "situation": "fr.html"
+  },
+  {
+    "name": "Georgia",
+    "abbreviation": "GE",
+    "situation": "no.html"
   },
   {
     "name": "Germany",
@@ -90,6 +105,16 @@
     "situation": "gr.html"
   },
   {
+    "name": "Hungary",
+    "abbreviation": "HU",
+    "situation": "hu.html"
+  },
+  {
+    "name": "Iceland",
+    "abbreviation": "IS",
+    "situation": "is.html"
+  },
+  {
     "name": "Ireland",
     "abbreviation": "IRE",
     "situation": "ire.html"
@@ -100,9 +125,49 @@
     "situation": "yes.html"
   },
   {
+    "name": "Kosovo",
+    "abbreviation": "XK",
+    "situation": "no.html"
+  },
+  {
+    "name": "Latvia",
+    "abbreviation": "LV",
+    "situation": "lv.html"
+  },
+  {
+    "name": "Liechenstein",
+    "abbreviation": "LI",
+    "situation": "no.html"
+  },
+  {
+    "name": "Lithuania",
+    "abbreviation": "LT",
+    "situation": "lt.html"
+  },
+  {
+    "name": "Luxembourg",
+    "abbreviation": "LU",
+    "situation": "lu.html"
+  },
+  {
+    "name": "Malta",
+    "abbreviation": "MT",
+    "situation": "mt.html"
+  },
+  {
+    "name": "Monaco",
+    "abbreviation": "MC",
+    "situation": "no.html"
+  },
+  {
     "name": "Netherlands",
     "abbreviation": "NL",
     "situation": "nl.html"
+  },
+  {
+    "name": "Macedonia",
+    "abbreviation": "MK",
+    "situation": "mk.html"
   },
   {
     "name": "Slovenia",
