@@ -45,6 +45,31 @@
     "situation": "bg.html"
   },
   {
+    "name": "Bulgaria",
+    "abbreviation": "BG",
+    "situation": "bg.html"
+  },
+  {
+    "name": "Croatia",
+    "abbreviation": "HR",
+    "situation": "no.html"
+  },
+  {
+    "name": "Cyprus",
+    "abbreviation": "CY",
+    "situation": "no.html"
+  },
+  {
+    "name": "Czech",
+    "abbreviation": "CZ",
+    "situation": "cz.html"
+  },
+  {
+    "name": "Denmark",
+    "abbreviation": "DK",
+    "situation": "dk.html"
+  },
+  {
     "name": "France",
     "abbreviation": "Fr",
     "situation": "fr.html"
