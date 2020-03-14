@@ -1,4 +1,10 @@
-[{
+[
+  {
+    "name": "Austria",
+    "abbreviation": "AU",
+    "situation": "au.html"
+  },
+  {
     "name": "Belgium",
     "abbreviation": "BE",
     "situation": "be.html"
@@ -12,6 +18,11 @@
     "name": "Germany",
     "abbreviation": "DE",
     "situation": "de.html"
+  },
+  {
+    "name": "Greece",
+    "abbreviation": "GR",
+    "situation": "gr.html"
   },
   {
     "name": "Ireland",
@@ -29,9 +40,13 @@
     "situation": "nl.html"
   },
   {
+    "name": "Slovenia",
+    "abbreviation": "SL",
+    "situation": "sl.html"
+  },
+  {
     "name": "Venezuela",
     "abbreviation": "VE",
     "situation": "yes.html"
   }
 ]
-
