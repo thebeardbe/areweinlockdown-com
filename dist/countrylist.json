@@ -160,14 +160,59 @@
     "situation": "no.html"
   },
   {
+    "name": "Macedonia",
+    "abbreviation": "MK",
+    "situation": "mk.html"
+  },
+  {
     "name": "Netherlands",
     "abbreviation": "NL",
     "situation": "nl.html"
   },
   {
-    "name": "Macedonia",
-    "abbreviation": "MK",
-    "situation": "mk.html"
+    "name": "Norway",
+    "abbreviation": "NO",
+    "situation": "nor.html"
+  },
+  {
+    "name": "Poland",
+    "abbreviation": "PL",
+    "situation": "pl.html"
+  },
+  {
+    "name": "Portugal",
+    "abbreviation": "PT",
+    "situation": "no.html"
+  },
+  {
+    "name": "Romania",
+    "abbreviation": "RO",
+    "situation": "ro.html"
+  },
+  {
+    "name": "Russia",
+    "abbreviation": "RU",
+    "situation": "ru.html"
+  },
+  {
+    "name": "San Marino",
+    "abbreviation": "SM",
+    "situation": "no.html"
+  },
+  {
+    "name": "Serbia",
+    "abbreviation": "RS",
+    "situation": "no.html"
+  },
+  {
+    "name": "San Marino",
+    "abbreviation": "SM",
+    "situation": "no.html"
+  },
+  {
+    "name": "Slovakia",
+    "abbreviation": "SK",
+    "situation": "sk.html"
   },
   {
     "name": "Slovenia",
@@ -178,6 +223,31 @@
     "name": "Spain",
     "abbreviation": "ES",
     "situation": "yes.html"
+  },
+  {
+    "name": "Sweden",
+    "abbreviation": "SE",
+    "situation": "se.html"
+  },
+  {
+    "name": "Switzerland",
+    "abbreviation": "CH",
+    "situation": "ch.html"
+  },
+  {
+    "name": "Turkey",
+    "abbreviation": "TR",
+    "situation": "tr.html"
+  },
+  {
+    "name": "Ukraine",
+    "abbreviation": "UA",
+    "situation": "no.html"
+  },
+  {
+    "name": "United Kingdom",
+    "abbreviation": "UK",
+    "situation": "uk.html"
   },
   {
     "name": "Venezuela",
