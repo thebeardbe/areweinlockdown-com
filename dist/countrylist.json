@@ -40,6 +40,11 @@
     "situation": "ba.html"
   },
   {
+    "name": "Bulgaria",
+    "abbreviation": "BG",
+    "situation": "bg.html"
+  },
+  {
     "name": "France",
     "abbreviation": "Fr",
     "situation": "fr.html"
@@ -73,6 +78,11 @@
     "name": "Slovenia",
     "abbreviation": "SL",
     "situation": "sl.html"
+  },
+  {
+    "name": "Spain",
+    "abbreviation": "ES",
+    "situation": "yes.html"
   },
   {
     "name": "Venezuela",
