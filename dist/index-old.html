@@ -21,17 +21,15 @@
     <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2550570-18"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2550570-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        gtag('config', 'UA-2550570-18');
-    </script>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  gtag('config', 'UA-2550570-18');
+</script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
@@ -42,41 +40,38 @@
     <div id="center">
         <div class="frame">
             <h1 id="page-title">Are we in <strong>LOCKDOWN</strong>?</h1>
-            <div id="selection">
-                <select id="country-dropdown"></select>
+            <div id="virus">
+                <span id="result">NO</span>
+                
             </div>
-            <div id="answer"></div>
-            <script>
-                let dropdown = $('#country-dropdown');
-
-                dropdown.empty();
-
-                dropdown.append('<option selected="true" disabled>Choose your country</option>');
-                dropdown.prop('selectedIndex', 0);
-
-                const url = 'countrylist.json';
-
-                // Populate dropdown with list of provinces
-                $.getJSON(url, function (data) {
-                    $.each(data, function (key, entry) {
-                        dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
-                    })
-                });
-                $(document).ready(function() {
-                    $("#country-dropdown").change(function() {
-                        var selected_value = $("#country-dropdown").val();
-                        console.log(selected_value);
-                        $.getJSON(url, function(data) {
-                            $.each(data, function(key, entry) {
-                                if (entry.abbreviation === selected_value) {
-                                    $("#answer").load("answers/"+entry.situation);
-                                };
-                            });
-                        });
-                    });
-                });
-
-            </script>
+            <h2 class="remark">But from 14 March 2020:</h2>
+            <div id="remark">
+                <div class="icon-text">
+                    <div class="icon">
+                        <img src="images/event.png" width="130px">
+                    </div>
+                    <span class="text">Ban on all recreational events, sports, culture and other.</span>
+                </div>
+                <div class="icon-text">
+                    <div class="icon">
+                        <img src="images/restaurant.png" width="150px">
+                    </div>
+                    <span class="text">Restaurants, bars are closed.</span>
+                </div>
+                <div class="icon-text">
+                    <div class="icon">
+                        <img src="images/school.png" width="150px">
+                    </div>
+                    <span class="text">Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions</span>
+                </div>
+                <div class="icon-text">
+                    <div class="icon">
+                        <img src="images/shop.png" width="150px">
+                    </div>
+                    <span class="text">All non essentail shops are closed during the weekend</span>
+                </div>
+            </div>
+            <h3>At least that is the Belgian situation, more countries will be added in the future.</h3>
             <div id="counter"></div>
             <!--<script type="text/javascript">
       var government=new dcountup("May 26, 2019 8:00:00", "days")
@@ -102,8 +97,8 @@
                 </div>
                 <div class="icon-text">
                     <img src="images/cover.png">
-                    <span class="text">Cover your mouth and hands with a <a href="https://amzn.to/33bRc0d"
-                            title="Affiliate link for paper hankies on Amazon.co.uk">paper towel</a>.</span>
+                    <span class="text">Cover your mouth and hands with a  <a
+                            href="https://amzn.to/33bRc0d" title="Affiliate link for paper hankies on Amazon.co.uk">paper towel</a>.</span>
                 </div>
                 <div class="icon-text">
                     <img src="images/group.png">
@@ -137,7 +132,8 @@
             <div id="info">
                 <div class="icon-text">
                     <a href="https://info-coronavirus.be/en" target="_blank">
-                        <span class="icon"><img src="images/spf.png" width="150px" max-height="150px"></span>
+                        <span class="icon"><img src="images/spf.png" width="150px"
+                                max-height="150px"></span>
                         <span class="text">Official site of the Belgian governement.</span>
                     </a>
                 </div>
@@ -168,19 +164,18 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-    <script>
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#1d8a8a"
-                },
-                "button": {
-                    "background": "#62ffaa"
-                }
-            },
-            "theme": "edgeless"
-        });
-    </script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#1d8a8a"
+    },
+    "button": {
+      "background": "#62ffaa"
+    }
+  },
+  "theme": "edgeless"
+});
+</script>
 </body>
-
 </html>
