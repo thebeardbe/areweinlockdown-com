@@ -300,10 +300,11 @@
         "abbreviation": "UA",
         "situation": "no.html"
     },
+    
     {
-        "name": "United Kingdom",
-        "abbreviation": "UK",
-        "situation": "uk.html"
+        "name": "United States",
+        "abbreviation": "US",
+        "situation": "us.html"
     },
     {
         "name": "Venezuela",
