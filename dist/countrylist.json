@@ -17,7 +17,7 @@
     {
         "name": "Armenia",
         "abbreviation": "AM",
-        "situation": "no.html"
+        "situation": "ar.html"
     },
     {
         "name": "Azerbijan",
@@ -28,6 +28,11 @@
         "name": "Austria",
         "abbreviation": "AU",
         "situation": "au.html"
+    },
+    {
+        "name": "Bahrain",
+        "abbreviation": "BH",
+        "situation": "bh.html"
     },
     {
         "name": "Belarus",
