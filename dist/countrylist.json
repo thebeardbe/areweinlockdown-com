@@ -145,6 +145,11 @@
         "situation": "hk.html"
     },
     {
+        "name": "India",
+        "abbreviation": "IN",
+        "situation": "in.html"
+    },
+    {
         "name": "Iceland",
         "abbreviation": "IS",
         "situation": "is.html"
