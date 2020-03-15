@@ -122,7 +122,7 @@
     {
         "name": "Georgia",
         "abbreviation": "GE",
-        "situation": "no.html"
+        "situation": "ge.html"
     },
     {
         "name": "Germany",
@@ -138,6 +138,11 @@
         "name": "Hungary",
         "abbreviation": "HU",
         "situation": "hu.html"
+    },
+    {
+        "name": "Hong-Kong",
+        "abbreviation": "HK",
+        "situation": "hk.html"
     },
     {
         "name": "Iceland",
@@ -178,6 +183,11 @@
         "name": "Luxembourg",
         "abbreviation": "LU",
         "situation": "lu.html"
+    },
+    {
+        "name": "Macau",
+        "abbreviation": "MO",
+        "situation": "mo.html"
     },
     {
         "name": "Malta",
