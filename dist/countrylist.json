@@ -35,6 +35,11 @@
         "situation": "bh.html"
     },
     {
+        "name": "Bangladesh",
+        "abbreviation": "BD",
+        "situation": "bd.html"
+    },
+    {
         "name": "Belarus",
         "abbreviation": "BY",
         "situation": "no.html"
@@ -55,9 +60,19 @@
         "situation": "bg.html"
     },
     {
-        "name": "Bulgaria",
-        "abbreviation": "BG",
-        "situation": "bg.html"
+        "name": "Buthan",
+        "abbreviation": "BT",
+        "situation": "bt.html"
+    },
+    {
+        "name": "Brunei",
+        "abbreviation": "BN",
+        "situation": "no.html"
+    },
+    {
+        "name": "Cambodia",
+        "abbreviation": "KH",
+        "situation": "kh.html"
     },
     {
         "name": "Croatia",
