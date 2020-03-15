@@ -80,6 +80,11 @@
         "situation": "no.html"
     },
     {
+        "name": "China",
+        "abbreviation": "CN",
+        "situation": "cn.html"
+    },
+    {
         "name": "Cyprus",
         "abbreviation": "CY",
         "situation": "no.html"
