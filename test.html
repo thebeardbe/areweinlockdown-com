@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Are we in lockdown? </title>
+    <link rel="canonical" href="http://www.areweinlockdown.com" />
+    <link rel="publisher" href="https://annickandthebeard.be" />
+    <meta name="description" content="Not yet, but it might as well be" />
+    <meta name="keywords" content="Coronavirus, Sars-COV-2, Covid-19, quarantaine, lock down, belgium" />
+    <meta property="og:locale" content="en_EN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Are we in lockdown?" />
+    <meta property="og:description"
+        content="With everything going on about Sars-COV-2, better know if you are in lockdown or not!" />
+    <meta property="og:url" content="http://www.areweinlockdown.com" />
+    <meta property="og:site_name" content="Are we in lockdown?" />
+    <meta property="article:publisher" content="https://annickandthebeard.be" />
+    <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2550570-18"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-2550570-18');
+    </script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="top">
+        <div class="frame">
+        </div>
+    </div>
+    <div id="center">
+        <div class="frame">
+            <h1 id="page-title">Are we in <strong>LOCKDOWN</strong>?</h1>
+            <div id="selection">
+                <select id="country-dropdown"></select>
+            </div>
+            <div id="answer"></div>
+            <script>
+                let dropdown = $('#country-dropdown');
+
+                dropdown.empty();
+
+                dropdown.append('<option selected="true" disabled>Choose your country</option>');
+                dropdown.prop('selectedIndex', 0);
+
+                const url = 'countrylist.json';
+
+                // Populate dropdown with list of provinces
+                $.getJSON(url, function (data) {
+                    $.each(data, function (key, entry) {
+                        dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+                    })
+                });
+                $(document).ready(function () {
+                    $("#country-dropdown").change(function () {
+                        var selected_value = $("#country-dropdown").val();
+                        console.log(selected_value);
+                        $.getJSON(url, function (data) {
+                            $.each(data, function (key, entry) {
+                                if (entry.abbreviation === selected_value) {
+                                    $("#answer").load("answers/" + entry.situation);
+                                };
+                            });
+                        });
+                    });
+                });
+
+            </script>
+            <h3 class="remark">Last update: 2020-03-15 18:16:49</h3>
+            <h3 class="remark">Seen something not updated or not correct! Let me know at <a href="http://github.com/thebeardbe/areweinlockdown-com/" target="_blank">github</a></h3>
+            <div id="counter"></div>
+            <!--<script type="text/javascript">
+      var government=new dcountup("May 26, 2019 8:00:00", "days")
+      government.oncountup=function(result){
+        var mycountainer=document.getElementById("counter")
+        mycountainer.innerHTML="<span class='dcountstyle'>Al "+result['days']+" dagen "+result['hours']+" uren "+result['minutes']+" minuten en "+result['seconds']+" seconden</span><br/>sinds de verkiezingen"}
+    </script>-->
+            <h2>How to minimize the risk of infection?</h2>
+            <div id="measures">
+                <div class="icon-text">
+                    <img src="images/washhands.png">
+                    <span class="text">Wash your hands thorough with <a href="https://amzn.to/2Qbz5lT"
+                            title="Affiliate link for hand soap on Amazon.co.uk">soap</a>.</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/distance.png">
+                    <span class="text">Keep at least 1m distance between you and the others.</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/wipe.png">
+                    <span class="text">Wipe down doorhandles and other objets with <a href="https://amzn.to/2Q7EuKy"
+                            title="Affiliate link for alcohol wipes on Amazon.co.uk">alcohol wipes</a>.</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/cover.png">
+                    <span class="text">Cover your mouth and hands with a <a href="https://amzn.to/33bRc0d"
+                            title="Affiliate link for paper hankies on Amazon.co.uk">paper towel</a>.</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/group.png">
+                    <span class="text">Avoid groups</span>
+                </div>
+            </div>
+            <h2>What are the symptoms?</h2>
+            <div id="symptoms">
+                <div class="icon-text">
+                    <img src="images/fever.png">
+                    <span class="text">Fever</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/cough.png">
+                    <span class="text">Dry cough</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/breath.png">
+                    <span class="text">Shortness of breath</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/throat.png">
+                    <span class="text">Sore throat</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/headache.png">
+                    <span class="text">Headaches</span>
+                </div>
+            </div>
+            <h2>More information about Sars-COV-2 can be found in the following places</h2>
+            <div id="info">
+                <div class="icon-text">
+                    <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">
+                        <span class="icon"><img src="images/who.jpg" width="150px" max-height="150px"></span>
+                        <span class="text">Official site of the WHO about COVID-19</span>
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a href="https://en.wikipedia.org/wiki/SARS-CoV-2" target="_blank">
+                        <span class="icon"><img src="images/Wikipedia-logo-v2.svg" width="150px"
+                                max-height="150px"></span>
+                        <span class="text">Wikipedia</span>
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
+                        target="_blank">
+                        <span class="icon"><img src="images/world.png" width="150px"></span>
+                        <span class="text">Numbers for the global spread</span>
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a href="https://bit.ly/covid19-data" target="_blank">
+                        <span class="icon"><img src="images/info-beautifull.png" width="150px"></span>
+                        <span class="text">Information is beautiful COVID-19 Datapack</span>
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a href="https://www.worldometers.info/coronavirus/" target="_blank">
+                        <span class="icon"><img src="images/worldofmeters.gif" width="150px"></span>
+                        <span class="text">Readable overview of all the cases.</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="copyrights">
+        <div class="frame">
+            Website build by <a id="annickandthebeard" href="https://www.annickandthebeard.be">Annick & The
+                Beard</a>. <br />
+            Inspiration of <a id="iseraleenregering" href="http://iseraleenregering.be">iseraleenregering.be</a> <br />
+            Icons provided by <a href="https://www.iconfinder.com/p/coronavirus-awareness-icons">Iconfinder</a><br />
+            <a href="/privacy-policy.html">Privacy Policy</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#1d8a8a"
+                },
+                "button": {
+                    "background": "#62ffaa"
+                }
+            },
+            "theme": "edgeless"
+        });
+    </script>
+</body>
+
+</html>
