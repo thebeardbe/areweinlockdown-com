@@ -165,6 +165,16 @@
         }
     },
     {
+        "name": "Cayman Islands",
+        "abbreviation": "KY",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed in the week of 16th of March 2020",
+            "event" : "Ban on all recreational events, sports, culture and other with 45 or more participants",
+            "travel" : "All cruise ships had since been prohibited to enter the country. All travellers from Europe in quarantaine for 2 weeks. No private flights allowed from Europe."
+        }
+    },
+    {
         "name": "China",
         "abbreviation": "CN",
         "situation": {
@@ -596,6 +606,14 @@
         }
     },
     {
+        "name": "Saint Vincent and the Grenadines",
+        "abbreviation": "VC",
+        "situation": {
+            "state" : "NO",
+            "travel" : "No restrictions in place"
+        }
+    },
+    {
         "name": "San Marino",
         "abbreviation": "SM",
         "situation": {
@@ -687,6 +705,15 @@
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed",
             "travel" : "No flights from China, Germany, France, Italy, Iran, Iraq, Spain, Norway, Denmark, Belgium, South-Korea, Sweden, Austria and the Netherlands. Borders with Iran, Iraq closed"
+        }
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "abbreviation": "TT",
+        "situation": {
+            "state": "NO",
+            "school" : "Schools are closed",
+            "travel": "No entry for travellers from China."
         }
     },
     {
