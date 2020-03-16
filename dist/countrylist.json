@@ -55,7 +55,7 @@
             "restaurant" : "Restaurants, bars and hotels are closed.",
             "school" : "Schools are closed",
             "shop" : "All non essential shops are closed",
-            "travel" : "Borders with Italy, checkpoints with Switzerland and Liechenstein."
+            "travel" : "Borders with Italy closed, checkpoints with Switzerland and Liechenstein."
         }
     },
     {
@@ -370,6 +370,7 @@
         "abbreviation": "LU",
         "situation": {
             "state" : "NO",
+            "restaurants" : "Bars and restaurants close.",
             "school" : "Schools are closed."
         }
     },
@@ -570,7 +571,15 @@
             "remark" : "No restrictions in place."
         }
     },
-    
+    {
+        "name": "United Kingdom",
+        "abbreviation": "UK",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Britons over 70 asked to remain home for 4 months and have groceries and vital medication delivered.",
+            "health" : "The government has adopted the principal of <a href=\"https://en.wikipedia.org/wiki/Herd_immunity\" target=\"_blank\">herd immunity</a>"
+        }
+    },
     {
         "name": "United States",
         "abbreviation": "US",
