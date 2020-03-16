@@ -17,6 +17,7 @@
         content="With everything going on about Sars-COV-2, better know if you are in lockdown or not!" />
     <meta property="og:url" content="http://www.areweinlockdown.com" />
     <meta property="og:site_name" content="Are we in lockdown?" />
+    <meta property="og:image" content="/images/virus.png" />
     <meta property="article:publisher" content="https://annickandthebeard.be" />
     <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -119,8 +120,11 @@
                 let dropdown = $('#country-dropdown');
 
                 dropdown.empty();
-
-                dropdown.append('<option selected="true" disabled>Choose your country</option>');
+                var urlParams = new URLSearchParams(window.location.search);
+                if (urlParams.get('countrycode') === null)
+                {
+                    dropdown.append('<option selected="true" disabled>Choose your country</option>');
+                }
                 dropdown.prop('selectedIndex', 0);
 
                 const url = 'countrylist.json';
@@ -128,7 +132,11 @@
                 // Populate dropdown with list of provinces
                 $.getJSON(url, function (data) {
                     $.each(data, function (key, entry) {
-                        dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+                        if (urlParams.get('countrycode') === entry.abbreviation) {
+                            dropdown.append($('<option></option>').attr('value', entry.abbreviation).attr('selected', 'true').text(entry.name));
+                        }else {
+                            dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+                        }  
                     })
                 });
                 $(document).ready(function () {
@@ -208,7 +216,7 @@
                 });
 
             </script>
-            <h3 class="remark">Last update: 2020-03-16 21:40:53 CET</h3>
+            <h3 class="remark">Last update: 2020-03-16 22:13:46 CET</h3>
             <h3 class="remark">Seen something not updated or not correct! Let me know at <a
                     href="http://github.com/thebeardbe/areweinlockdown-com/" target="_blank">github</a></h3>
             <div id="counter"></div>
