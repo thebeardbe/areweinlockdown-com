@@ -45,8 +45,69 @@
             <div id="selection">
                 <select id="country-dropdown"></select>
             </div>
-            <div id="answer"></div>
+            <div id="answer">
+                <div id="virus">
+                    <span id="result"></span>
+                    
+                </div>
+                <h2 id="remark" class="remark">Current restrictions</h2>
+                <div id="remark">
+                    <div id="quarantaine" class="icon-text">
+                        <div class="icon">
+                            <img src="images/home.png" width="150px">
+                        </div>
+                        <span id="quarantaineText" class="text">Borders with Pakistan and Iran closed</span>
+                    </div>
+                    <div id="event" class="icon-text">
+                        <div class="icon">
+                            <img src="images/event.png" width="130px">
+                        </div>
+                        <span id="eventText" class="text">Ban on all sports events</span>
+                    </div>
+                    <div id="school" class="icon-text">
+                        <div class="icon">
+                            <img src="images/school.png" width="150px">
+                        </div>
+                        <span id="schoolText" class="text">Schools are closed</span>
+                    </div>
+                    <div id="shop" class="icon-text">
+                        <div class="icon">
+                            <img src="images/shop.png" width="150px">
+                        </div>
+                        <span id="shopText" class="text">All non essentail shops are closed</span>
+                    </div>
+                    <div id="restaurant" class="icon-text">
+                        <div class="icon">
+                            <img src="images/restaurant.png" width="150px">
+                        </div>
+                        <span id="restaurantText" class="text">Restaurants, bars are closed.</span>
+                    </div>
+                    <div id="travel" class="icon-text">
+                        <div class="icon">
+                            <img src="images/world.png" width="150px">
+                        </div>
+                        <span id="travelText" class="text">Borders with Pakistan and Iran closed</span>
+                    </div>
+                    <div id="health" class="icon-text">
+                        <div class="icon">
+                            <img src="images/health.png" width="150px">
+                        </div>
+                        <span id="healthText" class="text">Borders with Pakistan and Iran closed</span>
+                    </div>
+                </div>
+                <h3 id="note"></h3>
+            </div>
             <script>
+                $("#answer").hide();
+                $("#event").hide();
+                $("#school").hide();
+                $("#shop").hide();
+                $("#travel").hide();
+                $("#health").hide();
+                $("#quarantaine").hide();
+                $("#restaurant").hide();
+                $("#note").hide();
+
                 let dropdown = $('#country-dropdown');
 
                 dropdown.empty();
@@ -64,12 +125,74 @@
                 });
                 $(document).ready(function () {
                     $("#country-dropdown").change(function () {
+                        $("#answer").hide();
+                        $("#event").hide();
+                        $("#school").hide();
+                        $("#shop").hide();
+                        $("#travel").hide();
+                        $("#health").hide();
+                        $("#quarantaine").hide();
+                        $("#restaurant").hide();
+                        $("#note").hide();
                         var selected_value = $("#country-dropdown").val();
-                        console.log(selected_value);
+                        $("#answer").show();
                         $.getJSON(url, function (data) {
                             $.each(data, function (key, entry) {
                                 if (entry.abbreviation === selected_value) {
-                                    $("#answer").load("answers/" + entry.situation);
+                                    $("#result").html(entry.situation.state);
+                                    if ("event"in entry.situation)
+                                    {
+                                        $("#event").show();
+                                        $("eventText").html(entry.situation.event);
+
+                                    }
+                                    if ("school" in entry.situation )
+                                    {
+                                        $("#school").show();
+                                        $("schoolText").html(entry.situation.school);
+
+                                    }
+                                    if ("shop" in entry.situation )
+                                    {
+                                        $("#shop").show();
+                                        $("shopText").html(entry.situation.shop);
+
+                                    }
+                                    if ("travel" in entry.situation )
+                                    {
+                                        $("#travel").show();
+                                        $("travelText").html(entry.situation.travel);
+
+                                    }
+                                    if ("health" in entry.situation)
+                                    {
+                                        $("#health").show();
+                                        $("healthText").html(entry.situation.health);
+
+                                    }
+                                    if ("quarantaine" in entry.situation)
+                                    {
+                                        $("#quarantaine").show();
+                                        $("quarantaineText").html(entry.situation.quarantaine);
+
+                                    }
+                                    if ("restaurant" in entry.situation)
+                                    {
+                                        $("#restaurant").show();
+                                        $("qrestaurantText").html(entry.situation.restaurant);
+
+                                    }
+                                    if ("remark" in entry.situation)
+                                    {
+                                        $("#remark").html(entry.situation.remark);
+                                    }else {
+                                        $("#remark").html("Current restrictions");
+                                    }
+                                    if ("note" in entry.situation)
+                                    {
+                                        $("#note").show();
+                                        $("#note").html(entry.situation.note);
+                                    }
                                 };
                             });
                         });
@@ -77,8 +200,9 @@
                 });
 
             </script>
-            <h3 class="remark">Last update: 2020-03-15 22:23:04</h3>
-            <h3 class="remark">Seen something not updated or not correct! Let me know at <a href="http://github.com/thebeardbe/areweinlockdown-com/" target="_blank">github</a></h3>
+            <h3 class="remark">Last update: 2020-03-15 18:16:49</h3>
+            <h3 class="remark">Seen something not updated or not correct! Let me know at <a
+                    href="http://github.com/thebeardbe/areweinlockdown-com/" target="_blank">github</a></h3>
             <div id="counter"></div>
             <!--<script type="text/javascript">
       var government=new dcountup("May 26, 2019 8:00:00", "days")
@@ -169,7 +293,7 @@
                         <span class="text">Readable overview of all the cases.</span>
                     </a>
                 </div>
-                
+
             </div>
         </div>
     </div>
