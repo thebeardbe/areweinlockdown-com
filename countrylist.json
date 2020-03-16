@@ -37,6 +37,16 @@
         }
     },
     {
+        "name": "Aruba",
+        "abbreviation": "AW",
+        "situation": {
+            "state" : "NO",
+            "travel" : "No entry for travellers from Europe.",
+            "school" : "Schools closed during the week of 16th of March.",
+            "event" : "Large public events cancelled during the week of the 16th of March."
+        }
+    },
+    {
         "name": "Azerbijan",
         "abbreviation": "AZ",
         "situation": {
@@ -155,14 +165,6 @@
         }
     },
     {
-        "name": "Croatia",
-        "abbreviation": "HR",
-        "situation": {
-            "state" : "NO",
-            "remark" : "No restrictions in place."
-        }
-    },
-    {
         "name": "China",
         "abbreviation": "CN",
         "situation": {
@@ -183,11 +185,27 @@
         }
     },
     {
+        "name": "Croatia",
+        "abbreviation": "HR",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions in place."
+        }
+    },
+    {
         "name": "Cuba",
         "abbreviation": "CU",
         "situation": {
             "state" : "NO",
             "remark" : "No restrictions"
+        }
+    },
+    {
+        "name": "Curaçoa",
+        "abbreviation": "CW",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All flights from Europe are halted."
         }
     },
     {
@@ -393,6 +411,15 @@
         }
     },
     {
+        "name": "Jamaica",
+        "abbreviation": "JM",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "travel" : "Flights from and to China, United States, United Kingdom, France, Germany, Spain, Italy."
+        }
+    },
+    {
         "name": "Kosovo",
         "abbreviation": "XK",
         "situation": {
@@ -456,6 +483,16 @@
             "school" : "Schools are closed.",
             "health" : "Day centres for elderly are closed.",
             "travel" : "Visitors need to maintain a 2 week self-quarantaine."
+        }
+    },
+    {
+        "name": "Mexico",
+        "abbreviation": "MX",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "school" : "Easter break extended from 20th of March till 20th of april.",
+            "travel" : "Is considering closing it borders with the US."
         }
     },
     {
