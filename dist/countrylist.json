@@ -136,6 +136,15 @@
         }
     },
     {
+        "name": "Canada",
+        "abbreviation": "KH",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed in certain provinces",
+            "travel" : "Travellers must adhere to self-quarantaine."
+        }
+    },
+    {
         "name": "Cambodia",
         "abbreviation": "KH",
         "situation": {
@@ -510,6 +519,16 @@
     {
         "name": "Slovenia",
         "abbreviation": "SL",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other with 500 or more participants",
+            "school" : "Schools and daycare are closed.",
+            "travel" : "Border control, borders partially closed."
+        }
+    },
+    {
+        "name": "South Africa",
+        "abbreviation": "ZA",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other with 500 or more participants",
