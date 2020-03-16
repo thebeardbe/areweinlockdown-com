@@ -544,6 +544,24 @@
         }
     },
     {
+        "name": "Macedonia",
+        "abbreviation": "MK",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "school" : "Schools are closed.",
+            "travel" : "Foreigners from high risk countries denied access."
+        }
+    },
+    {
+        "name": "Malysia",
+        "abbreviation": "MK",
+        "situation": {
+            "state" : "YES",
+            
+        }
+    },
+    {
         "name": "Mexico",
         "abbreviation": "MX",
         "situation": {
@@ -562,21 +580,13 @@
         }
     },
     {
-        "name": "Macedonia",
-        "abbreviation": "MK",
+        "name": "Morocco",
+        "abbreviation": "MA",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
-            "school" : "Schools are closed.",
-            "travel" : "Foreigners from high risk countries denied access."
-        }
-    },
-    {
-        "name": "Malysia",
-        "abbreviation": "MK",
-        "situation": {
-            "state" : "YES",
-            
+            "restaurant" : "Restaurants and bars are closed, Delivery allowed",
+            "shop" : "Markets and non essential shops closed",
+            "travel" : "Airspace closed for all European flights."
         }
     },
     {
@@ -620,11 +630,28 @@
         }
     },
     {
+        "name": "Pakistan",
+        "abbreviation": "PK",
+        "situation": {
+            "state" : "NO",
+            "travel" : ""
+        }
+    },
+    {
         "name": "Panama",
         "abbreviation": "PA",
         "situation": {
             "state" : "NO",
             "travel" : "No cruise ship disembarking. Quarantaine for travellers from Germany, China, Italy, South Korea, Iran, Spain, or France."
+        }
+    },
+    {
+        "name": "Philippines",
+        "abbreviation": "PH",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Luzon island in lockdown.",
+            "travel" : "Borders closed."
         }
     },
     {
