@@ -538,6 +538,14 @@
         }
     },
     {
+        "name": "Panama",
+        "abbreviation": "PA",
+        "situation": {
+            "state" : "NO",
+            "travel" : "No cruise ship disembarking. Quarantaine for travellers from Germany, China, Italy, South Korea, Iran, Spain, or France."
+        }
+    },
+    {
         "name": "Poland",
         "abbreviation": "PL",
         "situation": {
@@ -577,6 +585,14 @@
             "health" : "Sick people need to stay in self-quarantaine.",
             "event" : "Some Areas ban on all recreational events, sports, culture and other events with 300 participants or more.",
             "travel" : "Flights from and to European Union highly limited. Border with China closed. All travelers must maintain a 2 week self-isolation"
+        }
+    },
+    {
+        "name": "Saint Lucia",
+        "abbreviation": "LC",
+        "situation": {
+            "state" : "NO",
+            "travel" : "No docking of cruiseships. No entry for Travellers from Spain, France, Germany, Iran, China, United Kingdom, Hong Kong, Korea, Japan, Italy and Singapore"
         }
     },
     {
