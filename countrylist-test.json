@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Afghanistan",
+        "abbreviation": "AF",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all sports events",
+            "school" : "Schools are closed",
+            "shop" : "All non-essential shops are closed",
+            "travel" : "Borders with Iran and Pakistan are closed."
+        }
+    },
+    {
+        "name": "Albania",
+        "abbreviation": "AL",
+        "situation": {
+            "state" : "YES",
+            "event" : "Ban on all sports events",
+            "school" : "Schools are closed",
+            "travel" : "Borders with Iran and Pakistan are closed.",
+            "health" : "Hospitals overwelmed",
+            "quarantaine" : "All residents need to be inside"
+        }
+    },
+    {
+        "name": "Andora",
+        "abbreviation": "AD",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all sports events"
+        }
+    }
+]
+   
