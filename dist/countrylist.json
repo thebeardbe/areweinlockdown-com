@@ -140,7 +140,8 @@
         "abbreviation": "KH",
         "situation": {
             "state" : "NO",
-            "school" : "Schools are closed in certain provinces",
+            "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
+            "event" : "Several provinces have banned all gatherings larger than 250 participants.",
             "travel" : "Travellers must adhere to self-quarantaine."
         }
     },
@@ -172,6 +173,24 @@
         }
     },
     {
+        "name": "Costa Rica",
+        "abbreviation": "CR",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools closed for physical lessons, education through virtual class rooms",
+            "restaurant" : "Bars, clubs and casinos are closed, 50% capacity in other meeting centers.",
+            "event" : "Ban on all recreational events, sports, culture and other."
+        }
+    },
+    {
+        "name": "Cuba",
+        "abbreviation": "CU",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions"
+        }
+    },
+    {
         "name": "Cyprus",
         "abbreviation": "CY",
         "situation": {
@@ -192,6 +211,14 @@
         }
     },
     {
+        "name": "Dominican Republic",
+        "abbreviation": "DO",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions"
+        }
+    },
+    {
         "name": "Denmark",
         "abbreviation": "DK",
         "situation": {
@@ -201,6 +228,16 @@
             "school" : "Schools are closed, but daycare for children without other solutions.",
             "shop" : "All non essentail shops are closed.",
             "travel" : "All borders closed."
+        }
+    },
+    {
+        "name": "Estonia",
+        "abbreviation": "EE",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other with 100+ participants.",
+            "school" : "Schools are closed.",
+            "travel" : "Sanitary border control"
         }
     },
     {
