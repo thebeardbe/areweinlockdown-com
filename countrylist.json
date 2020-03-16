@@ -29,6 +29,14 @@
         }
     },
     {
+        "name": "Argentina",
+        "abbreviation": "AR",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions known."
+        }
+    },
+    {
         "name": "Armenia",
         "abbreviation": "AM",
         "situation": {
@@ -57,7 +65,7 @@
     },
     {
         "name": "Austria",
-        "abbreviation": "AU",
+        "abbreviation": "AT",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -124,6 +132,14 @@
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools are closed.",
             "shop" : "In several cities non essential shops are closed."
+        }
+    },
+    {
+        "name": "Bolivia",
+        "abbreviation": "BO",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Ban on travellers from China, South Korea, Italy, Spain."
         }
     },
     {
@@ -333,10 +349,8 @@
         "name": "France",
         "abbreviation": "Fr",
         "situation": {
-            "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
-            "restaurant" : "Restaurants and bars are closed.",
-            "school" : "Schools and daycare are closed.",
+            "state" : "YES",
+            "Quarantaine" : "Complete lockdown, only highly necessary shopping allowed",
             "shop" : "All non essentail shops are closed."
         }
     },
@@ -636,6 +650,14 @@
         }
     },
     {
+        "name": "Namibia",
+        "abbreviation": "NA",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Flights suspended from Qatar, Ethiopia and Germany."
+        }
+    },
+    {
         "name": "New Caledonia",
         "abbreviation": "NC",
         "situation": {
@@ -837,8 +859,8 @@
         "abbreviation": "CH",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
-            "school" : "Schools are closed",
+            "quarantaine" : "Quarantaine for everybody over 65",
+            "shop" : "All shops except for pharmacies, grocery stores, banks and gas stations are closed",
             "travel" : "Enacted border controls. Borders with Austria, Italy and Germany closed"
         }
     },
