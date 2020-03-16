@@ -290,9 +290,17 @@
         "abbreviation": "GR",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
+            "travel" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed.",
             "restaurant" : "Restaurants and bars are closed. All seasonal hotels and accomodations are closed till the 30th of Appril"
+        }
+    },
+    {
+        "name": "Guatemala",
+        "abbreviation": "GT",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Banned entry to citizens of all European countries, United States, Canada, Iran, China and South Korea"
         }
     },
     {
@@ -302,6 +310,15 @@
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other above 100 participants",
             "travel" : "Travellers from Italy, China, Iran and South Korea are refused. Border checks at Austrian and Slovenian borders."
+        }
+    },
+    {
+        "name": "Honduras",
+        "abbreviation": "HN",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed till 26th of March 2020",
+            "travel" : "Travellers coming from China, Jamaica, United Kingdom, France, Germany, Spain, "
         }
     },
     {
