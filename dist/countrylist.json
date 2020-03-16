@@ -195,12 +195,21 @@
         }
     },
     {
-        "name": "ChilE",
+        "name": "Chile",
         "abbreviation": "CL",
         "situation": {
             "state" : "NO",
             "note" : "Need more info",
-            "travel" : "Borders closed"
+            "travel" : "Borders closed",
+            "school" : "Schools are closed"
+        }
+    },
+    {
+        "name": "Colombia",
+        "abbreviation": "CO",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Border with Venezuela closed."
         }
     },
     {
@@ -275,6 +284,14 @@
             "school" : "Schools are closed, but daycare for children without other solutions.",
             "shop" : "All non essentail shops are closed.",
             "travel" : "All borders closed."
+        }
+    },
+    {
+        "name": "Ecuador",
+        "abbreviation": "EC",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders closed."
         }
     },
     {
@@ -533,6 +550,16 @@
         }
     },
     {
+        "name": "Macedonia",
+        "abbreviation": "MK",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "school" : "Schools are closed.",
+            "travel" : "Foreigners from high risk countries denied access."
+        }
+    },
+    {
         "name": "Malta",
         "abbreviation": "MT",
         "situation": {
@@ -544,21 +571,19 @@
         }
     },
     {
-        "name": "Macedonia",
-        "abbreviation": "MK",
-        "situation": {
-            "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
-            "school" : "Schools are closed.",
-            "travel" : "Foreigners from high risk countries denied access."
-        }
-    },
-    {
         "name": "Malysia",
         "abbreviation": "MK",
         "situation": {
             "state" : "YES",
             "remark" : "Full lockdown untill march 31st."
+        }
+    },
+    {
+        "name": "Marshall Islands",
+        "abbreviation": "MH",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Travel ban on all travellers not coming from a virus-free country. Complete ban for China, Macau, Hong Kong, Japan, South Korea, Italy and Iran."
         }
     },
     {
@@ -569,6 +594,14 @@
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Easter break extended from 20th of March till 20th of april.",
             "travel" : "Is considering closing it borders with the US."
+        }
+    },
+    {
+        "name": "Micronesia",
+        "abbreviation": "FM",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Travel ban on all travellers not coming from a virus-free country."
         }
     },
     {
@@ -634,7 +667,7 @@
         "abbreviation": "PK",
         "situation": {
             "state" : "NO",
-            "travel" : ""
+            "travel" : "Borders with "
         }
     },
     {
@@ -642,7 +675,15 @@
         "abbreviation": "PA",
         "situation": {
             "state" : "NO",
-            "travel" : "No cruise ship disembarking. Quarantaine for travellers from Germany, China, Italy, South Korea, Iran, Spain, or France."
+            "travel" : "Borders closed for foreigners."
+        }
+    },
+    {
+        "name": "Papua New Guinea",
+        "abbreviation": "PG",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Travel ban on all travellers from Asian countries, Borders with Indonesia closed."
         }
     },
     {
@@ -702,6 +743,14 @@
         "situation": {
             "state" : "NO",
             "travel" : "No docking of cruiseships. No entry for Travellers from Spain, France, Germany, Iran, China, United Kingdom, Hong Kong, Korea, Japan, Italy and Singapore"
+        }
+    },
+    {
+        "name": "Samao",
+        "abbreviation": "WS",
+        "situation": {
+            "state" : "NO",
+            "travel" : "No docking of cruiseships. International flights restricted."
         }
     },
     {
@@ -848,6 +897,14 @@
             "event" : "Large gatherings, sport events are cancelled",
             "restaurant" : "Certain states have closed bars and restaurants, take-away allowed.",
             "school" : "Schools are closed in some states, <a href=\"https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html?fbclid=IwAR0uVK-4QvE5NyOeH1z2v4jbICGDuukg6jk5THuXVQYZILFYduJ-Mpv3mXY\" target=\"_blank\">Map of School closures</a>"
+        }
+    }, 
+    {
+        "name": "Uruguay",
+        "abbreviation": "UR",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed"
         }
     },
     {
