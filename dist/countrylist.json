@@ -865,6 +865,15 @@
         }
     },
     {
+        "name": "Taiwan",
+        "abbreviation": "TW",
+        "situation": {
+            "state": "NO",
+            "health": "Mandatory to declare symptoms. Buying restrictions, max 2 face-masks per person.",
+            "travel" : "Mandatory 14-day quarantaine for travellers from China, Dubai, Europe, UK, Ireland"
+        }
+    },
+    {
         "name": "Thailand",
         "abbreviation": "TH",
         "situation": {
