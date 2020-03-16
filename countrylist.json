@@ -47,6 +47,15 @@
         }
     },
     {
+        "name": "Australia",
+        "abbreviation": "AU",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Every traveller arriving, must self-quarantaine for 14 days. No cruiseship docking",
+            "event" : "Ban on all recreational events, sports, culture and other with more than 500 participants."
+        }
+    },
+    {
         "name": "Azerbijan",
         "abbreviation": "AZ",
         "situation": {
@@ -626,7 +635,7 @@
         "abbreviation": "RS",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "remark" : "State of emergency declared on the 15th of March 2020."
         }
     },
     {
