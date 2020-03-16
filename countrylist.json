@@ -178,7 +178,7 @@
             "state" : "NO",
             "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
             "event" : "Several provinces have banned all gatherings larger than 250 participants.",
-            "travel" : "Travellers must adhere to self-quarantaine of 14 days."
+            "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed"
         }
     },
     {
@@ -377,7 +377,7 @@
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools and daycare are closed.",
-            "travel" : "Borders with France, Austria and Switzerland closed from 16th of March 2020."
+            "travel" : "Borders with Austria, Denmark, France, Luxembourg and Switzerland closed from 16th of March 2020."
         }
     },
     {
@@ -645,7 +645,7 @@
             "event" : "Ban on all recreational events, sports, culture and other.",
             "restaurant" : "Restaurants and bars are closed. Take-away is allowed.",
             "school" : "Schools are closed. Schools need to provide daycare for children without other solutions.",
-            "shop" : "Coffeshops, sport facilities and sex-clubs are closed",
+            "shop" : "Coffeshops, sport facilities and sex-clubs are closed. Coffeeshops can do take-away.",
             "travel" : "Flights from China, Italy, South-Korea and Iran prohibited."
         }
     },
@@ -843,7 +843,8 @@
             "state" : "YES",
             "quarantaine" : "Everybody has to stay at home. Army and police enforcement. 3000 euro fine.",
             "shop" : "Non essential shops closed.",
-            "health" : "No visitors in health facilities."
+            "health" : "No visitors in health facilities.",
+            "travel" : "Borders closed for foreigners."
         }
     },
     {
@@ -860,6 +861,7 @@
         "situation": {
             "state" : "NO",
             "quarantaine" : "Quarantaine for everybody over 65",
+            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants, city-state of Geneva 5 or more.",
             "shop" : "All shops except for pharmacies, grocery stores, banks and gas stations are closed",
             "travel" : "Enacted border controls. Borders with Austria, Italy and Germany closed"
         }
@@ -923,11 +925,12 @@
         "situation": {
             "state" : "NO",
             "remark" : "Current situation",
+            "quarantaine" : "San Francisco area in lockdown",
             "note" : "More info on state level to be found on <a href=\"https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States#State,_territorial_and_local_response\" target=\"_blank\">wikipedia</a>",
             "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors.",
             "event" : "Large gatherings, sport events are cancelled",
             "restaurant" : "Certain states have closed bars and restaurants, take-away allowed.",
-            "school" : "Schools are closed in some states, <a href=\"https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html?fbclid=IwAR0uVK-4QvE5NyOeH1z2v4jbICGDuukg6jk5THuXVQYZILFYduJ-Mpv3mXY\" target=\"_blank\">Map of School closures</a>"
+            "school" : "Schools are closed in most states, <a href=\"https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html?fbclid=IwAR0uVK-4QvE5NyOeH1z2v4jbICGDuukg6jk5THuXVQYZILFYduJ-Mpv3mXY\" target=\"_blank\">Map of School closures</a>"
         }
     }, 
     {
