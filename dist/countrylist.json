@@ -56,16 +56,6 @@
         }
     },
     {
-        "name": "Azerbijan",
-        "abbreviation": "AZ",
-        "situation": {
-            "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
-            "health" : "Visits to medical facilities prohibited",
-            "travel" : "Borders with Iran, Georgia and Turkey are closed."
-        }
-    },
-    {
         "name": "Austria",
         "abbreviation": "AU",
         "situation": {
@@ -75,6 +65,16 @@
             "school" : "Schools are closed",
             "shop" : "All non essential shops are closed",
             "travel" : "Borders with Italy closed, checkpoints with Switzerland and Liechenstein."
+        }
+    },
+    {
+        "name": "Azerbijan",
+        "abbreviation": "AZ",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "health" : "Visits to medical facilities prohibited",
+            "travel" : "Borders with Iran, Georgia and Turkey are closed."
         }
     },
     {
@@ -134,7 +134,8 @@
             "event" : "Ban on all recreational events, sports, culture and other.",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools are closed.",
-            "shop" : "All non essential shops are closed."
+            "shop" : "All non essential shops are closed.",
+            "travel" : "Borders closed for foreigners."
         }
     },
     {
@@ -161,7 +162,7 @@
             "state" : "NO",
             "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
             "event" : "Several provinces have banned all gatherings larger than 250 participants.",
-            "travel" : "Travellers must adhere to self-quarantaine."
+            "travel" : "Travellers must adhere to self-quarantaine of 14 days."
         }
     },
     {
@@ -191,6 +192,15 @@
             "quarantaine" : "Lockdown in some cities, mainly in the province of Hubei.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "travel" : "Travel restrictions in large parts of the country"
+        }
+    },
+    {
+        "name": "ChilE",
+        "abbreviation": "CL",
+        "situation": {
+            "state" : "NO",
+            "note" : "Need more info",
+            "travel" : "Borders closed"
         }
     },
     {
@@ -286,6 +296,15 @@
         }
     },
     {
+        "name": "Fiji",
+        "abbreviation": "FJ",
+        "situation": {
+            "state" : "NO",
+            "event" : "No international events allowed",
+            "travel" : "Cruiseships denied docking. Travel ban on Italy, Iran, South Korea, China"
+        }
+    },
+    {
         "name": "Finland",
         "abbreviation": "FI",
         "situation": {
@@ -302,6 +321,14 @@
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools and daycare are closed.",
             "shop" : "All non essentail shops are closed."
+        }
+    },
+    {
+        "name": "French Polynesia",
+        "abbreviation": "PF",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Cruise ships suspended, work permits issue stop, health check on entry."
         }
     },
     {
@@ -330,6 +357,18 @@
             "travel" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed.",
             "restaurant" : "Restaurants and bars are closed. All seasonal hotels and accomodations are closed till the 30th of Appril"
+        }
+    },
+    {
+        "name": "Guam",
+        "abbreviation": "GU",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Temperature control at airports.",
+            "health" : "Senior centers closed",
+            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
+            "shop" : "Gym's and markets closed",
+            "school" : "Schools are closed."
         }
     },
     {
@@ -533,6 +572,14 @@
         }
     },
     {
+        "name": "Malysia",
+        "abbreviation": "MK",
+        "situation": {
+            "state" : "YES",
+            
+        }
+    },
+    {
         "name": "Netherlands",
         "abbreviation": "NL",
         "situation": {
@@ -543,6 +590,22 @@
             "school" : "Schools are closed. Schools need to provide daycare for children without other solutions.",
             "shop" : "Coffeshops, sport facilities and sex-clubs are closed",
             "travel" : "Flights from China, Italy, South-Korea and Iran prohibited."
+        }
+    },
+    {
+        "name": "New Caledonia",
+        "abbreviation": "NC",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Numerous flights suspended, health check on entry."
+        }
+    },
+    {
+        "name": "New Zealand",
+        "abbreviation": "NZ",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Numerous flights suspended. Cruise ships denied access till june 30, 2020. Travellers need to quarantaine for 2 weeks."
         }
     },
     {
@@ -635,7 +698,12 @@
         "abbreviation": "RS",
         "situation": {
             "state" : "NO",
-            "remark" : "State of emergency declared on the 15th of March 2020."
+            "remark" : "State of emergency declared on the 15th of March 2020.",
+            "travel": "Borders closed for foreigners.",
+            "shops" : "Public places closed",
+            "health" : "Soldiers guarding hospitals.",
+            "school" : "Schools are closed",
+            "quarantaine" : "Advice for over 65 to say in quarantaine"
         }
     },
     {
