@@ -115,8 +115,8 @@
         "abbreviation": "BE",
         "situation": {
             "state" : "YES",
-            "remark" : "Following restrictions in effect from 18th of March 2020 till 5th of april 2020:",
-            "quarantaine" : "Everybody has to stay at home. Fines might be admitted.",
+            "remark" : "Following restrictions in effect from 18th of March 2020 12pm till 5th of april 2020:",
+            "quarantaine" : "Everybody has to stay at home. Except for physical exercise.",
             "restaurant" : "Bars and restaurants are closed. Delivery is possible.",
             "event" : "All events and group activities are prohibited.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
