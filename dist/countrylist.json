@@ -114,13 +114,13 @@
         "name": "Belgium",
         "abbreviation": "BE",
         "situation": {
-            "state" : "NO",
-            "remark" : "Since 14th of March 2020, following restrictions:",
-            "event" : "Ban on all recreational events, sports, culture and other.",
-            "restaurant" : "Restaurants and bars are closed. Take-away is allowed.",
+            "state" : "YES",
+            "remark" : "Following restrictions in effect from 18th of March 2020 12pm till 5th of april 2020:",
+            "quarantaine" : "Everybody has to stay at home. Except for physical exercise.",
+            "restaurant" : "Bars and restaurants are closed. Delivery is possible.",
+            "event" : "All events and group activities are prohibited.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
-            "shop" : "All non essential shops are closed during the weekend.",
-            "health" : "Visits to medical facilites prohibited."
+            "shop" : "All non essential shops are closed."
         }
     },
     {
