@@ -949,7 +949,7 @@
             "quarantaine" : "San Francisco area in lockdown",
             "note" : "More info on state level to be found on <a href=\"https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States#State,_territorial_and_local_response\" target=\"_blank\">wikipedia</a>",
             "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors.",
-            "event" : "Large gatherings, sport events are cancelled. Several states have imposed 25 person max limit.",
+            "event" : "Large gatherings, sport events are cancelled. 10 person max limit.",
             "restaurant" : "Certain states have closed bars and restaurants, take-away allowed.",
             "school" : "Schools are closed in most states, <a href=\"https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html?fbclid=IwAR0uVK-4QvE5NyOeH1z2v4jbICGDuukg6jk5THuXVQYZILFYduJ-Mpv3mXY\" target=\"_blank\">Map of School closures</a>"
         }
