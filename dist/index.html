@@ -33,14 +33,18 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script data-ad-client="ca-pub-3175935662756988" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script data-ad-client="ca-pub-3175935662756988" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script type="text/javascript">
         window._mNHandle = window._mNHandle || {};
         window._mNHandle.queue = window._mNHandle.queue || [];
         medianet_versionId = "3121199";
     </script>
     <script src="https://contextual.media.net/dmedianet.js?cid=8CU377558" async="async"></script>
-    <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="areweinlockdown" data-description="You can buy us a coffee!" data-message="I hope this info helps & we would appreciate your support" data-color="#79D6B5" data-position="left" data-x_margin="18" data-y_margin="18"></script>
+    <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="areweinlockdown" data-description="You can buy us a coffee!"
+        data-message="I hope this info helps & we would appreciate your support" data-color="#79D6B5"
+        data-position="left" data-x_margin="18" data-y_margin="18"></script>
 </head>
 
 <body>
@@ -57,7 +61,7 @@
             <div id="answer">
                 <div id="virus">
                     <span id="result"></span>
-                    
+
                 </div>
                 <h2 id="remark" class="remark"></h2>
                 <div id="remark">
@@ -121,9 +125,9 @@
 
                 dropdown.empty();
                 var urlParams = new URLSearchParams(window.location.search);
-                
-                    dropdown.append('<option selected="true" disabled>Choose your country</option>');
-        
+
+                dropdown.append('<option selected="true" disabled>Choose your country</option>');
+
                 dropdown.prop('selectedIndex', 0);
 
                 const url = 'countrylist.json';
@@ -133,93 +137,91 @@
                     $.each(data, function (key, entry) {
                         if (urlParams.get('countrycode') === entry.abbreviation) {
                             dropdown.append($('<option></option>').attr('value', entry.abbreviation).attr('selected', 'true').text(entry.name));
-                        }else {
+                        } else {
                             dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
-                        }  
+                        }
                     })
                 });
+                if (urlParams.has("countrycode")) {
+                    changeOutput(urlParams.get("countrycode"));
+                }
                 $(document).ready(function () {
                     $("#country-dropdown").change(function () {
-                        $("#answer").hide();
-                        $("#event").hide();
-                        $("#school").hide();
-                        $("#shop").hide();
-                        $("#travel").hide();
-                        $("#health").hide();
-                        $("#quarantaine").hide();
-                        $("#restaurant").hide();
-                        $("#note").hide();
                         var selected_value = $("#country-dropdown").val();
-                        urlParams.set('countrycode', selected_value);
-                        window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
-                        $("#answer").show();
-                        $.getJSON(url, function (data) {
-                            $.each(data, function (key, entry) {
-                                if (entry.abbreviation === selected_value) {
-                                    $("#result").html(entry.situation.state);
-                                    if ("event"in entry.situation)
-                                    {
-                                        $("#event").show();
-                                        $("#eventText").html(entry.situation.event);
-
-                                    }
-                                    if ("school" in entry.situation )
-                                    {
-                                        $("#school").show();
-                                        $("#schoolText").html(entry.situation.school);
-
-                                    }
-                                    if ("shop" in entry.situation )
-                                    {
-                                        $("#shop").show();
-                                        $("#shopText").html(entry.situation.shop);
-
-                                    }
-                                    if ("travel" in entry.situation )
-                                    {
-                                        $("#travel").show();
-                                        $("#travelText").html(entry.situation.travel);
-
-                                    }
-                                    if ("health" in entry.situation)
-                                    {
-                                        $("#health").show();
-                                        $("#healthText").html(entry.situation.health);
-
-                                    }
-                                    if ("quarantaine" in entry.situation)
-                                    {
-                                        $("#quarantaine").show();
-                                        $("#quarantaineText").html(entry.situation.quarantaine);
-
-                                    }
-                                    if ("restaurant" in entry.situation)
-                                    {
-                                        $("#restaurant").show();
-                                        $("#restaurantText").html(entry.situation.restaurant);
-
-                                    }
-                                    if ("remark" in entry.situation)
-                                    {
-                                        $("#remark").html(entry.situation.remark);
-                                    }else {
-                                        $("#remark").html("Current restrictions");
-                                    }
-                                    if ("note" in entry.situation)
-                                    {
-                                        $("#note").show();
-                                        $("#note").html(entry.situation.note);
-                                    }
-                                };
-                            });
-                        });
+                        changeOutput(selected_value);
                     });
                 });
+                function changeOutput(val) {
+                    $("#answer").hide();
+                    $("#event").hide();
+                    $("#school").hide();
+                    $("#shop").hide();
+                    $("#travel").hide();
+                    $("#health").hide();
+                    $("#quarantaine").hide();
+                    $("#restaurant").hide();
+                    $("#note").hide();
+                    urlParams.set('countrycode', val);
+                    window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
+                    $("#answer").show();
+                    $.getJSON(url, function (data) {
+                        $.each(data, function (key, entry) {
+                            if (entry.abbreviation === val) {
+                                $("#result").html(entry.situation.state);
+                                if ("event" in entry.situation) {
+                                    $("#event").show();
+                                    $("#eventText").html(entry.situation.event);
+
+                                }
+                                if ("school" in entry.situation) {
+                                    $("#school").show();
+                                    $("#schoolText").html(entry.situation.school);
+
+                                }
+                                if ("shop" in entry.situation) {
+                                    $("#shop").show();
+                                    $("#shopText").html(entry.situation.shop);
+
+                                }
+                                if ("travel" in entry.situation) {
+                                    $("#travel").show();
+                                    $("#travelText").html(entry.situation.travel);
+
+                                }
+                                if ("health" in entry.situation) {
+                                    $("#health").show();
+                                    $("#healthText").html(entry.situation.health);
+
+                                }
+                                if ("quarantaine" in entry.situation) {
+                                    $("#quarantaine").show();
+                                    $("#quarantaineText").html(entry.situation.quarantaine);
+
+                                }
+                                if ("restaurant" in entry.situation) {
+                                    $("#restaurant").show();
+                                    $("#restaurantText").html(entry.situation.restaurant);
+
+                                }
+                                if ("remark" in entry.situation) {
+                                    $("#remark").html(entry.situation.remark);
+                                } else {
+                                    $("#remark").html("Current restrictions");
+                                }
+                                if ("note" in entry.situation) {
+                                    $("#note").show();
+                                    $("#note").html(entry.situation.note);
+                                }
+                            };
+                        });
+                    });
+                }
 
             </script>
-            <h3 class="remark">Last update: 2020-03-17 19:00:31 CET</h3>
+            <h3 class="remark">Last update: 2020-03-17 19:31:16 CET</h3>
             <h3 class="remark">Seen something not updated or not correct! Let me know at <a
-                    href="http://github.com/thebeardbe/areweinlockdown-com/" target="_blank">github</a> or <a href="https://api.whatsapp.com/send?phone=32486362961" title="Whatsapp">Whatsapp</a>.</h3>
+                    href="http://github.com/thebeardbe/areweinlockdown-com/" target="_blank">github</a> or <a
+                    href="https://api.whatsapp.com/send?phone=32486362961" title="Whatsapp">Whatsapp</a>.</h3>
             <h2>How to minimize the risk of infection?</h2>
             <div id="measures">
                 <div class="icon-text">
@@ -248,12 +250,12 @@
             </div>
             <div id="669341679">
                 <script type="text/javascript">
-                    try {
-                        window._mNHandle.queue.push(function (){
-                            window._mNDetails.loadTag("669341679", "728x90", "669341679");
-                        });
-                    }
-                    catch (error) {}
+                            try {
+                                window._mNHandle.queue.push(function () {
+                                    window._mNDetails.loadTag("669341679", "728x90", "669341679");
+                                });
+                            }
+                            catch (error) { }
                 </script>
             </div>
             <h2>What are the symptoms?</h2>
@@ -328,17 +330,17 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script>
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#1d8a8a"
-                },
-                "button": {
-                    "background": "#62ffaa"
-                }
-            },
-            "theme": "edgeless"
-        });
+                            window.cookieconsent.initialise({
+                                "palette": {
+                                    "popup": {
+                                        "background": "#1d8a8a"
+                                    },
+                                    "button": {
+                                        "background": "#62ffaa"
+                                    }
+                                },
+                                "theme": "edgeless"
+                            });
     </script>
 </body>
 
