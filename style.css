@@ -16,6 +16,7 @@ h3{font-size:15px;}
 .frame{width:1279px;margin:0 auto 0 auto;position:relative;}
 .clearfix{clear:both;}
 .low-opacity{opacity:0.4}
+#center #page-title,
 #center .section-title{text-align:center;}
 #center #page-title{margin:40px 0;}
 #center h2 {text-align: center; text-decoration: underline;font-size: 28px;}
