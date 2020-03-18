@@ -221,42 +221,8 @@
                 }
 
             </script>
-            <h2 id="cases"></h2>
-            <table id="numbers">
-                <tr>
-                    <th>Confirmed</th>
-                    <th>Deaths</th>
-                    <th>Recovered</th>
-                    <th>Active</th>
-                </tr>
-                <tr>
-                    <td id="confirmed"></td>
-                    <td id="deaths"></td>
-                    <td id="recovered"></td>
-                    <td id="active"></td>
-                </tr>
-            </table>
-
-        <script>
-            $(document).ready(function () {
-                    $("#country-dropdown").change(function () {
-                        var selected_value = $("#country-dropdown").val();
-                        changeOutput(selected_value);
-                    });
-                });
-            var caseNumbers = "test.json";
-            $.getJSON(caseNumbers, function (numbers) {
-                $("#confirmed").html(numbers.data.confirmed);
-                $("#deaths").html(numbers.data.deaths);
-                $("#recovered").html(numbers.data.recovered);
-                var active = numbers.data.confirmed - numbers.data.recovered - numbers.data.deaths;
-                console.log(active);
-                $("#active").html(active);
-
-            });
-
-        </script>
-            <h3 class="remark">Last update: 2020-03-18 16:01:02 CET</h3>
+            
+            <h3 class="remark">Last update: 2020-03-18 17:11:52 CET</h3>
             <h3 class="remark">Seen something not updated or not correct! Let me know at <a
                     href="http://github.com/thebeardbe/areweinlockdown-com/" target="_blank">github</a> or <a
                     href="https://api.whatsapp.com/send?phone=32486362961" title="Whatsapp">Whatsapp</a>.</h3>
