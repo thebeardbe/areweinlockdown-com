@@ -16,7 +16,6 @@ h3{font-size:15px;}
 .frame{width:1279px;margin:0 auto 0 auto;position:relative;}
 .clearfix{clear:both;}
 .low-opacity{opacity:0.4}
-#center #page-title,
 #center .section-title{text-align:center;}
 #center #page-title{margin:40px 0;}
 #center h2 {text-align: center; text-decoration: underline;font-size: 28px;}
@@ -45,7 +44,6 @@ h3{font-size:15px;}
 #center #info .icon-text {flex-grow: 1; max-width: 256px;}
 #center #info .icon-text .icon {min-height: 150px; margin-bottom: 25px; display: inline-block; vertical-align: middle;}
 #center #info .icon-text .icon img {display: inline-block; height: 100%; vertical-align: middle;}
-
 #center #info .icon-text .text {display: block;}
 #center #social{text-align: center;margin-bottom:50px;font-size: 18px;}
 #center #social ul{list-style-type:none;text-align:center;}
@@ -62,6 +60,7 @@ h3{font-size:15px;}
 }
 @media only screen and (max-width:479px){
 	.frame{width:300px;}
+}
 @media only screen and (max-width:319px){
 	.frame{width:220px;}
 }
