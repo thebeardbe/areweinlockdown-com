@@ -244,6 +244,7 @@
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed",
+            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
             "shop" : "All non essentail shops are closed.",
             "restaurant" : "Bars and restaurants are closed.",
             "travel" : "Travel restricted for foreigners."
@@ -573,6 +574,7 @@
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed.",
+            "restaurant" : "Restaurants and bars closed after 6pm.",
             "travel" : "Foreigners from high risk countries denied access."
         }
     },
