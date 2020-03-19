@@ -393,7 +393,7 @@
             "event" : "Gatherings above 10 participants are restricted",
             "health": "Visits to senior care and health facilities restricted",
             "quarantaine" : "Over 70 year old residents required to stay in quarantine",
-            "shop": "All public sector recreational institutions are closed."
+            "shop": "All public sector recreational institutions are closed.",
             "note" : "State of emergency delcared."
 
         }
