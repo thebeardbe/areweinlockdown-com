@@ -243,7 +243,7 @@
         "abbreviation": "CL",
         "situation": {
             "state" : "NO",
-            "note" : "State of exception declared on 18th of march for 90 days."
+            "note" : "State of exception declared on 18th of march for 90 days.",
             "travel" : "Borders closed",
             "school" : "Schools are closed",
             "event" : "All events and group activities with 1000 participants or more are prohibited."
@@ -1085,7 +1085,7 @@
             "shop" : "Non essential shops closed, 1 trip a week to the store allowed",
             "health" : "No visitors in health facilities."
         }
-    }
+    },
     {
         "name": "Zimbabwe",
         "abbreviation": "ZW",
@@ -1094,5 +1094,5 @@
             "travel" : "All borders closed for foreigners.",
             "event" : "Large events are cancelled."
         }
-    },
+    }
 ]
