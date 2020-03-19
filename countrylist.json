@@ -587,6 +587,18 @@
         }
     },
     {
+        "name": "Kuwait",
+        "abbreviation": "KW",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "shop" : "All non essentail shops are closed.",
+            "event" : "All events cancelled",
+            "quarantaine" : "City of Qatif in lockdown.",
+            "travel" : "All international flights suspended"
+        }
+    },
+    {
         "name": "Latvia",
         "abbreviation": "LV",
         "situation": {
@@ -839,6 +851,15 @@
         }
     },
     {
+        "name": "Qatar",
+        "abbreviation": "QA",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "travel" : "Borders are closed for travellers from Bangladesh, China, Egypt, France, Germany, India, Iran, Iraq, Italy, Lebanon, Nepal, Pakistan, Philippines, Spain, South Korea, Sri Lanka, Syria and Thailand"
+        }
+    },
+    {
         "name": "Romania",
         "abbreviation": "RO",
         "situation": {
@@ -905,7 +926,9 @@
             "state" : "NO",
             "school" : "Schools are closed.",
             "shop" : "All non essentail shops are closed.",
-            "quarantaine" : "City of Qatif in lockdown."
+            "event" : "All events cancelled",
+            "quarantaine" : "City of Qatif in lockdown.",
+            "travel" : "All international flights suspended"
         }
     },
     {
@@ -1056,6 +1079,17 @@
             "school" : "Schools are closed",
             "shop" : "Shopping centers closed",
             "quarantaine" : "Advised to stay at home, no obligation yet."
+        }
+    },
+    {
+        "name": "United Arab Emirates",
+        "abbreviation": "UE",
+        "situation": {
+            "state" : "NO",
+            "event" : "All events cancelled.",
+            "restaurant" : "Bars and restaurants are closed.",
+            "shop" : "Malls are closed",
+            "travel" : "Quarantaine for travellers arriving."
         }
     },
     {
