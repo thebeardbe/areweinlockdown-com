@@ -388,7 +388,14 @@
         "abbreviation": "FI",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "note" : "State of emergency delcared.",
+            "school" : "Schools are closed, daycare and preschool open",
+            "event" : "Public gatherings limited to 10 persons.",
+            "shop" : "Public places are closed.",
+            "health" : "Visits to housing services for elderly, other at-risk groups and all visits to medical facilities are prohibited.",
+            "quarantaine" : "People over 70 are advised to self-quarantaine",
+            "travel" : "Borders closed"
+
         }
     },
     {
