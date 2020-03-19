@@ -346,7 +346,12 @@
         "abbreviation": "FI",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "travel": "Borders closed to non-essential travel. Starting 12am on 19 March",
+            "school" : "Schools are closed",
+            "event" : "Gatherings above 10 participants are restricted",
+            "health": "Visits to senior care and health facilities restricted",
+            "quarantaine" : "Over 70 year old residents required to stay in quarantine",
+            "shop": "All public sector recreational institutions are closed."
         }
     },
     {
