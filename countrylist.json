@@ -124,11 +124,12 @@
         "situation": {
             "state" : "YES",
             "remark" : "Following restrictions in effect from 18th of March 2020 12pm till 5th of april 2020:",
-            "quarantaine" : "Everybody has to stay at home. Except for physical exercise.",
+            "quarantaine" : "Everybody has to stay at home. Except for physical exercise alone or with people living under the same roof.",
             "restaurant" : "Bars and restaurants are closed. Delivery is possible.",
             "event" : "All events and group activities are prohibited.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
-            "shop" : "All non essential shops are closed."
+            "shop" : "All non essential shops are closed.",
+            "note" : "More info on <a href=\"https://www.info-coronavirus.be/en/faqs/\" target=\"_blank\">info-coronavirus.be</a>"
         }
     },
     {
@@ -1027,6 +1028,18 @@
         }
     },
     {
+        "name": "Uganda",
+        "abbreviation": "UH",
+        "situation": {
+            "state" : "NO",
+            "restaurant" : "Bars and restaurants closed.",
+            "event" : "Public gatherings are banned and religious buildings are closed.",
+            "school" : "Schools are closed.",
+            "travel" : "Borders are closed for all travel from infected areas."
+
+        }
+    },
+    {
         "name": "Ukraine",
         "abbreviation": "UA",
         "situation": {
@@ -1092,7 +1105,8 @@
         "situation": {
             "state" : "NO",
             "travel" : "All borders closed for foreigners.",
-            "event" : "Large events are cancelled."
+            "event" : "Large events are cancelled.",
+            "note" : "National emergency declared."
         }
     }
 ]
