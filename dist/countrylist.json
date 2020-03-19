@@ -17,6 +17,7 @@
             "state" : "YES",
             "remark" : "Until at least 15th of March 2020",
             "travel" : "All roads close",
+            "school" : "Schools are closed.",
             "quarantaine" : "Major cities put in lockdown"
         }
     },
@@ -76,11 +77,13 @@
         "abbreviation": "AT",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
+            "event" : "Ban on all recreational events, sports, culture and other. No gathering above 5 persons.",
             "restaurant" : "Restaurants, bars and hotels are closed.",
             "school" : "Schools are closed",
             "shop" : "All non essential shops are closed",
-            "travel" : "Borders with Italy closed, checkpoints with Switzerland and Liechenstein."
+            "travel" : "Borders with Italy and Switzerland closed, German border closed from german side.",
+            "quarantaine" : "Vorarlberg region in lockdown"
+
         }
     },
     {
@@ -478,6 +481,7 @@
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other above 100 participants",
+            "school" : "Schools are closed.",
             "travel" : "Travellers from Italy, China, Iran and South Korea are refused. Border checks at Austrian and Slovenian borders."
         }
     },
@@ -504,11 +508,12 @@
         "abbreviation": "IN",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Self curfew starting 22 March",
             "event" : "Events are cancelled",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Most schools are closed.",
             "shop" : "Non essentail shops are closed.",
-            "travel" : "Borders are closed with Bangladesh and Myanmar. All visa and OCI cards are suspended."
+            "travel" : "Borders are closed with Bangladesh and Myanmar. All visa and OCI cards are suspended. Internation flights are cancelled."
         }
     },
     {
@@ -525,13 +530,15 @@
         "name": "Iran",
         "abbreviation": "IR",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Lockdown enforced by the military.",
             "travel" : "Travel between cities is limited and controlled.",
             "school" : "Schools are closed.",
             "event" : "Ban on all recreational events, sports, culture and other."
+
+
         }
     },
-    
     {
         "name": "Iceland",
         "abbreviation": "IS",
@@ -549,6 +556,17 @@
             "event" : "Ban on all recreational events, sports, culture and other above 100 participants.",
             "school" : "Schools are closed.",
             "travel" : "Flights from and to some affected areas suspended."
+        }
+    },
+    {
+        "name": "Israel",
+        "abbreviation": "IL",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other above 100 participants.",
+            "school" : "Schools are closed.",
+            "travel" : "Flights from and to some affected areas suspended.",
+            "note" : "National state of emergency since 19th of March."
         }
     },
     {
@@ -575,7 +593,8 @@
         "abbreviation": "XK",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "school" : "Schools are closed.",
+            "note" : "Need more updates"
         }
     },
     {
@@ -620,8 +639,8 @@
         "name": "Lithuania",
         "abbreviation": "LT",
         "situation": {
-            "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
+            "state" : "YES",
+            "quarantaine" : "Full lockdown",
             "school" : "Schools are closed.",
             "travel" : "Borders are closed for foreigners."
         }
@@ -710,6 +729,24 @@
         }
     },
     {
+        "name": "Moldova",
+        "abbreviation": "MD",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "note" : "More updates needed!"
+        }
+    },
+    {
+        "name": "Montenegro",
+        "abbreviation": "ME",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "note" : "More updates needed!"
+        }
+    },
+    {
         "name": "Morocco",
         "abbreviation": "MA",
         "situation": {
@@ -772,6 +809,7 @@
             "school" : "Schools are closed.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "restaurant" : "Restaurants, bars are closed.",
+            "shop" : "All non essentail shops are closed.",
             "travel" : "Travelers need to maintain a 2-week quarantaine period."
         }
     },
@@ -1009,6 +1047,7 @@
         "situation": {
             "state" : "NO",
             "quarantaine" : "Quarantaine for everybody over 65",
+            "school" : "Schools are closed",
             "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants, city-state of Geneva 5 or more.",
             "shop" : "All shops except for pharmacies, grocery stores, banks and gas stations are closed",
             "travel" : "Enacted border controls. Borders with Austria, Italy and Germany closed"
@@ -1067,7 +1106,8 @@
         "abbreviation": "UA",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "school" : "Schools are closed.",
+            "note" : "More updates needed!"
         }
     },
     {
@@ -1098,6 +1138,8 @@
         "situation": {
             "state" : "NO",
             "quarantaine" : "Britons over 70 asked to remain home for 4 months and have groceries and vital medication delivered.",
+            "event" : "Large groups are not recommended",
+            "restaurant" : "Not recommended to go to bars or restaurants.",
             "health" : "The government has adopted the principal of <a href=\"https://en.wikipedia.org/wiki/Herd_immunity\" target=\"_blank\">herd immunity</a>"
         }
     },
