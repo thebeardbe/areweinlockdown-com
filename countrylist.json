@@ -243,7 +243,7 @@
         "abbreviation": "CL",
         "situation": {
             "state" : "NO",
-            "note" : "State of exception declared on 18th of march for 90 days."
+            "note" : "State of exception declared on 18th of march for 90 days.",
             "travel" : "Borders closed",
             "school" : "Schools are closed",
             "event" : "All events and group activities with 1000 participants or more are prohibited."
@@ -388,13 +388,13 @@
         "abbreviation": "FI",
         "situation": {
             "state" : "NO",
-            "note" : "State of emergency delcared.",
-            "school" : "Schools are closed, daycare and preschool open",
-            "event" : "Public gatherings limited to 10 persons.",
-            "shop" : "Public places are closed.",
-            "health" : "Visits to housing services for elderly, other at-risk groups and all visits to medical facilities are prohibited.",
-            "quarantaine" : "People over 70 are advised to self-quarantaine",
-            "travel" : "Borders closed"
+            "travel": "Borders closed to non-essential travel. Starting 12am on 19 March",
+            "school" : "Schools are closed",
+            "event" : "Gatherings above 10 participants are restricted",
+            "health": "Visits to senior care and health facilities restricted",
+            "quarantaine" : "Over 70 year old residents required to stay in quarantine",
+            "shop": "All public sector recreational institutions are closed."
+            "note" : "State of emergency delcared."
 
         }
     },
@@ -1085,7 +1085,7 @@
             "shop" : "Non essential shops closed, 1 trip a week to the store allowed",
             "health" : "No visitors in health facilities."
         }
-    }
+    },
     {
         "name": "Zimbabwe",
         "abbreviation": "ZW",
@@ -1094,5 +1094,5 @@
             "travel" : "All borders closed for foreigners.",
             "event" : "Large events are cancelled."
         }
-    },
+    }
 ]
