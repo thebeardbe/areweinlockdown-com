@@ -21,6 +21,14 @@
         }
     },
     {
+        "name": "Algeria",
+        "abbreviation": "DZ",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed."
+        }
+    },
+    {
         "name": "Andora",
         "abbreviation": "AD",
         "situation": {
@@ -33,7 +41,7 @@
         "abbreviation": "AR",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions known."
+            "travel" : "All borders closed for foreigners"
         }
     },
     {
@@ -139,7 +147,25 @@
         "abbreviation": "BO",
         "situation": {
             "state" : "NO",
-            "travel" : "Ban on travellers from China, South Korea, Italy, Spain."
+            "travel" : "Ban on flights from Europe.",
+            "school" : "Schools are closed",
+            "event" : "All events and group activities with 1000 participants or more are prohibited."
+        }
+    },
+    {
+        "name": "Brasil",
+        "abbreviation": "BR",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders with Venezuela closed, other borders under consideration."
+        }
+    },
+    {
+        "name": "Brunei",
+        "abbreviation": "BN",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions in place."
         }
     },
     {
@@ -164,14 +190,6 @@
         }
     },
     {
-        "name": "Brunei",
-        "abbreviation": "BN",
-        "situation": {
-            "state" : "NO",
-            "remark" : "No restrictions in place."
-        }
-    },
-    {
         "name": "Canada",
         "abbreviation": "CA",
         "situation": {
@@ -179,6 +197,16 @@
             "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
             "event" : "Several provinces have banned all gatherings larger than 250 participants.",
             "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed"
+        }
+    },
+    {
+        "name": "Cameroon",
+        "abbreviation": "CM",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners.",
+            "school" : "Schools are closed.",
+            "event" : "Events larger than 50 people suspended."
         }
     },
     {
@@ -215,9 +243,10 @@
         "abbreviation": "CL",
         "situation": {
             "state" : "NO",
-            "note" : "Need more info",
+            "note" : "State of exception declared on 18th of march for 90 days."
             "travel" : "Borders closed",
-            "school" : "Schools are closed"
+            "school" : "Schools are closed",
+            "event" : "All events and group activities with 1000 participants or more are prohibited."
         }
     },
     {
@@ -225,7 +254,10 @@
         "abbreviation": "CO",
         "situation": {
             "state" : "NO",
-            "travel" : "Border with Venezuela closed."
+            "travel" : "Borders closed for foreigners.",
+            "school" : "Schools are closed",
+            "quarantaine" : "All adults over 70 have to stay in their residence till the 31ste of may.",
+            "note" : "State of emergency delcared."
         }
     },
     {
@@ -311,7 +343,17 @@
         "abbreviation": "EC",
         "situation": {
             "state" : "NO",
-            "travel" : "Borders closed."
+            "travel" : "Borders closed.",
+            "school" : "Schools are closed",
+            "event" : "Ban on all public activities"
+        }
+    },
+    {
+        "name": "Egypt",
+        "abbreviation": "EG",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Airports are closed."
         }
     },
     {
@@ -412,6 +454,14 @@
         "situation": {
             "state" : "NO",
             "travel" : "Banned entry to citizens of all European countries, United States, Canada, Iran, China and South Korea"
+        }
+    },
+    {
+        "name": "Guyana",
+        "abbreviation": "Gy",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions known."
         }
     },
     {
@@ -518,6 +568,14 @@
         "situation": {
             "state" : "NO",
             "remark" : "No restrictions in place."
+        }
+    },
+    {
+        "name": "Kenia",
+        "abbreviation": "KE",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners"
         }
     },
     {
@@ -679,6 +737,14 @@
         }
     },
     {
+        "name": "Niger",
+        "abbreviation": "NE",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed."
+        }
+    },
+    {
         "name": "Norway",
         "abbreviation": "NO",
         "situation": {
@@ -694,7 +760,7 @@
         "abbreviation": "PK",
         "situation": {
             "state" : "NO",
-            "travel" : "Borders with "
+            "travel" : "Borders closed for foreigners."
         }
     },
     {
@@ -714,11 +780,23 @@
         }
     },
     {
+        "name": "Paraguay",
+        "abbreviation": "PY",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners.",
+            "school" : "Schools are closed.",
+            "event" : "Large scale events suspended.",
+            "quarantaine" : "Curfew in place"
+        }
+    },
+    {
         "name": "Peru",
         "abbreviation": "PE",
         "situation": {
             "state" : "NO",
-            "remark" : "Partial lockdown, more info need."
+            "remark" : "Partial lockdown, more info need.",
+            "school" : "Schools are closed"
         }
     },
     {
@@ -770,6 +848,14 @@
             "health" : "Sick people need to stay in self-quarantaine.",
             "event" : "Some Areas ban on all recreational events, sports, culture and other events with 300 participants or more.",
             "travel" : "Borders closed. All travelers must maintain a 2 week self-isolation"
+        }
+    },
+    {
+        "name": "Rwanda",
+        "abbreviation": "RW",
+        "situation": {
+            "state" : "NO",
+            "Restaurant" : "Bars and nightclubs closed"
         }
     },
     {
@@ -871,6 +957,14 @@
         }
     },
     {
+        "name": "Suriname",
+        "abbreviation": "SR",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed."
+        }
+    },
+    {
         "name": "Sweden",
         "abbreviation": "SE",
         "situation": {
@@ -934,6 +1028,17 @@
         }
     },
     {
+        "name": "Urugay",
+        "abbreviation": "AR",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners",
+            "school" : "Schools are closed",
+            "shop" : "Shopping centers closed",
+            "quarantaine" : "Advised to stay at home, no obligation yet."
+        }
+    },
+    {
         "name": "United Kingdom",
         "abbreviation": "UK",
         "situation": {
@@ -958,10 +1063,10 @@
     }, 
     {
         "name": "Uruguay",
-        "abbreviation": "UR",
+        "abbreviation": "UY",
         "situation": {
             "state" : "NO",
-            "school" : "Schools are closed"
+            "travel" : "Borders closed for foreigners."        
         }
     },
     {
@@ -974,4 +1079,13 @@
             "health" : "No visitors in health facilities."
         }
     }
+    {
+        "name": "Zimbabwe",
+        "abbreviation": "ZW",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners.",
+            "event" : "Large events are cancelled."
+        }
+    },
 ]
