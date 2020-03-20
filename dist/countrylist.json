@@ -17,6 +17,7 @@
             "state" : "YES",
             "remark" : "Until at least 15th of March 2020",
             "travel" : "All roads close",
+            "school" : "Schools are closed.",
             "quarantaine" : "Major cities put in lockdown"
         }
     },
@@ -25,6 +26,7 @@
         "abbreviation": "DZ",
         "situation": {
             "state" : "NO",
+<<<<<<< HEAD
             "school" : "Schools are closed",
             "event" : "All events and group activities are prohibited.",
             "travel" : "All international flights suspended",
@@ -38,6 +40,9 @@
             "state" : "NO",
             "travel" : "All flights receive heavy screening on arrival",
             "note" : "Covid-19 taskforce established."
+=======
+            "school" : "Schools are closed."
+>>>>>>> refs/remotes/origin/master
         }
     },
     {
@@ -52,8 +57,13 @@
         "name": "Argentina",
         "abbreviation": "AR",
         "situation": {
+<<<<<<< HEAD
             "state" : "YES",
             "quarantaine" : "Lockdown till at least 31st of march 2020"
+=======
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners"
+>>>>>>> refs/remotes/origin/master
         }
     },
     {
@@ -88,11 +98,13 @@
         "abbreviation": "AT",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
+            "event" : "Ban on all recreational events, sports, culture and other. No gathering above 5 persons.",
             "restaurant" : "Restaurants, bars and hotels are closed.",
             "school" : "Schools are closed",
             "shop" : "All non essential shops are closed",
-            "travel" : "Borders with Italy closed, checkpoints with Switzerland and Liechenstein."
+            "travel" : "Borders with Italy and Switzerland closed, German border closed from german side.",
+            "quarantaine" : "Vorarlberg region in lockdown"
+
         }
     },
     {
@@ -136,11 +148,12 @@
         "situation": {
             "state" : "YES",
             "remark" : "Following restrictions in effect from 18th of March 2020 12pm till 5th of april 2020:",
-            "quarantaine" : "Everybody has to stay at home. Except for physical exercise.",
+            "quarantaine" : "Everybody has to stay at home. Except for physical exercise alone or with people living under the same roof.",
             "restaurant" : "Bars and restaurants are closed. Delivery is possible.",
             "event" : "All events and group activities are prohibited.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
-            "shop" : "All non essential shops are closed."
+            "shop" : "All non essential shops are closed.",
+            "note" : "More info on <a href=\"https://www.info-coronavirus.be/en/faqs/\" target=\"_blank\">info-coronavirus.be</a>"
         }
     },
     {
@@ -159,7 +172,25 @@
         "abbreviation": "BO",
         "situation": {
             "state" : "NO",
-            "travel" : "Ban on travellers from China, South Korea, Italy, Spain."
+            "travel" : "Ban on flights from Europe.",
+            "school" : "Schools are closed",
+            "event" : "All events and group activities with 1000 participants or more are prohibited."
+        }
+    },
+    {
+        "name": "Brasil",
+        "abbreviation": "BR",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders with Venezuela closed, other borders under consideration."
+        }
+    },
+    {
+        "name": "Brunei",
+        "abbreviation": "BN",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions in place."
         }
     },
     {
@@ -184,14 +215,6 @@
         }
     },
     {
-        "name": "Brunei",
-        "abbreviation": "BN",
-        "situation": {
-            "state" : "NO",
-            "remark" : "No restrictions in place."
-        }
-    },
-    {
         "name": "Canada",
         "abbreviation": "CA",
         "situation": {
@@ -199,6 +222,16 @@
             "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
             "event" : "Several provinces have banned all gatherings larger than 250 participants.",
             "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed"
+        }
+    },
+    {
+        "name": "Cameroon",
+        "abbreviation": "CM",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners.",
+            "school" : "Schools are closed.",
+            "event" : "Events larger than 50 people suspended."
         }
     },
     {
@@ -235,9 +268,10 @@
         "abbreviation": "CL",
         "situation": {
             "state" : "NO",
-            "note" : "Need more info",
+            "note" : "State of exception declared on 18th of march for 90 days.",
             "travel" : "Borders closed",
-            "school" : "Schools are closed"
+            "school" : "Schools are closed",
+            "event" : "All events and group activities with 1000 participants or more are prohibited."
         }
     },
     {
@@ -245,7 +279,10 @@
         "abbreviation": "CO",
         "situation": {
             "state" : "NO",
-            "travel" : "Border with Venezuela closed."
+            "travel" : "Borders closed for foreigners.",
+            "school" : "Schools are closed",
+            "quarantaine" : "All adults over 70 have to stay in their residence till the 31ste of may.",
+            "note" : "State of emergency delcared."
         }
     },
     {
@@ -264,6 +301,7 @@
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed",
+            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
             "shop" : "All non essentail shops are closed.",
             "restaurant" : "Bars and restaurants are closed.",
             "travel" : "Travel restricted for foreigners."
@@ -330,7 +368,17 @@
         "abbreviation": "EC",
         "situation": {
             "state" : "NO",
-            "travel" : "Borders closed."
+            "travel" : "Borders closed.",
+            "school" : "Schools are closed",
+            "event" : "Ban on all public activities"
+        }
+    },
+    {
+        "name": "Egypt",
+        "abbreviation": "EG",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Airports are closed."
         }
     },
     {
@@ -365,7 +413,14 @@
         "abbreviation": "FI",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "travel": "Borders closed to non-essential travel. Starting 12am on 19 March",
+            "school" : "Schools are closed",
+            "event" : "Gatherings above 10 participants are restricted",
+            "health": "Visits to senior care and health facilities restricted",
+            "quarantaine" : "Over 70 year old residents required to stay in quarantine",
+            "shop": "All public sector recreational institutions are closed.",
+            "note" : "State of emergency delcared."
+
         }
     },
     {
@@ -434,11 +489,20 @@
         }
     },
     {
+        "name": "Guyana",
+        "abbreviation": "Gy",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions known."
+        }
+    },
+    {
         "name": "Hungary",
         "abbreviation": "HU",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other above 100 participants",
+            "school" : "Schools are closed.",
             "travel" : "Travellers from Italy, China, Iran and South Korea are refused. Border checks at Austrian and Slovenian borders."
         }
     },
@@ -465,11 +529,12 @@
         "abbreviation": "IN",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Self curfew starting 22 March",
             "event" : "Events are cancelled",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Most schools are closed.",
             "shop" : "Non essentail shops are closed.",
-            "travel" : "Borders are closed with Bangladesh and Myanmar. All visa and OCI cards are suspended."
+            "travel" : "Borders are closed with Bangladesh and Myanmar. All visa and OCI cards are suspended. Internation flights are cancelled."
         }
     },
     {
@@ -486,13 +551,15 @@
         "name": "Iran",
         "abbreviation": "IR",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Lockdown enforced by the military.",
             "travel" : "Travel between cities is limited and controlled.",
             "school" : "Schools are closed.",
             "event" : "Ban on all recreational events, sports, culture and other."
+
+
         }
     },
-    
     {
         "name": "Iceland",
         "abbreviation": "IS",
@@ -510,6 +577,17 @@
             "event" : "Ban on all recreational events, sports, culture and other above 100 participants.",
             "school" : "Schools are closed.",
             "travel" : "Flights from and to some affected areas suspended."
+        }
+    },
+    {
+        "name": "Israel",
+        "abbreviation": "IL",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other above 100 participants.",
+            "school" : "Schools are closed.",
+            "travel" : "Flights from and to some affected areas suspended.",
+            "note" : "National state of emergency since 19th of March."
         }
     },
     {
@@ -536,7 +614,28 @@
         "abbreviation": "XK",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "school" : "Schools are closed.",
+            "note" : "Need more updates"
+        }
+    },
+    {
+        "name": "Kenia",
+        "abbreviation": "KE",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners"
+        }
+    },
+    {
+        "name": "Kuwait",
+        "abbreviation": "KW",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "shop" : "All non essentail shops are closed.",
+            "event" : "All events cancelled",
+            "quarantaine" : "City of Qatif in lockdown.",
+            "travel" : "All international flights suspended"
         }
     },
     {
@@ -561,8 +660,8 @@
         "name": "Lithuania",
         "abbreviation": "LT",
         "situation": {
-            "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
+            "state" : "YES",
+            "quarantaine" : "Full lockdown",
             "school" : "Schools are closed.",
             "travel" : "Borders are closed for foreigners."
         }
@@ -593,6 +692,7 @@
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed.",
+            "restaurant" : "Restaurants and bars closed after 6pm.",
             "travel" : "Foreigners from high risk countries denied access."
         }
     },
@@ -650,6 +750,24 @@
         }
     },
     {
+        "name": "Moldova",
+        "abbreviation": "MD",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "note" : "More updates needed!"
+        }
+    },
+    {
+        "name": "Montenegro",
+        "abbreviation": "ME",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "note" : "More updates needed!"
+        }
+    },
+    {
         "name": "Morocco",
         "abbreviation": "MA",
         "situation": {
@@ -697,6 +815,14 @@
         }
     },
     {
+        "name": "Niger",
+        "abbreviation": "NE",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed."
+        }
+    },
+    {
         "name": "Norway",
         "abbreviation": "NO",
         "situation": {
@@ -704,6 +830,7 @@
             "school" : "Schools are closed.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "restaurant" : "Restaurants, bars are closed.",
+            "shop" : "All non essentail shops are closed.",
             "travel" : "Travelers need to maintain a 2-week quarantaine period."
         }
     },
@@ -712,7 +839,7 @@
         "abbreviation": "PK",
         "situation": {
             "state" : "NO",
-            "travel" : "Borders with "
+            "travel" : "Borders closed for foreigners."
         }
     },
     {
@@ -732,11 +859,23 @@
         }
     },
     {
+        "name": "Paraguay",
+        "abbreviation": "PY",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners.",
+            "school" : "Schools are closed.",
+            "event" : "Large scale events suspended.",
+            "quarantaine" : "Curfew in place"
+        }
+    },
+    {
         "name": "Peru",
         "abbreviation": "PE",
         "situation": {
             "state" : "NO",
-            "remark" : "Partial lockdown, more info need."
+            "remark" : "Partial lockdown, more info need.",
+            "school" : "Schools are closed"
         }
     },
     {
@@ -771,6 +910,15 @@
         }
     },
     {
+        "name": "Qatar",
+        "abbreviation": "QA",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "travel" : "Borders are closed for travellers from Bangladesh, China, Egypt, France, Germany, India, Iran, Iraq, Italy, Lebanon, Nepal, Pakistan, Philippines, Spain, South Korea, Sri Lanka, Syria and Thailand"
+        }
+    },
+    {
         "name": "Romania",
         "abbreviation": "RO",
         "situation": {
@@ -788,6 +936,14 @@
             "health" : "Sick people need to stay in self-quarantaine.",
             "event" : "Some Areas ban on all recreational events, sports, culture and other events with 300 participants or more.",
             "travel" : "Borders closed. All travelers must maintain a 2 week self-isolation"
+        }
+    },
+    {
+        "name": "Rwanda",
+        "abbreviation": "RW",
+        "situation": {
+            "state" : "NO",
+            "Restaurant" : "Bars and nightclubs closed"
         }
     },
     {
@@ -829,7 +985,9 @@
             "state" : "NO",
             "school" : "Schools are closed.",
             "shop" : "All non essentail shops are closed.",
-            "quarantaine" : "City of Qatif in lockdown."
+            "event" : "All events cancelled",
+            "quarantaine" : "City of Qatif in lockdown.",
+            "travel" : "All international flights suspended"
         }
     },
     {
@@ -889,6 +1047,14 @@
         }
     },
     {
+        "name": "Suriname",
+        "abbreviation": "SR",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed."
+        }
+    },
+    {
         "name": "Sweden",
         "abbreviation": "SE",
         "situation": {
@@ -902,6 +1068,7 @@
         "situation": {
             "state" : "NO",
             "quarantaine" : "Quarantaine for everybody over 65",
+            "school" : "Schools are closed",
             "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants, city-state of Geneva 5 or more.",
             "shop" : "All shops except for pharmacies, grocery stores, banks and gas stations are closed",
             "travel" : "Enacted border controls. Borders with Austria, Italy and Germany closed"
@@ -944,11 +1111,46 @@
         }
     },
     {
+        "name": "Uganda",
+        "abbreviation": "UH",
+        "situation": {
+            "state" : "NO",
+            "restaurant" : "Bars and restaurants closed.",
+            "event" : "Public gatherings are banned and religious buildings are closed.",
+            "school" : "Schools are closed.",
+            "travel" : "Borders are closed for all travel from infected areas."
+
+        }
+    },
+    {
         "name": "Ukraine",
         "abbreviation": "UA",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "school" : "Schools are closed.",
+            "note" : "More updates needed!"
+        }
+    },
+    {
+        "name": "Urugay",
+        "abbreviation": "AR",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners",
+            "school" : "Schools are closed",
+            "shop" : "Shopping centers closed",
+            "quarantaine" : "Advised to stay at home, no obligation yet."
+        }
+    },
+    {
+        "name": "United Arab Emirates",
+        "abbreviation": "UE",
+        "situation": {
+            "state" : "NO",
+            "event" : "All events cancelled.",
+            "restaurant" : "Bars and restaurants are closed.",
+            "shop" : "Malls are closed",
+            "travel" : "Quarantaine for travellers arriving."
         }
     },
     {
@@ -957,6 +1159,8 @@
         "situation": {
             "state" : "NO",
             "quarantaine" : "Britons over 70 asked to remain home for 4 months and have groceries and vital medication delivered.",
+            "event" : "Large groups are not recommended",
+            "restaurant" : "Not recommended to go to bars or restaurants.",
             "health" : "The government has adopted the principal of <a href=\"https://en.wikipedia.org/wiki/Herd_immunity\" target=\"_blank\">herd immunity</a>"
         }
     },
@@ -969,17 +1173,17 @@
             "quarantaine" : "San Francisco area in lockdown",
             "note" : "More info on state level to be found on <a href=\"https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States#State,_territorial_and_local_response\" target=\"_blank\">wikipedia</a>",
             "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors.",
-            "event" : "Large gatherings, sport events are cancelled. Several states have imposed 25 person max limit.",
+            "event" : "Large gatherings, sport events are cancelled. 10 person max limit.",
             "restaurant" : "Certain states have closed bars and restaurants, take-away allowed.",
             "school" : "Schools are closed in most states, <a href=\"https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html?fbclid=IwAR0uVK-4QvE5NyOeH1z2v4jbICGDuukg6jk5THuXVQYZILFYduJ-Mpv3mXY\" target=\"_blank\">Map of School closures</a>"
         }
     }, 
     {
         "name": "Uruguay",
-        "abbreviation": "UR",
+        "abbreviation": "UY",
         "situation": {
             "state" : "NO",
-            "school" : "Schools are closed"
+            "travel" : "Borders closed for foreigners."        
         }
     },
     {
@@ -990,6 +1194,16 @@
             "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
             "shop" : "Non essential shops closed, 1 trip a week to the store allowed",
             "health" : "No visitors in health facilities."
+        }
+    },
+    {
+        "name": "Zimbabwe",
+        "abbreviation": "ZW",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners.",
+            "event" : "Large events are cancelled.",
+            "note" : "National emergency declared."
         }
     }
 ]
