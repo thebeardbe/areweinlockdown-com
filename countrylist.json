@@ -26,6 +26,19 @@
         "abbreviation": "DZ",
         "situation": {
             "state" : "NO",
+            "school" : "Schools are closed",
+            "event" : "All events and group activities are prohibited.",
+            "travel" : "All international flights suspended",
+            "note" : "Programs of disinfecting mass transit and public areas are on-going."
+        }
+    },
+    {
+        "name": "American Samoa",
+        "abbreviation": "AS",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All flights receive heavy screening on arrival",
+            "note" : "Covid-19 taskforce established.",
             "school" : "Schools are closed."
         }
     },
@@ -41,8 +54,8 @@
         "name": "Argentina",
         "abbreviation": "AR",
         "situation": {
-            "state" : "NO",
-            "travel" : "All borders closed for foreigners"
+            "state" : "YES",
+            "quarantaine" : "Lockdown till at least 31st of march 2020"
         }
     },
     {
