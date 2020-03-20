@@ -1219,6 +1219,7 @@
             "state" : "NO",
             "quarantaine" : "Britons over 70 asked to remain home for 4 months and have groceries and vital medication delivered.",
             "event" : "Large groups are not recommended",
+            "school" : "Schools are closed",
             "restaurant" : "Not recommended to go to bars or restaurants.",
             "health" : "The government has adopted the principal of <a href=\"https://en.wikipedia.org/wiki/Herd_immunity\" target=\"_blank\">herd immunity</a>"
         }
@@ -1229,7 +1230,7 @@
         "situation": {
             "state" : "NO",
             "remark" : "Current situation",
-            "quarantaine" : "San Francisco area in lockdown",
+            "quarantaine" : "California, New York (on 03/22), New Jersey(Probably), Illinois(Probably) and Connecticut(Probably) in lockdown",
             "note" : "More info on state level to be found on <a href=\"https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States#State,_territorial_and_local_response\" target=\"_blank\">wikipedia</a>",
             "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors.",
             "event" : "Large gatherings, sport events are cancelled. 10 person max limit.",
