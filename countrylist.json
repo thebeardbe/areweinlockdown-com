@@ -46,8 +46,38 @@
         "name": "Andora",
         "abbreviation": "AD",
         "situation": {
-            "state" : "YES",
-            "school" : "Schools are closed"
+            "state" : "NO",
+            "school" : "Schools are closed",
+            "shop" : "Non essential shops closed",
+            "travel" : "Borders closed",
+            "quarantaine" : "closing of all construction and industrial activity.",
+            "event" : "All events and group activities are prohibited."
+        }
+    },
+    {
+        "name": "Angola",
+        "abbreviation": "AO",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Travellers from China, South Korea, Iran, Italy, Portugal, Spain and France undergo screenings upon arrival."
+        }
+    },
+    {
+        "name": "Anguilla",
+        "abbreviation": "AI",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed in the week of 16th of March 2020",
+            "event" : "Ban on all recreational events, sports, culture with international attendees.",
+            "travel" : "NO direct flights from Europe and UK and all indirect arrivals 14 day obligatuary quarantaine."
+        }
+    },
+    {
+        "name": "Antigua & Barbuda",
+        "abbreviation": "AG",
+        "situation": {
+            "state" : "NO",
+            "travel" : "No access to travellers who travelled in the last 28 days in China, Italy, Iran, Japan, Korea, Singapore, France and Germany"
         }
     },
     {
@@ -55,7 +85,8 @@
         "abbreviation": "AR",
         "situation": {
             "state" : "YES",
-            "quarantaine" : "Lockdown till at least 31st of march 2020"
+            "quarantaine" : "Lockdown till at least 31st of march 2020",
+            "travel" : "Borders closed"
         }
     },
     {
@@ -63,7 +94,11 @@
         "abbreviation": "AM",
         "situation": {
             "state" : "NO",
-            "travel" : "Border with Iran closed."
+            "event" : "Ban on all recreational events, sports, culture and other with 20 or more participants",
+            "quarantaine" : "Restrictions on movement within the country.",
+            "school" : "Schools are closed",
+            "travel" : "Borders for foreigners closed.",
+            "note" : "State of emergency declared on the 16th of March."
         }
     },
     {
@@ -71,7 +106,7 @@
         "abbreviation": "AW",
         "situation": {
             "state" : "NO",
-            "travel" : "No entry for travellers from Europe.",
+            "travel" : "No entry for all travellers.",
             "school" : "Schools closed during the week of 16th of March.",
             "event" : "Large public events cancelled during the week of the 16th of March."
         }
@@ -82,20 +117,21 @@
         "situation": {
             "state" : "NO",
             "travel" : "Every traveller arriving, must self-quarantaine for 14 days. No cruiseship docking",
-            "event" : "Ban on all recreational events, sports, culture and other with more than 500 participants."
+            "event" : "Ban on all recreational events, sports, culture and other with more than 500 participants.",
+            "note" : " Emergency Response Plan for Novel Coronavirus (COVID-19)"
         }
     },
     {
         "name": "Austria",
         "abbreviation": "AT",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "event" : "Ban on all recreational events, sports, culture and other. No gathering above 5 persons.",
             "restaurant" : "Restaurants, bars and hotels are closed.",
             "school" : "Schools are closed",
-            "shop" : "All non essential shops are closed",
+            "shop" : "All non essential shops are closed. Essential shops open with limited hours.",
             "travel" : "Borders with Italy and Switzerland closed, German border closed from german side.",
-            "quarantaine" : "Vorarlberg region in lockdown"
+            "quarantaine" : "Only leaving home for necessary duties. Several areas in full lockdown."
 
         }
     },
@@ -105,8 +141,21 @@
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
-            "health" : "Visits to medical facilities prohibited",
-            "travel" : "Borders with Iran, Georgia and Turkey are closed."
+            "health" : "Visits to medical facilities prohibited, y",
+            "shop" : "Checking of temperature before entering the malls",
+            "travel" : "Borders with Iran, Georgia, Russia and Turkey are closed."
+        }
+    },
+    {
+        "name": "Bahamas",
+        "abbreviation": "BS",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Curfew from 9pm till 5am",
+            "event" : "No gatherings with people outside your own household",
+            "shop" : "All non essentail shops are closed.",
+            "travel" : "All travellers coming from China, South Korea, Iran, UK, Ireland or Europe are banned",
+            "note" : "Emergency powers activated on the 20th of March 2020, <a href=\"https://covid19.gov.bs/emergency-orders/\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -115,7 +164,7 @@
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed",
-            "travel" : "All flights from Iran, Iraq and Lebanon prohibited."
+            "travel" : "Borders closed for foreigners. Screening measures at all border entries for citizens."
         }
     },
     {
@@ -145,6 +194,7 @@
             "event" : "All events and group activities are prohibited.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
             "shop" : "All non essential shops are closed.",
+            "travel" : "Borders closed to non-essential travel.",
             "note" : "More info on <a href=\"https://www.info-coronavirus.be/en/faqs/\" target=\"_blank\">info-coronavirus.be</a>"
         }
     },
@@ -231,7 +281,8 @@
         "abbreviation": "KH",
         "situation": {
             "state" : "NO",
-            "school" : "Schools are closed in Phnom Penh.",
+            "school" : "Schools are closed.",
+            "event" : "Major events cancelled",
             "travel" : "All cruise ships had since been prohibited to enter the country. Banned all entries from Italy, Germany, Spain, France and the United States."
         }
     },
