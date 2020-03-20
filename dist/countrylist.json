@@ -26,7 +26,6 @@
         "abbreviation": "DZ",
         "situation": {
             "state" : "NO",
-<<<<<<< HEAD
             "school" : "Schools are closed",
             "event" : "All events and group activities are prohibited.",
             "travel" : "All international flights suspended",
@@ -39,10 +38,8 @@
         "situation": {
             "state" : "NO",
             "travel" : "All flights receive heavy screening on arrival",
-            "note" : "Covid-19 taskforce established."
-=======
+            "note" : "Covid-19 taskforce established.",
             "school" : "Schools are closed."
->>>>>>> refs/remotes/origin/master
         }
     },
     {
@@ -57,13 +54,8 @@
         "name": "Argentina",
         "abbreviation": "AR",
         "situation": {
-<<<<<<< HEAD
             "state" : "YES",
             "quarantaine" : "Lockdown till at least 31st of march 2020"
-=======
-            "state" : "NO",
-            "travel" : "All borders closed for foreigners"
->>>>>>> refs/remotes/origin/master
         }
     },
     {
