@@ -21,6 +21,26 @@
         }
     },
     {
+        "name": "Algeria",
+        "abbreviation": "DZ",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed",
+            "event" : "All events and group activities are prohibited.",
+            "travel" : "All international flights suspended",
+            "note" : "Programs of disinfecting mass transit and public areas are on-going."
+        }
+    },
+    {
+        "name": "American Samoa",
+        "abbreviation": "AS",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All flights receive heavy screening on arrival",
+            "note" : "Covid-19 taskforce established."
+        }
+    },
+    {
         "name": "Andora",
         "abbreviation": "AD",
         "situation": {
@@ -32,8 +52,8 @@
         "name": "Argentina",
         "abbreviation": "AR",
         "situation": {
-            "state" : "NO",
-            "remark" : "No restrictions known."
+            "state" : "YES",
+            "quarantaine" : "Lockdown till at least 31st of march 2020"
         }
     },
     {
