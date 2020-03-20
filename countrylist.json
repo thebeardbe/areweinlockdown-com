@@ -85,8 +85,14 @@
         "abbreviation": "AR",
         "situation": {
             "state" : "YES",
-            "quarantaine" : "Lockdown till at least 31st of march 2020",
-            "travel" : "Borders closed"
+            "Remark" : "These restrictions will be in place till form the 19the of march till the 31st of march 2020",
+            "quarantaine" : "Everybody has to stay at home. Army and police enforcement.",
+            "travel" : "Borders closed",
+            "school" : "Schools are closed",
+            "shop" : "All non essentail shops are closed. Supermarkets, pharmacy and hardware shops are open",
+            "event" : "Ban on all recreational events, sports, culture.",
+            "note" : "<a href=\"https://www.cadena3.com/noticia/sociedad/cuarentena-en-argentina-cuales-son-las-excepciones_255395\" target=\"_blank\">More info in Spanish</a>"
+
         }
     },
     {
@@ -172,7 +178,15 @@
         "abbreviation": "BD",
         "situation": {
             "state" : "NO",
-            "travel" : "Travellers from Italy, South Korea, Japan and Kuwait restricted without medical certificate. Thermal screeners at all ports of entry."
+            "travel" : "Travellers from Europe not allowed. Thermal screeners at all ports of entry."
+        }
+    },
+    {
+        "name": "Barbados",
+        "abbreviation": "BB",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Visitors from Iran, USA, UK and Europe, mandatory 14-day quarantaine. Thermal screening at ports of entry."
         }
     },
     {
@@ -180,7 +194,9 @@
         "abbreviation": "BY",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "event" : "Large scale events suspended.",
+            "travel" : "Temperature screening at airports.",
+            "school" : "Universities cancelled classes"
         }
     },
     {
@@ -944,12 +960,12 @@
         "name": "Portugal",
         "abbreviation": "PT",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy.",
             "school" : "Schools are closed.",
-            "health" : "No visitors in nursing homes.",
-            "restaurant" : "Nightclubs are closed, limited amount of people allowed inside bars and restaurants.",
-            "shop": "Max 4 customers per 100 square meter.",
-            "travel" : "No air link with Italy, quarantaine for all passengers arriving, no disembarkement from cruiseships. Border with Spain closed"
+            "restaurant" : "Restaurants and bars are closed. Take-away is allowed.",
+            "shop": "All non essentail shops are closed.",
+            "travel" : "Borders closed, all international flights suspended"
         }
     },
     {
