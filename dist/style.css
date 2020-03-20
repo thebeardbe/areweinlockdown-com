@@ -21,6 +21,7 @@ h3{font-size:15px;}
 #center #page-title{margin:40px 0;}
 #center h2 {text-align: center; text-decoration: underline;font-size: 28px;}
 #center h3 {text-align: center;}
+#center h3 a { text-decoration: underline; font-weight: bold;}
 #center .remark {color:#62c4c3; text-decoration: none;}
 #center .section-title{margin-bottom:30px;}
 #center #selection {text-align:center; font-size: 2em; margin-bottom: 25px;}
