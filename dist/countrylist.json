@@ -330,6 +330,14 @@
         }
     },
     {
+        "name": "Burundi",
+        "abbreviation": "BI",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Screening at port of entry."
+        }
+    },
+    {
         "name": "Cambodia",
         "abbreviation": "KH",
         "situation": {
@@ -344,9 +352,7 @@
         "abbreviation": "CM",
         "situation": {
             "state" : "NO",
-            "travel" : "All borders closed for foreigners.",
-            "school" : "Schools are closed.",
-            "event" : "Events larger than 50 people suspended."
+            "travel" : "All borders closed for foreigners."
         }
     },
     {
@@ -360,6 +366,18 @@
         }
     },
     {
+        "name" : "Cape Verde",
+        "abbreviation" : "CV",
+        "situation" : {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other with significant public",
+            "restaurant" : "All catering establishments need to be closed by 21h.",
+            "health" : "Visits to senior care and health facilities restricted",
+            "shop" : "Frequency restriction on sport clubs and gyms",
+            "note" : "National Civil Protection Council activated since March 18. <a href=\"https://www.insp.gov.cv/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
         "name": "Cayman Islands",
         "abbreviation": "KY",
         "situation": {
@@ -370,13 +388,27 @@
         }
     },
     {
-        "name": "China",
-        "abbreviation": "CN",
+        "name": "Central African Republic",
+        "abbreviation": "CF",
         "situation": {
             "state" : "NO",
-            "quarantaine" : "Lockdown in some cities, mainly in the province of Hubei.",
-            "event" : "Ban on all recreational events, sports, culture and other.",
-            "travel" : "Travel restrictions in large parts of the country"
+            "travel" : "Temperature screening at ports of entry."
+        }
+    },
+    {
+        "name": "Chad",
+        "abbreviation": "TD",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Temperature screening at ports of entry."
+        }
+    },
+    {
+        "name": "Chad",
+        "abbreviation": "TD",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Temperature screening at ports of entry."
         }
     },
     {
@@ -384,10 +416,22 @@
         "abbreviation": "CL",
         "situation": {
             "state" : "NO",
-            "note" : "State of exception declared on 18th of march for 90 days.",
+            "note" : "State of exception declared on 18th of march for 90 days. <a href=\"https://www.gob.cl/coronavirus/\" target=\"_blank\">More info</a>",
             "travel" : "Borders closed",
             "school" : "Schools are closed",
+            "restaurant" : "Bars, nightclubs and restaurants are closed.",
+            "shop" : "Cinemas and sport clubs",
             "event" : "All events and group activities with 1000 participants or more are prohibited."
+        }
+    },
+    {
+        "name": "China",
+        "abbreviation": "CN",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Lockdown in some cities, mainly in the province of Hubei.",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "travel" : "Travel restrictions in large parts of the country"
         }
     },
     {
@@ -544,8 +588,9 @@
         "abbreviation": "Fr",
         "situation": {
             "state" : "YES",
-            "Quarantaine" : "Complete lockdown, only highly necessary shopping allowed",
-            "shop" : "All non essentail shops are closed."
+            "Quarantaine" : "Complete lockdown, only highly necessary shopping allowed, several cities with curfew.",
+            "shop" : "All non essentail shops are closed.",
+            "note" : "<a href=\"https://www.gouvernement.fr/info-coronavirus\" target=\"_blank\">More info in French</a>"
         }
     },
     {
