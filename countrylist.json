@@ -215,14 +215,44 @@
         }
     },
     {
-        "name": "Bosnia and Herzegovina",
-        "abbreviation": "BA",
+        "name": "Belize",
+        "abbreviation": "BZ",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
-            "restaurant" : "Restaurants and bars are closed.",
+            "event" : "Ban on all recreational events, sports, culture and other large than 100 persons.",
             "school" : "Schools are closed.",
-            "shop" : "In several cities non essential shops are closed."
+            "travel" : "Travel ban for travellers from China, Hong Kong, Iran, Japan, South Korea, and Europe, including the United Kingdom",
+            "note" : "More info on <a href=\"http://health.gov.bz/www/\" target=\"_blank\">Ministry of Health website</a>."
+        }
+    },
+    {
+        "name": "Benin",
+        "abbreviation": "BJ",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Travellers have to self-quarantaine.",
+            "shop" : "All shops have to put protection and hygiene mesures in place to maintain adequate distance",
+            "restaurant" : "Bars and restaurants have to put protection and hygiene messures in place to maintain adequate distance.",
+            "event" : "Ban on all recreational events, sports, culture and other",
+            "note" : "<a href=\"https://www.gouv.bj/actualite/556/coronavirus-les-11-mesures-prises-par-le-conseil-extraordinaire-des-ministres-au-benin/\" target=\"_blank\">More info in French</a>"
+        }
+    },
+    {
+        "name": "Bermuda",
+        "abbreviation": "BM",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Complete travel ban for foreigners",
+            "note" : "More info on the <a href=\"https://www.gov.bm/coronavirus\" target=\"_blank\">Goverment of bermuda website</a>."
+        }
+    },
+    {
+        "name": "Bhutan",
+        "abbreviation": "BT",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "travel" : "Restricted entry of foreign tourists"
         }
     },
     {
@@ -230,9 +260,33 @@
         "abbreviation": "BO",
         "situation": {
             "state" : "NO",
-            "travel" : "Ban on flights from Europe.",
+            "travel" : "Ban on all international flights. Borders closed for foreigners.",
+            "shop" : "All shops are open from 8am till 3pm",
+            "quarantaine" : "Curfew from 5pm till 6am, workdays from 8am till 1pm.",
             "school" : "Schools are closed",
-            "event" : "All events and group activities with 1000 participants or more are prohibited."
+            "event" : "All events and group activities with 100 participants or more are prohibited.",
+            "note" : "<a href=\"https://www.minsalud.gob.bo/\" target=\"_blank\">Ministry of Health</a>"
+        }
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "abbreviation": "BA",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "restaurant" : "Restaurants and bars are closed.",
+            "school" : "Schools are closed.",
+            "shop" : "Non essentail shops are closed.",
+            "travel" : "Ban on entry for travellers from China, South Korea, Japan, Italy, Iran, France, Romania, Germany, Austria, Spain, Switzerland, and Belgium."
+        }
+    },
+    {
+        "name": "Botswana",
+        "abbreviation": "BW",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Banned entry for all travellers from hina, Japan, South Korea, Iran, USA, the United Kingdom, Austria, Belgium, Denmark, France, Germany, Italy, Netherlands, Norway, Spain, Sweden, Switzerland, and India.",
+            "note" : "<a href=\"https://www.cadena3.com/noticia/sociedad/cuarentena-en-argentina-cuales-son-las-excepciones_255395\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -240,7 +294,10 @@
         "abbreviation": "BR",
         "situation": {
             "state" : "NO",
-            "travel" : "Borders with Venezuela closed, other borders under consideration."
+            "travel" : "Borders with Venezuela closed, other borders under consideration.",
+            "quarantaine" : "Voluntary 7-day quarantaine applied",
+            "note" : "<a href=\"https://www.saude.gov.br/\" target=\"_blank\">More info</a>"
+
         }
     },
     {
@@ -248,7 +305,8 @@
         "abbreviation": "BN",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "travel" : "All travellers need to quarantaine for 2 weeks. Temperature screening in place",
+            "note" : "<a href=\"http://www.moh.gov.bn/SitePages/COVID-19.aspx\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -264,22 +322,21 @@
         }
     },
     {
-        "name": "Buthan",
-        "abbreviation": "BT",
+        "name": "Burkina Faso",
+        "abbreviation": "BF",
         "situation": {
             "state" : "NO",
-            "school" : "Schools are closed.",
-            "travel" : "Restricted entry of foreign tourists"
+            "remark" : "No restrictions in place."
         }
     },
     {
-        "name": "Canada",
-        "abbreviation": "CA",
+        "name": "Cambodia",
+        "abbreviation": "KH",
         "situation": {
             "state" : "NO",
-            "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
-            "event" : "Several provinces have banned all gatherings larger than 250 participants.",
-            "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed"
+            "event" : "Ban on all recreational events, sports, culture and other",
+            "school" : "Schools are closed.",
+            "travel" : "All cruise ships prohibited to enter the country. Banned all entries from Italy, Germany, Spain, France and the United States."
         }
     },
     {
@@ -293,13 +350,13 @@
         }
     },
     {
-        "name": "Cambodia",
-        "abbreviation": "KH",
+        "name": "Canada",
+        "abbreviation": "CA",
         "situation": {
             "state" : "NO",
-            "school" : "Schools are closed.",
-            "event" : "Major events cancelled",
-            "travel" : "All cruise ships had since been prohibited to enter the country. Banned all entries from Italy, Germany, Spain, France and the United States."
+            "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
+            "event" : "Several provinces have banned all gatherings larger than 250 participants.",
+            "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed"
         }
     },
     {
