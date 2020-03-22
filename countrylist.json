@@ -659,7 +659,8 @@
         "name": "Greece",
         "abbreviation": "GR",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "All non essential transport prohibited. "
             "travel" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed.",
             "restaurant" : "Restaurants and bars are closed. All seasonal hotels and accomodations are closed till the 30th of Appril"
@@ -1042,7 +1043,10 @@
         "abbreviation": "PK",
         "situation": {
             "state" : "NO",
-            "travel" : "Borders closed for foreigners."
+            "travel" : "Borders closed for foreigners.",
+            "restaurant" : "Closed in the province of Sindh, rest of the country no known restrictions.",
+            "shop" : "Non essentail shops are closed in the Province of Sindh. Rest of country no known restrictions.",
+            "quarantaine" : "Province of Sindh on lockdown. Rest of the country no known restrictions."
         }
     },
     {
