@@ -404,14 +404,6 @@
         }
     },
     {
-        "name": "Chad",
-        "abbreviation": "TD",
-        "situation": {
-            "state" : "NO",
-            "travel" : "Temperature screening at ports of entry."
-        }
-    },
-    {
         "name": "Chile",
         "abbreviation": "CL",
         "situation": {
@@ -590,6 +582,7 @@
             "state" : "YES",
             "Quarantaine" : "Complete lockdown, only highly necessary shopping allowed, several cities with curfew.",
             "shop" : "All non essentail shops are closed.",
+            "health" : "Army is setting up emergency hospitals",
             "note" : "<a href=\"https://www.gouvernement.fr/info-coronavirus\" target=\"_blank\">More info in French</a>"
         }
     },
@@ -681,8 +674,11 @@
         "abbreviation": "HK",
         "situation": {
             "state" : "NO",
-            "travel" : "Ban on travel from Europe, United States",
-            "school" : "Schools were closed till 9th of March 2020, not sure if they reopened (update needed)."
+            "travel" : "Borders are closed for foreigners.",
+            "quarantaine" : "Telework for those possible",
+            "event" :"Ban on all public events",
+            "school" : "Schools are closed.",
+            "note" : "<a href=\"https://www.news.gov.hk/eng/categories/covid19/index.html\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -757,8 +753,9 @@
         "situation": {
             "state" : "YES",
             "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
-            "shop" : "Non essential shops closed, 1 trip a week to the store allowed",
-            "health" : "No visitors in health facilities."
+            "shop" : "Non essential shops and factories closed",
+            "health" : "No visitors in health facilities.",
+            "note" : "<a href=\"https://www.epicentro.iss.it/coronavirus/\" target=\"_blank\">More info in Italian</a>"
         }
     },
     {
@@ -1165,6 +1162,15 @@
         }
     },
     {
+        "name": "Singapore",
+        "abbreviation": "SG",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders are closed for foreigners.",
+            "note" : "<a href=\"https://www.moh.gov.sg/covid-19\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
         "name": "Slovakia",
         "abbreviation": "SK",
         "situation": {
@@ -1241,7 +1247,8 @@
         "situation": {
             "state": "NO",
             "health": "Mandatory to declare symptoms. Buying restrictions, max 2 face-masks per person.",
-            "travel" : "Mandatory 14-day quarantaine for travellers from China, Dubai, Europe, UK, Ireland"
+            "travel" : "Borders closed for foreigners.",
+            "note" : "<a href=\"https://www.cdc.gov.tw/En\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -1322,8 +1329,10 @@
             "quarantaine" : "Britons over 70 asked to remain home for 4 months and have groceries and vital medication delivered.",
             "event" : "Large groups are not recommended",
             "school" : "Schools are closed",
-            "restaurant" : "Not recommended to go to bars or restaurants.",
-            "health" : "The government has adopted the principal of <a href=\"https://en.wikipedia.org/wiki/Herd_immunity\" target=\"_blank\">herd immunity</a>"
+            "restaurant" : "Bars and restaurants are closed.",
+            "health" : "The government has adopted the principal of <a href=\"https://en.wikipedia.org/wiki/Herd_immunity\" target=\"_blank\">herd immunity</a>",
+            "note" :"<a href=\"https://www.gov.uk/search/news-and-communications?topical_events%5B%5D=coronavirus-covid-19-uk-government-response\" target=\"_blank\">More info</a>"
+            
         }
     },
     {
