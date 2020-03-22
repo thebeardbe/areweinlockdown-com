@@ -34,7 +34,9 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js">
+
+    </script>
     <script data-ad-client="ca-pub-3175935662756988" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script type="text/javascript">
@@ -141,7 +143,9 @@
                             dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
                         }
                     })
-                    dropdown.select2();
+                    dropdown.select2({
+                        
+                    });
                 });
                 if (urlParams.has("countrycode")) {
                     changeOutput(urlParams.get("countrycode"));
@@ -219,8 +223,8 @@
                 }
 
             </script>
-            
-            <h3 class="remark">Last update: 2020-03-22 15:52:24 CET</h3>
+
+            <h3 class="remark">Last update: 2020-03-22 18:32:56 CET</h3>
             <h3 class="remark">Seen something not updated or not correct! Let me know through <a
                     href="https://forms.gle/RjE1TZ7EMii2KFGy9" target="_blank">this form</a> or <a
                     href="https://api.whatsapp.com/send?phone=32486362961" title="Whatsapp">Whatsapp</a>.</h3>
@@ -308,9 +312,13 @@
                     </a>
                 </div>
                 <div class="icon-text">
-                    <a href="https://www.vectera.com?fpr=areweinlockdown-com" target="_blank" style="outline:none;border:none;">
-                        <span class="icon"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/eb08qif4/marketing_asset/banner/2986/logo_300.bc677b5eceae.png" alt="vectera" width="250px"/></span>
-                        <span class="text">Vectera video meetings without hassle in your browser. Free till 1st of june. (affiliate link)</span>
+                    <a href="https://www.vectera.com?fpr=areweinlockdown-com" target="_blank"
+                        style="outline:none;border:none;">
+                        <span class="icon"><img
+                                src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/eb08qif4/marketing_asset/banner/2986/logo_300.bc677b5eceae.png"
+                                alt="vectera" width="250px" /></span>
+                        <span class="text">Vectera video meetings without hassle in your browser. Free till 1st of june.
+                            (affiliate link)</span>
                     </a>
                 </div>
             </div>
@@ -327,17 +335,17 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script>
-                            window.cookieconsent.initialise({
-                                "palette": {
-                                    "popup": {
-                                        "background": "#1d8a8a"
-                                    },
-                                    "button": {
-                                        "background": "#62ffaa"
-                                    }
-                                },
-                                "theme": "edgeless"
-                            });
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#1d8a8a"
+                },
+                "button": {
+                    "background": "#62ffaa"
+                }
+            },
+            "theme": "edgeless"
+        });
     </script>
 </body>
 
