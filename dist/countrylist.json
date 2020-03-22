@@ -315,6 +315,7 @@
         "abbreviation": "BG",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Non essential transport prohibited between cities and provinces.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools are closed.",
@@ -1343,9 +1344,13 @@
         "name": "Ukraine",
         "abbreviation": "UA",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "school" : "Schools are closed.",
-            "note" : "More updates needed!"
+            "event" : "Ban on all recreational events, sports, culture and other. Group max. 10 people.",
+            "restaurant" : "Restaurants and bars are closed.",
+            "shop" : "Non essentail shops are closed.",
+            "quarantaine" : "Public transport is banned in several cities, domestic travel is stopped.",
+            "note" : "Restrictions since 17th of March through the 3 of april"
         }
     },
     {
