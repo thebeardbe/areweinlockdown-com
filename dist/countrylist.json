@@ -123,6 +123,7 @@
         "situation": {
             "state" : "NO",
             "travel" : "Every traveller arriving, must self-quarantaine for 14 days. No cruiseship docking",
+            "restaurant" : "Bars and restaurants are closed. Delivery and take-away is possible.",
             "event" : "Ban on all recreational events, sports, culture and other with more than 500 participants.",
             "note" : " Emergency Response Plan for Novel Coronavirus (COVID-19)"
         }
@@ -530,6 +531,14 @@
         }
     },
     {
+        "name" : "Democratic republic of the Congo",
+        "abbreviation" : "CD",
+        "situation" : {
+            "state" : "NO",
+            "event" : "All events and group activities are prohibited."
+        }
+    },
+    {
         "name": "Dominican Republic",
         "abbreviation": "DO",
         "situation": {
@@ -895,8 +904,10 @@
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed.",
+            "restaurant" : "Bars and restaurants are closed. Delivery and take-away are allowed.",
             "health" : "Day centres for elderly are closed.",
-            "travel" : "Visitors need to maintain a 2 week self-quarantaine."
+            "travel" : "Travellers need to maintain a 2 week self-quarantaine, if not followed 3000 euro fine,",
+            "note" : "<a href=\"https://covid19malta.info/\" target=\"_blank\">More info</a>"
         }
     },
     {
