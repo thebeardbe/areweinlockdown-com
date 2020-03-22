@@ -24,7 +24,7 @@ h3{font-size:15px;}
 #center h3 a { text-decoration: underline; font-weight: bold;}
 #center .remark {color:#62c4c3; text-decoration: none;}
 #center .section-title{margin-bottom:30px;}
-#center #selection {text-align:center; font-size: 2em; margin-bottom: 25px;}
+#center #selection {text-align:center; margin-bottom: 25px;}
 #center #virus{width:350px;height:350px;margin:0 auto 40px auto;background:url(images/virus.png) 0 0 no-repeat;background-size: 100% 100%;text-align:center;}
 #center #virus #result{padding-top:150px;display:block;font-size:90px;font-weight:bold;color:#62c4c3}
 #center .status-note{padding-bottom:20px;font-size:16px;font-weight:bold;text-align:center;}
