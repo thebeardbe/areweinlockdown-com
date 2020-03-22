@@ -427,14 +427,41 @@
         }
     },
     {
+        "name": "Christmas Island",
+        "abbreviation": "CX",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Some infected people from Australia are sent to Christmas Island for quarantaine"
+        }
+    },
+    {
         "name": "Colombia",
         "abbreviation": "CO",
         "situation": {
             "state" : "NO",
-            "travel" : "Borders closed for foreigners.",
+            "travel" : "All international flights suspended starting 23rd of March 2020. Borders closed for foreigners.",
             "school" : "Schools are closed",
             "quarantaine" : "All adults over 70 have to stay in their residence till the 31ste of may.",
-            "note" : "State of emergency delcared."
+            "note" : "State of emergency declared. <a href=\"https://d2jsqrio60m94k.cloudfront.net/\" target=\"_blank\">More information</a>"
+        }
+    },
+    {
+        "name": "Comoros",
+        "abbreviation": "KM",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Flights with Mayotte and Réunion suspended. International travellers quarantained.",
+            "event" : "All events and group activities with 20 participants or more are prohibited."
+        }
+    },
+    {
+        "name": "Cook Islands",
+        "abbreviation": "CK",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Self-quarantaine for all international travellers. Flights from French Polynesia, Australia and the United States Post-poned.",
+            "event" : "All events and group activities with 50 participants or more are prohibited.",
+            "note" : "<a href=\"https://www.health.gov.ck/\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -444,7 +471,9 @@
             "state" : "NO",
             "school" : "Schools closed for physical lessons, education through virtual class rooms",
             "restaurant" : "Bars, clubs and casinos are closed, 50% capacity in other meeting centers.",
-            "event" : "Ban on all recreational events, sports, culture and other."
+            "shop" : "Cinemas, theaters, and shopping centers closed at 50% of their capacity",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "note" : "<a href=\"https://www.facebook.com/msaludcr/\" target=\"_blank\">More info on Facebook.</a>"
         }
     },
     {
@@ -453,10 +482,11 @@
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed",
-            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
+            "event" : "Ban on all gatherings with 5 or more participants",
             "shop" : "All non essentail shops are closed.",
             "restaurant" : "Bars and restaurants are closed.",
-            "travel" : "Travel restricted for foreigners."
+            "travel" : "Travel restricted for foreigners.",
+            "note" : "<a href=\"https://www.koronavirus.hr/\" target=\"_blank\">More info in Croatian.</a>"
         }
     },
     {
@@ -464,7 +494,8 @@
         "abbreviation": "CU",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions"
+            "travel" : "Borders are closed for foreigners.",
+            "note" :"<a href=\"https://salud.msp.gob.cu/\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -472,7 +503,8 @@
         "abbreviation": "CW",
         "situation": {
             "state" : "NO",
-            "travel" : "All flights from Europe are halted."
+            "travel" : "All borders closed for foreigners.",
+            "restaurant" : "Restaurants and bars are closed. Take-away and delivery is allowed."
         }
     },
     {
@@ -480,18 +512,20 @@
         "abbreviation": "CY",
         "situation": {
             "state" : "NO",
-            "travel" : "Borders closed for foreigners."
+            "travel" : "Borders closed for foreigners.",
+            "event" : "Ban on all recreational events, sports, culture and other."
         }
     },
     {
         "name": "Czech",
         "abbreviation": "CZ",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
             "shop" : "All non essentail shops are closed.",
+            "quarantaine" : "Only essential movement prohibited.",
             "travel" : "Complete travel ban."
         }
     },
