@@ -801,7 +801,7 @@
         "abbreviation": "IN",
         "situation": {
             "state" : "NO",
-            "quarantaine" : "Self curfew starting 22 March",
+            "quarantaine" : "Self curfew starting 22 March, 75 cities on full lockdown.",
             "event" : "Events are cancelled",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Most schools are closed.",
@@ -1151,9 +1151,12 @@
         "name": "Peru",
         "abbreviation": "PE",
         "situation": {
-            "state" : "NO",
-            "remark" : "Partial lockdown, more info need.",
-            "school" : "Schools are closed"
+            "state" : "YES",
+            "remark" : "Restrictions in effect from the 16th till the 31st of March:",
+            "travel" : "International and national travel completely forbidden. Personal vehicles banned only public transport",
+            "school" : "Schools are closed",
+            "quarantaine" : "Curfew from 8pm till 5am. all non essential transport banned.",
+            "shop" : "All non essentail shops are closed. 1 person per family for shopping"
         }
     },
     {
