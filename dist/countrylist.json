@@ -613,7 +613,7 @@
     },
     {
         "name": "Equatorial Guinea",
-        "abbreviation": "SV",
+        "abbreviation": "GQ",
         "situation": {
             "state" : "NO",
             "travel" : "All international flights suspended from march 15 for 30 days.",
@@ -629,14 +629,6 @@
         }
     },
     {
-        "name": "Ethiopia",
-        "abbreviation": "ET",
-        "situation": {
-            "state" : "NO",
-            "travel" : "Travellers scanned for signs of illness on arrival."
-        }
-    },
-    {
         "name": "Estonia",
         "abbreviation": "EE",
         "situation": {
@@ -644,6 +636,14 @@
             "event" : "Ban on all recreational events, sports, culture and other with 100+ participants.",
             "school" : "Schools are closed.",
             "travel" : "Sanitary border control"
+        }
+    },
+    {
+        "name": "Ethiopia",
+        "abbreviation": "ET",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Travellers scanned for signs of illness on arrival."
         }
     },
     {
@@ -705,7 +705,21 @@
         "abbreviation": "PF",
         "situation": {
             "state" : "NO",
-            "travel" : "Cruise ships suspended, work permits issue stop, health check on entry."
+            "travel" : "Borders are closed for foreigners. Cruise ships suspended, work permits issue stop, health check on entry."
+        }
+    },
+    {
+        "name": "Gambon",
+        "abbreviation": "GA",
+        "situation": {
+            "state" : "NO",
+            "travel" : "International and national flights suspended. Borders closed.",
+            "event" : "All events and group activities with 10 participants or more are prohibited.",
+            "school" : "Schools and daycare are closed.",
+            "restaurant" : "Bars and restaurants are closed.",
+            "shop" : "All non essentail shops are closed.",
+            "quarantaine" : "Curfew between 7.30 pm till 6 am.",
+            "note" : "<a href=\"http://www.sante.gouv.ga/\" target=\"_blank\">More info in french.</a>"
         }
     },
     {
@@ -721,7 +735,7 @@
         "abbreviation": "DE",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
+            "event" : "Ban on all recreational events, sports, culture and other. All gatherings above 2 are banned.",
             "school" : "Schools and daycare are closed.",
             "travel" : "Borders with Austria, Denmark, France, Luxembourg and Switzerland closed from 16th of March 2020."
         }
