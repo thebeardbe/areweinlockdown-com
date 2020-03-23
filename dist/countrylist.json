@@ -540,6 +540,34 @@
         }
     },
     {
+        "name": "Denmark",
+        "abbreviation": "DK",
+        "situation": {
+            "state" : "YES",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "restaurant" : "Restaurants and bars are closed.",
+            "school" : "Schools are closed, but daycare for children without other solutions.",
+            "shop" : "All non essentail shops are closed.",
+            "travel" : "All borders closed."
+        }
+    },
+    {
+        "name" : "Djibouti",
+        "abbreviation" : "DJ",
+        "situation" : {
+            "state" : "NO",
+            "travel" : "Borders are closed. "
+        }
+    },
+    {
+        "name" : "Dominica",
+        "abbreviation" : "DM",
+        "situation" : {
+            "state" : "NO",
+            "health" : "Dominica China Friendship Hospital no visitors allowed."
+        }
+    },
+    {
         "name": "Dominican Republic",
         "abbreviation": "DO",
         "situation": {
@@ -548,15 +576,11 @@
         }
     },
     {
-        "name": "Denmark",
-        "abbreviation": "DK",
+        "name": "East Timor",
+        "abbreviation": "TL",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
-            "restaurant" : "Restaurants and bars are closed.",
-            "school" : "Schools are closed, but daycare for children without other solutions.",
-            "shop" : "All non essentail shops are closed.",
-            "travel" : "All borders closed."
+            "travel" : "Thermal scanning at port of entry. Ban on travellers from China, Iran, Italy and Republic of Korea."
         }
     },
     {
@@ -574,7 +598,42 @@
         "abbreviation": "EG",
         "situation": {
             "state" : "NO",
-            "travel" : "Airports are closed."
+            "travel" : "Thermal scans on arrival."
+        }
+    },
+    {
+        "name": "El Salvador",
+        "abbreviation": "SV",
+        "situation": {
+            "state" : "YES",
+            "quarantaine" : "30 day quarantaine starting 21st of March",
+            "shop" : "All non essentail shops are closed.",
+            "note" :"<a href=\"http://cov.salud.gob.sv/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Equatorial Guinea",
+        "abbreviation": "SV",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All international flights suspended from march 15 for 30 days.",
+            "note" :"<a href=\"https://www.guineaecuatorialpress.com/buscador.php?cat=11\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Eritrea",
+        "abbreviation": "ER",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Travellers scanned for signs of illness on arrival."
+        }
+    },
+    {
+        "name": "Ethiopia",
+        "abbreviation": "ET",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Travellers scanned for signs of illness on arrival."
         }
     },
     {
@@ -585,6 +644,17 @@
             "event" : "Ban on all recreational events, sports, culture and other with 100+ participants.",
             "school" : "Schools are closed.",
             "travel" : "Sanitary border control"
+        }
+    },
+    {
+        "name": "Falkland Islands",
+        "abbreviation": "FK",
+        "situation": {
+            "state" : "NO",
+            "health" :"No visitors in health facilities.",
+            "shop" : "Non essentail shops are closed.",
+            "event" : "Ban/pospone on all recreational events, sports, culture and other",
+            "remark" : "No restrictions in place."
         }
     },
     {
