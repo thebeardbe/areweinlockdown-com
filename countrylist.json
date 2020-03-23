@@ -723,6 +723,17 @@
         }
     },
     {
+        "name": "Gambia",
+        "abbreviation": "GE",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Non-gambian travellers banned from 55 covid-19 hotspots.",
+            "school" : "Schools are closed",
+            "event" : "All events and group activities are prohibited.",
+            "note" :"<a href=\"http://www.moh.gov.gm/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
         "name": "Georgia",
         "abbreviation": "GE",
         "situation": {
@@ -1466,12 +1477,12 @@
         "name": "United Kingdom",
         "abbreviation": "UK",
         "situation": {
-            "state" : "NO",
-            "quarantaine" : "Britons over 70 asked to remain home for 4 months and have groceries and vital medication delivered.",
-            "event" : "Large groups are not recommended",
+            "state" : "YES",
+            "remark" : "Restrictions starting the 23th of march till at least the 19th of april.",
+            "quarantaine" : "Britons must stay at home except for shopping for basic necessities, daily exercise, any medical need and travelling to and from essential work. .",
+            "event" : "Gatherings above 2 persons are not allowed.",
             "school" : "Schools are closed",
             "restaurant" : "Bars and restaurants are closed.",
-            "health" : "The government has adopted the principal of <a href=\"https://en.wikipedia.org/wiki/Herd_immunity\" target=\"_blank\">herd immunity</a>",
             "note" :"<a href=\"https://www.gov.uk/search/news-and-communications?topical_events%5B%5D=coronavirus-covid-19-uk-government-response\" target=\"_blank\">More info</a>"
             
         }
