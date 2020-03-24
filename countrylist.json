@@ -748,7 +748,45 @@
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other. All gatherings above 2 are banned.",
             "school" : "Schools and daycare are closed.",
-            "travel" : "Borders with Austria, Denmark, France, Luxembourg and Switzerland closed from 16th of March 2020."
+            "travel" : "Borders with Austria, Denmark, France, Luxembourg and Switzerland closed from 16th of March 2020.",
+            "quarantaine" : "Non essential transport prohibited. Stay at home policy."
+        }
+    },
+    {
+        "name": "Ghana",
+        "abbreviation": "GH",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other. From March 16th for 4 weeks",
+            "school" : "Schools and daycare are closed. From March 16th for 4 weeks",
+            "travel" : "Borders are closed from 22th of March for 2 weeks.",
+            "note" : "<a href=\"https://ghanahealthservice.org/covid19/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Gibraltar",
+        "abbreviation": "GH",
+        "situation": {
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy, unnecessary travel prohibited",
+            "event" : "Ban on all recreational events, sports, culture and other. From March 16th for 4 weeks",
+            "school" : "Schools are closed, but provide daycare.",
+            "restaurant" :"Bars and restaurants are closed. Delivery and take-away are allowed.",
+            "travel" : "Borders are closed from 22th of March for 2 weeks.",
+            "note" : "<a href=\"https://www.gibraltar.gov.gi/press-releases/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Gibraltar",
+        "abbreviation": "GH",
+        "situation": {
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy, unnecessary travel prohibited",
+            "event" : "Ban on all recreational events, sports, culture and other. From March 16th for 4 weeks",
+            "school" : "Schools are closed, but provide daycare.",
+            "restaurant" :"Bars and restaurants are closed. Delivery and take-away are allowed.",
+            "travel" : "Borders are closed from 22th of March for 2 weeks.",
+            "note" : "<a href=\"https://www.gibraltar.gov.gi/press-releases/\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -760,6 +798,23 @@
             "travel" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed.",
             "restaurant" : "Restaurants and bars are closed. All seasonal hotels and accomodations are closed till the 30th of Appril"
+        }
+    },
+    {
+        "name": "Greenland",
+        "abbreviation": "GL",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other with 100 or more people",
+            "travel" : "Borders are closed for foreigners from 20th of March through the 13rd of april. International and national flights cancelled till the 3rd of april"
+        }
+    },
+    {
+        "name": "Grenada",
+        "abbreviation": "GD",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Thermal scanning at port of entry. Self-quarantaine for travellers from risk countries."
         }
     },
     {
@@ -783,6 +838,25 @@
         }
     },
     {
+        "name": "Guinea",
+        "abbreviation": "GN",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Flights for countries with 30 active transmission cases suspended. Thermal screening at Airport."
+        }
+    },
+    {
+        "name": "Guinea-Bisseau",
+        "abbreviation": "GW",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders are closed. Air travel suspended",
+            "event" : "All events cancelled",
+            "school" : "Schools are closed",
+            "remark" : "But restrictions in place till at least 31st of March 2020."
+        }
+    },
+    {
         "name": "Guyana",
         "abbreviation": "Gy",
         "situation": {
@@ -791,13 +865,14 @@
         }
     },
     {
-        "name": "Hungary",
-        "abbreviation": "HU",
+        "name": "Haiti",
+        "abbreviation": "HT",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other above 100 participants",
-            "school" : "Schools are closed.",
-            "travel" : "Travellers from Italy, China, Iran and South Korea are refused. Border checks at Austrian and Slovenian borders."
+            "quarantaine" : "Curfew between 8pm - 5am",
+            "travel" : "Borders are closed. Air travel suspended",
+            "event" : "All events cancelled. Gatherings limited to 10 people.",
+            "school" : "Schools and factories are closed"
         }
     },
     {
@@ -819,6 +894,25 @@
             "event" :"Ban on all public events",
             "school" : "Schools are closed.",
             "note" : "<a href=\"https://www.news.gov.hk/eng/categories/covid19/index.html\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Hungary",
+        "abbreviation": "HU",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other above 100 participants",
+            "school" : "Schools are closed.",
+            "travel" : "Travellers from Italy, China, Iran and South Korea are refused. Border checks at Austrian and Slovenian borders."
+        }
+    },
+    {
+        "name": "Iceland",
+        "abbreviation": "IS",
+        "situation": {
+            "state" : "NO",
+            "school" : "Universities and secondary Schools are closed.",
+            "event" : "Ban on all recreational events, sports, culture and other above 100 participants."
         }
     },
     {
@@ -858,12 +952,14 @@
         }
     },
     {
-        "name": "Iceland",
-        "abbreviation": "IS",
+        "name": "Iraq",
+        "abbreviation": "IQ",
         "situation": {
             "state" : "NO",
-            "school" : "Universities and secondary Schools are closed.",
-            "event" : "Ban on all recreational events, sports, culture and other above 100 participants."
+            "remark" : "But restrictions in place from 17th through 24th of March 2020.",
+            "quarantaine" : "24h curfew on Baghdad",
+            "travel" : "Borders closed. International flights cancelled",
+            "event" : "Ban on all recreational events, sports, culture and other."
         }
     },
     {
@@ -880,10 +976,11 @@
         "name": "Israel",
         "abbreviation": "IL",
         "situation": {
-            "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other above 100 participants.",
+            "state" : "YES",
+            "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed.",
             "travel" : "Flights from and to some affected areas suspended.",
+            "quarantaine" : "Stay at home and no travel outside 150m from your house.",
             "note" : "National state of emergency since 19th of March."
         }
     },
@@ -899,6 +996,15 @@
         }
     },
     {
+        "name": "Ivory Coast",
+        "abbreviation": "CI",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders are closed",
+            "note" : "State of emergency declared on the 23th of March."
+        }
+    },
+    {
         "name": "Jamaica",
         "abbreviation": "JM",
         "situation": {
@@ -908,20 +1014,62 @@
         }
     },
     {
+        "name": "Japan",
+        "abbreviation": "JP",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "travel" : "Flights from and to China, Italy, Iceland, Iran, South Korea, Spain and Switzerland. "
+        }
+    },
+    {
+        "name": "Jordan",
+        "abbreviation": "JO",
+        "situation": {
+            "state" : "YES",
+            "school" : "Schools are closed.",
+            "travel" : "All national and international flights cancelled since 16th of March.",
+            "quarantaine" : "Fulltime curfew from March 21st untill further notice",
+            "shop" : "All non essentail shops are closed."
+
+        }
+    },
+    {
+        "name": "Kazachstan",
+        "abbreviation": "KZ",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Cities of Almaty and Nur-Sultan are under quarantaine",
+            "travel" : "Airports closed, except for departing international flights from 22th of March. Borders closed for foreigners",
+            "school" : "Schools are closed in the quarantained areas.",
+            "note" : "State of emergency since 16th of March, <a href=\"https://primeminister.kz/en\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Kenya",
+        "abbreviation": "KE",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All borders closed for foreigners"
+        }
+    },
+    {
+        "name": "Kiribati",
+        "abbreviation": "KI",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Ban on all travellers that travelled in infected countries in the last 14 days",
+            "note" : "<a href=\"https://mhms.gov.ki/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
         "name": "Kosovo",
         "abbreviation": "XK",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
+            "travel" : "Borders for foreigners closed.",
             "note" : "Need more updates"
-        }
-    },
-    {
-        "name": "Kenia",
-        "abbreviation": "KE",
-        "situation": {
-            "state" : "NO",
-            "travel" : "All borders closed for foreigners"
         }
     },
     {
@@ -934,6 +1082,17 @@
             "event" : "All events cancelled",
             "quarantaine" : "City of Qatif in lockdown.",
             "travel" : "All international flights suspended"
+        }
+    },
+    {
+        "name": "Kyrgyzstan",
+        "abbreviation": "XK",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed. Since 16th of March for 3 weeks",
+            "restaurant" : "Bars and restaurants with more than 50 seats are closed.",
+            "shop" : "Limit of 10 people in a store.",
+            "travel" : "Borders for foreigners closed."
         }
     },
     {
