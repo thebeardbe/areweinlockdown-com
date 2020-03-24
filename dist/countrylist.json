@@ -919,8 +919,8 @@
         "name": "India",
         "abbreviation": "IN",
         "situation": {
-            "state" : "NO",
-            "quarantaine" : "Self curfew starting 22 March, 75 cities on full lockdown.",
+            "state" : "YES",
+            "quarantaine" : "Full lockdown.",
             "event" : "Events are cancelled",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Most schools are closed.",
