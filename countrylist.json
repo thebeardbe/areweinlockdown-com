@@ -1105,6 +1105,17 @@
         }
     },
     {
+        "name": "Latvia",
+        "abbreviation": "LV",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "school" : "Schools are closed.",
+            "travel" : "Borders are closed starting 17th of March 2020.",
+            "note" : "casinos AND online gambling is now forbidden. But it is now allowed to buy alcohol online. This changed during the Corona crisis."
+        }
+    },
+    {
         "name": "Lebanon",
         "abbreviation": "LB",
         "situation": {
@@ -1134,25 +1145,14 @@
     },
     {
         "name": "Libya",
-        "abbreviation": "L",
+        "abbreviation": "LY",
         "situation": {
             "state" : "NO",
             "event" : "Events are prohibited",
             "school" : "Schools are closed",
             "restaurant" : "Bars and restaurants have to close at 4pm.",
             "travel" : "Borders closed, airport closed",
-            "note" : "National Health Emergency declared on the 22th of March."
-        }
-    },
-    {
-        "name": "Latvia",
-        "abbreviation": "LV",
-        "situation": {
-            "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
-            "school" : "Schools are closed.",
-            "travel" : "Borders are closed starting 17th of March 2020.",
-            "note" : "casinos AND online gambling is now forbidden. But it is now allowed to buy alcohol online. This changed during the Corona crisis."
+            "note" : "<a href=\"https://ncdc.org.ly/Ar/\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -1204,6 +1204,56 @@
         }
     },
     {
+        "name": "Madagascar",
+        "abbreviation": "MG",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Strict confinement measures in Antananarivo and Toamasina. Curfew in place from 8pm and 5am.",
+            "event" : "Ban on all recreational events, sports, culture and other",
+            "shop" : "Non essentail shops are closed.",
+            "school" : "Schools are closed.",
+            "travel" : "Suspension of all air travel. All public transport suspended"
+        }
+    },
+    {
+        "name": "Malawi",
+        "abbreviation": "MW",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Travellers from high risk countries have to self-quarantaine for 14 days."
+        }
+    },
+    {
+        "name": "Malysia",
+        "abbreviation": "MK",
+        "situation": {
+            "state" : "YES",
+            "remark" : "Full lockdown untill march 31st."
+        }
+    },
+    {
+        "name": "Maldives",
+        "abbreviation": "MV",
+        "situation": {
+            "state" : "NO",
+            "restaurant" : "Hotels and guesthouses need to deny new tourists.",
+            "travel" : "Islands with confirmed cases are on travel lockdown. Travellers from several countries are banned. Cruiseships are denied access.",
+            "note" : "<a href=\"https://covid19.health.gov.mv/en/\" target=\"_blank\">More info</a>. State of Public Health Emergency declared on 12th of March. "
+        }
+    },
+    {
+        "name": "Mali",
+        "abbreviation": "ML",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other with 50 or more participants",
+            "school" : "Schools are closed",
+            "restaurant" : "Bars and night clubs are closed",
+            "travel" : "Flights cancelled, ",
+            "note" : "<a href=\"https://covid19.health.gov.mv/en/\" target=\"_blank\">More info</a>. State of Public Health Emergency declared on 12th of March. "
+        }
+    },
+    {
         "name": "Malta",
         "abbreviation": "MT",
         "situation": {
@@ -1218,19 +1268,35 @@
         }
     },
     {
-        "name": "Malysia",
-        "abbreviation": "MK",
-        "situation": {
-            "state" : "YES",
-            "remark" : "Full lockdown untill march 31st."
-        }
-    },
-    {
         "name": "Marshall Islands",
         "abbreviation": "MH",
         "situation": {
             "state" : "NO",
             "travel" : "Travel ban on all travellers not coming from a virus-free country. Complete ban for China, Macau, Hong Kong, Japan, South Korea, Italy and Iran."
+        }
+    },
+    {
+        "name": "Mauritania",
+        "abbreviation": "MR",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Curfew between 6 pm till 6 am.",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "restaurant" : "Bars and restaurants are closed.",
+            "travel" : "Flights suspended",
+            "note" : "<a href=\"http://www.sante.gov.mr/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Mauritius",
+        "abbreviation": "MU",
+        "situation": {
+            "state" : "YES",
+            "quarantaine" : "Curfew 8pm till 8am. 2 week confinement since 20 March 2020.",
+            "school" : "Schools are closed",
+            "shop" : "Non essentail shops are closed.",
+            "travel" : "Borders are closed.",
+            "note" : "<a href=\"http://health.govmu.org/English/Pages/default.aspx\" target=\"_blank\">More info in French</a>"
         }
     },
     {
@@ -1252,20 +1318,20 @@
         }
     },
     {
-        "name": "Monaco",
-        "abbreviation": "MC",
-        "situation": {
-            "state" : "NO",
-            "remark" : "No restrictions in place."
-        }
-    },
-    {
         "name": "Moldova",
         "abbreviation": "MD",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
             "note" : "More updates needed!"
+        }
+    },
+    {
+        "name": "Monaco",
+        "abbreviation": "MC",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions in place."
         }
     },
     {
