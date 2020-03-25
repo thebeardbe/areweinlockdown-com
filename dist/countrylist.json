@@ -1096,13 +1096,63 @@
         }
     },
     {
+        "name": "Laos",
+        "abbreviation": "LA",
+        "situation": {
+            "state" : "NO",
+            "event" : "Advice to cancel or postpone large events.",
+            "travel" : "Borders closed for foreigners"
+        }
+    },
+    {
+        "name": "Lebanon",
+        "abbreviation": "LB",
+        "situation": {
+            "state" : "NO",
+            "event" : "Advice to cancel or postpone large events.",
+            "travel" : "Borders closed for foreigners. All flights suspended."
+        }
+    },
+    {
+        "name": "Lesotho",
+        "abbreviation": "LS",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Screening at ports of entry. Self-quarantaine obligated."
+        }
+    },
+    {
+        "name": "Liberia",
+        "abbreviation": "LR",
+        "situation": {
+            "state" : "NO",
+            "event" : "Events are prohibited",
+            "school" : "Schools are closed",
+            "travel" : "Borders closed, airport closed",
+            "note" : "National Health Emergency declared on the 22th of March."
+        }
+    },
+    {
+        "name": "Libya",
+        "abbreviation": "L",
+        "situation": {
+            "state" : "NO",
+            "event" : "Events are prohibited",
+            "school" : "Schools are closed",
+            "restaurant" : "Bars and restaurants have to close at 4pm.",
+            "travel" : "Borders closed, airport closed",
+            "note" : "National Health Emergency declared on the 22th of March."
+        }
+    },
+    {
         "name": "Latvia",
         "abbreviation": "LV",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed.",
-            "travel" : "Borders are closed starting 17th of March 2020."
+            "travel" : "Borders are closed starting 17th of March 2020.",
+            "note" : "casinos AND online gambling is now forbidden. But it is now allowed to buy alcohol online. This changed during the Corona crisis."
         }
     },
     {
@@ -1161,9 +1211,9 @@
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed.",
             "restaurant" : "Bars and restaurants are closed. Delivery and take-away are allowed.",
-            "shop" : "Non essentail shops are closed.",
+            "shop" : "Non essentail shops are closed. If still open fine of 3000 euro",
             "health" : "Day centres for elderly are closed.",
-            "travel" : "Travellers need to maintain a 2 week self-quarantaine, if not followed 3000 euro fine,",
+            "travel" : "Borders closed for non essential travel. Travellers need to maintain a 2 week self-quarantaine, if not followed 10000 euro fine,",
             "note" : "<a href=\"https://covid19malta.info/\" target=\"_blank\">More info</a>"
         }
     },
@@ -1546,7 +1596,7 @@
             "state" : "NO",
             "quarantaine" : "Quarantaine for everybody over 65",
             "school" : "Schools are closed",
-            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants, city-state of Geneva 5 or more.",
+            "event" : "Ban on all recreational gatherings or events, sports, culture and other with 5 or more participants.",
             "shop" : "All shops except for pharmacies, grocery stores, banks and gas stations are closed",
             "travel" : "Enacted border controls. Borders with Austria, Italy and Germany closed"
         }
