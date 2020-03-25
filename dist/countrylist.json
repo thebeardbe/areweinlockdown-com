@@ -2,6 +2,7 @@
     {
         "name": "Afghanistan",
         "abbreviation": "AF",
+        "population" : "29121286",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all sports events",
@@ -13,6 +14,7 @@
     {
         "name": "Albania",
         "abbreviation": "AL",
+        "population" : "2987000",
         "situation": {
             "state" : "YES",
             "remark" : "Until at least 15th of March 2020",
@@ -24,6 +26,7 @@
     {
         "name": "Algeria",
         "abbreviation": "DZ",
+        "population" : "34586000",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed",
@@ -35,6 +38,7 @@
     {
         "name": "American Samoa",
         "abbreviation": "AS",
+        "population" : "58000",
         "situation": {
             "state" : "NO",
             "travel" : "All flights receive heavy screening on arrival",
@@ -45,6 +49,7 @@
     {
         "name": "Andora",
         "abbreviation": "AD",
+        "population" : "84000",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed",
@@ -57,6 +62,7 @@
     {
         "name": "Angola",
         "abbreviation": "AO",
+        "population" : "13068000",
         "situation": {
             "state" : "NO",
             "travel" : "Travellers from China, South Korea, Iran, Italy, Portugal, Spain and France undergo screenings upon arrival."
@@ -148,7 +154,7 @@
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
-            "health" : "Visits to medical facilities prohibited, y",
+            "health" : "Visits to medical facilities prohibited.",
             "shop" : "Checking of temperature before entering the malls",
             "travel" : "Borders with Iran, Georgia, Russia and Turkey are closed."
         }
