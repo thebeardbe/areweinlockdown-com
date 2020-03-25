@@ -332,6 +332,16 @@
         }
     },
     {
+        "name": "Burma / Myanmar",
+        "abbreviation": "MN",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders are closed for foreigners.",
+            "shop" : "Thermal screening in volunteer shops",
+            "note" : "<a href=\"https://mohs.gov.mm/Main/content/publication/2019-ncov\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
         "name": "Burundi",
         "abbreviation": "BI",
         "situation": {
@@ -1300,13 +1310,22 @@
         }
     },
     {
+        "name": "Mayotte",
+        "abbreviation": "YT",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Curfew from 8pm till 6am in major cities",
+            "remark" : "But updates needed from locals."
+        }
+    },
+    {
         "name": "Mexico",
         "abbreviation": "MX",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
-            "school" : "Easter break extended from 20th of March till 20th of april.",
-            "travel" : "Is considering closing it borders with the US."
+            "school" : "Schools closed from 20th of March till 20th of april.",
+            "note" : "<a href=\"https://coronavirus.gob.mx/\" target=\"_blank\">More info</a>, More restrictions on state level"
         }
     },
     {
@@ -1323,7 +1342,11 @@
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
-            "note" : "More updates needed!"
+            "shop" :"All non essentail shops are closed. 1 person per family for shopping",
+            "restaurant" :"Bars and restaurants are closed. Delivery and take-away are allowed.",
+            "event" : "Ban on all recreational events, sports, culture and other",
+            "travel" : "Borders are closed for foreigners. Airports are closed.",
+            "note" : "State of emergency declared on 16th of March"
         }
     },
     {
@@ -1331,7 +1354,23 @@
         "abbreviation": "MC",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions in place."
+            "quarantaine" : "Curfew between 10pm and 5am. Stay at home policy",
+            "shop" :"All non essentail shops are closed. 1 person per family for shopping",
+            "event" : "All events and group activities are prohibited.",
+            "note" : "<a href=\"https://covid19.mc/\" target=\"_blank\">More info</a>"
+
+        }
+    },
+    {
+        "name": "Mongolia",
+        "abbreviation": "MN",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "travel" : "All borders closed for foreigners. All commercial international flights, passenger rail and car traffic suspended",
+            "restaurant" :"Bars are closed. Reduction of opening hours of restaurants",
+            "event" : "Ban on all gatherings till 30th of april",
+            "note" : "<a href=\"http://www.mfa.gov.mn/?lang=en/\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -1351,6 +1390,17 @@
             "restaurant" : "Restaurants and bars are closed, Delivery allowed",
             "shop" : "Markets and non essential shops closed",
             "travel" : "Airspace closed for all European flights."
+        }
+    },
+    {
+        "name": "Mozambique",
+        "abbreviation": "MZ",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed.",
+            "event" : "Ban on all recreational events, sports, culture and other with 50 or more participants",
+            "travel" : "All borders closed for foreigners. Self-quarantaine for every traveller.",
+            "note" : "<a href=\"http://www.misau.gov.mz/\" target=\"_blank\">More info</a>"
         }
     },
     {
