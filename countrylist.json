@@ -71,6 +71,7 @@
     {
         "name": "Anguilla",
         "abbreviation": "AI",
+        "population" : "13300",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed in the week of 16th of March 2020",
@@ -81,6 +82,7 @@
     {
         "name": "Antigua & Barbuda",
         "abbreviation": "AG",
+        "population" : "87000",
         "situation": {
             "state" : "NO",
             "travel" : "No access to travellers who travelled in the last 28 days in China, Italy, Iran, Japan, Korea, Singapore, France and Germany"
@@ -89,6 +91,7 @@
     {
         "name": "Argentina",
         "abbreviation": "AR",
+        "population" : "41343000",
         "situation": {
             "state" : "YES",
             "Remark" : "These restrictions will be in place till form the 19the of march till the 31st of march 2020",
@@ -104,6 +107,7 @@
     {
         "name": "Armenia",
         "abbreviation": "AM",
+        "population" : "2968000",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other with 20 or more participants",
@@ -116,6 +120,7 @@
     {
         "name": "Aruba",
         "abbreviation": "AW",
+        "population" : "71600",
         "situation": {
             "state" : "NO",
             "travel" : "No entry for all travellers.",
@@ -126,6 +131,7 @@
     {
         "name": "Australia",
         "abbreviation": "AU",
+        "population" : "21515750",
         "situation": {
             "state" : "NO",
             "travel" : "Every traveller arriving, must self-quarantaine for 14 days. No cruiseship docking",
@@ -137,6 +143,7 @@
     {
         "name": "Austria",
         "abbreviation": "AT",
+        "population" : "8205000",
         "situation": {
             "state" : "YES",
             "event" : "Ban on all recreational events, sports, culture and other. No gathering above 5 persons.",
@@ -151,6 +158,7 @@
     {
         "name": "Azerbijan",
         "abbreviation": "AZ",
+        "population" : "8303500",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -162,6 +170,7 @@
     {
         "name": "Bahamas",
         "abbreviation": "BS",
+        "population" : "301800",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Curfew from 9pm till 5am",
@@ -174,6 +183,7 @@
     {
         "name": "Bahrain",
         "abbreviation": "BH",
+        "population" : "738000",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed",
@@ -183,6 +193,7 @@
     {
         "name": "Bangladesh",
         "abbreviation": "BD",
+        "population" : "156118500",
         "situation": {
             "state" : "NO",
             "travel" : "Travellers from Europe not allowed. Thermal screeners at all ports of entry."
@@ -191,6 +202,7 @@
     {
         "name": "Barbados",
         "abbreviation": "BB",
+        "population" : "285650",
         "situation": {
             "state" : "NO",
             "travel" : "Visitors from Iran, USA, UK and Europe, mandatory 14-day quarantaine. Thermal screening at ports of entry."
@@ -199,6 +211,7 @@
     {
         "name": "Belarus",
         "abbreviation": "BY",
+        "population" : "9685000",
         "situation": {
             "state" : "NO",
             "event" : "Large scale events suspended.",
@@ -209,6 +222,7 @@
     {
         "name": "Belgium",
         "abbreviation": "BE",
+        "population" : "10403000",
         "situation": {
             "state" : "YES",
             "remark" : "Following restrictions in effect from 18th of March 2020 12pm till 5th of april 2020:",
@@ -224,6 +238,7 @@
     {
         "name": "Belize",
         "abbreviation": "BZ",
+        "population" : "314500",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other large than 100 persons.",
@@ -235,6 +250,7 @@
     {
         "name": "Benin",
         "abbreviation": "BJ",
+        "population" : "905600",
         "situation": {
             "state" : "NO",
             "travel" : "Travellers have to self-quarantaine.",
@@ -247,6 +263,7 @@
     {
         "name": "Bermuda",
         "abbreviation": "BM",
+        "population" : "65350",
         "situation": {
             "state" : "NO",
             "travel" : "Complete travel ban for foreigners",
@@ -256,6 +273,7 @@
     {
         "name": "Bhutan",
         "abbreviation": "BT",
+        "population" : "699850",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -265,6 +283,7 @@
     {
         "name": "Bolivia",
         "abbreviation": "BO",
+        "population" : "9947500",
         "situation": {
             "state" : "NO",
             "travel" : "Ban on all international flights. Borders closed for foreigners.",
@@ -278,6 +297,7 @@
     {
         "name": "Bosnia and Herzegovina",
         "abbreviation": "BA",
+        "population" : "4590000",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -290,6 +310,7 @@
     {
         "name": "Botswana",
         "abbreviation": "BW",
+        "population" : "2029300",
         "situation": {
             "state" : "NO",
             "travel" : "Banned entry for all travellers from hina, Japan, South Korea, Iran, USA, the United Kingdom, Austria, Belgium, Denmark, France, Germany, Italy, Netherlands, Norway, Spain, Sweden, Switzerland, and India.",
@@ -299,6 +320,7 @@
     {
         "name": "Brasil",
         "abbreviation": "BR",
+        "population" : "201103350",
         "situation": {
             "state" : "NO",
             "travel" : "Borders with Venezuela closed, other borders under consideration.",
@@ -310,6 +332,7 @@
     {
         "name": "Brunei",
         "abbreviation": "BN",
+        "population" : "395000",
         "situation": {
             "state" : "NO",
             "travel" : "All travellers need to quarantaine for 2 weeks. Temperature screening in place",
@@ -319,6 +342,7 @@
     {
         "name": "Bulgaria",
         "abbreviation": "BG",
+        "population" : "7148800",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Non essential transport prohibited between cities and provinces.",
@@ -332,6 +356,7 @@
     {
         "name": "Burkina Faso",
         "abbreviation": "BF",
+        "population" : "16241800",
         "situation": {
             "state" : "NO",
             "remark" : "No restrictions in place."
@@ -340,6 +365,7 @@
     {
         "name": "Burma / Myanmar",
         "abbreviation": "MN",
+        "population" : "53414400",
         "situation": {
             "state" : "NO",
             "travel" : "Borders are closed for foreigners.",
@@ -350,6 +376,7 @@
     {
         "name": "Burundi",
         "abbreviation": "BI",
+        "population" : "9863100",
         "situation": {
             "state" : "NO",
             "travel" : "Screening at port of entry."
@@ -358,6 +385,7 @@
     {
         "name": "Cambodia",
         "abbreviation": "KH",
+        "population" : "1453700",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other",
@@ -368,6 +396,7 @@
     {
         "name": "Cameroon",
         "abbreviation": "CM",
+        "population" : "19294150",
         "situation": {
             "state" : "NO",
             "travel" : "All borders closed for foreigners."
@@ -376,6 +405,7 @@
     {
         "name": "Canada",
         "abbreviation": "CA",
+        "population" : "33679000",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
@@ -386,6 +416,7 @@
     {
         "name" : "Cape Verde",
         "abbreviation" : "CV",
+        "population" : "508650",
         "situation" : {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other with significant public",
@@ -398,6 +429,7 @@
     {
         "name": "Cayman Islands",
         "abbreviation": "KY",
+        "population" : "44270",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed in the week of 16th of March 2020",
@@ -408,6 +440,7 @@
     {
         "name": "Central African Republic",
         "abbreviation": "CF",
+        "population" : "4844920",
         "situation": {
             "state" : "NO",
             "travel" : "Temperature screening at ports of entry."
@@ -416,6 +449,7 @@
     {
         "name": "Chad",
         "abbreviation": "TD",
+        "population" : "10543650",
         "situation": {
             "state" : "NO",
             "travel" : "Temperature screening at ports of entry."
@@ -424,6 +458,7 @@
     {
         "name": "Chile",
         "abbreviation": "CL",
+        "population" : "16746500",
         "situation": {
             "state" : "NO",
             "note" : "State of exception declared on 18th of march for 90 days. <a href=\"https://www.gob.cl/coronavirus/\" target=\"_blank\">More info</a>",
@@ -437,6 +472,7 @@
     {
         "name": "China",
         "abbreviation": "CN",
+        "population" : "1330044000",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Lockdown in some cities, mainly in the province of Hubei.",
@@ -447,6 +483,7 @@
     {
         "name": "Christmas Island",
         "abbreviation": "CX",
+        "population" : "1500",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Some infected people from Australia are sent to Christmas Island for quarantaine"
@@ -455,6 +492,7 @@
     {
         "name": "Colombia",
         "abbreviation": "CO",
+        "population" : "47790000",
         "situation": {
             "state" : "NO",
             "travel" : "All international flights suspended starting 23rd of March 2020. Borders closed for foreigners.",
@@ -466,6 +504,7 @@
     {
         "name": "Comoros",
         "abbreviation": "KM",
+        "population" : "773400",
         "situation": {
             "state" : "NO",
             "travel" : "Flights with Mayotte and Réunion suspended. International travellers quarantained.",
@@ -475,6 +514,7 @@
     {
         "name": "Cook Islands",
         "abbreviation": "CK",
+        "population" : "21388",
         "situation": {
             "state" : "NO",
             "travel" : "Self-quarantaine for all international travellers. Flights from French Polynesia, Australia and the United States Post-poned.",
@@ -485,6 +525,7 @@
     {
         "name": "Costa Rica",
         "abbreviation": "CR",
+        "population" : "4516220",
         "situation": {
             "state" : "NO",
             "school" : "Schools closed for physical lessons, education through virtual class rooms",
@@ -497,6 +538,7 @@
     {
         "name": "Croatia",
         "abbreviation": "HR",
+        "population" : "4491000",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed",
@@ -510,6 +552,7 @@
     {
         "name": "Cuba",
         "abbreviation": "CU",
+        "population" : "11423000",
         "situation": {
             "state" : "NO",
             "travel" : "Borders are closed for foreigners.",
@@ -519,6 +562,7 @@
     {
         "name": "Curaçoa",
         "abbreviation": "CW",
+        "population" : "141770",
         "situation": {
             "state" : "NO",
             "travel" : "All borders closed for foreigners.",
@@ -528,6 +572,7 @@
     {
         "name": "Cyprus",
         "abbreviation": "CY",
+        "population" : "1102677",
         "situation": {
             "state" : "NO",
             "travel" : "Borders closed for foreigners.",
@@ -537,6 +582,7 @@
     {
         "name": "Czech",
         "abbreviation": "CZ",
+        "population" : "10476000",
         "situation": {
             "state" : "YES",
             "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
@@ -550,6 +596,7 @@
     {
         "name" : "Democratic republic of the Congo",
         "abbreviation" : "CD",
+        "population" : "70916440",
         "situation" : {
             "state" : "NO",
             "event" : "All events and group activities are prohibited."
@@ -558,6 +605,7 @@
     {
         "name": "Denmark",
         "abbreviation": "DK",
+        "population" : "5484000",
         "situation": {
             "state" : "YES",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -570,6 +618,7 @@
     {
         "name" : "Djibouti",
         "abbreviation" : "DJ",
+        "population" : "740530",
         "situation" : {
             "state" : "NO",
             "travel" : "Borders are closed. "
@@ -578,6 +627,7 @@
     {
         "name" : "Dominica",
         "abbreviation" : "DM",
+        "population" : "72815",
         "situation" : {
             "state" : "NO",
             "health" : "Dominica China Friendship Hospital no visitors allowed."
@@ -586,6 +636,7 @@
     {
         "name": "Dominican Republic",
         "abbreviation": "DO",
+        "population" : "9826820",
         "situation": {
             "state" : "NO",
             "remark" : "No restrictions"
@@ -594,6 +645,7 @@
     {
         "name": "East Timor",
         "abbreviation": "TL",
+        "population" : "1154625",
         "situation": {
             "state" : "NO",
             "travel" : "Thermal scanning at port of entry. Ban on travellers from China, Iran, Italy and Republic of Korea."
@@ -602,6 +654,7 @@
     {
         "name": "Ecuador",
         "abbreviation": "EC",
+        "population" : "14790610",
         "situation": {
             "state" : "NO",
             "travel" : "Borders closed.",
@@ -612,6 +665,7 @@
     {
         "name": "Egypt",
         "abbreviation": "EG",
+        "population" : "80471870",
         "situation": {
             "state" : "NO",
             "travel" : "Thermal scans on arrival."
@@ -620,6 +674,7 @@
     {
         "name": "El Salvador",
         "abbreviation": "SV",
+        "population" : "6052065",
         "situation": {
             "state" : "YES",
             "quarantaine" : "30 day quarantaine starting 21st of March",
@@ -630,6 +685,7 @@
     {
         "name": "Equatorial Guinea",
         "abbreviation": "GQ",
+        "population" : "1015000",
         "situation": {
             "state" : "NO",
             "travel" : "All international flights suspended from march 15 for 30 days.",
@@ -639,6 +695,7 @@
     {
         "name": "Eritrea",
         "abbreviation": "ER",
+        "population" : "5792985",
         "situation": {
             "state" : "NO",
             "travel" : "Travellers scanned for signs of illness on arrival."
@@ -647,6 +704,7 @@
     {
         "name": "Estonia",
         "abbreviation": "EE",
+        "population" : "1291170",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other with 100+ participants.",
@@ -657,6 +715,7 @@
     {
         "name": "Ethiopia",
         "abbreviation": "ET",
+        "population" : "88013490",
         "situation": {
             "state" : "NO",
             "travel" : "Travellers scanned for signs of illness on arrival."
@@ -665,6 +724,7 @@
     {
         "name": "Falkland Islands",
         "abbreviation": "FK",
+        "population" : "2638",
         "situation": {
             "state" : "NO",
             "health" :"No visitors in health facilities.",
@@ -676,6 +736,7 @@
     {
         "name": "Faroe Islands",
         "abbreviation": "FO",
+        "population" : "48230",
         "situation": {
             "state" : "NO",
             "remark" : "No restrictions in place."
@@ -684,6 +745,7 @@
     {
         "name": "Fiji",
         "abbreviation": "FJ",
+        "population" : "875985",
         "situation": {
             "state" : "NO",
             "event" : "No international events allowed",
@@ -693,6 +755,7 @@
     {
         "name": "Finland",
         "abbreviation": "FI",
+        "population" : "5244000",
         "situation": {
             "state" : "NO",
             "travel": "Borders closed to non-essential travel. Starting 12am on 19 March",
@@ -708,6 +771,7 @@
     {
         "name": "France",
         "abbreviation": "Fr",
+        "population" : "64768390",
         "situation": {
             "state" : "YES",
             "Quarantaine" : "Complete lockdown, only highly necessary shopping allowed, several cities with curfew.",
@@ -719,6 +783,7 @@
     {
         "name": "French Polynesia",
         "abbreviation": "PF",
+        "population" : "270485",
         "situation": {
             "state" : "NO",
             "travel" : "Borders are closed for foreigners. Cruise ships suspended, work permits issue stop, health check on entry."
@@ -727,6 +792,7 @@
     {
         "name": "Gabon",
         "abbreviation": "GA",
+        "population" : "1545255",
         "situation": {
             "state" : "NO",
             "travel" : "International and national flights suspended. Borders closed.",
@@ -740,7 +806,8 @@
     },
     {
         "name": "Gambia",
-        "abbreviation": "GE",
+        "abbreviation": "GM",
+        "population" : "1593255",
         "situation": {
             "state" : "NO",
             "travel" : "Non-gambian travellers banned from 55 covid-19 hotspots.",
@@ -752,6 +819,7 @@
     {
         "name": "Georgia",
         "abbreviation": "GE",
+        "population" : "4630000",
         "situation": {
             "state" : "NO",
             "travel" : "Flights from Italy, China and Iran suspended."
@@ -760,6 +828,7 @@
     {
         "name": "Germany",
         "abbreviation": "DE",
+        "population" : "81802260",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other. All gatherings above 2 are banned.",
@@ -771,6 +840,7 @@
     {
         "name": "Ghana",
         "abbreviation": "GH",
+        "population" : "24339840",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other. From March 16th for 4 weeks",
@@ -781,20 +851,8 @@
     },
     {
         "name": "Gibraltar",
-        "abbreviation": "GH",
-        "situation": {
-            "state" : "YES",
-            "quarantaine" : "Stay at home policy, unnecessary travel prohibited",
-            "event" : "Ban on all recreational events, sports, culture and other. From March 16th for 4 weeks",
-            "school" : "Schools are closed, but provide daycare.",
-            "restaurant" :"Bars and restaurants are closed. Delivery and take-away are allowed.",
-            "travel" : "Borders are closed from 22th of March for 2 weeks.",
-            "note" : "<a href=\"https://www.gibraltar.gov.gi/press-releases/\" target=\"_blank\">More info</a>"
-        }
-    },
-    {
-        "name": "Gibraltar",
-        "abbreviation": "GH",
+        "abbreviation": "GI",
+        "population" : "27884",
         "situation": {
             "state" : "YES",
             "quarantaine" : "Stay at home policy, unnecessary travel prohibited",
@@ -808,6 +866,7 @@
     {
         "name": "Greece",
         "abbreviation": "GR",
+        "population" : "11000000",
         "situation": {
             "state" : "YES",
             "quarantaine" : "All non essential transport prohibited. ",
@@ -819,6 +878,7 @@
     {
         "name": "Greenland",
         "abbreviation": "GL",
+        "population" : "56375",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other with 100 or more people",
@@ -828,6 +888,7 @@
     {
         "name": "Grenada",
         "abbreviation": "GD",
+        "population" : "107820",
         "situation": {
             "state" : "NO",
             "travel" : "Thermal scanning at port of entry. Self-quarantaine for travellers from risk countries."
@@ -836,6 +897,7 @@
     {
         "name": "Guam",
         "abbreviation": "GU",
+        "population" : "159358",
         "situation": {
             "state" : "NO",
             "travel" : "Temperature control at airports.",
@@ -848,6 +910,7 @@
     {
         "name": "Guatemala",
         "abbreviation": "GT",
+        "population" : "13550440",
         "situation": {
             "state" : "NO",
             "travel" : "Banned entry to citizens of all European countries, United States, Canada, Iran, China and South Korea"
@@ -856,6 +919,7 @@
     {
         "name": "Guinea",
         "abbreviation": "GN",
+        "population" : "10324025",
         "situation": {
             "state" : "NO",
             "travel" : "Flights for countries with 30 active transmission cases suspended. Thermal screening at Airport."
@@ -864,6 +928,7 @@
     {
         "name": "Guinea-Bisseau",
         "abbreviation": "GW",
+        "population" : "1565125",
         "situation": {
             "state" : "NO",
             "travel" : "Borders are closed. Air travel suspended",
@@ -875,6 +940,7 @@
     {
         "name": "Guyana",
         "abbreviation": "Gy",
+        "population" : "748486",
         "situation": {
             "state" : "NO",
             "remark" : "No restrictions known."
@@ -883,6 +949,7 @@
     {
         "name": "Haiti",
         "abbreviation": "HT",
+        "population" : "9648925",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Curfew between 8pm - 5am",
@@ -894,6 +961,7 @@
     {
         "name": "Honduras",
         "abbreviation": "HN",
+        "population" : "7989415",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed till 26th of March 2020",
@@ -903,6 +971,7 @@
     {
         "name": "Hong-Kong",
         "abbreviation": "HK",
+        "population" : "6898685",
         "situation": {
             "state" : "NO",
             "travel" : "Borders are closed for foreigners.",
@@ -915,6 +984,7 @@
     {
         "name": "Hungary",
         "abbreviation": "HU",
+        "population" : "9982000",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other above 100 participants",
@@ -925,6 +995,7 @@
     {
         "name": "Iceland",
         "abbreviation": "IS",
+        "population" : "308910",
         "situation": {
             "state" : "NO",
             "school" : "Universities and secondary Schools are closed.",
@@ -934,6 +1005,7 @@
     {
         "name": "India",
         "abbreviation": "IN",
+        "population" : "1173108020",
         "situation": {
             "state" : "YES",
             "quarantaine" : "Full lockdown.",
@@ -947,6 +1019,7 @@
     {
         "name": "Indonesia",
         "abbreviation": "ID",
+        "population" : "242968340",
         "situation": {
             "state" : "NO",
             "quarantaine" : "All students of West Kalimantan are quarantained for 2 weeks",
@@ -957,6 +1030,7 @@
     {
         "name": "Iran",
         "abbreviation": "IR",
+        "population" : "76923300",
         "situation": {
             "state" : "YES",
             "quarantaine" : "Lockdown enforced by the military.",
@@ -970,6 +1044,7 @@
     {
         "name": "Iraq",
         "abbreviation": "IQ",
+        "population" : "29671605",
         "situation": {
             "state" : "NO",
             "remark" : "But restrictions in place from 17th through 24th of March 2020.",
@@ -980,7 +1055,8 @@
     },
     {
         "name": "Ireland",
-        "abbreviation": "IRE",
+        "abbreviation": "IE",
+        "population" : "4622920",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other above 100 participants.",
@@ -991,6 +1067,7 @@
     {
         "name": "Israel",
         "abbreviation": "IL",
+        "population" : "7353985",
         "situation": {
             "state" : "YES",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -1003,6 +1080,7 @@
     {
         "name": "Italy",
         "abbreviation": "IT",
+        "population" : "60340328",
         "situation": {
             "state" : "YES",
             "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
@@ -1014,6 +1092,7 @@
     {
         "name": "Ivory Coast",
         "abbreviation": "CI",
+        "population" : "21058798",
         "situation": {
             "state" : "NO",
             "travel" : "Borders are closed",
@@ -1023,6 +1102,7 @@
     {
         "name": "Jamaica",
         "abbreviation": "JM",
+        "population" : "2847230",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1032,6 +1112,7 @@
     {
         "name": "Japan",
         "abbreviation": "JP",
+        "population" : "127288000",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1041,6 +1122,7 @@
     {
         "name": "Jordan",
         "abbreviation": "JO",
+        "population" : "6407085",
         "situation": {
             "state" : "YES",
             "school" : "Schools are closed.",
@@ -1053,6 +1135,7 @@
     {
         "name": "Kazachstan",
         "abbreviation": "KZ",
+        "population" : "15340000",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Cities of Almaty and Nur-Sultan are under quarantaine",
@@ -1064,6 +1147,7 @@
     {
         "name": "Kenya",
         "abbreviation": "KE",
+        "population" : "40046565",
         "situation": {
             "state" : "NO",
             "travel" : "All borders closed for foreigners"
@@ -1072,6 +1156,7 @@
     {
         "name": "Kiribati",
         "abbreviation": "KI",
+        "population" : "92535",
         "situation": {
             "state" : "NO",
             "travel" : "Ban on all travellers that travelled in infected countries in the last 14 days",
@@ -1081,6 +1166,7 @@
     {
         "name": "Kosovo",
         "abbreviation": "XK",
+        "population" : "1800000",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1091,6 +1177,7 @@
     {
         "name": "Kuwait",
         "abbreviation": "KW",
+        "population" : "2789132",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1103,6 +1190,7 @@
     {
         "name": "Kyrgyzstan",
         "abbreviation": "XK",
+        "population" : "5508625",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed. Since 16th of March for 3 weeks",
@@ -1114,6 +1202,7 @@
     {
         "name": "Laos",
         "abbreviation": "LA",
+        "population" : "6368160",
         "situation": {
             "state" : "NO",
             "event" : "Advice to cancel or postpone large events.",
@@ -1123,6 +1212,7 @@
     {
         "name": "Latvia",
         "abbreviation": "LV",
+        "population" : "2217970",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -1134,6 +1224,7 @@
     {
         "name": "Lebanon",
         "abbreviation": "LB",
+        "population" : "4125245",
         "situation": {
             "state" : "NO",
             "event" : "Advice to cancel or postpone large events.",
@@ -1143,6 +1234,7 @@
     {
         "name": "Lesotho",
         "abbreviation": "LS",
+        "population" : "1919550",
         "situation": {
             "state" : "NO",
             "travel" : "Screening at ports of entry. Self-quarantaine obligated."
@@ -1151,6 +1243,7 @@
     {
         "name": "Liberia",
         "abbreviation": "LR",
+        "population" : "3685075",
         "situation": {
             "state" : "NO",
             "event" : "Events are prohibited",
@@ -1162,6 +1255,7 @@
     {
         "name": "Libya",
         "abbreviation": "LY",
+        "population" : "6461455",
         "situation": {
             "state" : "NO",
             "event" : "Events are prohibited",
@@ -1174,6 +1268,7 @@
     {
         "name": "Liechenstein",
         "abbreviation": "LI",
+        "population" : "35000",
         "situation": {
             "state" : "NO",
             "remark" : "No restrictions in place."
@@ -1182,6 +1277,7 @@
     {
         "name": "Lithuania",
         "abbreviation": "LT",
+        "population" : "2944460",
         "situation": {
             "state" : "YES",
             "quarantaine" : "Full lockdown",
@@ -1192,6 +1288,7 @@
     {
         "name": "Luxembourg",
         "abbreviation": "LU",
+        "population" : "497540",
         "situation": {
             "state" : "NO",
             "restaurants" : "Bars and restaurants close.",
@@ -1201,6 +1298,7 @@
     {
         "name": "Macau",
         "abbreviation": "MO",
+        "population" : "449200",
         "situation": {
             "state" : "NO",
             "event" : "Several entertainment venus closed.",
@@ -1211,6 +1309,7 @@
     {
         "name": "Macedonia",
         "abbreviation": "MK",
+        "population" : "2062295",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -1222,6 +1321,7 @@
     {
         "name": "Madagascar",
         "abbreviation": "MG",
+        "population" : "21281845",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Strict confinement measures in Antananarivo and Toamasina. Curfew in place from 8pm and 5am.",
@@ -1234,6 +1334,7 @@
     {
         "name": "Malawi",
         "abbreviation": "MW",
+        "population" : "15447500",
         "situation": {
             "state" : "NO",
             "travel" : "Travellers from high risk countries have to self-quarantaine for 14 days."
@@ -1241,7 +1342,8 @@
     },
     {
         "name": "Malysia",
-        "abbreviation": "MK",
+        "abbreviation": "MY",
+        "population" : "28274730",
         "situation": {
             "state" : "YES",
             "remark" : "Full lockdown untill march 31st."
@@ -1250,6 +1352,7 @@
     {
         "name": "Maldives",
         "abbreviation": "MV",
+        "population" : "395650",
         "situation": {
             "state" : "NO",
             "restaurant" : "Hotels and guesthouses need to deny new tourists.",
@@ -1260,6 +1363,7 @@
     {
         "name": "Mali",
         "abbreviation": "ML",
+        "population" : "13796355",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other with 50 or more participants",
@@ -1272,6 +1376,7 @@
     {
         "name": "Malta",
         "abbreviation": "MT",
+        "population" : "403000",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -1286,6 +1391,7 @@
     {
         "name": "Marshall Islands",
         "abbreviation": "MH",
+        "population" : "658650",
         "situation": {
             "state" : "NO",
             "travel" : "Travel ban on all travellers not coming from a virus-free country. Complete ban for China, Macau, Hong Kong, Japan, South Korea, Italy and Iran."
@@ -1294,6 +1400,7 @@
     {
         "name": "Mauritania",
         "abbreviation": "MR",
+        "population" : "3205060",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Curfew between 6 pm till 6 am.",
@@ -1306,6 +1413,7 @@
     {
         "name": "Mauritius",
         "abbreviation": "MU",
+        "population" : "1294105",
         "situation": {
             "state" : "YES",
             "quarantaine" : "Curfew 8pm till 8am. 2 week confinement since 20 March 2020.",
@@ -1318,6 +1426,7 @@
     {
         "name": "Mayotte",
         "abbreviation": "YT",
+        "population" : "159042",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Curfew from 8pm till 6am in major cities",
@@ -1327,6 +1436,7 @@
     {
         "name": "Mexico",
         "abbreviation": "MX",
+        "population" : "112468855",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -1337,6 +1447,7 @@
     {
         "name": "Micronesia",
         "abbreviation": "FM",
+        "population" : "107708",
         "situation": {
             "state" : "NO",
             "travel" : "Travel ban on all travellers not coming from a virus-free country."
@@ -1345,6 +1456,7 @@
     {
         "name": "Moldova",
         "abbreviation": "MD",
+        "population" : "4324000",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1358,6 +1470,7 @@
     {
         "name": "Monaco",
         "abbreviation": "MC",
+        "population" : "32965",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Curfew between 10pm and 5am. Stay at home policy",
@@ -1370,6 +1483,7 @@
     {
         "name": "Mongolia",
         "abbreviation": "MN",
+        "population" : "3086920",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1382,6 +1496,7 @@
     {
         "name": "Montenegro",
         "abbreviation": "ME",
+        "population" : "666730",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1391,6 +1506,7 @@
     {
         "name": "Morocco",
         "abbreviation": "MA",
+        "population" : "31627430",
         "situation": {
             "state" : "NO",
             "restaurant" : "Restaurants and bars are closed, Delivery allowed",
@@ -1401,6 +1517,7 @@
     {
         "name": "Mozambique",
         "abbreviation": "MZ",
+        "population" : "22061450",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1410,8 +1527,18 @@
         }
     },
     {
+        "name": "Namibia",
+        "abbreviation": "NA",
+        "population" : "2128470",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Flights suspended from Qatar, Ethiopia and Germany."
+        }
+    },
+    {
         "name": "Netherlands",
         "abbreviation": "NL",
+        "population" : "16645000",
         "situation": {
             "state" : "NO",
             "remark" : "Since 16th of March 2020, following restrictions:",
@@ -1423,16 +1550,9 @@
         }
     },
     {
-        "name": "Namibia",
-        "abbreviation": "NA",
-        "situation": {
-            "state" : "NO",
-            "travel" : "Flights suspended from Qatar, Ethiopia and Germany."
-        }
-    },
-    {
         "name": "New Caledonia",
         "abbreviation": "NC",
+        "population" : "216494",
         "situation": {
             "state" : "NO",
             "travel" : "Numerous flights suspended, health check on entry."
@@ -1441,14 +1561,30 @@
     {
         "name": "New Zealand",
         "abbreviation": "NZ",
+        "population" : "4252275",
+        "situation": {
+            "state" : "YES",
+            "quarantaine" : "Stay at home ",
+            "school" : "Schools are closed",
+            "event" : "All events cancelled.",
+            "shop" : "All busineesses closed except for essential services",
+            "health" : "Major reprioritisation of healthcare services",
+            "travel" : "Borders closed for all travellers"
+        }
+    },
+    {
+        "name": "Nicaragua",
+        "abbreviation": "NI",
+        "population" : "5995928",
         "situation": {
             "state" : "NO",
-            "travel" : "Numerous flights suspended. Cruise ships denied access till june 30, 2020. Travellers need to quarantaine for 2 weeks."
+            "remark" : "No known restrictions applied."
         }
     },
     {
         "name": "Niger",
         "abbreviation": "NE",
+        "population" : "15878271",
         "situation": {
             "state" : "NO",
             "travel" : "All borders closed."
@@ -1457,6 +1593,7 @@
     {
         "name": "Norway",
         "abbreviation": "NO",
+        "population" : "5009150",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1469,6 +1606,7 @@
     {
         "name": "Pakistan",
         "abbreviation": "PK",
+        "population" : "184404790",
         "situation": {
             "state" : "NO",
             "travel" : "Borders closed for foreigners.",
@@ -1480,6 +1618,7 @@
     {
         "name": "Panama",
         "abbreviation": "PA",
+        "population" : "3410675",
         "situation": {
             "state" : "NO",
             "travel" : "Borders closed for foreigners."
@@ -1488,6 +1627,7 @@
     {
         "name": "Papua New Guinea",
         "abbreviation": "PG",
+        "population" : "6064515",
         "situation": {
             "state" : "NO",
             "travel" : "Travel ban on all travellers from Asian countries, Borders with Indonesia closed."
@@ -1496,6 +1636,7 @@
     {
         "name": "Paraguay",
         "abbreviation": "PY",
+        "population" : "6375830",
         "situation": {
             "state" : "NO",
             "travel" : "All borders closed for foreigners.",
@@ -1507,6 +1648,7 @@
     {
         "name": "Peru",
         "abbreviation": "PE",
+        "population" : "29907000",
         "situation": {
             "state" : "YES",
             "remark" : "Restrictions in effect from the 16th till the 31st of March:",
@@ -1519,6 +1661,7 @@
     {
         "name": "Philippines",
         "abbreviation": "PH",
+        "population" : "99900177",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Luzon island in lockdown.",
@@ -1528,6 +1671,7 @@
     {
         "name": "Poland",
         "abbreviation": "PL",
+        "population" : "38500000",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Quarantaine enforced through an app asking to send a geo-located selfie within 20 min of a prompt arriving, failure to follow invites the police.",
@@ -1540,6 +1684,7 @@
     {
         "name": "Portugal",
         "abbreviation": "PT",
+        "population" : "10676000",
         "situation": {
             "state" : "YES",
             "quarantaine" : "Stay at home policy.",
@@ -1552,6 +1697,7 @@
     {
         "name": "Qatar",
         "abbreviation": "QA",
+        "population" : "840825",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1561,6 +1707,7 @@
     {
         "name": "Romania",
         "abbreviation": "RO",
+        "population" : "21959280",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1571,6 +1718,7 @@
     {
         "name": "Russia",
         "abbreviation": "RU",
+        "population" : "140702000",
         "situation": {
             "state" : "NO",
             "health" : "Sick people need to stay in self-quarantaine.",
@@ -1581,6 +1729,7 @@
     {
         "name": "Rwanda",
         "abbreviation": "RW",
+        "population" : "11055975",
         "situation": {
             "state" : "NO",
             "Restaurant" : "Bars and nightclubs closed"
@@ -1589,30 +1738,34 @@
     {
         "name": "Saint Lucia",
         "abbreviation": "LC",
+        "population" : "160920",
         "situation": {
             "state" : "NO",
             "travel" : "No docking of cruiseships. No entry for Travellers from Spain, France, Germany, Iran, China, United Kingdom, Hong Kong, Korea, Japan, Italy and Singapore"
         }
     },
     {
-        "name": "Samao",
-        "abbreviation": "WS",
-        "situation": {
-            "state" : "NO",
-            "travel" : "No docking of cruiseships. International flights restricted."
-        }
-    },
-    {
         "name": "Saint Vincent and the Grenadines",
         "abbreviation": "VC",
+        "population" : "104220",
         "situation": {
             "state" : "NO",
             "travel" : "No restrictions in place"
         }
     },
     {
+        "name": "Samao",
+        "abbreviation": "WS",
+        "population" : "192000",
+        "situation": {
+            "state" : "NO",
+            "travel" : "No docking of cruiseships. International flights restricted."
+        }
+    },
+    {
         "name": "San Marino",
         "abbreviation": "SM",
+        "population" : "31480",
         "situation": {
             "state" : "NO",
             "remark" : "No restrictions in place."
@@ -1621,6 +1774,7 @@
     {
         "name": "Saudi Arabia",
         "abbreviation": "SA",
+        "population" : "25731775",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
@@ -1633,6 +1787,7 @@
     {
         "name": "Serbia",
         "abbreviation": "RS",
+        "population" : "7344845",
         "situation": {
             "state" : "NO",
             "remark" : "State of emergency declared on the 15th of March 2020.",
@@ -1646,6 +1801,7 @@
     {
         "name": "Singapore",
         "abbreviation": "SG",
+        "population" : "4701070",
         "situation": {
             "state" : "NO",
             "travel" : "Borders are closed for foreigners.",
@@ -1655,6 +1811,7 @@
     {
         "name": "Slovakia",
         "abbreviation": "SK",
+        "population" : "5455000",
         "situation": {
             "state" : "NO",
             "event" : "Some Areas ban on all recreational events, sports, culture and other events with 300 participants or more.",
@@ -1667,6 +1824,7 @@
     {
         "name": "Slovenia",
         "abbreviation": "SL",
+        "population" : "2007000",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other with 500 or more participants",
@@ -1677,16 +1835,28 @@
     {
         "name": "South Africa",
         "abbreviation": "ZA",
+        "population" : "49000000",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
             "school" : "Schools and daycare are closed.",
             "travel" : "Border control, borders partially closed."
         }
     },
     {
+        "name": "South Korea",
+        "abbreviation": "KR",
+        "population" : "48422645",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Advised to stay at home, no obligation.",
+            "travel" : "Temperature screening at ports of entry. Self-quarantaine of 14 days for all travellers."
+        }
+    },
+    {
         "name": "Spain",
         "abbreviation": "ES",
+        "population" : "46505965",
         "situation": {
             "state" : "YES",
             "quarantaine" : "Everybody has to stay at home. Army and police enforcement. 3000 euro fine.",
@@ -1698,6 +1868,7 @@
     {
         "name": "Suriname",
         "abbreviation": "SR",
+        "population" : "492830",
         "situation": {
             "state" : "NO",
             "travel" : "All borders closed."
@@ -1706,6 +1877,7 @@
     {
         "name": "Sweden",
         "abbreviation": "SE",
+        "population" : "9555895",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other with 500 or more participants"
@@ -1714,6 +1886,7 @@
     {
         "name": "Switzerland",
         "abbreviation": "CH",
+        "population" : "7581000",
         "situation": {
             "state" : "NO",
             "quarantaine" : "Quarantaine for everybody over 65",
@@ -1726,6 +1899,7 @@
     {
         "name": "Taiwan",
         "abbreviation": "TW",
+        "population" : "22894385",
         "situation": {
             "state": "NO",
             "health": "Mandatory to declare symptoms. Buying restrictions, max 2 face-masks per person.",
@@ -1736,14 +1910,26 @@
     {
         "name": "Thailand",
         "abbreviation": "TH",
+        "population" : "67089500",
         "situation": {
             "state": "NO",
             "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors."
         }
     },
     {
+        "name": "Trinidad and Tobago",
+        "abbreviation": "TT",
+        "population" : "1228690",
+        "situation": {
+            "state": "NO",
+            "school" : "Schools are closed",
+            "travel": "No entry for travellers from China."
+        }
+    },
+    {
         "name": "Turkey",
         "abbreviation": "TR",
+        "population" : "77804120",
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -1752,17 +1938,9 @@
         }
     },
     {
-        "name": "Trinidad and Tobago",
-        "abbreviation": "TT",
-        "situation": {
-            "state": "NO",
-            "school" : "Schools are closed",
-            "travel": "No entry for travellers from China."
-        }
-    },
-    {
         "name": "Uganda",
         "abbreviation": "UH",
+        "population" : "33398680",
         "situation": {
             "state" : "NO",
             "restaurant" : "Bars and restaurants closed.",
@@ -1775,6 +1953,7 @@
     {
         "name": "Ukraine",
         "abbreviation": "UA",
+        "population" : "45415595",
         "situation": {
             "state" : "YES",
             "school" : "Schools are closed.",
@@ -1786,19 +1965,9 @@
         }
     },
     {
-        "name": "Urugay",
-        "abbreviation": "AR",
-        "situation": {
-            "state" : "NO",
-            "travel" : "All borders closed for foreigners",
-            "school" : "Schools are closed",
-            "shop" : "Shopping centers closed",
-            "quarantaine" : "Advised to stay at home, no obligation yet."
-        }
-    },
-    {
         "name": "United Arab Emirates",
         "abbreviation": "UE",
+        "population" : "4975595",
         "situation": {
             "state" : "NO",
             "event" : "All events cancelled.",
@@ -1810,6 +1979,7 @@
     {
         "name": "United Kingdom",
         "abbreviation": "UK",
+        "population" : "62348445",
         "situation": {
             "state" : "YES",
             "remark" : "Restrictions starting the 23th of march till at least the 19th of april.",
@@ -1824,9 +1994,10 @@
     {
         "name": "United States",
         "abbreviation": "US",
+        "population" : "310232865",
         "situation": {
             "state" : "NO",
-            "remark" : "Current situation",
+            "remark" : "Current situation, needs updating going to split it up in different states.",
             "quarantaine" : "California, New York (on 03/22), New Jersey(Probably), Illinois(Probably) and Connecticut(Probably) in lockdown",
             "note" : "More info on state level to be found on <a href=\"https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States#State,_territorial_and_local_response\" target=\"_blank\">wikipedia</a>",
             "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors.",
@@ -1836,16 +2007,21 @@
         }
     }, 
     {
-        "name": "Uruguay",
-        "abbreviation": "UY",
+        "name": "Urugay",
+        "abbreviation": "AR",
+        "population" : "3477000",
         "situation": {
             "state" : "NO",
-            "travel" : "Borders closed for foreigners."        
+            "travel" : "All borders closed for foreigners",
+            "school" : "Schools are closed",
+            "shop" : "Shopping centers closed",
+            "quarantaine" : "Advised to stay at home, no obligation yet."
         }
     },
     {
         "name": "Venezuela",
         "abbreviation": "VE",
+        "population" : "27223230",
         "situation": {
             "state" : "YES",
             "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
@@ -1856,6 +2032,7 @@
     {
         "name": "Zimbabwe",
         "abbreviation": "ZW",
+        "population" : "11651860",
         "situation": {
             "state" : "NO",
             "travel" : "All borders closed for foreigners.",

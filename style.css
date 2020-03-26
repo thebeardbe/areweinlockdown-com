@@ -73,6 +73,10 @@ h3{font-size:15px;}
 #center #lockdownState td:nth-child(1) { font-weight: bold; color: #62c4c3; font-size: 1.2em;}
 #center #lockdownState tr:hover {background: #FF5F5F;}
 #center #lockdownState tr:hover td:nth-child(1) { color: #fff;}
+
+#top h1 {text-align: center; color:#62c4c3; width: 45%;margin: 0 auto;}
+#top .alt {color: #62c4c3;}
+#top #numbers span {font-size: 2em;text-align: center; color:#FF5F5F; width: 50%; margin: 10px auto 40px auto; display: block; font-weight: bold;}
 @media only screen and (max-width:1279px){
 }
 @media only screen and (max-width:1023px){
