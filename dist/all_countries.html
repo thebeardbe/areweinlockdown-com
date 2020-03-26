@@ -62,7 +62,7 @@
                 </a>
             </span>
             <div id="numbers">
-                <h1 class="alt">Total number countries listed</h1>
+                <h1 class="alt">Total number of countries listed</h1>
                 <span id="totalCountries"></span>
                 <h1>Number of countries In Lockdown</h1>
                 <span id="inLockdown"></span>
@@ -111,7 +111,7 @@
                         }
 
                         table.append($('<tr>')
-                            .append($('<td></td>').html(entry.name))
+                            .append($('<td></td>').html("<a href=\"index.html?countrycode="+entry.abbreviation+"\">"+entry.name+"</a>"))
                             .append($('<td></td>').html(lockdown))
                             .append($('<td></td>').html(entry.situation.quarantaine))
                             .append($('<td></td>').html(entry.situation.school))
