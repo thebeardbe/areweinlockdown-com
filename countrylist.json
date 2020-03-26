@@ -231,7 +231,7 @@
             "event" : "All events and group activities are prohibited.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
             "shop" : "All non essential shops are closed.",
-            "travel" : "Borders closed to non-essential travel.",
+            "travel" : "Borders closed to non-essential travel. All travellers need to maintain 2 week self-quarantaine.",
             "note" : "More info on <a href=\"https://www.info-coronavirus.be/en/faqs/\" target=\"_blank\">info-coronavirus.be</a>"
         }
     },
@@ -1536,6 +1536,18 @@
         }
     },
     {
+        "name": "Nepal",
+        "abbreviation": "NP",
+        "population" : "28951850",
+        "situation": {
+            "state" : "YES",
+            "quarantaine" : "Stay at home and only necessary travel allowed.",
+            "school" : "Schools are closed",
+            "travel" : "Flights suspended.",
+            "note" :"<a href=\"https://heoc.mohp.gov.np/recent_alert/update-on-novel-corona-virus-2019_ncov/ \" target=\"_blank\">More info</a>"
+        }
+    },
+    {
         "name": "Netherlands",
         "abbreviation": "NL",
         "population" : "16645000",
@@ -1547,6 +1559,15 @@
             "school" : "Schools are closed. Schools need to provide daycare for children without other solutions.",
             "shop" : "Coffeshops, sport facilities and sex-clubs are closed. Coffeeshops can do take-away.",
             "travel" : "Flights from China, Italy, South-Korea and Iran prohibited."
+        }
+    },
+    {
+        "name": "Netherlands Antilles",
+        "abbreviation": "NC",
+        "population" : "136200",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Travellers from any risk country need to self-quarantaine for 14 days."
         }
     },
     {
@@ -1564,12 +1585,14 @@
         "population" : "4252275",
         "situation": {
             "state" : "YES",
+            "remark" : "restrictions in effect from the 26th of March till the 23th of April:",
             "quarantaine" : "Stay at home ",
             "school" : "Schools are closed",
             "event" : "All events cancelled.",
             "shop" : "All busineesses closed except for essential services",
             "health" : "Major reprioritisation of healthcare services",
             "travel" : "Borders closed for all travellers"
+
         }
     },
     {
@@ -1591,6 +1614,26 @@
         }
     },
     {
+        "name": "Nigeria",
+        "abbreviation": "NG",
+        "population" : "154000000",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Restricted access for travellers from high risk countries. 14 day self-quarantaine mandatory",
+            "note" :"<a href=\"https://ncdc.gov.ng/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "North-Korea",
+        "abbreviation": "KP",
+        "population" : "22912180",
+        "situation": {
+            "state" : "NO",
+            "health" : "Patients frontdoor gets marked. Only Healthcare personnel allowed.",
+            "note" :"More info needed"
+        }
+    },
+    {
         "name": "Norway",
         "abbreviation": "NO",
         "population" : "5009150",
@@ -1604,15 +1647,43 @@
         }
     },
     {
+        "name": "Oman",
+        "abbreviation": "OM",
+        "population" : "2967720",
+        "situation": {
+            "state" : "NO",
+            "travel" : "All national and international flights suspended from 29th of March",
+            "event" : "Ban on all recreational events, sports, culture and other",
+            "shop" : "Non essentail shops are closed.",
+            "restaurant" : "Bars and restaurants are closed. Delivery and take-away are allowed.",
+            "school" :"Schools are closed since 15th of March",
+            "note" : "<a href=\"https://www.moh.gov.om/en/call-center\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
         "name": "Pakistan",
         "abbreviation": "PK",
         "population" : "184404790",
         "situation": {
             "state" : "NO",
-            "travel" : "Borders closed for foreigners.",
+            "travel" : "Borders closed for foreigners. Flights suspended",
+            "school" : "Schools are closed untill 5th of april",
+            "event": "All events and group activities are prohibited.",
             "restaurant" : "Closed in the province of Sindh, rest of the country no known restrictions.",
             "shop" : "Non essentail shops are closed in the Province of Sindh. Rest of country no known restrictions.",
             "quarantaine" : "Province of Sindh on lockdown. Rest of the country no known restrictions."
+            "note" : "<a href=\"http://covid.gov.pk/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Palestine",
+        "abbreviation": "PS",
+        "population" : "3800000",
+        "situation": {
+            "state" : "YES",
+            "travel" : "Borders are closed",
+            "restaurant" : "Bars and restaurants are closed. Delivery and take-away are allowed.",
+            "event" :"All events and group activities are prohibited.",
         }
     },
     {
@@ -1695,13 +1766,40 @@
         }
     },
     {
+        "name": "Puerto Rico",
+        "abbreviation": "PR",
+        "population" : "3916630",
+        "situation": {
+            "state" : "YES",
+            "quarantaine" : "Shelter in place policy. Curfew 9pm till 5am",
+            "school" : "Schools are closed.",
+            "restaurant" : "Restaurants and bars are closed. Take-away is allowed.",
+            "shop": "All non essentail shops are closed.",
+            "travel" : "Borders closed, all international flights suspended"
+        }
+    },
+    {
         "name": "Qatar",
         "abbreviation": "QA",
         "population" : "840825",
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed.",
+            "shop" : "Non essentail shops are closed.",
+            "quarantaine" : "Stay at home policy",
+            "restaurant" : "Bars and restaurants are closed.",
             "travel" : "Borders are closed for travellers from Bangladesh, China, Egypt, France, Germany, India, Iran, Iraq, Italy, Lebanon, Nepal, Pakistan, Philippines, Spain, South Korea, Sri Lanka, Syria and Thailand"
+        }
+    },
+    {
+        "name": "Reunion",
+        "abbreviation": "RE",
+        "population" : "776950",
+        "situation": {
+            "state" : "NO",
+            "event" : "All events and group activities with 100 participants or more are prohibited.",
+            "school" : "Schools are closed.",
+            "travel" : "Borders are closed, travellers need to maintain a 14-day self-quarantaine."
         }
     },
     {
@@ -1710,9 +1808,12 @@
         "population" : "21959280",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Curfew from 10pm till 6am. Stay at home policy",
             "school" : "Schools are closed.",
-            "event" : "Ban on all recreational events, sports, culture and other.",
-            "travel" : "Low traffic border controls closed. Traffic to and from Italy prohibited."
+            "event" : "Ban on all recreational events, sports, culture and other. Gatherings with more than 3 people are banned",
+            "travel" : "Low traffic border controls closed. Traffic to and from Italy prohibited.",
+            "note" : "State of emergency declared on the 18th of March. <a href=\"https://stirioficiale.ro/informatii\" target=\"_blank\">More info</a>"
+            
         }
     },
     {
