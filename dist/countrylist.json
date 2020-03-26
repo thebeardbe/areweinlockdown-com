@@ -774,7 +774,9 @@
         "population" : "64768390",
         "situation": {
             "state" : "YES",
-            "Quarantaine" : "Complete lockdown, only highly necessary shopping allowed, several cities with curfew.",
+            "quarantaine" : "Stay at home, only necessary travel and exercise in a radius of 1km of your home.",
+            "school" : "Schools are closed",
+            "event" : "All events cancelled",
             "shop" : "All non essentail shops are closed.",
             "health" : "Army is setting up emergency hospitals",
             "note" : "<a href=\"https://www.gouvernement.fr/info-coronavirus\" target=\"_blank\">More info in French</a>"
@@ -1792,6 +1794,15 @@
         }
     },
     {
+        "name": "Republic of Congo",
+        "abbreviation": "CG",
+        "population" : "3039125",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Thermal checks at ports of entry. Travellers from China, Korea, Iran, France, United States and Italy need to quarantaine for 14 days."
+        }
+    },
+    {
         "name": "Reunion",
         "abbreviation": "RE",
         "population" : "776950",
@@ -1824,7 +1835,7 @@
             "state" : "NO",
             "health" : "Sick people need to stay in self-quarantaine.",
             "event" : "Some Areas ban on all recreational events, sports, culture and other events with 300 participants or more.",
-            "travel" : "Borders closed. All travelers must maintain a 2 week self-isolation"
+            "travel" : "Borders closed. All national and international passenger flights cancelled"
         }
     },
     {
@@ -1837,12 +1848,35 @@
         }
     },
     {
+        "name": "Saint Kitts and nevis",
+        "abbreviation": "KN",
+        "population" : "51135",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Ban on travellers from China, Iran, Hong Kong, Singapore, South Korea, Japan, the European Union (EU), Switzerland, the United Kingdom, the United States, and the Dutch and French territories in the Caribbean"
+        }
+    },
+    {
         "name": "Saint Lucia",
         "abbreviation": "LC",
         "population" : "160920",
         "situation": {
             "state" : "NO",
             "travel" : "No docking of cruiseships. No entry for Travellers from Spain, France, Germany, Iran, China, United Kingdom, Hong Kong, Korea, Japan, Italy and Singapore"
+        }
+    },
+    {
+        "name": "Saint Martin",
+        "abbreviation": "MF",
+        "population" : "35925",
+        "situation": {
+            "state" : "YES",
+            "quarantaine" : "Stay at home, only necessary travel and exercise in a radius of 1km of your home.",
+            "school" : "Schools are closed",
+            "event" : "All events cancelled",
+            "shop" : "All non essentail shops are closed.",
+            "travel" : "All international flights rom France, Martinique, Guadeloupe, Reunion, Mayotte, Saint Martin, and Saint Barthelemy Suspended.",
+            "note" : "Territory of France, so the same rules."
         }
     },
     {
@@ -1873,6 +1907,15 @@
         }
     },
     {
+        "name": "São Tomé and Príncipe",
+        "abbreviation": "ST",
+        "population" : "175810",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Controls and epidemiological surveillance reinforced at airports and ports."
+        }
+    },
+    {
         "name": "Saudi Arabia",
         "abbreviation": "SA",
         "population" : "25731775",
@@ -1883,6 +1926,19 @@
             "event" : "All events cancelled",
             "quarantaine" : "City of Qatif in lockdown.",
             "travel" : "All international flights suspended"
+        }
+    },
+    {
+        "name": "Senegal",
+        "abbreviation": "SN",
+        "population" : "12323250",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Curfew from 8pm till 6am",
+            "school": "Schools are closed",
+            "event" : "All events prohibited",
+            "travel" : "Suspension of international air travel from 20th of March till April 17.",
+            "note" : "State of emergency declared on the 23th of March. Military enforces the restrictions."
         }
     },
     {
@@ -1900,6 +1956,27 @@
         }
     },
     {
+        "name": "Seychelles",
+        "abbreviation": "SC",
+        "population" : "88340",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders closed for foreigners.",
+            "note" : "State of emergency declared on the 23th of March. Military enforces the restrictions."
+        }
+    },
+    {
+        "name": "Sierra Leone",
+        "abbreviation": "SL",
+        "population" : "5245695",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed from March 27",
+            "travel" : "Passenger flights suspended. Screen of all travellers at points of entry.",
+            "note" : "<a href=\"http://dhse.gov.sl/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
         "name": "Singapore",
         "abbreviation": "SG",
         "population" : "4701070",
@@ -1907,6 +1984,19 @@
             "state" : "NO",
             "travel" : "Borders are closed for foreigners.",
             "note" : "<a href=\"https://www.moh.gov.sg/covid-19\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Sint Maarten",
+        "abbreviation": "SX",
+        "population" : "37430",
+        "situation": {
+            "state" : "NO",
+            "event" : "All events cancelled. Gatherings limited to 5 people.",
+            "shop" : "Non essentail shops are closed.",
+            "restaurant" :"Bars and restaurants are closed. Delivery and take-away are allowed.",
+            "travel" : "Borders are closed for foreigners.",
+            "note" : "<a href=\"http://www.sintmaartengov.org/PressReleases/\" target=\"_blank\">More info</a>"
         }
     },
     {
