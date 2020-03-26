@@ -48,8 +48,8 @@
 <body>
     <div id="top">
         <div class="frame">
-            <h2>COVID-19 Measures taken by governments</h2>
-            <h3 class="remark">Last update: 2020-03-25 19:02:44 CET</h3>
+            <h2><a href="index.html">COVID-19 Measures taken by governments</a></h2>
+            <h3 class="remark">Last update: 2020-03-26 01:30:40 CET</h3>
             <h3 class="remark">Seen something not updated or not correct! Let me know through <a
                     href="https://forms.gle/RjE1TZ7EMii2KFGy9" target="_blank">this form</a> or <a
                     href="https://api.whatsapp.com/send?phone=32486362961" title="Whatsapp">Whatsapp</a>.
@@ -61,15 +61,16 @@
                     <span style="margin-left:15px;font-size:19px !important;">Buy me a coffee</span>
                 </a>
             </span>
-
-            <h1>Countries listed</h1>
-            <span id="totalCountries"></span>
-            <h1>In Lockdown</h1>
-            <span id="inLockdown"></span>
-            <h1>Total people in Lockdown</h1>
-            <span id="totalPeopleLockdown"></span>
-            <h1>School closed</h1>
-            <span id="schoolClosed"></span>
+            <div id="numbers">
+                <h1 class="alt">Total number countries listed</h1>
+                <span id="totalCountries"></span>
+                <h1>Number of countries In Lockdown</h1>
+                <span id="inLockdown"></span>
+                <h1 class="alt">Total number of people in Lockdown</h1>
+                <span id="totalPeopleLockdown"></span>
+                <h1>Number of countries with schools closed</h1>
+                <span id="schoolClosed"></span>
+            </div>
         </div>
     </div>
     <div id="center">
@@ -135,7 +136,7 @@
                     $("#totalCountries").html(total);
                     $("#inLockdown").html(inLockdown);
                     $("#schoolClosed").html(schoolClosed);
-                    $("#totalPeopleLockdown").html(totalPeopleLockdown);
+                    $("#totalPeopleLockdown").html(new Intl.NumberFormat().format(totalPeopleLockdown));
                 });
 
             </script>
