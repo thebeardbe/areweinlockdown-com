@@ -2024,6 +2024,24 @@
         }
     },
     {
+        "name": "Solomon Islands",
+        "abbreviation": "SB",
+        "population" : "559200",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders closed for foreigners"
+        }
+    },
+    {
+        "name": "Somalia",
+        "abbreviation": "SO",
+        "population" : "10112453",
+        "situation": {
+            "state" : "NO",
+            "travel" : "International flights have been suspended."
+        }
+    },
+    {
         "name": "South Africa",
         "abbreviation": "ZA",
         "population" : "49000000",
@@ -2042,6 +2060,15 @@
             "state" : "NO",
             "quarantaine" : "Advised to stay at home, no obligation.",
             "travel" : "Temperature screening at ports of entry. Self-quarantaine of 14 days for all travellers."
+        }
+    },
+    {
+        "name": "South Sudan",
+        "abbreviation": "SS",
+        "population" : "8260490",
+        "situation": {
+            "state" : "NO",
+            "note" : "More updates needed!"
         }
     },
     {
