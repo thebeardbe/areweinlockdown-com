@@ -2397,17 +2397,6 @@
         }
     },
     {
-        "name": "Venezuela",
-        "abbreviation": "VE",
-        "population" : "27223230",
-        "situation": {
-            "state" : "YES",
-            "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
-            "shop" : "Non essential shops closed, 1 trip a week to the store allowed",
-            "health" : "No visitors in health facilities."
-        }
-    },
-    {
         "name": "Zimbabwe",
         "abbreviation": "ZW",
         "population" : "11651860",
