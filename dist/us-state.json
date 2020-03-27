@@ -1,0 +1,332 @@
+[
+    {
+        "name": "Alabama",
+        "abbreviation": "AL",
+        "population" : "4903185",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 13th of March",
+            "event" : "Ban on gatherings above 25 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+        }
+    },
+    {
+        "name": "Alaska",
+        "abbreviation": "AK",
+        "population" : "731545",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 11th of March",
+            "quarantaine" : "Shelter in place on regional level",
+            "event" : "Ban on gatherings above 10 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+        }
+    },
+    {
+        "name": "American Samoa",
+        "abbreviation": "AS",
+        "population" : "55640",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 29th of January",
+            "travel" : "All flights receive heavy screening on arrival",
+            "school" : "Schools are closed.",
+            "note" : "Covid-19 taskforce established."
+        }
+    },
+    {
+        "name": "Arizona",
+        "abbreviation": "AZ",
+        "population" : "7278720",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 11th of March",
+            "event" : "Ban on gatherings above 50 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+        }
+    },
+    {
+        "name": "Arkansas",
+        "abbreviation": "AR",
+        "population" : "3017825",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 13th of March",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+        }
+    },
+    {
+        "name": "California",
+        "abbreviation": "CA",
+        "population" : "39512225",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 4th of March",
+            "quarantaine" : "Shelter in place since 19th of March",
+            "event" : "Ban on all gatherings and events",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Colorado",
+        "abbreviation": "CO",
+        "population" : "5758735",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 10th of March",
+            "quarantaine" : "Shelter in place since 27th of March",
+            "event" : "Ban on gatherings above 10 participants",
+            "school" : "Schools are closed. Daycare is restricted.",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+        }
+    },
+    {
+        "name": "Connecticut",
+        "abbreviation": "CT",
+        "population" : "3565290",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 10th of March",
+            "quarantaine" : "Shelter in place since 23rd of March",
+            "event" : "Ban on all gatherings and events",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Delaware",
+        "abbreviation": "DE",
+        "population" : "973765",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 12th of March",
+            "quarantaine" : "Shelter in place since 24th of March",
+            "event" : "Ban on all gatherings and events",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "District of Columbia",
+        "abbreviation": "DC",
+        "population" : "705750",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 10th of March",
+            "event" : "Ban on all gatherings and events above 10 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Florida",
+        "abbreviation": "FL",
+        "population" : "21477740",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 1st of March",
+            "quarantaine" :"Shelter in place on regional level",
+            "event" :"Ban on all gatherings and events above 10 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+        }
+    },
+    {
+        "name": "Georgia",
+        "abbreviation": "GA",
+        "population" : "10617425",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 14th of March",
+            "quarantaine" :"Shelter in place on regional level",
+            "event" :"Ban on all gatherings and events above 10 participants",
+            "school" : "Schools and are closed. Daycare Open",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+        }
+    },
+    {
+        "name": "Guam",
+        "abbreviation": "GU",
+        "population" : "165720",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Temperature control at airports.",
+            "health" : "Senior centers closed",
+            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
+            "shop" : "Gym's and markets closed",
+            "school" : "Schools are closed."
+        }
+    },
+    {
+        "name": "Hawaii",
+        "abbreviation": "HI",
+        "population" : "1415870",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 4th of March",
+            "quarantaine" : "Shelter in place since 25th of March",
+            "event" : "Ban on all gatherings and events above 11 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Idaho",
+        "abbreviation": "ID",
+        "population" : "1792065",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 13th of March",
+            "quarantaine" : "Shelter in place since 25th of March",
+            "event" : "Ban on all gatherings and events",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Illinois",
+        "abbreviation": "IL",
+        "population" : "12671820",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 9th of March",
+            "quarantaine" : "Shelter in place since 21st of March",
+            "event" : "Ban on all gatherings and events",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Indiana",
+        "abbreviation": "IN",
+        "population" : "6732220",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 6th of March",
+            "quarantaine" : "Shelter in place since 25th of March",
+            "event" : "Ban on all gatherings and events above 11 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Iowa",
+        "abbreviation": "IA",
+        "population" : "3155070",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 9th of March",
+            "event" : "Ban on all gatherings and events above 10 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Kansas",
+        "abbreviation": "KS",
+        "population" : "2913315",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 9th of March",
+            "quarantaine" : "Shelter in place on regional level",
+            "event" : "Ban on all gatherings and events above 50 participants",
+            "school" : "Schools and daycare are closed"
+        }
+    },
+    {
+        "name": "Kentucky",
+        "abbreviation": "KY",
+        "population" : "4467675",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 6th of March",
+            "event" : "Ban on all gatherings and events above 50 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Louisiana",
+        "abbreviation": "LA",
+        "population" : "4648795",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 11th of March",
+            "quarantaine" : "Shelter in place since 23rd of March",
+            "event" : "Ban on all gatherings and events above 11 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Maine",
+        "abbreviation": "ME",
+        "population" : "1344210",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 15th of March",
+            "quarantaine" : "Shelter in place on regional level",
+            "event" : "Ban on all gatherings and events above 10 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "All shops need to have less than 10 people at the same time inside."
+        }
+    },
+    {
+        "name": "Maryland",
+        "abbreviation": "MD",
+        "population" : "6045680",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 5th of March",
+            "event" : "Ban on all gatherings and events above 10 participants",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Massachusettes",
+        "abbreviation": "LA",
+        "population" : "6949505",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 10th of March",
+            "quarantaine" : "Advisory shelter in place since 24th of March",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Michigan",
+        "abbreviation": "MI",
+        "population" : "9986855",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 11th of March",
+            "quarantaine" : "Shelter in place since 24th of March",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+]
