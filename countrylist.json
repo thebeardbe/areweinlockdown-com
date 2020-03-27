@@ -2397,6 +2397,35 @@
         }
     },
     {
+        "name": "Western Sahara",
+        "abbreviation": "EH",
+        "population" : "273010",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions known."
+        }
+    },
+    {
+        "name": "Yemen",
+        "abbreviation": "YE",
+        "population" : "23495360",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "travel" : "Borders closed for foreigners."
+        }
+    },
+    {
+        "name": "Zambia",
+        "abbreviation": "ZM",
+        "population" : "13460305",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Thermal scanning at ports of entry."
+        }
+    },
+    {
         "name": "Zimbabwe",
         "abbreviation": "ZW",
         "population" : "11651860",
