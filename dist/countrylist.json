@@ -1381,7 +1381,7 @@
         "population" : "403000",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
+            "event" : "Ban on all recreational events, sports, culture and other. Groups of max 5 people in the streets.",
             "school" : "Schools are closed.",
             "restaurant" : "Bars and restaurants are closed. Delivery and take-away are allowed.",
             "shop" : "Non essentail shops are closed. If still open fine of 3000 euro",
