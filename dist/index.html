@@ -154,7 +154,7 @@
 
                 const url = 'countrylist.json';
 
-                // Populate dropdown with list of provinces
+                // Populate dropdown with list of Countries
                 $.getJSON(url, function (data) {
                     var total = 1;
                     var inLockdown = 0;
@@ -165,14 +165,14 @@
                         } else {
                             dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
                         }
-                        if (entry.situation.state === "YES") {
+                        if (entry.situation.state === "YES" && entry.abbreviation != "US") {
                             inLockdown++;
+                            if (entry.population) {
+                                totalPeopleLockdown = parseInt(totalPeopleLockdown) + parseInt(entry.population) || 0
+                            }
                         }
                         total++;
-                        if (entry.population && entry.situation.state === "YES") {
-                            totalPeopleLockdown = parseInt(totalPeopleLockdown) + parseInt(entry.population) || 0
-                        }
-                    })
+                    });
                     $("#totalCountries").html(total);
                     $("#inLockdown").html(inLockdown);
                     $("#totalPeopleLockdown").html(new Intl.NumberFormat().format(totalPeopleLockdown));
@@ -183,13 +183,38 @@
                 });
                 if (urlParams.has("countrycode")) {
                     changeOutput(urlParams.get("countrycode"));
+                    if (urlParams.get("countrycode") === "US")
+                    {
+                        let dropdownState = $('#state-dropdown');
+                        dropdownState.empty();
+                        dropdownState.append('<option selected="true" disabled>Choose your State</option>');
+                        dropdownState.prop('selectedIndex', 0);
+                        const urlState = 'us-state.json';
+                        $.getJSON(urlState, function (data) {
+                            $.each(data, function (key, entry) {
+                                if (urlParams.get('statecode') === entry.abbreviation) {
+                                    dropdown.append($('<option></option>').attr('value', entry.abbreviation).attr('selected', 'true').text(entry.name));
+                                } else {
+                                    dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+                                }
+                            })
+                            dropdown.select2({
+                                    
+                            });
+                        });
+                    }
                 }
                 $(document).ready(function () {
                     $("#country-dropdown").change(function () {
                         var selected_value = $("#country-dropdown").val();
                         changeOutput(selected_value);
+                        if (selected_value === "US") {
+
+                        }
                     });
                 });
+
+
                 function changeOutput(val) {
                     $("#answer").hide();
                     $("#event").hide();
