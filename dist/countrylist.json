@@ -2084,12 +2084,44 @@
         }
     },
     {
+        "name": "Sri lanka",
+        "abbreviation": "LK",
+        "population" : "21513990",
+        "situation": {
+            "state" : "NO",
+            "event" : "All events prohibited",
+            "school" : "Schools are closed",
+            "travel" : "Ban on all international flights from most risk countries",
+            "quarantaine" : "Curfew from 6pm till 6am"
+        }
+    },
+    {
+        "name": "Sudan",
+        "abbreviation": "SD",
+        "population" : "35000000",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Curfew 8pm till 6am.",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "travel" : "Borders are closed. All commercial flights cancelled."
+        }
+    },
+    {
         "name": "Suriname",
         "abbreviation": "SR",
         "population" : "492830",
         "situation": {
             "state" : "NO",
             "travel" : "All borders closed."
+        }
+    },
+    {
+        "name": "Swaziland",
+        "abbreviation": "SZ",
+        "population" : "1354050",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Most borders are closed. All commercial flights cancelled."
         }
     },
     {
@@ -2115,6 +2147,17 @@
         }
     },
     {
+        "name": "Syria",
+        "abbreviation": "SY",
+        "population" : "22198110",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed",
+            "event" : "Ban on most events.",
+            "quarantaine" : "Curfew from 6pm till 6am"
+        }
+    },
+    {
         "name": "Taiwan",
         "abbreviation": "TW",
         "population" : "22894385",
@@ -2126,12 +2169,53 @@
         }
     },
     {
+        "name": "Tajikistan",
+        "abbreviation": "TJ",
+        "population" : "7487490",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Taking oral and nasal swabs from incoming travelers",
+            "note" : "<a href=\"http://moh.tj/?lang=en\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Tanzania",
+        "abbreviation": "TZ",
+        "population" : "41892895",
+        "situation": {
+            "state" : "NO",
+            "school" : "Schools are closed",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "travel" : "Screening at ports of entry."
+        }
+    },
+    {
         "name": "Thailand",
         "abbreviation": "TH",
         "population" : "67089500",
         "situation": {
             "state": "NO",
             "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors."
+        }
+    },
+    {
+        "name": "Togo",
+        "abbreviation": "TG",
+        "population" : "6587240",
+        "situation": {
+            "state": "NO",
+            "travel": "Extra screening at the ports of entry",
+            "note" : "<a href=\"https://sante.gouv.tg/node/637\" target=\"_blank\">More info in French</a>"
+        }
+    },
+    {
+        "name": "Tango",
+        "abbreviation": "TO",
+        "population" : "122580",
+        "situation": {
+            "state": "NO",
+            "travel": "Entry restrictions and self-quarantaine for travellers from United States, China, Australia, Italy, South Korea, and several dozen other countries",
+            "note" : "<a href=\"https://sante.gouv.tg/node/637\" target=\"_blank\">More info in French</a>"
         }
     },
     {
@@ -2145,6 +2229,16 @@
         }
     },
     {
+        "name": "Tunesia",
+        "abbreviation": "TN",
+        "population" : "10589025",
+        "situation": {
+            "state": "NO",
+            "quarantaine" : "Curfew from 6pm till 6am",
+            "event" : "All events and group activities. Gatherings over 3 people banned."
+        }
+    },
+    {
         "name": "Turkey",
         "abbreviation": "TR",
         "population" : "77804120",
@@ -2153,6 +2247,29 @@
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed",
             "travel" : "No flights from China, Germany, France, Italy, Iran, Iraq, Spain, Norway, Denmark, Belgium, South-Korea, Sweden, Austria and the Netherlands. Borders with Iran, Iraq closed"
+        }
+    },
+    {
+        "name": "Turmenistan",
+        "abbreviation": "TM",
+        "population" : "4940915",
+        "situation": {
+            "state": "NO",
+            "travel" : "Travellers may need to undergo tests and might need to pay for them."
+        }
+    },
+    {
+        "name": "U.S. Virgin Islands",
+        "abbreviation": "VI",
+        "population" : "108710",
+        "situation": {
+            "state": "NO",
+            "shop" : "Non essentail shops are closed.",
+            "restaurant" : "Bars and restaurants are closed. Delivery and take-away are allowed.",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "school" : "Schools are closed",
+            "health" : "No visitors in health facilities.",
+            "note" : "Travellers may need to undergo tests and might need to pay for them."
         }
     },
     {
@@ -2234,6 +2351,49 @@
             "school" : "Schools are closed",
             "shop" : "Shopping centers closed",
             "quarantaine" : "Advised to stay at home, no obligation yet."
+        }
+    },
+    {
+        "name": "Uzbekistan",
+        "abbreviation": "UZ",
+        "population" : "27865740",
+        "situation": {
+            "state" : "NO",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "travel" : "Borders closed for foreigners."
+        }
+    },
+    {
+        "name": "Vanuatu",
+        "abbreviation": "VU",
+        "population" : "221550",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders closed for foreigners."
+        }
+    },
+    {
+        "name": "Venezuela",
+        "abbreviation": "VE",
+        "population" : "27223230",
+        "situation": {
+            "state" : "YES",
+            "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
+            "shop" : "Non essential shops closed, 1 trip a week to the store allowed",
+            "health" : "No visitors in health facilities."
+        }
+    },
+    {
+        "name": "Vietnam",
+        "abbreviation": "VN",
+        "population" : "89571130",
+        "situation": {
+            "state" : "NO",
+            "quarantaine" : "Everybody is obligated to wear a face mask in public.",
+            "school" : "Schools are closed",
+            "restaurant" :"Bars and restaurants are closed.",
+            "shop" : "Non essentail shops are closed.",
+            "travel" : "Borders closed for foreigners."
         }
     },
     {
