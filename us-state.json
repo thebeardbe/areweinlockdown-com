@@ -329,7 +329,7 @@
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
             "shop" : "Non-essential shops are closed"
         }
-    }
+    },
     {
         "name": "Michigan",
         "abbreviation": "MI",
@@ -380,7 +380,7 @@
             "quarantaine" : "Shelter in place on regional level",
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools are voluntary closed. Daycare Open",
-            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
 
         }
     },
@@ -502,7 +502,7 @@
             "remark" : "State of emergency since 13th of March",
             "event" : "Ban on all gatherings and events above 50 participants.",
             "school" : "Schools and daycare are closed",
-            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
         }
     },
     {
@@ -556,6 +556,19 @@
             "remark" : "State of emergency since 6th of March",
             "quarantaine" : "Shelter in place on regional level",
             "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Rhode Island",
+        "abbreviation": "RI",
+        "population" : "1059360",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 9th of March",
+            "event" : "Ban on all gatherings and events above 25 participants.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
             "shop" : "Non-essential shops are closed"
