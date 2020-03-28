@@ -1749,7 +1749,8 @@
         "population" : "3916630",
         "situation": {
             "state" : "YES",
-            "quarantaine" : "Shelter in place policy. Curfew 9pm till 5am",
+            "remark" : "State of emergency declared on the 12th of March.",
+            "quarantaine" : "Shelter in place policy since March 15. Curfew 9pm till 5am",
             "school" : "Schools are closed.",
             "restaurant" : "Restaurants and bars are closed. Take-away is allowed.",
             "shop": "All non essentail shops are closed.",
