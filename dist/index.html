@@ -163,7 +163,7 @@
                 const urlCountry = 'countrylist.json'; 
                 var total = 1;
                 var inLockdown = 0;
-                var totalPeopleLockdown;          
+                var totalPeopleLockdown = 1;          
                 $.getJSON(urlCountry, function (data) {
                     var totalPeopleInLockdown;
                     $.each(data, function (key, entry) {
@@ -182,13 +182,11 @@
                     });
                     $("#totalCountries").html(total);
                     $("#inLockdown").html(inLockdown);
-                    totalPeopleLockdown = totalPeopleInLockdown;
+                    afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
                     dropdown.select2({
                     
                     });
-                    ;
                 });
-                console.log(totalPeopleLockdown);
                 // --------------------------------------------
                 // | Populate dropdown with list of US States |
                 // --------------------------------------------
@@ -200,6 +198,7 @@
                 const urlState = 'us-state.json';
                 
                 $.getJSON(urlState, function (data) {
+                    var totalPeopleInLockdown = 0;
                     $.each(data, function (key, entry) {
                         if (urlParams.get('statecode') === entry.abbreviation) {
                             dropdownState.append($('<option></option>').attr('value', entry.abbreviation).attr('selected', 'true').text(entry.name));
@@ -208,17 +207,16 @@
                         }
                         if (entry.situation.state === "YES") {
                             if (entry.population) {
-                                totalPeopleLockdown = parseInt(totalPeopleLockdown) + parseInt(entry.population) || 0
+                                totalPeopleInLockdown = parseInt(totalPeopleInLockdown) + parseInt(entry.population) || 0
                             }
                         }
                     })
+                    afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
                     dropdownState.select2({
                             
                     });
                 });
                 $("#state-select").hide();
-                
-                $("#totalPeopleLockdown").html(new Intl.NumberFormat().format(totalPeopleLockdown));
 
                 // ------------------------------------------------
                 // | Check for Country and or State params in URL |
@@ -253,6 +251,16 @@
                         changeOutput(selected_state, urlState, "state");
                     });
                 });
+
+                // --------------------------------
+                // | Function to handle JSON call |
+                // --------------------------------
+                function afterJson(val, key) {
+                    if (key === "totalPeopleLockdown"){
+                        totalPeopleLockdown = parseInt(totalPeopleLockdown) + parseInt(val);
+                        $("#totalPeopleLockdown").html(new Intl.NumberFormat().format(totalPeopleLockdown));
+                    }
+                }
 
                 // -----------------------------------
                 // | Function to show or hide values |
@@ -333,7 +341,7 @@
 
             </script>
 
-            <h3 class="remark">Last update: 2020-03-27 10:01:30 CET</h3>
+            <h3 class="remark">Last update: 2020-03-28 17:13:41 CET</h3>
             <h3 class="remark">Seen something not updated or not correct! Let me know through <a
                     href="https://forms.gle/RjE1TZ7EMii2KFGy9" target="_blank">this form</a> or <a
                     href="https://api.whatsapp.com/send?phone=32486362961" title="Whatsapp">Whatsapp</a>.</h3>

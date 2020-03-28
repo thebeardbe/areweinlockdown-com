@@ -2298,6 +2298,7 @@
             "event" : "Gatherings above 2 persons are not allowed.",
             "school" : "Schools are closed",
             "restaurant" : "Bars and restaurants are closed.",
+            "shop" : "Non essentail shops are closed.",
             "note" :"<a href=\"https://www.gov.uk/search/news-and-communications?topical_events%5B%5D=coronavirus-covid-19-uk-government-response\" target=\"_blank\">More info</a>"
             
         }

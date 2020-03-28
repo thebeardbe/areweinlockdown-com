@@ -303,7 +303,7 @@
     },
     {
         "name": "Massachusettes",
-        "abbreviation": "LA",
+        "abbreviation": "MA",
         "population" : "6949505",
         "situation": {
             "state" : "NO",
@@ -312,7 +312,8 @@
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
-            "shop" : "Non-essential shops are closed"
+            "shop" : "Non-essential shops are closed",
+            "health" : "Allowed pharmacists to make and sell their own hand sanitizer"
         }
     },
     {

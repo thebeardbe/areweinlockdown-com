@@ -66,14 +66,14 @@ h3{font-size:15px;}
 
 /* Table styling */
 
-#center #lockdownState { border-spacing: 0; font-size: 1.3em; position: relative;}
-#center #lockdownState th {background: #62c4c3; position: sticky; top: 0px;}
-#center #lockdownState tr > th, #center #lockdownState tr > td{padding: 8px; border: 1px solid #62c4c3;margin:0px;}
-#center #lockdownState tr > th { border-color: #fff;}
-#center #lockdownState td {border-left-width: 0; border-bottom-width: 0; }
-#center #lockdownState td:nth-child(1) { font-weight: bold; color: #62c4c3; font-size: 1.2em;}
-#center #lockdownState tr:hover {background: #FF5F5F;}
-#center #lockdownState tr:hover td:nth-child(1) { color: #fff;}
+#center #lockdownState, #center #lockdownUSState { border-spacing: 0; font-size: 1.3em; position: relative;}
+#center #lockdownState th, #center #lockdownUSState th {background: #62c4c3; position: sticky; top: 0px;}
+#center #lockdownState tr > th, #center #lockdownState tr > td, #center #lockdownUSState tr > th, #center #lockdownUSState tr > td {padding: 8px; border: 1px solid #62c4c3;margin:0px;}
+#center #lockdownState tr > th, #center #lockdownUSState tr > th{ border-color: #fff;}
+#center #lockdownState td, #center #lockdownUSState td {border-left-width: 0; border-bottom-width: 0; }
+#center #lockdownState td:nth-child(1), #center #lockdownUSState td:nth-child(1){ font-weight: bold; color: #62c4c3; font-size: 1.2em;}
+#center #lockdownState tr:hover, #center #lockdownUSState tr:hover {background: #FF5F5F;}
+#center #lockdownState tr:hover td:nth-child(1), #center #lockdownUSState tr:hover td:nth-child(1) { color: #fff;}
 
 #top h1, #center #numbers h1 {text-align: center; color:#62c4c3; width: 45%;margin: 0 auto;}
 #top #numbers span, #center #numbers span {font-size: 2em;text-align: center; color:#FF5F5F; width: 50%; margin: 10px auto 40px auto; display: block; font-weight: bold;}
