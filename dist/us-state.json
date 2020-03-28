@@ -8,7 +8,7 @@
             "remark" : "State of emergency since 13th of March",
             "event" : "Ban on gatherings above 25 participants",
             "school" : "Schools and daycare are closed",
-            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
         }
     },
     {
@@ -21,7 +21,7 @@
             "quarantaine" : "Shelter in place on regional level",
             "event" : "Ban on gatherings above 10 participants",
             "school" : "Schools and daycare are closed",
-            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
         }
     },
     {
@@ -45,7 +45,7 @@
             "remark" : "State of emergency since 11th of March",
             "event" : "Ban on gatherings above 50 participants",
             "school" : "Schools and daycare are closed",
-            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
         }
     },
     {
@@ -56,7 +56,7 @@
             "state" : "NO",
             "remark" : "State of emergency since 13th of March",
             "school" : "Schools and daycare are closed",
-            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
         }
     },
     {
@@ -83,7 +83,7 @@
             "quarantaine" : "Shelter in place since 27th of March",
             "event" : "Ban on gatherings above 10 participants",
             "school" : "Schools are closed. Daycare is restricted.",
-            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
         }
     },
     {
@@ -137,7 +137,7 @@
             "quarantaine" :"Shelter in place on regional level",
             "event" :"Ban on all gatherings and events above 10 participants",
             "school" : "Schools and daycare are closed",
-            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
         }
     },
     {
@@ -150,7 +150,7 @@
             "quarantaine" :"Shelter in place on regional level",
             "event" :"Ban on all gatherings and events above 10 participants",
             "school" : "Schools and are closed. Daycare Open",
-            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
         }
     },
     {
@@ -328,5 +328,5 @@
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
             "shop" : "Non-essential shops are closed"
         }
-    },
+    }
 ]

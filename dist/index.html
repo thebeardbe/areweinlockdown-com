@@ -57,6 +57,9 @@
             <h1 id="page-title">Are we in <strong>LOCKDOWN</strong>?</h1>
             <div id="selection">
                 <select id="country-dropdown"></select>
+                <span id="state-select">
+                    <select id="state-dropdown"></select>
+                </span>
             </div>
             <div>
                 <h3><a href="all_countries.html">Overview of all countries</a></h3>
@@ -133,6 +136,10 @@
                 // -------------------------------
                 // |  Code for STATE OF LOCKDOWN |
                 // -------------------------------
+
+                // ------------------
+                // | HIDE all icons |
+                // ------------------
                 $("#answer").hide();
                 $("#event").hide();
                 $("#school").hide();
@@ -142,23 +149,23 @@
                 $("#quarantaine").hide();
                 $("#restaurant").hide();
                 $("#note").hide();
+                $("#state-dropdown").hide();
+                
+                // --------------------------------------------
+                // | Populate dropdown with list of Countries |
+                // --------------------------------------------
 
                 let dropdown = $('#country-dropdown');
-
                 dropdown.empty();
                 var urlParams = new URLSearchParams(window.location.search);
-
                 dropdown.append('<option selected="true" disabled>Choose your country</option>');
-
                 dropdown.prop('selectedIndex', 0);
-
-                const url = 'countrylist.json';
-
-                // Populate dropdown with list of Countries
-                $.getJSON(url, function (data) {
-                    var total = 1;
-                    var inLockdown = 0;
-                    var totalPeopleLockdown = 0;
+                const urlCountry = 'countrylist.json'; 
+                var total = 1;
+                var inLockdown = 0;
+                var totalPeopleLockdown;          
+                $.getJSON(urlCountry, function (data) {
+                    var totalPeopleInLockdown;
                     $.each(data, function (key, entry) {
                         if (urlParams.get('countrycode') === entry.abbreviation) {
                             dropdown.append($('<option></option>').attr('value', entry.abbreviation).attr('selected', 'true').text(entry.name));
@@ -168,54 +175,92 @@
                         if (entry.situation.state === "YES" && entry.abbreviation != "US") {
                             inLockdown++;
                             if (entry.population) {
-                                totalPeopleLockdown = parseInt(totalPeopleLockdown) + parseInt(entry.population) || 0
+                                totalPeopleInLockdown = parseInt(totalPeopleInLockdown) + parseInt(entry.population) || 0
                             }
                         }
                         total++;
                     });
                     $("#totalCountries").html(total);
                     $("#inLockdown").html(inLockdown);
-                    $("#totalPeopleLockdown").html(new Intl.NumberFormat().format(totalPeopleLockdown));
+                    totalPeopleLockdown = totalPeopleInLockdown;
                     dropdown.select2({
-
+                    
                     });
-
+                    ;
                 });
+                console.log(totalPeopleLockdown);
+                // --------------------------------------------
+                // | Populate dropdown with list of US States |
+                // --------------------------------------------
+
+                let dropdownState = $('#state-dropdown');
+                dropdownState.empty();
+                dropdownState.append('<option selected="true" disabled>Choose your State</option>');
+                dropdownState.prop('selectedIndex', 0);
+                const urlState = 'us-state.json';
+                
+                $.getJSON(urlState, function (data) {
+                    $.each(data, function (key, entry) {
+                        if (urlParams.get('statecode') === entry.abbreviation) {
+                            dropdownState.append($('<option></option>').attr('value', entry.abbreviation).attr('selected', 'true').text(entry.name));
+                        } else {
+                            dropdownState.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+                        }
+                        if (entry.situation.state === "YES") {
+                            if (entry.population) {
+                                totalPeopleLockdown = parseInt(totalPeopleLockdown) + parseInt(entry.population) || 0
+                            }
+                        }
+                    })
+                    dropdownState.select2({
+                            
+                    });
+                });
+                $("#state-select").hide();
+                
+                $("#totalPeopleLockdown").html(new Intl.NumberFormat().format(totalPeopleLockdown));
+
+                // ------------------------------------------------
+                // | Check for Country and or State params in URL |
+                // ------------------------------------------------
+
                 if (urlParams.has("countrycode")) {
-                    changeOutput(urlParams.get("countrycode"));
                     if (urlParams.get("countrycode") === "US")
                     {
-                        let dropdownState = $('#state-dropdown');
-                        dropdownState.empty();
-                        dropdownState.append('<option selected="true" disabled>Choose your State</option>');
-                        dropdownState.prop('selectedIndex', 0);
-                        const urlState = 'us-state.json';
-                        $.getJSON(urlState, function (data) {
-                            $.each(data, function (key, entry) {
-                                if (urlParams.get('statecode') === entry.abbreviation) {
-                                    dropdown.append($('<option></option>').attr('value', entry.abbreviation).attr('selected', 'true').text(entry.name));
-                                } else {
-                                    dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
-                                }
-                            })
-                            dropdown.select2({
-                                    
-                            });
-                        });
+                        if (urlParams.has("statecode")) {
+                            changeOutput(urlParams.get("statecode"), urlState, "state");
+                        }else {
+                            changeOutput(urlParams.get("countrycode"), urlCountry, "country");
+                        }
+                        $("#state-select").show();
+                    }else {
+                        changeOutput(urlParams.get("countrycode"), urlCountry, "country");
+                        $("#state-select").hide();
                     }
                 }
                 $(document).ready(function () {
                     $("#country-dropdown").change(function () {
                         var selected_value = $("#country-dropdown").val();
-                        changeOutput(selected_value);
+                        changeOutput(selected_value, urlCountry, "country");
                         if (selected_value === "US") {
-
+                            $("#state-select").show();
+                        }else{
+                            $("#state-select").hide();
                         }
+                    });
+                    $("#state-dropdown").change(function () {
+                        var selected_state = $("#state-dropdown").val();
+                        changeOutput(selected_state, urlState, "state");
                     });
                 });
 
-
-                function changeOutput(val) {
+                // -----------------------------------
+                // | Function to show or hide values |
+                // | val= country / state code       |
+                // | url= JSON url                   |
+                // | code = switch for UrlParams     |
+                // -----------------------------------
+                function changeOutput(val, url, code) {
                     $("#answer").hide();
                     $("#event").hide();
                     $("#school").hide();
@@ -225,7 +270,12 @@
                     $("#quarantaine").hide();
                     $("#restaurant").hide();
                     $("#note").hide();
-                    urlParams.set('countrycode', val);
+                    if (code === "country") {
+                        urlParams.set('countrycode', val);
+                    }else if (code === "state") {
+                        urlParams.set('statecode', val);
+                    }
+                    
                     window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
                     $("#answer").show();
                     $.getJSON(url, function (data) {
