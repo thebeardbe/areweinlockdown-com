@@ -573,6 +573,149 @@
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
             "shop" : "Non-essential shops are closed"
         }
+    },
+    {
+        "name": "South Carolina",
+        "abbreviation": "SC",
+        "population" : "5148715",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 13th of March",
+            "quarantaine" : "Shelter in place on regional level",
+            "event" : "Ban on all gatherings and events above 50 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
+        }
+    },
+    {
+        "name": "South Dakota",
+        "abbreviation": "SD",
+        "population" : "884660",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 13th of March",
+            "event" : "Ban on all gatherings and events above 50 participants.",
+            "school" : "Schools and daycare are closed"
+        }
+    },
+    {
+        "name": "Tennessee",
+        "abbreviation": "TN",
+        "population" : "6833175",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 12th of March",
+            "quarantaine" : "Shelter in place on regional level",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
+        }
+    },
+    {
+        "name": "Texas",
+        "abbreviation": "TX",
+        "population" : "28995880",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 13th of March",
+            "quarantaine" : "Shelter in place on regional level",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
+        }
+    },
+    {
+        "name": "Utah",
+        "abbreviation": "UT",
+        "population" : "1359710",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 6th of March",
+            "quarantaine" : "Shelter in place on regional level",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
+        }
+    },
+    {
+        "name": "Vermont",
+        "abbreviation": "VT",
+        "population" : "623990",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 16th of March",
+            "quarantaine" : "Shelter in place since 25th of March",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Virginia",
+        "abbreviation": "VA",
+        "population" : "8535520",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 12th of March",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Washington",
+        "abbreviation": "WA",
+        "population" : "7614895",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 29th of February",
+            "quarantaine" : "Shelter in place since 23th of March",
+            "event" : "Ban on all gatherings and events",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "West Virginia",
+        "abbreviation": "WV",
+        "population" : "1787150",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 4th of March",
+            "quarantaine" : "Shelter in place since 23th of March",
+            "event" : "Ban on all gatherings and events",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Wisconsin",
+        "abbreviation": "WI",
+        "population" : "5822435",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 12th of March",
+            "quarantaine" : "Shelter in place since 25th of March",
+            "event" : "Ban on all gatherings and events",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Wyoming",
+        "abbreviation": "WY",
+        "population" : "1359710",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 12th of March",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
+        }
     }
-    
 ]
