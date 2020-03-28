@@ -36,17 +36,6 @@
         }
     },
     {
-        "name": "American Samoa",
-        "abbreviation": "AS",
-        "population" : "58000",
-        "situation": {
-            "state" : "NO",
-            "travel" : "All flights receive heavy screening on arrival",
-            "note" : "Covid-19 taskforce established.",
-            "school" : "Schools are closed."
-        }
-    },
-    {
         "name": "Andora",
         "abbreviation": "AD",
         "population" : "84000",
@@ -897,19 +886,6 @@
         }
     },
     {
-        "name": "Guam",
-        "abbreviation": "GU",
-        "population" : "159358",
-        "situation": {
-            "state" : "NO",
-            "travel" : "Temperature control at airports.",
-            "health" : "Senior centers closed",
-            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
-            "shop" : "Gym's and markets closed",
-            "school" : "Schools are closed."
-        }
-    },
-    {
         "name": "Guatemala",
         "abbreviation": "GT",
         "population" : "13550440",
@@ -1381,7 +1357,7 @@
         "population" : "403000",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other.",
+            "event" : "Ban on all recreational events, sports, culture and other. Groups of max 5 people in the streets.",
             "school" : "Schools are closed.",
             "restaurant" : "Bars and restaurants are closed. Delivery and take-away are allowed.",
             "shop" : "Non essentail shops are closed. If still open fine of 3000 euro",
@@ -2322,6 +2298,7 @@
             "event" : "Gatherings above 2 persons are not allowed.",
             "school" : "Schools are closed",
             "restaurant" : "Bars and restaurants are closed.",
+            "shop" : "Non essentail shops are closed.",
             "note" :"<a href=\"https://www.gov.uk/search/news-and-communications?topical_events%5B%5D=coronavirus-covid-19-uk-government-response\" target=\"_blank\">More info</a>"
             
         }

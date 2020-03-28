@@ -49,7 +49,7 @@
     <div id="top">
         <div class="frame">
             <h2><a href="index.html">COVID-19 Measures taken by governments</a></h2>
-            <h3 class="remark">Last update: 2020-03-27 10:01:36 CET</h3>
+            <h3 class="remark">Last update: 2020-03-28 17:13:25 CET</h3>
             <h3 class="remark">Seen something not updated or not correct! Let me know through <a
                     href="https://forms.gle/RjE1TZ7EMii2KFGy9" target="_blank">this form</a> or <a
                     href="https://api.whatsapp.com/send?phone=32486362961" title="Whatsapp">Whatsapp</a>.
@@ -74,9 +74,12 @@
             </div>
         </div>
     </div>
+    
     <div id="center">
         <div class="frame">
             <h2 id="stats"></h2>
+            <h2>Lockdow state by Country</h2>
+            <h3><a href="#usstates">All states of the USA</a></h3>
             <table id="lockdownState">
                 <tr>
                     <th>Country</th>
@@ -90,20 +93,32 @@
                     <th>Note</th>
                 </tr>
             </table>
+            <h2><a id="usstates">Lockdown State by state in the United States</a></h2>
+            <table id="lockdownUSState">
+                <tr>
+                    <th>State</th>
+                    <th>Lockdown?</th>
+                    <th>Quarantaine?</th>
+                    <th>School</th>
+                    <th>Event</th>
+                    <th>Shops</th>
+                    <th>Travel</th>
+                    <th>Health</th>
+                    <th>Note</th>
+                </tr>
+            </table>
             <div id="answer"></div>
             <script>
                 let table = $('#lockdownState');
-
                 //table.empty();
-
-                const url = 'countrylist.json';
-
+                const urlCountry = 'countrylist.json';
                 // Populate dropdown with list of provinces
-                $.getJSON(url, function (data) {
-                    var total = 1;
-                    var inLockdown = 0;
-                    var schoolClosed = 0;
-                    var totalPeopleLockdown = 0;
+                var totalPeopleLockdown = 0;
+                var total = 1;
+                var inLockdown = 0;
+                var schoolClosed = 0;
+                $.getJSON(urlCountry, function (data) {    
+                    var totalPeopleInLockdown;                
                     $.each(data, function (key, entry) {
                         if (entry.situation.remark) {
                             lockdown = entry.situation.state + ' ' + entry.situation.remark;
@@ -131,14 +146,55 @@
                         }
                         total++;
                         if (entry.population && entry.situation.state ===  "YES") {
-                            totalPeopleLockdown = parseInt(totalPeopleLockdown) + parseInt(entry.population) || 0
+                            totalPeopleInLockdown = parseInt(totalPeopleInLockdown) + parseInt(entry.population) || 0
                         }
                     })
                     $("#totalCountries").html(total);
                     $("#inLockdown").html(inLockdown);
                     $("#schoolClosed").html(schoolClosed);
-                    $("#totalPeopleLockdown").html(new Intl.NumberFormat().format(totalPeopleLockdown));
+                    afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
                 });
+
+                let tableState = $('#lockdownUSState');
+                //table.empty();
+                const urlState = 'us-state.json';
+                // Populate dropdown with list of provinces
+                $.getJSON(urlState, function (data) {
+                    var totalPeopleInLockdown = 0;
+                    $.each(data, function (key, entry) {
+                        if (entry.situation.remark) {
+                            lockdown = entry.situation.state + ' ' + entry.situation.remark;
+                        } else {
+                            lockdown = entry.situation.state;
+                        }
+
+                        tableState.append($('<tr>')
+                            .append($('<td></td>').html("<a href=\"index.html?countrycode=US&statecode="+entry.abbreviation+"\">"+entry.name+"</a>"))
+                            .append($('<td></td>').html(lockdown))
+                            .append($('<td></td>').html(entry.situation.quarantaine))
+                            .append($('<td></td>').html(entry.situation.school))
+                            .append($('<td></td>').html(entry.situation.event))
+                            .append($('<td></td>').html(entry.situation.shop))
+                            .append($('<td></td>').html(entry.situation.travel))
+                            .append($('<td></td>').html(entry.situation.health))
+                            .append($('<td></td>').html(entry.situation.note))
+                            .append($('</tr>')));
+                        if (entry.population && entry.situation.state ===  "YES") {
+                            totalPeopleInLockdown = parseInt(totalPeopleInLockdown) + parseInt(entry.population) || 0
+                        }
+                    })
+                    afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
+                });
+
+                // --------------------------------
+                // | Function to handle JSON call |
+                // --------------------------------
+                function afterJson(val, key) {
+                    if (key === "totalPeopleLockdown"){
+                        totalPeopleLockdown = parseInt(totalPeopleLockdown) + parseInt(val);
+                        $("#totalPeopleLockdown").html(new Intl.NumberFormat().format(totalPeopleLockdown));
+                    }
+                }
 
             </script>
 
