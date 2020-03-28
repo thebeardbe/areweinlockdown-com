@@ -535,8 +535,8 @@
     },
     {
         "name": "Oregon",
-        "abbreviation": "NH",
-        "population" : "1359710",
+        "abbreviation": "OR",
+        "population" : "4217740",
         "situation": {
             "state" : "YES",
             "remark" : "State of emergency since 8th of March",
@@ -545,6 +545,20 @@
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
             "shop" : "Non-essential shops are restricted"
+        }
+    },
+    {
+        "name": "Pennsylvania",
+        "abbreviation": "PE",
+        "population" : "12801990",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 6th of March",
+            "quarantaine" : "Shelter in place on regional level",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
         }
     }
     
