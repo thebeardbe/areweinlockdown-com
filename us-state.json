@@ -436,6 +436,116 @@
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
             "shop" : "Non-essential shops are closed"
         }
+    },
+    {
+        "name": "New Jersey",
+        "abbreviation": "NJ",
+        "population" : "8882190",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 9th of March",
+            "quarantaine" : "Shelter in place since 21st of March",
+            "event" : "Ban on all gatherings and events.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "New Mexico",
+        "abbreviation": "NM",
+        "population" : "2096830",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 11th of March",
+            "quarantaine" : "Shelter in place since 24th of March",
+            "event" : "Ban on all gatherings and events above 6 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "New York",
+        "abbreviation": "NY",
+        "population" : "19453560",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 7th of March",
+            "quarantaine" : "Shelter in place since 22nd of March",
+            "event" : "Ban on all gatherings and events.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "North Carolina",
+        "abbreviation": "NC",
+        "population" : "10488085",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 10th of March",
+            "quarantaine" : "Shelter in place starting the 30th of March",
+            "event" : "Ban on all gatherings and events.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "North Dakota",
+        "abbreviation": "ND",
+        "population" : "762060",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 13th of March",
+            "event" : "Ban on all gatherings and events above 50 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+        }
+    },
+    {
+        "name": "Ohio",
+        "abbreviation": "OH",
+        "population" : "11689100",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 9th of March",
+            "quarantaine" : "Shelter in place since 23th of March",
+            "event" : "Ban on all gatherings and events above 50 participants.",
+            "school" : "Schools are closed. Daycare is restricted",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed",
+            "health" : "Restricted access "
+        }
+    },
+    {
+        "name": "Oklahoma",
+        "abbreviation": "OK",
+        "population" : "3956970",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 15th of March",
+            "event" : "Ban on all gatherings and events above 11 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed on regional level.",
+            "shop" : "Non-essential shops are closed on regional level."
+        }
+    },
+    {
+        "name": "Oregon",
+        "abbreviation": "NH",
+        "population" : "1359710",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 8th of March",
+            "quarantaine" : "Shelter in place since 23th of March",
+            "event" : "Ban on all gatherings and events above 50 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are restricted"
+        }
     }
-
+    
 ]
