@@ -123,10 +123,12 @@
         "population" : "21515750",
         "situation": {
             "state" : "NO",
-            "travel" : "Every traveller arriving, must self-quarantaine for 14 days. No cruiseship docking",
             "restaurant" : "Bars and restaurants are closed. Delivery and take-away is possible.",
-            "event" : "Ban on all recreational events, sports, culture and other with more than 500 participants.",
-            "note" : " Emergency Response Plan for Novel Coronavirus (COVID-19)"
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "school" : "Schools are closed on regional level.",
+            "travel" : "Every traveller arriving, must self-quarantaine for 14 days. No cruiseship docking",
+            "note" : " Emergency Response Plan for Novel Coronavirus (COVID-19) <a href=\"https://www.australia.gov.au/\" target=\"_blank\">More info</a>"
+
         }
     },
     {
@@ -214,7 +216,7 @@
         "population" : "10403000",
         "situation": {
             "state" : "YES",
-            "remark" : "Following restrictions in effect from 18th of March 2020 12pm till 5th of april 2020:",
+            "remark" : "Following restrictions in effect from 18th of March 2020 12pm till 19th of april 2020:",
             "quarantaine" : "Everybody has to stay at home. Except for physical exercise alone or with people living under the same roof.",
             "restaurant" : "Bars and restaurants are closed. Delivery is possible.",
             "event" : "All events and group activities are prohibited.",
@@ -398,7 +400,7 @@
         "situation": {
             "state" : "NO",
             "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
-            "event" : "Several provinces have banned all gatherings larger than 250 participants.",
+            "event" : "Several provinces have banned all gatherings larger than 5 participants.",
             "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed"
         }
     },
@@ -1128,6 +1130,9 @@
         "population" : "40046565",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Curfew from 7pm till 5am",
+            "restaurant" : "Restaurants and bars are closed. Take-away and delivery is allowed.",
+            "event" : "Ban on all recreational events, sports, culture and other",
             "travel" : "All borders closed for foreigners"
         }
     },
