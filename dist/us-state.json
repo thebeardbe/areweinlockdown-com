@@ -330,4 +330,112 @@
             "shop" : "Non-essential shops are closed"
         }
     }
+    {
+        "name": "Michigan",
+        "abbreviation": "MI",
+        "population" : "9986855",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 13th of March",
+            "quarantaine" : "Shelter in place since 27th of March",
+            "event" : "Ban on all gatherings and events.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Minnesota",
+        "abbreviation": "MN",
+        "population" : "5639632",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 11th of March",
+            "quarantaine" : "Shelter in place since 24th of March",
+            "event" : "Ban on all gatherings and events.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Mississippi",
+        "abbreviation": "MS",
+        "population" : "2976150",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 4th of March",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools are closed. Daycare Open",
+            "restaurant" : "Bars and restaurants are regulated on city level"
+        }
+    },
+    {
+        "name": "Missouri",
+        "abbreviation": "MO",
+        "population" : "6137430",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 13th of March",
+            "quarantaine" : "Shelter in place on regional level",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools are voluntary closed. Daycare Open",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+
+        }
+    },
+    {
+        "name": "Montana",
+        "abbreviation": "MT",
+        "population" : "1068780",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 12th of March",
+            "quarantaine" : "Shelter in place since 28th of March",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "Nebraska",
+        "abbreviation": "NE",
+        "population" : "1934410",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 13th of March",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Recommend to close schools and daycare is restricted ",
+            "restaurant" : "Bars and restaurants are restricted, take-away and delivery allowed"
+        }
+    },
+    {
+        "name": "Nevada",
+        "abbreviation": "NV",
+        "population" : "3080160",
+        "situation": {
+            "state" : "NO",
+            "remark" : "State of emergency since 12th of March",
+            "event" : "Ban on all gatherings and events above 10 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    },
+    {
+        "name": "New Hampshire",
+        "abbreviation": "NH",
+        "population" : "1359710",
+        "situation": {
+            "state" : "YES",
+            "remark" : "State of emergency since 13th of March",
+            "quarantaine" : "Shelter in place since 27th of March",
+            "event" : "Ban on all gatherings and events above 50 participants.",
+            "school" : "Schools and daycare are closed",
+            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
+            "shop" : "Non-essential shops are closed"
+        }
+    }
+
 ]
