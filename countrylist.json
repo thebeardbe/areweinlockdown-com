@@ -5,6 +5,7 @@
         "population" : "29121286",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Stay at home policy in Kabul and other cities",
             "event" : "Ban on all sports events",
             "school" : "Schools are closed",
             "shop" : "All non essential shops are closed",
@@ -399,6 +400,7 @@
         "population" : "33679000",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Stay at home policy, not mandatory",
             "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
             "event" : "Several provinces have banned all gatherings larger than 5 participants.",
             "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed"
@@ -468,7 +470,7 @@
             "state" : "NO",
             "quarantaine" : "Lockdown in some cities, mainly in the province of Hubei.",
             "event" : "Ban on all recreational events, sports, culture and other.",
-            "travel" : "Travel restrictions in large parts of the country"
+            "travel" : "Borders closed, Travel restrictions in large parts of the country"
         }
     },
     {
@@ -2226,6 +2228,7 @@
         "population" : "77804120",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "All intercity transport banned",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed",
             "travel" : "No flights from China, Germany, France, Italy, Iran, Iraq, Spain, Norway, Denmark, Belgium, South-Korea, Sweden, Austria and the Netherlands. Borders with Iran, Iraq closed"
