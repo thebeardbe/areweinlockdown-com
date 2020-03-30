@@ -828,6 +828,8 @@
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other. All gatherings above 2 are banned.",
             "school" : "Schools and daycare are closed.",
+            "restaurant" : "Restaurants and bars are closed, Delivery allowed",
+            "shop" : "Non essentail shops are closed.",
             "travel" : "Borders with Austria, Denmark, France, Luxembourg and Switzerland closed from 16th of March 2020.",
             "quarantaine" : "Non essential transport prohibited. Stay at home policy."
         }
@@ -1493,10 +1495,15 @@
         "abbreviation": "MA",
         "population" : "31627430",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "remark" : "Restrictions in effect from the 16th of March till the 20th of April:",
+            "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
+            "school" : "Schools are closed",
             "restaurant" : "Restaurants and bars are closed, Delivery allowed",
             "shop" : "Markets and non essential shops closed",
-            "travel" : "Airspace closed for all European flights."
+            "travel" : "Airspace closed for all European flights.",
+            "event" : "Ban on all recreational events, sports, culture and other",
+            "note" : ""
         }
     },
     {
