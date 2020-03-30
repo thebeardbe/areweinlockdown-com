@@ -977,7 +977,8 @@
         "abbreviation": "HU",
         "population" : "9982000",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "People are allowed to go to work and do basic errands and exercise in the open alone.",
             "event" : "Ban on all recreational events, sports, culture and other above 100 participants",
             "school" : "Schools are closed.",
             "travel" : "Travellers from Italy, China, Iran and South Korea are refused. Border checks at Austrian and Slovenian borders."
@@ -1835,8 +1836,12 @@
         "abbreviation": "RU",
         "population" : "140702000",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Countrywide stay at home policy, regional officials prepare lockdown, Moscow in lockdown.",
             "health" : "Sick people need to stay in self-quarantaine.",
+            "shop" : "All non essentail shops are closed.",
+            "school" : "Schools are closed",
+            
             "event" : "Some Areas ban on all recreational events, sports, culture and other events with 300 participants or more.",
             "travel" : "Borders closed. All national and international passenger flights cancelled"
         }
@@ -2198,7 +2203,8 @@
         "population" : "67089500",
         "situation": {
             "state": "NO",
-            "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors."
+            "quarantaine" : "Land travel banned. Only transport of food and essentials, emergency vehicles and vehicles with permission allowed.",
+            "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation."
         }
     },
     {
