@@ -16,9 +16,9 @@
         "abbreviation": "AK",
         "population" : "731545",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 11th of March",
-            "quarantaine" : "Shelter in place on regional level",
+            "quarantaine" : "Shelter in place since 28th of March",
             "event" : "Ban on gatherings above 10 participants",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
@@ -240,9 +240,9 @@
         "abbreviation": "KS",
         "population" : "2913315",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 9th of March",
-            "quarantaine" : "Shelter in place on regional level",
+            "quarantaine" : "Shelter in place since 30th of March",
             "event" : "Ban on all gatherings and events above 50 participants",
             "school" : "Schools and daycare are closed"
         }
@@ -254,6 +254,7 @@
         "situation": {
             "state" : "NO",
             "remark" : "State of emergency since 6th of March",
+            "quarantaine" : "Advisory shelter in place since 26th of March",
             "event" : "Ban on all gatherings and events above 50 participants",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
@@ -325,20 +326,6 @@
             "remark" : "State of emergency since 11th of March",
             "quarantaine" : "Shelter in place since 24th of March",
             "event" : "Ban on all gatherings and events above 10 participants.",
-            "school" : "Schools and daycare are closed",
-            "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
-            "shop" : "Non-essential shops are closed"
-        }
-    },
-    {
-        "name": "Michigan",
-        "abbreviation": "MI",
-        "population" : "9986855",
-        "situation": {
-            "state" : "YES",
-            "remark" : "State of emergency since 13th of March",
-            "quarantaine" : "Shelter in place since 27th of March",
-            "event" : "Ban on all gatherings and events.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
             "shop" : "Non-essential shops are closed"
