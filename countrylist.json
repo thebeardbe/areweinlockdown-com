@@ -188,6 +188,10 @@
         "population" : "156118500",
         "situation": {
             "state" : "NO",
+            "remark" : "Restrictions in effect from the February 5 2020:",
+            "school" : "Schools are closed",
+            "shop" : "All non essentail shops are closed.",
+            "restaurant" : "Restaurants are closed.",
             "travel" : "Travellers from Europe not allowed. Thermal screeners at all ports of entry."
         }
     },
