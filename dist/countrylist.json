@@ -2096,11 +2096,13 @@
         "abbreviation": "LK",
         "population" : "21513990",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "remark" :"Following restrictions in effect from 21st of March till 10th of april:",
+            "quarantaine" : "Curfew from 6pm till 6am and stay at home outside of curfew",
             "event" : "All events prohibited",
             "school" : "Schools are closed",
-            "travel" : "Ban on all international flights from most risk countries",
-            "quarantaine" : "Curfew from 6pm till 6am"
+            "travel" : "Ban on all international flights from most risk countries"
+            
         }
     },
     {
