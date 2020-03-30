@@ -1683,7 +1683,12 @@
         "abbreviation": "PA",
         "population" : "3410675",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "remark" : "Restrictions in effect from the 25th of March:",
+            "quarantaine" : "Everybody has to stay at home.",
+            "shop" :"All non essentail shops are closed.",
+            "school" : "Schools are closed",
+            "event": "Ban on all recreational events, sports, culture and other.",
             "travel" : "Borders closed for foreigners."
         }
     },
