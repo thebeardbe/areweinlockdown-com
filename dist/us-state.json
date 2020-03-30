@@ -41,7 +41,8 @@
         "abbreviation": "AZ",
         "population" : "7278720",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Shelter in place since 31st of March",
             "remark" : "State of emergency since 11th of March",
             "event" : "Ban on gatherings above 50 participants",
             "school" : "Schools and daycare are closed",
@@ -595,7 +596,7 @@
         "situation": {
             "state" : "NO",
             "remark" : "State of emergency since 12th of March",
-            "quarantaine" : "Shelter in place on regional level",
+            "quarantaine" : "Advisory shelter in place since 30th of March",
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
