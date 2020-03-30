@@ -119,8 +119,9 @@
         "abbreviation": "DC",
         "population" : "705750",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 10th of March",
+            "quarantaine" : "Shelter in place since 30th of March",
             "event" : "Ban on all gatherings and events above 10 participants",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
@@ -645,8 +646,9 @@
         "abbreviation": "VA",
         "population" : "8535520",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 12th of March",
+            "quarantaine" : "Shelter in place since 30th of March",
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
