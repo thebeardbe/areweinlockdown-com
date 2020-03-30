@@ -188,6 +188,10 @@
         "population" : "156118500",
         "situation": {
             "state" : "NO",
+            "remark" : "Restrictions in effect from the February 5 2020:",
+            "school" : "Schools are closed",
+            "shop" : "All non essentail shops are closed.",
+            "restaurant" : "Restaurants are closed.",
             "travel" : "Travellers from Europe not allowed. Thermal screeners at all ports of entry."
         }
     },
@@ -455,6 +459,7 @@
         "situation": {
             "state" : "NO",
             "note" : "State of exception declared on 18th of march for 90 days. <a href=\"https://www.gob.cl/coronavirus/\" target=\"_blank\">More info</a>",
+            "quarantaine" : "Curfew in place",
             "travel" : "Borders closed",
             "school" : "Schools are closed",
             "restaurant" : "Bars, nightclubs and restaurants are closed.",
@@ -650,6 +655,7 @@
         "population" : "14790610",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Curfew in place",
             "travel" : "Borders closed.",
             "school" : "Schools are closed",
             "event" : "Ban on all public activities"
@@ -948,6 +954,7 @@
         "population" : "7989415",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Curfew in place",
             "school" : "Schools are closed till 26th of March 2020",
             "travel" : "Travellers coming from China, Jamaica, United Kingdom, France, Germany, Spain, "
         }
