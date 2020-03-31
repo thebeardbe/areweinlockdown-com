@@ -2251,8 +2251,13 @@
         "abbreviation": "TN",
         "population" : "10589025",
         "situation": {
-            "state": "NO",
-            "quarantaine" : "Curfew from 6pm till 6am",
+            "state": "YES",
+            "remark" : "Following restrictions in effect from 20th of March 2020 till 30th of april 2020:",
+            "quarantaine" : "Full lockdown for everyone except vital departements",
+            "school" :"Schools and daycare are closed.",
+            "shop" :"All non essentail shops are closed.",
+            "restaurant" : "Cafés, bars, restaurants and mosques closed until further notice.",
+            "travel" : "No travel or even use of private vehicle without permission.",
             "event" : "All events and group activities. Gatherings over 3 people banned."
         }
     },
