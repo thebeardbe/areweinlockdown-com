@@ -1336,12 +1336,19 @@
         }
     },
     {
-        "name": "Malysia",
+        "name": "Malaysia",
         "abbreviation": "MY",
         "population" : "28274730",
         "situation": {
             "state" : "YES",
-            "remark" : "Full lockdown untill march 31st."
+            "remark" : "Full lockdown from March 18 till april 14.",
+            "quarantaine" : "Stay at home and limiting citizens' movements to only essential trips (such as to work or the grocery store).",
+            "event" : "Ban on public gatherings of more than 50 individuals.",
+            "school" : "Schools are closed",
+            "shop" : "Non essential shops closed",
+            "restaurant" : "Bars and restaurants are closed. Delivery and take-away are allowed.",
+            "travel" : "Borders closed for foreigners. Citizens need to undergo health-check and self-quarantaine."
+ 
         }
     },
     {
@@ -1960,7 +1967,7 @@
             "shops" : "Public places closed",
             "health" : "Soldiers guarding hospitals.",
             "school" : "Schools are closed",
-            "quarantaine" : "Advice for over 65 to say in quarantaine"
+            "quarantaine" : "Advice for over 65 to say in quarantaine. Curfew for whole population from 5pm till 5am and in weekends from 3pm till 5am."
         }
     },
     {
@@ -2140,7 +2147,7 @@
         "population" : "9555895",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other with 500 or more participants"
+            "event" : "Ban on all recreational events, sports, culture and other with 50 or more participants"
         }
     },
     {
