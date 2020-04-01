@@ -141,7 +141,7 @@
             "event" : "Ban on all recreational events, sports, culture and other. No gathering above 5 persons.",
             "restaurant" : "Restaurants, bars and hotels are closed.",
             "school" : "Schools are closed",
-            "shop" : "All non essential shops are closed. Essential shops open with limited hours.",
+            "shop" : "All non essential shops are closed. Essential shops open with limited hours. Face mask inside store obligated.",
             "travel" : "Borders with Italy and Switzerland closed, German border closed from german side.",
             "quarantaine" : "Only leaving home for necessary duties. Several areas in full lockdown."
 
@@ -583,11 +583,11 @@
         "population" : "10476000",
         "situation": {
             "state" : "YES",
-            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
+            "event" : "Ban on all recreational events, sports, culture and other",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
             "shop" : "All non essentail shops are closed.",
-            "quarantaine" : "Only essential movement prohibited.",
+            "quarantaine" : "Only essential movement prohibited. Obligation to wear a face mask",
             "travel" : "Complete travel ban."
         }
     },
@@ -1721,11 +1721,12 @@
         "abbreviation": "PY",
         "population" : "6375830",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "travel" : "All borders closed for foreigners.",
             "school" : "Schools are closed.",
             "event" : "Large scale events suspended.",
-            "quarantaine" : "Curfew in place"
+            "shop":"All non essentail shops are closed.",
+            "quarantaine" : "Stay at home policy and curfew in place"
         }
     },
     {
@@ -2023,8 +2024,10 @@
             "event" : "Some Areas ban on all recreational events, sports, culture and other events with 300 participants or more.",
             "school" : "Schools are closed.",
             "restaurant" : "Bars and restaurants are closed.",
-            "shop": "All non-vital institutions closed.",
-            "travel" : "Border control reinstated. Airports closed. All non-residents are banned."
+            "shop": "All non-vital institutions closed. Between 9am - 12am only 65+ allowed",
+            "travel" : "Border control reinstated. Airports closed. All non-residents are banned.",
+            "health" : "Hospital only take emergency cases, in case of covid-19 concerns call 0917-222-682.",
+            "quarantaine" : "Obligation to wear a face mask or facial covering."
         }
     },
     {
