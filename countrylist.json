@@ -37,7 +37,7 @@
         }
     },
     {
-        "name": "Andora",
+        "name": "Andorra",
         "abbreviation": "AD",
         "population" : "84000",
         "situation": {
@@ -148,7 +148,7 @@
         }
     },
     {
-        "name": "Azerbijan",
+        "name": "Azerbaijan",
         "abbreviation": "AZ",
         "population" : "8303500",
         "situation": {
@@ -314,7 +314,7 @@
         }
     },
     {
-        "name": "Brasil",
+        "name": "Brazil",
         "abbreviation": "BR",
         "population" : "201103350",
         "situation": {
@@ -558,7 +558,7 @@
         }
     },
     {
-        "name": "Curaçoa",
+        "name": "Curaçao",
         "abbreviation": "CW",
         "population" : "141770",
         "situation": {
@@ -578,7 +578,7 @@
         }
     },
     {
-        "name": "Czech",
+        "name": "Czech Republic",
         "abbreviation": "CZ",
         "population" : "10476000",
         "situation": {
@@ -916,7 +916,7 @@
         }
     },
     {
-        "name": "Guinea-Bisseau",
+        "name": "Guinea-Bissau",
         "abbreviation": "GW",
         "population" : "1565125",
         "situation": {
@@ -960,7 +960,7 @@
         }
     },
     {
-        "name": "Hong-Kong",
+        "name": "Hong Kong",
         "abbreviation": "HK",
         "population" : "6898685",
         "situation": {
@@ -1125,7 +1125,7 @@
         }
     },
     {
-        "name": "Kazachstan",
+        "name": "Kazakhstan",
         "abbreviation": "KZ",
         "population" : "15340000",
         "situation": {
@@ -1261,7 +1261,7 @@
         }
     },
     {
-        "name": "Liechenstein",
+        "name": "Liechtenstein",
         "abbreviation": "LI",
         "population" : "35000",
         "situation": {
@@ -1814,7 +1814,7 @@
         }
     },
     {
-        "name": "Reunion",
+        "name": "Réunion",
         "abbreviation": "RE",
         "population" : "776950",
         "situation": {
@@ -1863,7 +1863,7 @@
         }
     },
     {
-        "name": "Saint Kitts and nevis",
+        "name": "Saint Kitts and Nevis",
         "abbreviation": "KN",
         "population" : "51135",
         "situation": {
@@ -2099,7 +2099,7 @@
         }
     },
     {
-        "name": "Sri lanka",
+        "name": "Sri Lanka",
         "abbreviation": "LK",
         "population" : "21513990",
         "situation": {
@@ -2367,7 +2367,7 @@
         }
     }, 
     {
-        "name": "Urugay",
+        "name": "Uruguay",
         "abbreviation": "UR",
         "population" : "3477000",
         "situation": {
