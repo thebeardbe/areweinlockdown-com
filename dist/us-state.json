@@ -134,9 +134,9 @@
         "abbreviation": "FL",
         "population" : "21477740",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 1st of March",
-            "quarantaine" :"Shelter in place on regional level",
+            "quarantaine" :"Shelter in place since April 3",
             "event" :"Ban on all gatherings and events above 10 participants",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
@@ -147,9 +147,9 @@
         "abbreviation": "GA",
         "population" : "10617425",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 14th of March",
-            "quarantaine" :"Shelter in place on regional level",
+            "quarantaine" :"Shelter in place since April 3",
             "event" :"Ban on all gatherings and events above 10 participants",
             "school" : "Schools and are closed. Daycare Open",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
@@ -282,9 +282,9 @@
         "abbreviation": "ME",
         "population" : "1344210",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 15th of March",
-            "quarantaine" : "Shelter in place on regional level",
+            "quarantaine" : "Shelter in place April 2",
             "event" : "Ban on all gatherings and events above 10 participants",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
@@ -352,8 +352,9 @@
         "abbreviation": "MS",
         "population" : "2976150",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 4th of March",
+            "quarantaine" : "Shelter in place since april 2",
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools are closed. Daycare Open",
             "restaurant" : "Bars and restaurants are regulated on city level"
@@ -404,7 +405,8 @@
         "abbreviation": "NV",
         "population" : "3080160",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine": "Shelter in place since april 1",
             "remark" : "State of emergency since 12th of March",
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools and daycare are closed",
@@ -543,7 +545,7 @@
         "situation": {
             "state" : "YES",
             "remark" : "State of emergency since 6th of March",
-            "quarantaine" : "Shelter in place on regional level",
+            "quarantaine" : "Shelter in place since April 1",
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
@@ -607,9 +609,9 @@
         "abbreviation": "TX",
         "population" : "28995880",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 13th of March",
-            "quarantaine" : "Shelter in place on regional level",
+            "quarantaine" : "Shelter in place since april 2",
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
