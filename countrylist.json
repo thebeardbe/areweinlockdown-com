@@ -529,7 +529,7 @@
         "population" : "4516220",
         "situation": {
             "state" : "NO",
-            "quarantaine" : "Vehicle curfew from 8pm till 5am"
+            "quarantaine" : "Vehicle curfew from 8pm till 5am",
             "school" : "Schools closed for physical lessons, education through virtual class rooms",
             "restaurant" : "Bars, clubs and casinos are closed, 50% capacity in other meeting centers.",
             "shop" : "Cinemas, theaters, and shopping centers closed at 50% of their capacity",
