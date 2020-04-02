@@ -6,7 +6,7 @@
         "situation": {
             "state" : "NO",
             "remark" : "State of emergency since 13th of March",
-            "event" : "Ban on gatherings above 25 participants",
+            "event" : "Ban on gatherings above 10 participants",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
         }
@@ -31,6 +31,7 @@
         "situation": {
             "state" : "NO",
             "remark" : "State of emergency since 29th of January",
+            "event" : "Ban on all gatherings and events above 10 participants",
             "travel" : "All flights receive heavy screening on arrival",
             "school" : "Schools are closed.",
             "note" : "Covid-19 taskforce established."
@@ -56,6 +57,7 @@
         "situation": {
             "state" : "NO",
             "remark" : "State of emergency since 13th of March",
+            "event" :"Ban on all gatherings and events above 10 participants",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
         }
@@ -163,9 +165,9 @@
             "state" : "NO",
             "travel" : "Temperature control at airports.",
             "health" : "Senior centers closed",
-            "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
-            "shop" : "Gym's and markets closed",
-            "school" : "Schools are closed."
+            "event" : "Ban on all recreational events, sports, culture and other",
+            "shop" : "Non-essential shops are closed",
+            "school" : "Schools and dayare closed."
         }
     },
     {

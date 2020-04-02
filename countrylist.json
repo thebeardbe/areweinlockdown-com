@@ -5,11 +5,12 @@
         "population" : "29121286",
         "situation": {
             "state" : "NO",
-            "quarantaine" : "Stay at home policy in Kabul and other cities",
+            "quarantaine" : "Stay at home policy in Kabul and other cities. 65+ need to stay home",
             "event" : "Ban on all sports events",
             "school" : "Schools are closed",
             "shop" : "All non essential shops are closed",
-            "travel" : "Borders with Iran and Pakistan are closed."
+            "travel" : "Borders with Iran and Pakistan are closed.",
+            "note" :"<a href=\"https://moph.gov.af/en/all-news\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -18,9 +19,12 @@
         "population" : "2987000",
         "situation": {
             "state" : "YES",
-            "travel" : "All roads close",
+            "travel" : "All borders closed. Travel by car only between 5am and 8am and 12pm and 1pm",
             "school" : "Schools are closed.",
-            "quarantaine" : "Major cities put in lockdown"
+            "restaurant" : "Restaurants and bars are closed.",
+            "event" :"All events and group activities are prohibited.",
+            "quarantaine" : "Stay at home policy. Essential travel only. Curfew between 1pm and 5am.",
+            "note" :"<a href=\"http://www.ishp.gov.al/\" target=\"_blank\">More info in Albanian</a>"
         }
     },
     {
@@ -29,8 +33,10 @@
         "population" : "34586000",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Curfew in Algiers, Batna, Tizi Ouzou, Setif, Tipaza, Constantine, Medea Oran, El Qued and Boumerdes from 7pm to 7am. Blida in lockdown.",
             "school" : "Schools are closed",
-            "event" : "All events and group activities are prohibited.",
+            "restaurant" : "Restaurants and bars are closed.",
+            "event" : "All events and group activities are prohibited. No gatherings larger than 2 people",
             "travel" : "All international flights suspended",
             "note" : "Programs of disinfecting mass transit and public areas are on-going."
         }
@@ -308,9 +314,11 @@
         "abbreviation": "BW",
         "population" : "2029300",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "remark" : "State of emergency declared on April 3, 2020.",
+            "quarantaine" : "Stay at home policy, unnecessary travel prohibited",
             "travel" : "Banned entry for all travellers from hina, Japan, South Korea, Iran, USA, the United Kingdom, Austria, Belgium, Denmark, France, Germany, Italy, Netherlands, Norway, Spain, Sweden, Switzerland, and India.",
-            "note" : "<a href=\"https://www.cadena3.com/noticia/sociedad/cuarentena-en-argentina-cuales-son-las-excepciones_255395\" target=\"_blank\">More info</a>"
+            "note" : "<a href=\"https://www.facebook.com/OFFICIAL.MOHW.BW/\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -750,6 +758,7 @@
         "population" : "875985",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Capital Suva and Lautoka's in lockdown from April 2",
             "event" : "No international events allowed",
             "travel" : "Cruiseships denied docking. Travel ban on Italy, Iran, South Korea, China"
         }
