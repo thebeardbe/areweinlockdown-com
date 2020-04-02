@@ -46,11 +46,11 @@
         "abbreviation": "AD",
         "population" : "84000",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "school" : "Schools are closed",
             "shop" : "Non essential shops closed",
             "travel" : "Borders closed",
-            "quarantaine" : "closing of all construction and industrial activity.",
+            "quarantaine" : "Stay at home policy, non essential travel prohibited",
             "event" : "All events and group activities are prohibited."
         }
     },
@@ -60,7 +60,10 @@
         "population" : "13068000",
         "situation": {
             "state" : "NO",
-            "travel" : "Travellers from China, South Korea, Iran, Italy, Portugal, Spain and France undergo screenings upon arrival."
+            "remark" : "State of emergency declared on the 27th of March 2020.",
+            "school" : "Schools and daycare are closed.",
+            "event" : "All events and gatherings prohibited.",
+            "travel" : "Borders are closed"
         }
     },
     {
@@ -857,7 +860,8 @@
         "abbreviation": "GH",
         "population" : "24339840",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Stay at home, non essential travel prohibited",
             "event" : "Ban on all recreational events, sports, culture and other. From March 16th for 4 weeks",
             "school" : "Schools and daycare are closed. From March 16th for 4 weeks",
             "travel" : "Borders are closed from 22th of March for 2 weeks.",
@@ -924,7 +928,10 @@
         "population" : "10324025",
         "situation": {
             "state" : "NO",
-            "travel" : "Flights for countries with 30 active transmission cases suspended. Thermal screening at Airport."
+            "remark" : "State of emergency declared on March 24",
+            "school" : "Schools are closed",
+            "quarantaine" : "Curfew in place from 9pm till 5am",
+            "travel" : "Borders closed for foreigners. No vehicle movements from and to capital"
         }
     },
     {
@@ -1252,7 +1259,8 @@
         "abbreviation": "LR",
         "population" : "3685075",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Full lockdown.",
             "event" : "Events are prohibited",
             "school" : "Schools are closed",
             "travel" : "Borders closed, airport closed",
@@ -1871,8 +1879,14 @@
         "abbreviation": "RW",
         "population" : "11055975",
         "situation": {
-            "state" : "NO",
-            "Restaurant" : "Bars and nightclubs closed"
+            "state" : "YES",
+            "event" : "Ban on all recreational events, sports, culture and other",
+            "quarantaine" : "Stay at home. Non essential transport prohibited.",
+            "shop" :"All non essentail shops are closed.",
+            "travel" : "Borders closed",
+            "Restaurant" : "Restaurants and bars are closed.",
+            "school" :"Schools and daycare are closed.",
+            "note" : "<a href=\"https://www.rbc.gov.rw/index.php?id=188\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -1961,8 +1975,8 @@
         "abbreviation": "SN",
         "population" : "12323250",
         "situation": {
-            "state" : "NO",
-            "quarantaine" : "Curfew from 8pm till 6am",
+            "state" : "YES",
+            "quarantaine" : "Curfew from 8pm till 6am. Stay at home non-essential travel prohibited",
             "school": "Schools are closed",
             "event" : "All events prohibited",
             "travel" : "Suspension of international air travel from 20th of March till April 17.",
@@ -1998,9 +2012,11 @@
         "abbreviation": "SL",
         "population" : "5245695",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "remark" : "3 day lockdown from April 4, 2020",
+            "quarantaine" : "Stay at home policy",
             "school" : "Schools are closed from March 27",
-            "travel" : "Passenger flights suspended. Screen of all travellers at points of entry.",
+            "travel" : "Borders are closed for foreigners",
             "note" : "<a href=\"http://dhse.gov.sl/\" target=\"_blank\">More info</a>"
         }
     },
@@ -2470,7 +2486,8 @@
         "abbreviation": "ZW",
         "population" : "11651860",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Nation-wide lockdown",
             "travel" : "All borders closed for foreigners.",
             "event" : "Large events are cancelled.",
             "note" : "National emergency declared."
