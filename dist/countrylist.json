@@ -123,7 +123,8 @@
         "abbreviation": "AU",
         "population" : "21515750",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Stay at home, only necessary travel and exercise.",
             "restaurant" : "Bars and restaurants are closed. Delivery and take-away is possible.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed on regional level.",
@@ -405,9 +406,11 @@
         "situation": {
             "state" : "NO",
             "quarantaine" : "Stay at home policy, not mandatory",
-            "school" : "Schools are closed in British Columbia, Ontario, New Brunswick, Nova Scotia, and Quebec",
-            "event" : "Several provinces have banned all gatherings larger than 5 participants.",
-            "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed"
+            "school" : "Schools are closed except in NWT",
+            "shop" : "All non essentail shops are closed in several provinces.",
+            "restaurant" : "Restaurants and bars are closed in several provinces, reduced capacity in others.",
+            "event" : "Several provinces have banned all gatherings. Some have banned larger than 5. Others have no limit.",
+            "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed, Some provincial borders also closed."
         }
     },
     {
@@ -526,6 +529,7 @@
         "population" : "4516220",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Vehicle curfew from 8pm till 5am"
             "school" : "Schools closed for physical lessons, education through virtual class rooms",
             "restaurant" : "Bars, clubs and casinos are closed, 50% capacity in other meeting centers.",
             "shop" : "Cinemas, theaters, and shopping centers closed at 50% of their capacity",
