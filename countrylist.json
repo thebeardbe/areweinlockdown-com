@@ -290,13 +290,14 @@
         "abbreviation": "BO",
         "population" : "9947500",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "remark" : "Restrictions in effect from the March 25:",
             "travel" : "Ban on all international flights. Borders closed for foreigners.",
             "shop" : "All shops are open from 8am till 3pm",
-            "quarantaine" : "Curfew from 5pm till 6am, workdays from 8am till 1pm.",
+            "quarantaine" : "Full lockdown 24h at home, shopping 1 day in the week depending on your id-card number.",
             "school" : "Schools are closed",
-            "event" : "All events and group activities with 100 participants or more are prohibited.",
-            "note" : "<a href=\"https://www.minsalud.gob.bo/\" target=\"_blank\">Ministry of Health</a>"
+            "event" : "All events and group activities are prohibited.",
+            "note" : "State of “sanitary emergency” declared. <a href=\"https://www.minsalud.gob.bo/\" target=\"_blank\">Ministry of Health</a>"
         }
     },
     {
@@ -331,7 +332,7 @@
         "situation": {
             "state" : "NO",
             "travel" : "Borders with Venezuela closed, other borders under consideration.",
-            "quarantaine" : "Voluntary 7-day quarantaine applied",
+            "quarantaine" : "Voluntary 7-day quarantaine applied, Santa Catarina and São Paulo in lockdown.",
             "note" : "<a href=\"https://www.saude.gov.br/\" target=\"_blank\">More info</a>"
 
         }
@@ -472,7 +473,7 @@
         "situation": {
             "state" : "NO",
             "note" : "State of exception declared on 18th of march for 90 days. <a href=\"https://www.gob.cl/coronavirus/\" target=\"_blank\">More info</a>",
-            "quarantaine" : "Curfew in place",
+            "quarantaine" : "Curfew in place from 10:00 pm to 5:00 am. Regional Lockdowns in place.",
             "travel" : "Borders closed",
             "school" : "Schools are closed",
             "restaurant" : "Bars, nightclubs and restaurants are closed.",
@@ -505,10 +506,12 @@
         "abbreviation": "CO",
         "population" : "47790000",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "travel" : "All international flights suspended starting 23rd of March 2020. Borders closed for foreigners.",
-            "school" : "Schools are closed",
-            "quarantaine" : "All adults over 70 have to stay in their residence till the 31ste of may.",
+            "school" : "Schools and daycare are closed",
+            "shop" : "All non essentail shops are closed.",
+            "restaurant" : "Restaurants and bars are closed.",
+            "quarantaine" : "Shelter in place till at least April 12. All adults over 70 have to stay in their residence till the 31ste of may.",
             "note" : "State of emergency declared. <a href=\"https://d2jsqrio60m94k.cloudfront.net/\" target=\"_blank\">More information</a>"
         }
     },
@@ -538,11 +541,11 @@
         "abbreviation": "CR",
         "population" : "4516220",
         "situation": {
-            "state" : "NO",
-            "quarantaine" : "Vehicle curfew from 8pm till 5am",
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy. Vehicle curfew from 8pm till 5am",
             "school" : "Schools closed for physical lessons, education through virtual class rooms",
-            "restaurant" : "Bars, clubs and casinos are closed, 50% capacity in other meeting centers.",
-            "shop" : "Cinemas, theaters, and shopping centers closed at 50% of their capacity",
+            "restaurant" : "Bars, clubs and casinos are closed.",
+            "shop" : "All non essentail shops are closed.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "note" : "<a href=\"https://www.facebook.com/msaludcr/\" target=\"_blank\">More info on Facebook.</a>"
         }
@@ -642,7 +645,8 @@
         "population" : "72815",
         "situation" : {
             "state" : "NO",
-            "health" : "Dominica China Friendship Hospital no visitors allowed."
+            "health" : "Dominica China Friendship Hospital no visitors allowed.",
+            "travel" : "Flights from Europe, China, South Korea, and Iran. Cruiseships arrivals suspended."
         }
     },
     {
@@ -776,9 +780,9 @@
             "school" : "Schools are closed",
             "event" : "Gatherings above 10 participants are restricted",
             "health": "Visits to senior care and health facilities restricted",
-            "quarantaine" : "Over 70 year old residents required to stay in quarantine",
+            "quarantaine" : "Over 70 year old residents required to stay in quarantine. Uusimaa region borders closed.",
             "shop": "All public sector recreational institutions are closed.",
-            "note" : "State of emergency delcared."
+            "note" : "State of emergency declared."
 
         }
     },
@@ -837,8 +841,13 @@
         "abbreviation": "GE",
         "population" : "4630000",
         "situation": {
-            "state" : "NO",
-            "travel" : "Flights from Italy, China and Iran suspended."
+            "state" : "YES",
+            "quarantaine" : "Curfew from 9pm till 6am. Stay at home. Non-essential travel prohibited",
+            "event" : "Gatherings above 3 persons are not allowed.",
+            "shop" : "Non essentail shops are closed.",
+            "restaurant" : "Restaurants and bars are closed.",
+            "school" : "Schools are closed",
+            "travel" : "Borders closed."
         }
     },
     {
@@ -852,7 +861,7 @@
             "restaurant" : "Restaurants and bars are closed, Delivery allowed",
             "shop" : "Non essentail shops are closed.",
             "travel" : "Borders with Austria, Denmark, France, Luxembourg and Switzerland closed from 16th of March 2020.",
-            "quarantaine" : "Non essential transport prohibited. Stay at home policy."
+            "quarantaine" : "Non essential transport prohibited. Stay at home policy in most states."
         }
     },
     {
@@ -972,9 +981,10 @@
         "abbreviation": "HN",
         "population" : "7989415",
         "situation": {
-            "state" : "NO",
-            "quarantaine" : "Curfew in place",
+            "state" : "YES",
+            "quarantaine" : "Security forces enforced curfew in place, only allowed to go out on specific days depeding on id number. ",
             "school" : "Schools are closed till 26th of March 2020",
+            "shop" : "All non essentail shops are closed. Essential shops only open on Monday, Wednesday and Friday from 9:00 a.m. to 3:00 p.m.",
             "travel" : "Travellers coming from China, Jamaica, United Kingdom, France, Germany, Spain, "
         }
     },
@@ -1057,9 +1067,9 @@
         "abbreviation": "IQ",
         "population" : "29671605",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "But restrictions in place from 17th through 24th of March 2020.",
-            "quarantaine" : "24h curfew on Baghdad",
+            "quarantaine" : "24h curfew on several cities including Bagdad and stay at home policy.",
             "travel" : "Borders closed. International flights cancelled",
             "event" : "Ban on all recreational events, sports, culture and other."
         }
@@ -1069,9 +1079,12 @@
         "abbreviation": "IE",
         "population" : "4622920",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "event" : "Ban on all recreational events, sports, culture and other above 100 participants.",
             "school" : "Schools are closed.",
+            "shop" :"All non essentail shops are closed in several provinces.",
+            "quarantaine" : "Stay at home policy except for shopping for basic necessities, daily exercise, any medical need and travelling to and from essential work. .",
+            "health" : "No visitors in health facilities. Non essential procedures cancelled.",
             "travel" : "Flights from and to some affected areas suspended."
         }
     },
@@ -1197,7 +1210,7 @@
             "school" : "Schools are closed.",
             "shop" : "All non essentail shops are closed.",
             "event" : "All events cancelled",
-            "quarantaine" : "City of Qatif in lockdown.",
+            "quarantaine" : "Curfew from 10pm to 4am. City of Qatif in lockdown.",
             "travel" : "All international flights suspended"
         }
     },
@@ -1240,7 +1253,8 @@
         "abbreviation": "LB",
         "population" : "4125245",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy",
             "event" : "Advice to cancel or postpone large events.",
             "travel" : "Borders closed for foreigners. All flights suspended."
         }
@@ -1273,9 +1287,11 @@
         "population" : "6461455",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Curfew in the whole country in the East from 14:00 to 07:00, in the West from 15:00 to 07:00",
             "event" : "Events are prohibited",
             "school" : "Schools are closed",
             "restaurant" : "Bars and restaurants have to close at 4pm.",
+            "shop" : "All non essentail shops are closed.",
             "travel" : "Borders closed, airport closed",
             "note" : "<a href=\"https://ncdc.org.ly/Ar/\" target=\"_blank\">More info</a>"
         }
@@ -1461,6 +1477,7 @@
         "population" : "112468855",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Mexico city stay at home policy.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools closed from 20th of March till 20th of april.",
             "note" : "<a href=\"https://coronavirus.gob.mx/\" target=\"_blank\">More info</a>, More restrictions on state level"
@@ -1494,7 +1511,7 @@
         "abbreviation": "MC",
         "population" : "32965",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "quarantaine" : "Curfew between 10pm and 5am. Stay at home policy",
             "shop" :"All non essentail shops are closed. 1 person per family for shopping",
             "event" : "All events and group activities are prohibited.",
@@ -1646,7 +1663,11 @@
         "population" : "154000000",
         "situation": {
             "state" : "NO",
-            "travel" : "Restricted access for travellers from high risk countries. 14 day self-quarantaine mandatory",
+            "quarantaine" : "Lagos, FCT and Ogun State are in lockdown",
+            "travel" : "Borders closed",
+            "shop" : "All non essentail shops are closed.",
+            "event" : "Ban on all recreational events, sports, culture and other",
+            "restaurant" : "Restaurants and bars are closed.",
             "note" :"<a href=\"https://ncdc.gov.ng/\" target=\"_blank\">More info</a>"
         }
     },
@@ -1732,8 +1753,12 @@
         "abbreviation": "PG",
         "population" : "6064515",
         "situation": {
-            "state" : "NO",
-            "travel" : "Travel ban on all travellers from Asian countries, Borders with Indonesia closed."
+            "state" : "YES",
+            "quarantaine" : "Travel within the country restricted, Stay at home policy.",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "school" : "Schools and daycare are closed",
+            "shop" : "All non essentail shops are closed.",
+            "travel" : "All borders closed."
         }
     },
     {
@@ -1755,7 +1780,7 @@
         "population" : "29907000",
         "situation": {
             "state" : "YES",
-            "remark" : "Restrictions in effect from the 16th till the 31st of March:",
+            "remark" : "Restrictions in effect from the 16th of March:",
             "travel" : "International and national travel completely forbidden. Personal vehicles banned only public transport",
             "school" : "Schools are closed",
             "quarantaine" : "Curfew from 8pm till 5am. all non essential transport banned.",
@@ -1777,7 +1802,7 @@
         "abbreviation": "PL",
         "population" : "38500000",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "quarantaine" : "Quarantaine enforced through an app asking to send a geo-located selfie within 20 min of a prompt arriving, failure to follow invites the police.",
             "school" : "Schools are closed.",
             "event" : "Ban on all recreational events, sports, culture and other. Quite a lot of parks & all national parks are closed.",
@@ -1830,7 +1855,11 @@
         "abbreviation": "CG",
         "population" : "3039125",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "remark" : "Restrictions in effect from March 31 to at least April 30:",
+            "quarantaine" : "Curfew from 8pm till 5am. Stay at home policy",
+            "shop" : "All non essentail shops are closed.",
+            "event" : "Ban on all recreational events, sports, culture and other",
             "travel" : "Thermal checks at ports of entry. Travellers from China, Korea, Iran, France, United States and Italy need to quarantaine for 14 days."
         }
     },
@@ -1850,8 +1879,8 @@
         "abbreviation": "RO",
         "population" : "21959280",
         "situation": {
-            "state" : "NO",
-            "quarantaine" : "Curfew from 10pm till 6am. Stay at home policy",
+            "state" : "YES",
+            "quarantaine" : "Curfew from 10pm till 6am. Stay at home policy. 65+ only outside for medical procedures or between 11am and 1pm or 8pm and 9pm.",
             "school" : "Schools are closed.",
             "event" : "Ban on all recreational events, sports, culture and other. Gatherings with more than 3 people are banned",
             "travel" : "Low traffic border controls closed. Traffic to and from Italy prohibited.",
@@ -1936,7 +1965,12 @@
         "population" : "192000",
         "situation": {
             "state" : "NO",
-            "travel" : "No docking of cruiseships. International flights restricted."
+            "quarantaine" : "Curfew in place from 2pm to 5am",
+            "restaurant" : "Restaurants and bars are closed. Take-away and delivery is allowed.",
+            "shop" : "Mandatory closing at 2pm, non essential shops closed",
+            "school" : "Schools are closed",
+            "health" : "No visitors in health facilities. ",
+            "travel" : "Borders closed. No docking of cruiseships. International flights restricted."
         }
     },
     {
@@ -1988,13 +2022,14 @@
         "abbreviation": "RS",
         "population" : "7344845",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency declared on the 15th of March 2020.",
             "travel": "Borders closed for foreigners.",
-            "shops" : "Public places closed",
+            "shops" : "Non essential shops closed. Essential shops closed a 3pm.",
             "health" : "Soldiers guarding hospitals.",
             "school" : "Schools are closed",
-            "quarantaine" : "Advice for over 65 to say in quarantaine. Curfew for whole population from 5pm till 5am and in weekends from 3pm till 5am."
+            "restaurant" : "Restaurants and bars are closed. Take-away and delivery is allowed.",
+            "quarantaine" : "Stay at home policy. Advice for over 65 to say in quarantaine. Curfew for whole population from 5pm till 5am and in weekends from 3pm till 5am."
         }
     },
     {
@@ -2094,6 +2129,8 @@
         "situation": {
             "state" : "YES",
             "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
+            "shop" : "All non essentail shops are closed.",
+            "restaurant" : "Restaurants and bars are closed. Take-away and delivery is allowed.",
             "school" : "Schools and daycare are closed.",
             "travel" : "Border control, borders partially closed."
         }
@@ -2243,8 +2280,9 @@
         "population" : "67089500",
         "situation": {
             "state": "NO",
-            "quarantaine" : "Land travel banned. Only transport of food and essentials, emergency vehicles and vehicles with permission allowed.",
-            "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation."
+            "quarantaine" : "10:00 p.m. to 4:00 a.m. Land travel banned. Only transport of food and essentials, emergency vehicles and vehicles with permission allowed.",
+            "travel": "All new arrivals banned.",
+            "event" : "All event "
         }
     },
     {
