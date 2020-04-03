@@ -1,7 +1,9 @@
 @charset "utf-8";/*
-Theme: "Is er al een regering" by WebKrunch
-URL: http://www.webkrunch.be
-E-mail: info@webkrunch.be
+Theme: "Is er al een regering" by WebKrunch adapted by Annick and The Beard
+URL webkrunch: http://www.webkrunch.be
+URL: http://www.annickandthebeard.be
+E-mail: filip@annickandthebeard.be
+
 */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,700);
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
@@ -16,15 +18,22 @@ h3{font-size:15px;}
 .frame{margin:0 auto 0 auto;position:relative;}
 .clearfix{clear:both;}
 .low-opacity{opacity:0.4}
-#top { background: #3a4249;}
-#top .frame {display: flex; width: 1278px;}
-#top .frame ul {flex-grow: 2; display: flex; }
-#top .frame ul li { display: block; height: 34px; flex-basis: auto; font-size: 2em; margin: auto 1%; list-style: none; }
+
+/* Styling top bar */
+
+#top { background: #3a4249; position: fixed; width: 100%; top: 0px; z-index: 1;}
+#top .frame {display: flex; max-width: 1278px; flex-flow: row wrap; justify-content: space-evenly; padding: 10px; max-height: 100%; }
+#top .frame ul { display: flex; flex: 1 25%}
+#top .frame ul > * {flex: 1}
+#top .frame ul li { display: block; height: 34px; font-size: 2em; margin: auto 5%; list-style: none; }
 #top .frame ul li a { display: block; height: 34px; color: #fff;}
 #top .frame ul li a:hover, #top .frame ul li a:active { color: #FF5F5F;}
 #top .frame span {}
+
+/* Styling center */ 
+#center { margin-top: 80px;}
 #center #page-title,
-#center .section-title{text-align:center;}
+#center .section-title{text-align:center; background-color: #62c4c3; padding: 20px 0px; margin-top: 0px; margin-right: 25%; border-radius: 0px 0px 50px 0px; color: #fff;}
 #center #page-title{margin:40px 0;}
 #center h2, #top h2 {text-align: center; text-decoration: underline;font-size: 28px; margin-top: 2em; background-color: #62c4c3}
 #center h3, #top h3 {text-align: center;}
@@ -73,6 +82,7 @@ h3{font-size:15px;}
 
 /* Table styling */
 
+#center table { display: block; overflow-x: scroll; width: 100%}
 #center #lockdownState, #center #lockdownUSState { border-spacing: 0; font-size: 1.3em; position: relative;}
 #center #lockdownState th, #center #lockdownUSState th {background: #62c4c3; position: sticky; top: 0px;}
 #center #lockdownState tr > th, #center #lockdownState tr > td, #center #lockdownUSState tr > th, #center #lockdownUSState tr > td {padding: 8px; border: 1px solid #62c4c3;margin:0px;}
@@ -85,14 +95,34 @@ h3{font-size:15px;}
 #top h1, #center #numbers h1 {text-align: center; color:#62c4c3; width: 45%;margin: 0 auto;}
 #top #numbers span, #center #numbers span {font-size: 2em;text-align: center; color:#FF5F5F; width: 50%; margin: 10px auto 40px auto; display: block; font-weight: bold;}
 
-@media only screen and (max-width:479px){
-	.frame{width:300px;}
-	#top .frame {width: 300px;}
-	#top .frame ul li { font-size: 1em;}
+@media only screen and (max-width:1279px){
+	.frame {max-width: 100%;}
+	#top .frame {max-width: 100%;}
+	.bmc-button img{height: 17px !important;width: 17px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}
+	.bmc-button{padding: 3px 5px 3px 5px !important;line-height: 17px !important;height:30px !important;min-width:150px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#FF5F5F !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 1em !important;letter-spacing:-0.08px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Lato', sans-serif !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}
+	.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}
+	#center { margin-top: 60px;}
 }
-@media only screen and (max-width:319px){
+@media only screen and (max-width:1023px){
+	.frame {max-width: 100%;}
+	#top .frame {max-width: 1023px; padding: 10px;}
+}
+@media only screen and (max-width:767px) and (orientation: portrait){
+	.frame{width:100%;}
+	
+}
+@media only screen and (max-width:479px) and (orientation: portrait){
+	.frame{width:100%;}
+	#top .frame {width: 300px; padding: 10px}
+	#top .frame ul li { font-size: 1.2em;}
+	#center { margin-top: 80px;}
+	#center #virus { width: 300px; height: 300px;}
+	#center #virus #result { padding-top: 130px; font-size: 80px}
+	
+}
+@media only screen and (max-width:319px) and (orientation: portrait){
 	.frame{width:220px;}
-	#top .frame {width: 220px;}
-	#top .frame ul li { font-size: 1em;}
+	#top .frame {width: 220px; padding: 2%}
+
 }
 
