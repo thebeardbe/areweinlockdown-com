@@ -37,35 +37,31 @@
 
 <body>
     <div id="top">
+    </div>
+    <script>
+        // ---------------
+        // | Load header |
+        // ---------------
+        $("#top").load("header.html");
+    </script>
+    <div id="center">
         <div class="frame">
-            <h2><a href="index.html">COVID-19 Measures taken by governments</a></h2>
-            <span id="footer_info"></span>
+            <h1 id="page-title"><span>COVID-19 Measures taken by governments</span></h2>
+            <span id="contact_info"></span>
             <script>
-                $("#footer_info").load("Contact.html");
+                $("#contact_info").load("contact.html");
             </script>
-            <span id="buymeacoffee">
-                <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet">
-                <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/areweinlockdown">
-                    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
-                    <span style="margin-left:15px;font-size:19px !important;">Buy me a coffee</span>
-                </a>
-            </span>
             <div id="numbers">
                 <h2>Quick Facts</h2>
-                <h1 class="alt">Total number of countries listed</h1>
-                <span id="totalCountries"></span>
                 <h1>Number of countries In Lockdown</h1>
                 <span id="inLockdown"></span>
                 <h1 class="alt">Total number of people in Lockdown</h1>
                 <span id="totalPeopleLockdown"></span>
                 <h1>Number of countries with schools closed</h1>
                 <span id="schoolClosed"></span>
+                <h1 class="alt">Total number of countries listed</h1>
+                <span id="totalCountries"></span>
             </div>
-        </div>
-    </div>
-    
-    <div id="center">
-        <div class="frame">
             <h2 id="stats"></h2>
             <h2>Lockdow state by Country</h2>
             <h3><a href="#usstates">All states of the USA</a></h3>
