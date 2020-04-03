@@ -39,21 +39,22 @@
 
 <body>
     <div id="top">
-        <div class="frame">
-        </div>
+        
     </div>
+    <script>
+        // ---------------
+        // | Load header |
+        // ---------------
+        $("#top").load("header.html");
+    </script>
     <div id="center">
         <div class="frame">
-
-            <h1 id="page-title">Are we in <strong>LOCKDOWN</strong>?</h1>
+            <h1 id="page-title"><span class="bg">Are we in <strong>LOCKDOWN</strong>?</span></h1>
             <div id="selection">
                 <select id="country-dropdown"></select>
                 <span id="state-select">
                     <select id="state-dropdown"></select>
                 </span>
-            </div>
-            <div>
-                <h3><a href="all_countries.html">Overview of all countries</a></h3>
             </div>
             <div id="answer">
                 <div id="virus">
@@ -109,20 +110,15 @@
             </div>
             <div id="numbers">
                 <h2>Quick Facts.</h2>
-                <h1 class="alt">Total number of countries listed</h1>
-                <span id="totalCountries"></span>
                 <h1>Number of countries In Lockdown</h1>
                 <span id="inLockdown"></span>
                 <h1 class="alt">Total number of people in Lockdown</h1>
                 <span id="totalPeopleLockdown"></span>
+                <h1>Number of countries with schools closed</h1>
+                <span id="schoolClosed"></span>
+                <h1 class="alt">Total number of countries listed</h1>
+                <span id="totalCountries"></span>
             </div>
-            <span id="buymeacoffee">
-                <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet">
-                <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/areweinlockdown">
-                    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
-                    <span style="margin-left:15px;font-size:19px !important;">Buy me a coffee</span>
-                </a>
-            </span>
             <script>
                 // -------------------------------
                 // |  Code for STATE OF LOCKDOWN |
@@ -154,7 +150,8 @@
                 const urlCountry = 'countrylist.json'; 
                 var total = 1;
                 var inLockdown = 0;
-                var totalPeopleLockdown = 1;          
+                var totalPeopleLockdown = 1;
+                var schoolClosed = 0;          
                 $.getJSON(urlCountry, function (data) {
                     var totalPeopleInLockdown;
                     $.each(data, function (key, entry) {
@@ -165,14 +162,19 @@
                         }
                         if (entry.situation.state === "YES" && entry.abbreviation != "US") {
                             inLockdown++;
+                            schoolClosed++;
                             if (entry.population) {
                                 totalPeopleInLockdown = parseInt(totalPeopleInLockdown) + parseInt(entry.population) || 0
                             }
+                        }
+                        if (entry.situation.school && entry.situation.state === "NO") {
+                            schoolClosed++;
                         }
                         total++;
                     });
                     $("#totalCountries").html(total);
                     $("#inLockdown").html(inLockdown);
+                    $("#schoolClosed").html(schoolClosed);
                     afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
                     dropdown.select2({
                     
@@ -331,9 +333,12 @@
                 }
 
             </script>
-            <span id="footer_info"></span>
+            <span id="contact_info"></span>
             <script>
-                $("#footer_info").load("Contact.html");
+                // ----------------
+                // | Load contact |
+                // ----------------
+                $("#contact_info").load("contact.html");
             </script>
             <h2>How to minimize the risk of infection?</h2>
             <div id="measures">
