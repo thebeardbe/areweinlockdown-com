@@ -39,21 +39,14 @@
 
 <body>
     <div id="top">
-        <div class="frame">
-            <ul>
-                <li><a href="/" title="All data on a map">Country</a></a></li>
-                <li><a href="map.html" title="All data on a map">Map</a></a></li>
-                <li><a href="all_countries.html" title="All data on a map">All countries</a></a></li>
-            </ul>
-            <span id="buymeacoffee">
-                <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet">
-                <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/areweinlockdown">
-                    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
-                    <span style="margin-left:15px;font-size:19px !important;">Buy me a coffee</span>
-                </a>
-            </span>
-        </div>
+        
     </div>
+    <script>
+        // ---------------
+        // | Load header |
+        // ---------------
+        $("#top").load("header.html");
+    </script>
     <div id="center">
         <div class="frame">
 
@@ -63,9 +56,6 @@
                 <span id="state-select">
                     <select id="state-dropdown"></select>
                 </span>
-            </div>
-            <div>
-                <h3><a href="all_countries.html">Overview of all countries</a></h3>
             </div>
             <div id="answer">
                 <div id="virus">
@@ -344,9 +334,12 @@
                 }
 
             </script>
-            <span id="footer_info"></span>
+            <span id="contact_info"></span>
             <script>
-                $("#footer_info").load("Contact.html");
+                // ----------------
+                // | Load contact |
+                // ----------------
+                $("#contact_info").load("contact.html");
             </script>
             <h2>How to minimize the risk of infection?</h2>
             <div id="measures">

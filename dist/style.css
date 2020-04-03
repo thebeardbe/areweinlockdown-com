@@ -16,11 +16,12 @@ h3{font-size:15px;}
 .frame{margin:0 auto 0 auto;position:relative;}
 .clearfix{clear:both;}
 .low-opacity{opacity:0.4}
-#top {}
-#top .frame {display: flex;}
+#top { background: #3a4249;}
+#top .frame {display: flex; width: 1278px;}
 #top .frame ul {flex-grow: 2; display: flex; }
-#top .frame ul li { display: block; height: 34px; flex-basis: auto; width: 250px; font-size: 2em; margin: 5px  25px; list-style: none; }
-#top .frame ul li a { margin: auto 0;}
+#top .frame ul li { display: block; height: 34px; flex-basis: auto; font-size: 2em; margin: auto 1%; list-style: none; }
+#top .frame ul li a { display: block; height: 34px; color: #fff;}
+#top .frame ul li a:hover, #top .frame ul li a:active { color: #FF5F5F;}
 #top .frame span {}
 #center #page-title,
 #center .section-title{text-align:center;}
@@ -86,8 +87,12 @@ h3{font-size:15px;}
 
 @media only screen and (max-width:479px){
 	.frame{width:300px;}
+	#top .frame {width: 300px;}
+	#top .frame ul li { font-size: 1em;}
 }
 @media only screen and (max-width:319px){
 	.frame{width:220px;}
+	#top .frame {width: 220px;}
+	#top .frame ul li { font-size: 1em;}
 }
 
