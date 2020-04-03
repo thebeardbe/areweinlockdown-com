@@ -4,8 +4,9 @@
         "abbreviation": "AL",
         "population" : "4903185",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 13th of March",
+            "quarantaine" : "Shelter in place since April 4",
             "event" : "Ban on gatherings above 10 participants",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
@@ -367,9 +368,9 @@
         "abbreviation": "MO",
         "population" : "6137430",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 13th of March",
-            "quarantaine" : "Shelter in place on regional level",
+            "quarantaine" : "Shelter in place since April 3",
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools are voluntary closed. Daycare Open",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"

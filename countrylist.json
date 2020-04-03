@@ -2130,9 +2130,9 @@
             "state" : "YES",
             "event" : "Ban on all recreational events, sports, culture and other with 100 or more participants",
             "shop" : "All non essentail shops are closed.",
-            "restaurant" : "Restaurants and bars are closed. Take-away and delivery is allowed.",
+            "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools and daycare are closed.",
-            "travel" : "Border control, borders partially closed."
+            "travel" : "Border are closed for all person travel."
         }
     },
     {
