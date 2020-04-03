@@ -40,6 +40,18 @@
 <body>
     <div id="top">
         <div class="frame">
+            <ul>
+                <li><a href="/" title="All data on a map">Country</a></a></li>
+                <li><a href="map.html" title="All data on a map">Map</a></a></li>
+                <li><a href="all_countries.html" title="All data on a map">All countries</a></a></li>
+            </ul>
+            <span id="buymeacoffee">
+                <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet">
+                <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/areweinlockdown">
+                    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
+                    <span style="margin-left:15px;font-size:19px !important;">Buy me a coffee</span>
+                </a>
+            </span>
         </div>
     </div>
     <div id="center">
@@ -109,20 +121,15 @@
             </div>
             <div id="numbers">
                 <h2>Quick Facts.</h2>
-                <h1 class="alt">Total number of countries listed</h1>
-                <span id="totalCountries"></span>
                 <h1>Number of countries In Lockdown</h1>
                 <span id="inLockdown"></span>
                 <h1 class="alt">Total number of people in Lockdown</h1>
                 <span id="totalPeopleLockdown"></span>
+                <h1>Number of countries with schools closed</h1>
+                <span id="schoolClosed"></span>
+                <h1 class="alt">Total number of countries listed</h1>
+                <span id="totalCountries"></span>
             </div>
-            <span id="buymeacoffee">
-                <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet">
-                <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/areweinlockdown">
-                    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
-                    <span style="margin-left:15px;font-size:19px !important;">Buy me a coffee</span>
-                </a>
-            </span>
             <script>
                 // -------------------------------
                 // |  Code for STATE OF LOCKDOWN |
@@ -154,7 +161,8 @@
                 const urlCountry = 'countrylist.json'; 
                 var total = 1;
                 var inLockdown = 0;
-                var totalPeopleLockdown = 1;          
+                var totalPeopleLockdown = 1;
+                var schoolClosed = 0;          
                 $.getJSON(urlCountry, function (data) {
                     var totalPeopleInLockdown;
                     $.each(data, function (key, entry) {
@@ -165,14 +173,19 @@
                         }
                         if (entry.situation.state === "YES" && entry.abbreviation != "US") {
                             inLockdown++;
+                            schoolClosed++;
                             if (entry.population) {
                                 totalPeopleInLockdown = parseInt(totalPeopleInLockdown) + parseInt(entry.population) || 0
                             }
+                        }
+                        if (entry.situation.school && entry.situation.state === "NO") {
+                            schoolClosed++;
                         }
                         total++;
                     });
                     $("#totalCountries").html(total);
                     $("#inLockdown").html(inLockdown);
+                    $("#schoolClosed").html(schoolClosed);
                     afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
                     dropdown.select2({
                     
