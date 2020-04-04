@@ -74,8 +74,13 @@ h3{font-size:15px;}
 #copyrights #webkrunch{width:50px;height:23px;display:inline-block;background:url(images/annickandthebeard.png) 0 0 no-repeat;text-indent:-9999px;}
 
 /* Select 2 styling */
-.select2-container--default .select2-selection--single .select2-selection__rendered { font-size: 1.5em; font-weight: bold;}
+.select2 {background-color: #FF5F5F; display: block; padding: 10px; margin: 0 auto; border-radius: 20px;}
+.select2-container--default .select2-selection--single .select2-selection__rendered { background-color: #FF5F5F; color: #fff; font-size: 1.5em; font-weight: bold;}
 .select2-country-dropdown-results { font-size: 2em!important;}
+.select2-container--default .select2-selection--single .select2-selection__arrow { top: 11px; right: 11px; width: 30px;}
+.select2-container--default .select2-selection--single { border: none;}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {border-color: #fff transparent transparent transparent; border-width: 7px 6px 0px 6px;}
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {border-color:  transparent transparent #fff transparent; border-width: 0px 6px 7px 6px;}
 
 /* Buy me a coffee link */
 #buymeacoffee { text-align: center; margin: 5px 25px; display: block;}
