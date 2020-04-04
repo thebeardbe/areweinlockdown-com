@@ -74,7 +74,7 @@ h3{font-size:15px;}
 #copyrights #webkrunch{width:50px;height:23px;display:inline-block;background:url(images/annickandthebeard.png) 0 0 no-repeat;text-indent:-9999px;}
 
 /* Select 2 styling */
-.select2 {background-color: #FF5F5F; display: block; padding: 10px; margin: 0 auto; border-radius: 20px;}
+.select2 {background-color: #FF5F5F; padding: 10px; margin: 0 auto; border-radius: 20px; margin-bottom: 5px;}
 .select2-container--default .select2-selection--single .select2-selection__rendered { background-color: #FF5F5F; color: #fff; font-size: 1.5em; font-weight: bold;}
 .select2-country-dropdown-results { font-size: 2em!important;}
 .select2-container--default .select2-selection--single .select2-selection__arrow { top: 11px; right: 11px; width: 30px;}
@@ -105,6 +105,11 @@ h3{font-size:15px;}
 #top h1, #center #numbers h1 {text-align: center; color:#62c4c3; margin: 0 auto;}
 #top #numbers span, #center #numbers span {font-size: 2em;text-align: center; color:#FF5F5F; margin: 10px auto 40px auto; display: block; font-weight: bold;}
 
+/* Map styling */
+#chartdiv { width: 75%; height: 500px; margin: 0 auto;
+
+}
+
 @media only screen and (max-width:1279px){
 	.frame {max-width: 100%;}
 	#top .frame {max-width: 100%;}
@@ -121,6 +126,7 @@ h3{font-size:15px;}
 }
 @media only screen and (max-width:767px) and (orientation: portrait){
 	.frame{width:100%;}
+	#center #page-title span {width: 100%;}
 	
 }
 @media only screen and (max-width:479px) and (orientation: portrait){

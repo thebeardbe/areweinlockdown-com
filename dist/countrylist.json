@@ -1,7 +1,7 @@
 [
     {
         "name": "Afghanistan",
-        "abbreviation": "AF",
+        "id": "AF",
         "population" : "29121286",
         "situation": {
             "state" : "NO",
@@ -15,7 +15,7 @@
     },
     {
         "name": "Albania",
-        "abbreviation": "AL",
+        "id": "AL",
         "population" : "2987000",
         "situation": {
             "state" : "YES",
@@ -29,7 +29,7 @@
     },
     {
         "name": "Algeria",
-        "abbreviation": "DZ",
+        "id": "DZ",
         "population" : "34586000",
         "situation": {
             "state" : "NO",
@@ -43,7 +43,7 @@
     },
     {
         "name": "Andorra",
-        "abbreviation": "AD",
+        "id": "AD",
         "population" : "84000",
         "situation": {
             "state" : "YES",
@@ -56,7 +56,7 @@
     },
     {
         "name": "Angola",
-        "abbreviation": "AO",
+        "id": "AO",
         "population" : "13068000",
         "situation": {
             "state" : "NO",
@@ -68,7 +68,7 @@
     },
     {
         "name": "Anguilla",
-        "abbreviation": "AI",
+        "id": "AI",
         "population" : "13300",
         "situation": {
             "state" : "NO",
@@ -79,7 +79,7 @@
     },
     {
         "name": "Antigua & Barbuda",
-        "abbreviation": "AG",
+        "id": "AG",
         "population" : "87000",
         "situation": {
             "state" : "NO",
@@ -88,7 +88,7 @@
     },
     {
         "name": "Argentina",
-        "abbreviation": "AR",
+        "id": "AR",
         "population" : "41343000",
         "situation": {
             "state" : "YES",
@@ -104,7 +104,7 @@
     },
     {
         "name": "Armenia",
-        "abbreviation": "AM",
+        "id": "AM",
         "population" : "2968000",
         "situation": {
             "state" : "NO",
@@ -117,7 +117,7 @@
     },
     {
         "name": "Aruba",
-        "abbreviation": "AW",
+        "id": "AW",
         "population" : "71600",
         "situation": {
             "state" : "NO",
@@ -128,7 +128,7 @@
     },
     {
         "name": "Australia",
-        "abbreviation": "AU",
+        "id": "AU",
         "population" : "21515750",
         "situation": {
             "state" : "YES",
@@ -143,7 +143,7 @@
     },
     {
         "name": "Austria",
-        "abbreviation": "AT",
+        "id": "AT",
         "population" : "8205000",
         "situation": {
             "state" : "YES",
@@ -158,7 +158,7 @@
     },
     {
         "name": "Azerbaijan",
-        "abbreviation": "AZ",
+        "id": "AZ",
         "population" : "8303500",
         "situation": {
             "state" : "NO",
@@ -170,7 +170,7 @@
     },
     {
         "name": "Bahamas",
-        "abbreviation": "BS",
+        "id": "BS",
         "population" : "301800",
         "situation": {
             "state" : "NO",
@@ -183,7 +183,7 @@
     },
     {
         "name": "Bahrain",
-        "abbreviation": "BH",
+        "id": "BH",
         "population" : "738000",
         "situation": {
             "state" : "NO",
@@ -193,7 +193,7 @@
     },
     {
         "name": "Bangladesh",
-        "abbreviation": "BD",
+        "id": "BD",
         "population" : "156118500",
         "situation": {
             "state" : "NO",
@@ -206,7 +206,7 @@
     },
     {
         "name": "Barbados",
-        "abbreviation": "BB",
+        "id": "BB",
         "population" : "285650",
         "situation": {
             "state" : "NO",
@@ -215,7 +215,7 @@
     },
     {
         "name": "Belarus",
-        "abbreviation": "BY",
+        "id": "BY",
         "population" : "9685000",
         "situation": {
             "state" : "NO",
@@ -226,7 +226,7 @@
     },
     {
         "name": "Belgium",
-        "abbreviation": "BE",
+        "id": "BE",
         "population" : "10403000",
         "situation": {
             "state" : "YES",
@@ -242,7 +242,7 @@
     },
     {
         "name": "Belize",
-        "abbreviation": "BZ",
+        "id": "BZ",
         "population" : "314500",
         "situation": {
             "state" : "NO",
@@ -254,7 +254,7 @@
     },
     {
         "name": "Benin",
-        "abbreviation": "BJ",
+        "id": "BJ",
         "population" : "905600",
         "situation": {
             "state" : "NO",
@@ -267,7 +267,7 @@
     },
     {
         "name": "Bermuda",
-        "abbreviation": "BM",
+        "id": "BM",
         "population" : "65350",
         "situation": {
             "state" : "NO",
@@ -277,7 +277,7 @@
     },
     {
         "name": "Bhutan",
-        "abbreviation": "BT",
+        "id": "BT",
         "population" : "699850",
         "situation": {
             "state" : "NO",
@@ -287,7 +287,7 @@
     },
     {
         "name": "Bolivia",
-        "abbreviation": "BO",
+        "id": "BO",
         "population" : "9947500",
         "situation": {
             "state" : "YES",
@@ -302,7 +302,7 @@
     },
     {
         "name": "Bosnia and Herzegovina",
-        "abbreviation": "BA",
+        "id": "BA",
         "population" : "4590000",
         "situation": {
             "state" : "NO",
@@ -315,7 +315,7 @@
     },
     {
         "name": "Botswana",
-        "abbreviation": "BW",
+        "id": "BW",
         "population" : "2029300",
         "situation": {
             "state" : "YES",
@@ -327,7 +327,7 @@
     },
     {
         "name": "Brazil",
-        "abbreviation": "BR",
+        "id": "BR",
         "population" : "201103350",
         "situation": {
             "state" : "NO",
@@ -339,7 +339,7 @@
     },
     {
         "name": "Brunei",
-        "abbreviation": "BN",
+        "id": "BN",
         "population" : "395000",
         "situation": {
             "state" : "NO",
@@ -349,7 +349,7 @@
     },
     {
         "name": "Bulgaria",
-        "abbreviation": "BG",
+        "id": "BG",
         "population" : "7148800",
         "situation": {
             "state" : "NO",
@@ -363,7 +363,7 @@
     },
     {
         "name": "Burkina Faso",
-        "abbreviation": "BF",
+        "id": "BF",
         "population" : "16241800",
         "situation": {
             "state" : "NO",
@@ -372,7 +372,7 @@
     },
     {
         "name": "Burma / Myanmar",
-        "abbreviation": "MN",
+        "id": "MN",
         "population" : "53414400",
         "situation": {
             "state" : "NO",
@@ -383,7 +383,7 @@
     },
     {
         "name": "Burundi",
-        "abbreviation": "BI",
+        "id": "BI",
         "population" : "9863100",
         "situation": {
             "state" : "NO",
@@ -392,7 +392,7 @@
     },
     {
         "name": "Cambodia",
-        "abbreviation": "KH",
+        "id": "KH",
         "population" : "1453700",
         "situation": {
             "state" : "NO",
@@ -403,7 +403,7 @@
     },
     {
         "name": "Cameroon",
-        "abbreviation": "CM",
+        "id": "CM",
         "population" : "19294150",
         "situation": {
             "state" : "NO",
@@ -412,7 +412,7 @@
     },
     {
         "name": "Canada",
-        "abbreviation": "CA",
+        "id": "CA",
         "population" : "33679000",
         "situation": {
             "state" : "NO",
@@ -426,7 +426,7 @@
     },
     {
         "name" : "Cape Verde",
-        "abbreviation" : "CV",
+        "id" : "CV",
         "population" : "508650",
         "situation" : {
             "state" : "NO",
@@ -439,7 +439,7 @@
     },
     {
         "name": "Cayman Islands",
-        "abbreviation": "KY",
+        "id": "KY",
         "population" : "44270",
         "situation": {
             "state" : "NO",
@@ -450,7 +450,7 @@
     },
     {
         "name": "Central African Republic",
-        "abbreviation": "CF",
+        "id": "CF",
         "population" : "4844920",
         "situation": {
             "state" : "NO",
@@ -459,7 +459,7 @@
     },
     {
         "name": "Chad",
-        "abbreviation": "TD",
+        "id": "TD",
         "population" : "10543650",
         "situation": {
             "state" : "NO",
@@ -468,7 +468,7 @@
     },
     {
         "name": "Chile",
-        "abbreviation": "CL",
+        "id": "CL",
         "population" : "16746500",
         "situation": {
             "state" : "NO",
@@ -483,7 +483,7 @@
     },
     {
         "name": "China",
-        "abbreviation": "CN",
+        "id": "CN",
         "population" : "1330044000",
         "situation": {
             "state" : "NO",
@@ -494,7 +494,7 @@
     },
     {
         "name": "Christmas Island",
-        "abbreviation": "CX",
+        "id": "CX",
         "population" : "1500",
         "situation": {
             "state" : "NO",
@@ -503,7 +503,7 @@
     },
     {
         "name": "Colombia",
-        "abbreviation": "CO",
+        "id": "CO",
         "population" : "47790000",
         "situation": {
             "state" : "YES",
@@ -517,7 +517,7 @@
     },
     {
         "name": "Comoros",
-        "abbreviation": "KM",
+        "id": "KM",
         "population" : "773400",
         "situation": {
             "state" : "NO",
@@ -527,7 +527,7 @@
     },
     {
         "name": "Cook Islands",
-        "abbreviation": "CK",
+        "id": "CK",
         "population" : "21388",
         "situation": {
             "state" : "NO",
@@ -538,7 +538,7 @@
     },
     {
         "name": "Costa Rica",
-        "abbreviation": "CR",
+        "id": "CR",
         "population" : "4516220",
         "situation": {
             "state" : "YES",
@@ -552,7 +552,7 @@
     },
     {
         "name": "Croatia",
-        "abbreviation": "HR",
+        "id": "HR",
         "population" : "4491000",
         "situation": {
             "state" : "NO",
@@ -566,7 +566,7 @@
     },
     {
         "name": "Cuba",
-        "abbreviation": "CU",
+        "id": "CU",
         "population" : "11423000",
         "situation": {
             "state" : "NO",
@@ -576,7 +576,7 @@
     },
     {
         "name": "Curaçao",
-        "abbreviation": "CW",
+        "id": "CW",
         "population" : "141770",
         "situation": {
             "state" : "NO",
@@ -586,7 +586,7 @@
     },
     {
         "name": "Cyprus",
-        "abbreviation": "CY",
+        "id": "CY",
         "population" : "1102677",
         "situation": {
             "state" : "NO",
@@ -596,7 +596,7 @@
     },
     {
         "name": "Czech Republic",
-        "abbreviation": "CZ",
+        "id": "CZ",
         "population" : "10476000",
         "situation": {
             "state" : "YES",
@@ -610,7 +610,7 @@
     },
     {
         "name" : "Democratic republic of the Congo",
-        "abbreviation" : "CD",
+        "id" : "CD",
         "population" : "70916440",
         "situation" : {
             "state" : "NO",
@@ -619,7 +619,7 @@
     },
     {
         "name": "Denmark",
-        "abbreviation": "DK",
+        "id": "DK",
         "population" : "5484000",
         "situation": {
             "state" : "YES",
@@ -632,7 +632,7 @@
     },
     {
         "name" : "Djibouti",
-        "abbreviation" : "DJ",
+        "id" : "DJ",
         "population" : "740530",
         "situation" : {
             "state" : "NO",
@@ -641,7 +641,7 @@
     },
     {
         "name" : "Dominica",
-        "abbreviation" : "DM",
+        "id" : "DM",
         "population" : "72815",
         "situation" : {
             "state" : "NO",
@@ -651,7 +651,7 @@
     },
     {
         "name": "Dominican Republic",
-        "abbreviation": "DO",
+        "id": "DO",
         "population" : "9826820",
         "situation": {
             "state" : "NO",
@@ -660,7 +660,7 @@
     },
     {
         "name": "East Timor",
-        "abbreviation": "TL",
+        "id": "TL",
         "population" : "1154625",
         "situation": {
             "state" : "NO",
@@ -669,7 +669,7 @@
     },
     {
         "name": "Ecuador",
-        "abbreviation": "EC",
+        "id": "EC",
         "population" : "14790610",
         "situation": {
             "state" : "NO",
@@ -681,7 +681,7 @@
     },
     {
         "name": "Egypt",
-        "abbreviation": "EG",
+        "id": "EG",
         "population" : "80471870",
         "situation": {
             "state" : "NO",
@@ -690,7 +690,7 @@
     },
     {
         "name": "El Salvador",
-        "abbreviation": "SV",
+        "id": "SV",
         "population" : "6052065",
         "situation": {
             "state" : "YES",
@@ -701,7 +701,7 @@
     },
     {
         "name": "Equatorial Guinea",
-        "abbreviation": "GQ",
+        "id": "GQ",
         "population" : "1015000",
         "situation": {
             "state" : "NO",
@@ -711,7 +711,7 @@
     },
     {
         "name": "Eritrea",
-        "abbreviation": "ER",
+        "id": "ER",
         "population" : "5792985",
         "situation": {
             "state" : "NO",
@@ -720,7 +720,7 @@
     },
     {
         "name": "Estonia",
-        "abbreviation": "EE",
+        "id": "EE",
         "population" : "1291170",
         "situation": {
             "state" : "NO",
@@ -731,7 +731,7 @@
     },
     {
         "name": "Ethiopia",
-        "abbreviation": "ET",
+        "id": "ET",
         "population" : "88013490",
         "situation": {
             "state" : "NO",
@@ -740,7 +740,7 @@
     },
     {
         "name": "Falkland Islands",
-        "abbreviation": "FK",
+        "id": "FK",
         "population" : "2638",
         "situation": {
             "state" : "NO",
@@ -752,7 +752,7 @@
     },
     {
         "name": "Faroe Islands",
-        "abbreviation": "FO",
+        "id": "FO",
         "population" : "48230",
         "situation": {
             "state" : "NO",
@@ -761,7 +761,7 @@
     },
     {
         "name": "Fiji",
-        "abbreviation": "FJ",
+        "id": "FJ",
         "population" : "875985",
         "situation": {
             "state" : "NO",
@@ -772,7 +772,7 @@
     },
     {
         "name": "Finland",
-        "abbreviation": "FI",
+        "id": "FI",
         "population" : "5244000",
         "situation": {
             "state" : "NO",
@@ -788,7 +788,7 @@
     },
     {
         "name": "France",
-        "abbreviation": "Fr",
+        "id": "FR",
         "population" : "64768390",
         "situation": {
             "state" : "YES",
@@ -802,7 +802,7 @@
     },
     {
         "name": "French Polynesia",
-        "abbreviation": "PF",
+        "id": "PF",
         "population" : "270485",
         "situation": {
             "state" : "NO",
@@ -811,7 +811,7 @@
     },
     {
         "name": "Gabon",
-        "abbreviation": "GA",
+        "id": "GA",
         "population" : "1545255",
         "situation": {
             "state" : "NO",
@@ -826,7 +826,7 @@
     },
     {
         "name": "Gambia",
-        "abbreviation": "GM",
+        "id": "GM",
         "population" : "1593255",
         "situation": {
             "state" : "NO",
@@ -838,7 +838,7 @@
     },
     {
         "name": "Georgia",
-        "abbreviation": "GE",
+        "id": "GE",
         "population" : "4630000",
         "situation": {
             "state" : "YES",
@@ -852,7 +852,7 @@
     },
     {
         "name": "Germany",
-        "abbreviation": "DE",
+        "id": "DE",
         "population" : "81802260",
         "situation": {
             "state" : "NO",
@@ -866,7 +866,7 @@
     },
     {
         "name": "Ghana",
-        "abbreviation": "GH",
+        "id": "GH",
         "population" : "24339840",
         "situation": {
             "state" : "YES",
@@ -879,7 +879,7 @@
     },
     {
         "name": "Gibraltar",
-        "abbreviation": "GI",
+        "id": "GI",
         "population" : "27884",
         "situation": {
             "state" : "YES",
@@ -893,7 +893,7 @@
     },
     {
         "name": "Greece",
-        "abbreviation": "GR",
+        "id": "GR",
         "population" : "11000000",
         "situation": {
             "state" : "YES",
@@ -905,7 +905,7 @@
     },
     {
         "name": "Greenland",
-        "abbreviation": "GL",
+        "id": "GL",
         "population" : "56375",
         "situation": {
             "state" : "NO",
@@ -915,7 +915,7 @@
     },
     {
         "name": "Grenada",
-        "abbreviation": "GD",
+        "id": "GD",
         "population" : "107820",
         "situation": {
             "state" : "NO",
@@ -924,7 +924,7 @@
     },
     {
         "name": "Guatemala",
-        "abbreviation": "GT",
+        "id": "GT",
         "population" : "13550440",
         "situation": {
             "state" : "NO",
@@ -933,7 +933,7 @@
     },
     {
         "name": "Guinea",
-        "abbreviation": "GN",
+        "id": "GN",
         "population" : "10324025",
         "situation": {
             "state" : "NO",
@@ -945,7 +945,7 @@
     },
     {
         "name": "Guinea-Bissau",
-        "abbreviation": "GW",
+        "id": "GW",
         "population" : "1565125",
         "situation": {
             "state" : "NO",
@@ -957,7 +957,7 @@
     },
     {
         "name": "Guyana",
-        "abbreviation": "Gy",
+        "id": "Gy",
         "population" : "748486",
         "situation": {
             "state" : "NO",
@@ -966,7 +966,7 @@
     },
     {
         "name": "Haiti",
-        "abbreviation": "HT",
+        "id": "HT",
         "population" : "9648925",
         "situation": {
             "state" : "NO",
@@ -978,7 +978,7 @@
     },
     {
         "name": "Honduras",
-        "abbreviation": "HN",
+        "id": "HN",
         "population" : "7989415",
         "situation": {
             "state" : "YES",
@@ -990,7 +990,7 @@
     },
     {
         "name": "Hong Kong",
-        "abbreviation": "HK",
+        "id": "HK",
         "population" : "6898685",
         "situation": {
             "state" : "NO",
@@ -1003,7 +1003,7 @@
     },
     {
         "name": "Hungary",
-        "abbreviation": "HU",
+        "id": "HU",
         "population" : "9982000",
         "situation": {
             "state" : "YES",
@@ -1015,7 +1015,7 @@
     },
     {
         "name": "Iceland",
-        "abbreviation": "IS",
+        "id": "IS",
         "population" : "308910",
         "situation": {
             "state" : "NO",
@@ -1025,7 +1025,7 @@
     },
     {
         "name": "India",
-        "abbreviation": "IN",
+        "id": "IN",
         "population" : "1173108020",
         "situation": {
             "state" : "YES",
@@ -1039,7 +1039,7 @@
     },
     {
         "name": "Indonesia",
-        "abbreviation": "ID",
+        "id": "ID",
         "population" : "242968340",
         "situation": {
             "state" : "NO",
@@ -1050,7 +1050,7 @@
     },
     {
         "name": "Iran",
-        "abbreviation": "IR",
+        "id": "IR",
         "population" : "76923300",
         "situation": {
             "state" : "YES",
@@ -1064,7 +1064,7 @@
     },
     {
         "name": "Iraq",
-        "abbreviation": "IQ",
+        "id": "IQ",
         "population" : "29671605",
         "situation": {
             "state" : "YES",
@@ -1076,7 +1076,7 @@
     },
     {
         "name": "Ireland",
-        "abbreviation": "IE",
+        "id": "IE",
         "population" : "4622920",
         "situation": {
             "state" : "YES",
@@ -1090,7 +1090,7 @@
     },
     {
         "name": "Israel",
-        "abbreviation": "IL",
+        "id": "IL",
         "population" : "7353985",
         "situation": {
             "state" : "YES",
@@ -1103,7 +1103,7 @@
     },
     {
         "name": "Italy",
-        "abbreviation": "IT",
+        "id": "IT",
         "population" : "60340328",
         "situation": {
             "state" : "YES",
@@ -1115,7 +1115,7 @@
     },
     {
         "name": "Ivory Coast",
-        "abbreviation": "CI",
+        "id": "CI",
         "population" : "21058798",
         "situation": {
             "state" : "NO",
@@ -1125,7 +1125,7 @@
     },
     {
         "name": "Jamaica",
-        "abbreviation": "JM",
+        "id": "JM",
         "population" : "2847230",
         "situation": {
             "state" : "NO",
@@ -1135,7 +1135,7 @@
     },
     {
         "name": "Japan",
-        "abbreviation": "JP",
+        "id": "JP",
         "population" : "127288000",
         "situation": {
             "state" : "NO",
@@ -1145,7 +1145,7 @@
     },
     {
         "name": "Jordan",
-        "abbreviation": "JO",
+        "id": "JO",
         "population" : "6407085",
         "situation": {
             "state" : "YES",
@@ -1158,7 +1158,7 @@
     },
     {
         "name": "Kazakhstan",
-        "abbreviation": "KZ",
+        "id": "KZ",
         "population" : "15340000",
         "situation": {
             "state" : "NO",
@@ -1170,7 +1170,7 @@
     },
     {
         "name": "Kenya",
-        "abbreviation": "KE",
+        "id": "KE",
         "population" : "40046565",
         "situation": {
             "state" : "NO",
@@ -1182,7 +1182,7 @@
     },
     {
         "name": "Kiribati",
-        "abbreviation": "KI",
+        "id": "KI",
         "population" : "92535",
         "situation": {
             "state" : "NO",
@@ -1192,7 +1192,7 @@
     },
     {
         "name": "Kosovo",
-        "abbreviation": "XK",
+        "id": "XK",
         "population" : "1800000",
         "situation": {
             "state" : "NO",
@@ -1203,7 +1203,7 @@
     },
     {
         "name": "Kuwait",
-        "abbreviation": "KW",
+        "id": "KW",
         "population" : "2789132",
         "situation": {
             "state" : "NO",
@@ -1216,7 +1216,7 @@
     },
     {
         "name": "Kyrgyzstan",
-        "abbreviation": "XK",
+        "id": "XK",
         "population" : "5508625",
         "situation": {
             "state" : "NO",
@@ -1228,7 +1228,7 @@
     },
     {
         "name": "Laos",
-        "abbreviation": "LA",
+        "id": "LA",
         "population" : "6368160",
         "situation": {
             "state" : "NO",
@@ -1238,7 +1238,7 @@
     },
     {
         "name": "Latvia",
-        "abbreviation": "LV",
+        "id": "LV",
         "population" : "2217970",
         "situation": {
             "state" : "NO",
@@ -1250,7 +1250,7 @@
     },
     {
         "name": "Lebanon",
-        "abbreviation": "LB",
+        "id": "LB",
         "population" : "4125245",
         "situation": {
             "state" : "YES",
@@ -1261,7 +1261,7 @@
     },
     {
         "name": "Lesotho",
-        "abbreviation": "LS",
+        "id": "LS",
         "population" : "1919550",
         "situation": {
             "state" : "NO",
@@ -1270,7 +1270,7 @@
     },
     {
         "name": "Liberia",
-        "abbreviation": "LR",
+        "id": "LR",
         "population" : "3685075",
         "situation": {
             "state" : "YES",
@@ -1283,7 +1283,7 @@
     },
     {
         "name": "Libya",
-        "abbreviation": "LY",
+        "id": "LY",
         "population" : "6461455",
         "situation": {
             "state" : "NO",
@@ -1298,7 +1298,7 @@
     },
     {
         "name": "Liechtenstein",
-        "abbreviation": "LI",
+        "id": "LI",
         "population" : "35000",
         "situation": {
             "state" : "NO",
@@ -1307,7 +1307,7 @@
     },
     {
         "name": "Lithuania",
-        "abbreviation": "LT",
+        "id": "LT",
         "population" : "2944460",
         "situation": {
             "state" : "YES",
@@ -1318,7 +1318,7 @@
     },
     {
         "name": "Luxembourg",
-        "abbreviation": "LU",
+        "id": "LU",
         "population" : "497540",
         "situation": {
             "state" : "NO",
@@ -1328,7 +1328,7 @@
     },
     {
         "name": "Macau",
-        "abbreviation": "MO",
+        "id": "MO",
         "population" : "449200",
         "situation": {
             "state" : "NO",
@@ -1339,7 +1339,7 @@
     },
     {
         "name": "Macedonia",
-        "abbreviation": "MK",
+        "id": "MK",
         "population" : "2062295",
         "situation": {
             "state" : "NO",
@@ -1351,7 +1351,7 @@
     },
     {
         "name": "Madagascar",
-        "abbreviation": "MG",
+        "id": "MG",
         "population" : "21281845",
         "situation": {
             "state" : "NO",
@@ -1364,7 +1364,7 @@
     },
     {
         "name": "Malawi",
-        "abbreviation": "MW",
+        "id": "MW",
         "population" : "15447500",
         "situation": {
             "state" : "NO",
@@ -1373,7 +1373,7 @@
     },
     {
         "name": "Malaysia",
-        "abbreviation": "MY",
+        "id": "MY",
         "population" : "28274730",
         "situation": {
             "state" : "YES",
@@ -1389,7 +1389,7 @@
     },
     {
         "name": "Maldives",
-        "abbreviation": "MV",
+        "id": "MV",
         "population" : "395650",
         "situation": {
             "state" : "NO",
@@ -1400,7 +1400,7 @@
     },
     {
         "name": "Mali",
-        "abbreviation": "ML",
+        "id": "ML",
         "population" : "13796355",
         "situation": {
             "state" : "NO",
@@ -1413,7 +1413,7 @@
     },
     {
         "name": "Malta",
-        "abbreviation": "MT",
+        "id": "MT",
         "population" : "403000",
         "situation": {
             "state" : "NO",
@@ -1428,7 +1428,7 @@
     },
     {
         "name": "Marshall Islands",
-        "abbreviation": "MH",
+        "id": "MH",
         "population" : "658650",
         "situation": {
             "state" : "NO",
@@ -1437,7 +1437,7 @@
     },
     {
         "name": "Mauritania",
-        "abbreviation": "MR",
+        "id": "MR",
         "population" : "3205060",
         "situation": {
             "state" : "NO",
@@ -1450,7 +1450,7 @@
     },
     {
         "name": "Mauritius",
-        "abbreviation": "MU",
+        "id": "MU",
         "population" : "1294105",
         "situation": {
             "state" : "YES",
@@ -1463,7 +1463,7 @@
     },
     {
         "name": "Mayotte",
-        "abbreviation": "YT",
+        "id": "YT",
         "population" : "159042",
         "situation": {
             "state" : "NO",
@@ -1473,7 +1473,7 @@
     },
     {
         "name": "Mexico",
-        "abbreviation": "MX",
+        "id": "MX",
         "population" : "112468855",
         "situation": {
             "state" : "NO",
@@ -1485,7 +1485,7 @@
     },
     {
         "name": "Micronesia",
-        "abbreviation": "FM",
+        "id": "FM",
         "population" : "107708",
         "situation": {
             "state" : "NO",
@@ -1494,7 +1494,7 @@
     },
     {
         "name": "Moldova",
-        "abbreviation": "MD",
+        "id": "MD",
         "population" : "4324000",
         "situation": {
             "state" : "NO",
@@ -1508,7 +1508,7 @@
     },
     {
         "name": "Monaco",
-        "abbreviation": "MC",
+        "id": "MC",
         "population" : "32965",
         "situation": {
             "state" : "YES",
@@ -1521,7 +1521,7 @@
     },
     {
         "name": "Mongolia",
-        "abbreviation": "MN",
+        "id": "MN",
         "population" : "3086920",
         "situation": {
             "state" : "NO",
@@ -1534,7 +1534,7 @@
     },
     {
         "name": "Montenegro",
-        "abbreviation": "ME",
+        "id": "ME",
         "population" : "666730",
         "situation": {
             "state" : "NO",
@@ -1544,7 +1544,7 @@
     },
     {
         "name": "Morocco",
-        "abbreviation": "MA",
+        "id": "MA",
         "population" : "31627430",
         "situation": {
             "state" : "YES",
@@ -1560,7 +1560,7 @@
     },
     {
         "name": "Mozambique",
-        "abbreviation": "MZ",
+        "id": "MZ",
         "population" : "22061450",
         "situation": {
             "state" : "NO",
@@ -1572,7 +1572,7 @@
     },
     {
         "name": "Namibia",
-        "abbreviation": "NA",
+        "id": "NA",
         "population" : "2128470",
         "situation": {
             "state" : "NO",
@@ -1581,7 +1581,7 @@
     },
     {
         "name": "Nepal",
-        "abbreviation": "NP",
+        "id": "NP",
         "population" : "28951850",
         "situation": {
             "state" : "YES",
@@ -1593,7 +1593,7 @@
     },
     {
         "name": "Netherlands",
-        "abbreviation": "NL",
+        "id": "NL",
         "population" : "16645000",
         "situation": {
             "state" : "NO",
@@ -1607,7 +1607,7 @@
     },
     {
         "name": "Netherlands Antilles",
-        "abbreviation": "NC",
+        "id": "NC",
         "population" : "136200",
         "situation": {
             "state" : "NO",
@@ -1616,7 +1616,7 @@
     },
     {
         "name": "New Caledonia",
-        "abbreviation": "NC",
+        "id": "NC",
         "population" : "216494",
         "situation": {
             "state" : "NO",
@@ -1625,7 +1625,7 @@
     },
     {
         "name": "New Zealand",
-        "abbreviation": "NZ",
+        "id": "NZ",
         "population" : "4252275",
         "situation": {
             "state" : "YES",
@@ -1641,7 +1641,7 @@
     },
     {
         "name": "Nicaragua",
-        "abbreviation": "NI",
+        "id": "NI",
         "population" : "5995928",
         "situation": {
             "state" : "NO",
@@ -1650,7 +1650,7 @@
     },
     {
         "name": "Niger",
-        "abbreviation": "NE",
+        "id": "NE",
         "population" : "15878271",
         "situation": {
             "state" : "NO",
@@ -1659,7 +1659,7 @@
     },
     {
         "name": "Nigeria",
-        "abbreviation": "NG",
+        "id": "NG",
         "population" : "154000000",
         "situation": {
             "state" : "NO",
@@ -1673,7 +1673,7 @@
     },
     {
         "name": "North-Korea",
-        "abbreviation": "KP",
+        "id": "KP",
         "population" : "22912180",
         "situation": {
             "state" : "NO",
@@ -1683,7 +1683,7 @@
     },
     {
         "name": "Norway",
-        "abbreviation": "NO",
+        "id": "NO",
         "population" : "5009150",
         "situation": {
             "state" : "NO",
@@ -1696,7 +1696,7 @@
     },
     {
         "name": "Oman",
-        "abbreviation": "OM",
+        "id": "OM",
         "population" : "2967720",
         "situation": {
             "state" : "NO",
@@ -1710,7 +1710,7 @@
     },
     {
         "name": "Pakistan",
-        "abbreviation": "PK",
+        "id": "PK",
         "population" : "184404790",
         "situation": {
             "state" : "YES",
@@ -1725,7 +1725,7 @@
     },
     {
         "name": "Palestine",
-        "abbreviation": "PS",
+        "id": "PS",
         "population" : "3800000",
         "situation": {
             "state" : "YES",
@@ -1736,7 +1736,7 @@
     },
     {
         "name": "Panama",
-        "abbreviation": "PA",
+        "id": "PA",
         "population" : "3410675",
         "situation": {
             "state" : "YES",
@@ -1750,7 +1750,7 @@
     },
     {
         "name": "Papua New Guinea",
-        "abbreviation": "PG",
+        "id": "PG",
         "population" : "6064515",
         "situation": {
             "state" : "YES",
@@ -1763,7 +1763,7 @@
     },
     {
         "name": "Paraguay",
-        "abbreviation": "PY",
+        "id": "PY",
         "population" : "6375830",
         "situation": {
             "state" : "YES",
@@ -1776,7 +1776,7 @@
     },
     {
         "name": "Peru",
-        "abbreviation": "PE",
+        "id": "PE",
         "population" : "29907000",
         "situation": {
             "state" : "YES",
@@ -1789,7 +1789,7 @@
     },
     {
         "name": "Philippines",
-        "abbreviation": "PH",
+        "id": "PH",
         "population" : "99900177",
         "situation": {
             "state" : "NO",
@@ -1799,7 +1799,7 @@
     },
     {
         "name": "Poland",
-        "abbreviation": "PL",
+        "id": "PL",
         "population" : "38500000",
         "situation": {
             "state" : "YES",
@@ -1812,7 +1812,7 @@
     },
     {
         "name": "Portugal",
-        "abbreviation": "PT",
+        "id": "PT",
         "population" : "10676000",
         "situation": {
             "state" : "YES",
@@ -1825,7 +1825,7 @@
     },
     {
         "name": "Puerto Rico",
-        "abbreviation": "PR",
+        "id": "PR",
         "population" : "3916630",
         "situation": {
             "state" : "YES",
@@ -1839,7 +1839,7 @@
     },
     {
         "name": "Qatar",
-        "abbreviation": "QA",
+        "id": "QA",
         "population" : "840825",
         "situation": {
             "state" : "NO",
@@ -1852,7 +1852,7 @@
     },
     {
         "name": "Republic of Congo",
-        "abbreviation": "CG",
+        "id": "CG",
         "population" : "3039125",
         "situation": {
             "state" : "YES",
@@ -1865,7 +1865,7 @@
     },
     {
         "name": "Réunion",
-        "abbreviation": "RE",
+        "id": "RE",
         "population" : "776950",
         "situation": {
             "state" : "NO",
@@ -1876,7 +1876,7 @@
     },
     {
         "name": "Romania",
-        "abbreviation": "RO",
+        "id": "RO",
         "population" : "21959280",
         "situation": {
             "state" : "YES",
@@ -1890,7 +1890,7 @@
     },
     {
         "name": "Russia",
-        "abbreviation": "RU",
+        "id": "RU",
         "population" : "140702000",
         "situation": {
             "state" : "YES",
@@ -1905,7 +1905,7 @@
     },
     {
         "name": "Rwanda",
-        "abbreviation": "RW",
+        "id": "RW",
         "population" : "11055975",
         "situation": {
             "state" : "YES",
@@ -1920,7 +1920,7 @@
     },
     {
         "name": "Saint Kitts and Nevis",
-        "abbreviation": "KN",
+        "id": "KN",
         "population" : "51135",
         "situation": {
             "state" : "NO",
@@ -1929,7 +1929,7 @@
     },
     {
         "name": "Saint Lucia",
-        "abbreviation": "LC",
+        "id": "LC",
         "population" : "160920",
         "situation": {
             "state" : "NO",
@@ -1938,7 +1938,7 @@
     },
     {
         "name": "Saint Martin",
-        "abbreviation": "MF",
+        "id": "MF",
         "population" : "35925",
         "situation": {
             "state" : "YES",
@@ -1952,7 +1952,7 @@
     },
     {
         "name": "Saint Vincent and the Grenadines",
-        "abbreviation": "VC",
+        "id": "VC",
         "population" : "104220",
         "situation": {
             "state" : "NO",
@@ -1961,7 +1961,7 @@
     },
     {
         "name": "Samao",
-        "abbreviation": "WS",
+        "id": "WS",
         "population" : "192000",
         "situation": {
             "state" : "NO",
@@ -1975,7 +1975,7 @@
     },
     {
         "name": "San Marino",
-        "abbreviation": "SM",
+        "id": "SM",
         "population" : "31480",
         "situation": {
             "state" : "NO",
@@ -1984,7 +1984,7 @@
     },
     {
         "name": "São Tomé and Príncipe",
-        "abbreviation": "ST",
+        "id": "ST",
         "population" : "175810",
         "situation": {
             "state" : "NO",
@@ -1993,7 +1993,7 @@
     },
     {
         "name": "Saudi Arabia",
-        "abbreviation": "SA",
+        "id": "SA",
         "population" : "25731775",
         "situation": {
             "state" : "NO",
@@ -2006,7 +2006,7 @@
     },
     {
         "name": "Senegal",
-        "abbreviation": "SN",
+        "id": "SN",
         "population" : "12323250",
         "situation": {
             "state" : "YES",
@@ -2019,7 +2019,7 @@
     },
     {
         "name": "Serbia",
-        "abbreviation": "RS",
+        "id": "RS",
         "population" : "7344845",
         "situation": {
             "state" : "YES",
@@ -2034,7 +2034,7 @@
     },
     {
         "name": "Seychelles",
-        "abbreviation": "SC",
+        "id": "SC",
         "population" : "88340",
         "situation": {
             "state" : "NO",
@@ -2044,7 +2044,7 @@
     },
     {
         "name": "Sierra Leone",
-        "abbreviation": "SL",
+        "id": "SL",
         "population" : "5245695",
         "situation": {
             "state" : "YES",
@@ -2057,7 +2057,7 @@
     },
     {
         "name": "Singapore",
-        "abbreviation": "SG",
+        "id": "SG",
         "population" : "4701070",
         "situation": {
             "state" : "NO",
@@ -2067,7 +2067,7 @@
     },
     {
         "name": "Sint Maarten",
-        "abbreviation": "SX",
+        "id": "SX",
         "population" : "37430",
         "situation": {
             "state" : "NO",
@@ -2080,7 +2080,7 @@
     },
     {
         "name": "Slovakia",
-        "abbreviation": "SK",
+        "id": "SK",
         "population" : "5455000",
         "situation": {
             "state" : "NO",
@@ -2095,7 +2095,7 @@
     },
     {
         "name": "Slovenia",
-        "abbreviation": "SL",
+        "id": "SL",
         "population" : "2007000",
         "situation": {
             "state" : "NO",
@@ -2106,7 +2106,7 @@
     },
     {
         "name": "Solomon Islands",
-        "abbreviation": "SB",
+        "id": "SB",
         "population" : "559200",
         "situation": {
             "state" : "NO",
@@ -2115,7 +2115,7 @@
     },
     {
         "name": "Somalia",
-        "abbreviation": "SO",
+        "id": "SO",
         "population" : "10112453",
         "situation": {
             "state" : "NO",
@@ -2124,7 +2124,7 @@
     },
     {
         "name": "South Africa",
-        "abbreviation": "ZA",
+        "id": "ZA",
         "population" : "49000000",
         "situation": {
             "state" : "YES",
@@ -2137,7 +2137,7 @@
     },
     {
         "name": "South Korea",
-        "abbreviation": "KR",
+        "id": "KR",
         "population" : "48422645",
         "situation": {
             "state" : "NO",
@@ -2147,7 +2147,7 @@
     },
     {
         "name": "South Sudan",
-        "abbreviation": "SS",
+        "id": "SS",
         "population" : "8260490",
         "situation": {
             "state" : "NO",
@@ -2156,7 +2156,7 @@
     },
     {
         "name": "Spain",
-        "abbreviation": "ES",
+        "id": "ES",
         "population" : "46505965",
         "situation": {
             "state" : "YES",
@@ -2168,7 +2168,7 @@
     },
     {
         "name": "Sri Lanka",
-        "abbreviation": "LK",
+        "id": "LK",
         "population" : "21513990",
         "situation": {
             "state" : "YES",
@@ -2182,7 +2182,7 @@
     },
     {
         "name": "Sudan",
-        "abbreviation": "SD",
+        "id": "SD",
         "population" : "35000000",
         "situation": {
             "state" : "NO",
@@ -2193,7 +2193,7 @@
     },
     {
         "name": "Suriname",
-        "abbreviation": "SR",
+        "id": "SR",
         "population" : "492830",
         "situation": {
             "state" : "NO",
@@ -2202,7 +2202,7 @@
     },
     {
         "name": "Swaziland",
-        "abbreviation": "SZ",
+        "id": "SZ",
         "population" : "1354050",
         "situation": {
             "state" : "NO",
@@ -2211,7 +2211,7 @@
     },
     {
         "name": "Sweden",
-        "abbreviation": "SE",
+        "id": "SE",
         "population" : "9555895",
         "situation": {
             "state" : "NO",
@@ -2220,7 +2220,7 @@
     },
     {
         "name": "Switzerland",
-        "abbreviation": "CH",
+        "id": "CH",
         "population" : "7581000",
         "situation": {
             "state" : "NO",
@@ -2233,7 +2233,7 @@
     },
     {
         "name": "Syria",
-        "abbreviation": "SY",
+        "id": "SY",
         "population" : "22198110",
         "situation": {
             "state" : "NO",
@@ -2244,7 +2244,7 @@
     },
     {
         "name": "Taiwan",
-        "abbreviation": "TW",
+        "id": "TW",
         "population" : "22894385",
         "situation": {
             "state": "NO",
@@ -2255,7 +2255,7 @@
     },
     {
         "name": "Tajikistan",
-        "abbreviation": "TJ",
+        "id": "TJ",
         "population" : "7487490",
         "situation": {
             "state" : "NO",
@@ -2265,7 +2265,7 @@
     },
     {
         "name": "Tanzania",
-        "abbreviation": "TZ",
+        "id": "TZ",
         "population" : "41892895",
         "situation": {
             "state" : "NO",
@@ -2276,7 +2276,7 @@
     },
     {
         "name": "Thailand",
-        "abbreviation": "TH",
+        "id": "TH",
         "population" : "67089500",
         "situation": {
             "state": "NO",
@@ -2287,7 +2287,7 @@
     },
     {
         "name": "Togo",
-        "abbreviation": "TG",
+        "id": "TG",
         "population" : "6587240",
         "situation": {
             "state": "NO",
@@ -2297,7 +2297,7 @@
     },
     {
         "name": "Tango",
-        "abbreviation": "TO",
+        "id": "TO",
         "population" : "122580",
         "situation": {
             "state": "NO",
@@ -2307,7 +2307,7 @@
     },
     {
         "name": "Trinidad and Tobago",
-        "abbreviation": "TT",
+        "id": "TT",
         "population" : "1228690",
         "situation": {
             "state": "NO",
@@ -2317,7 +2317,7 @@
     },
     {
         "name": "Tunesia",
-        "abbreviation": "TN",
+        "id": "TN",
         "population" : "10589025",
         "situation": {
             "state": "YES",
@@ -2332,7 +2332,7 @@
     },
     {
         "name": "Turkey",
-        "abbreviation": "TR",
+        "id": "TR",
         "population" : "77804120",
         "situation": {
             "state" : "NO",
@@ -2344,7 +2344,7 @@
     },
     {
         "name": "Turmenistan",
-        "abbreviation": "TM",
+        "id": "TM",
         "population" : "4940915",
         "situation": {
             "state": "NO",
@@ -2353,7 +2353,7 @@
     },
     {
         "name": "U.S. Virgin Islands",
-        "abbreviation": "VI",
+        "id": "VI",
         "population" : "108710",
         "situation": {
             "state": "NO",
@@ -2367,7 +2367,7 @@
     },
     {
         "name": "Uganda",
-        "abbreviation": "UH",
+        "id": "UH",
         "population" : "33398680",
         "situation": {
             "state" : "NO",
@@ -2380,7 +2380,7 @@
     },
     {
         "name": "Ukraine",
-        "abbreviation": "UA",
+        "id": "UA",
         "population" : "45415595",
         "situation": {
             "state" : "YES",
@@ -2394,7 +2394,7 @@
     },
     {
         "name": "United Arab Emirates",
-        "abbreviation": "UE",
+        "id": "UE",
         "population" : "4975595",
         "situation": {
             "state" : "NO",
@@ -2406,7 +2406,7 @@
     },
     {
         "name": "United Kingdom",
-        "abbreviation": "UK",
+        "id": "GB",
         "population" : "62348445",
         "situation": {
             "state" : "YES",
@@ -2422,7 +2422,7 @@
     },
     {
         "name": "United States",
-        "abbreviation": "US",
+        "id": "US",
         "population" : "310232865",
         "situation": {
             "state" : "NO",
@@ -2437,7 +2437,7 @@
     }, 
     {
         "name": "Uruguay",
-        "abbreviation": "UR",
+        "id": "UY",
         "population" : "3477000",
         "situation": {
             "state" : "NO",
@@ -2449,7 +2449,7 @@
     },
     {
         "name": "Uzbekistan",
-        "abbreviation": "UZ",
+        "id": "UZ",
         "population" : "27865740",
         "situation": {
             "state" : "NO",
@@ -2459,7 +2459,7 @@
     },
     {
         "name": "Vanuatu",
-        "abbreviation": "VU",
+        "id": "VU",
         "population" : "221550",
         "situation": {
             "state" : "NO",
@@ -2468,7 +2468,7 @@
     },
     {
         "name": "Venezuela",
-        "abbreviation": "VE",
+        "id": "VE",
         "population" : "27223230",
         "situation": {
             "state" : "YES",
@@ -2479,7 +2479,7 @@
     },
     {
         "name": "Vietnam",
-        "abbreviation": "VN",
+        "id": "VN",
         "population" : "89571130",
         "situation": {
             "state" : "NO",
@@ -2492,7 +2492,7 @@
     },
     {
         "name": "Western Sahara",
-        "abbreviation": "EH",
+        "id": "EH",
         "population" : "273010",
         "situation": {
             "state" : "NO",
@@ -2501,7 +2501,7 @@
     },
     {
         "name": "Yemen",
-        "abbreviation": "YE",
+        "id": "YE",
         "population" : "23495360",
         "situation": {
             "state" : "NO",
@@ -2512,7 +2512,7 @@
     },
     {
         "name": "Zambia",
-        "abbreviation": "ZM",
+        "id": "ZM",
         "population" : "13460305",
         "situation": {
             "state" : "NO",
@@ -2521,7 +2521,7 @@
     },
     {
         "name": "Zimbabwe",
-        "abbreviation": "ZW",
+        "id": "ZW",
         "population" : "11651860",
         "situation": {
             "state" : "YES",

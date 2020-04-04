@@ -155,12 +155,12 @@
                 $.getJSON(urlCountry, function (data) {
                     var totalPeopleInLockdown;
                     $.each(data, function (key, entry) {
-                        if (urlParams.get('countrycode') === entry.abbreviation) {
-                            dropdown.append($('<option></option>').attr('value', entry.abbreviation).attr('selected', 'true').text(entry.name));
+                        if (urlParams.get('countrycode') === entry.id) {
+                            dropdown.append($('<option></option>').attr('value', entry.id).attr('selected', 'true').text(entry.name));
                         } else {
-                            dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+                            dropdown.append($('<option></option>').attr('value', entry.id).text(entry.name));
                         }
-                        if (entry.situation.state === "YES" && entry.abbreviation != "US") {
+                        if (entry.situation.state === "YES" && entry.id != "US") {
                             inLockdown++;
                             schoolClosed++;
                             if (entry.population) {
@@ -193,10 +193,10 @@
                 $.getJSON(urlState, function (data) {
                     var totalPeopleInLockdown = 0;
                     $.each(data, function (key, entry) {
-                        if (urlParams.get('statecode') === entry.abbreviation) {
-                            dropdownState.append($('<option></option>').attr('value', entry.abbreviation).attr('selected', 'true').text(entry.name));
+                        if (urlParams.get('statecode') === entry.id) {
+                            dropdownState.append($('<option></option>').attr('value', entry.id).attr('selected', 'true').text(entry.name));
                         } else {
-                            dropdownState.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+                            dropdownState.append($('<option></option>').attr('value', entry.id).text(entry.name));
                         }
                         if (entry.situation.state === "YES") {
                             if (entry.population) {
@@ -281,7 +281,7 @@
                     $("#answer").show();
                     $.getJSON(url, function (data) {
                         $.each(data, function (key, entry) {
-                            if (entry.abbreviation === val) {
+                            if (entry.id === val) {
                                 $("#result").html(entry.situation.state);
                                 if ("event" in entry.situation) {
                                     $("#event").show();

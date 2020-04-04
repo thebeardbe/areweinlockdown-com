@@ -112,7 +112,7 @@
                         }
 
                         table.append($('<tr>')
-                            .append($('<td></td>').html("<a href=\"index.html?countrycode="+entry.abbreviation+"\">"+entry.name+"</a>"))
+                            .append($('<td></td>').html("<a href=\"index.html?countrycode="+entry.id+"\">"+entry.name+"</a>"))
                             .append($('<td></td>').html(lockdown))
                             .append($('<td></td>').html(entry.situation.quarantaine))
                             .append($('<td></td>').html(entry.situation.school))
@@ -154,7 +154,7 @@
                         }
 
                         tableState.append($('<tr>')
-                            .append($('<td></td>').html("<a href=\"index.html?countrycode=US&statecode="+entry.abbreviation+"\">"+entry.name+"</a>"))
+                            .append($('<td></td>').html("<a href=\"index.html?countrycode=US&statecode="+entry.id+"\">"+entry.name+"</a>"))
                             .append($('<td></td>').html(lockdown))
                             .append($('<td></td>').html(entry.situation.quarantaine))
                             .append($('<td></td>').html(entry.situation.school))
