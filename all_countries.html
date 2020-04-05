@@ -55,8 +55,10 @@
                 <h2>Quick Facts</h2>
                 <h1>Number of countries In Lockdown</h1>
                 <span id="inLockdown"></span>
-                <h1 class="alt">Total number of people in Lockdown</h1>
+                <h1 class="alt">Total number of people in nationwide lockdown</h1>
                 <span id="totalPeopleLockdown"></span>
+                <h1>Number of countries with Local lockdowns</h1>
+                <span id="inLocalLockdown"></span>
                 <h1>Number of countries with schools closed</h1>
                 <span id="schoolClosed"></span>
                 <h1 class="alt">Total number of countries listed</h1>
@@ -102,6 +104,7 @@
                 var total = 1;
                 var inLockdown = 0;
                 var schoolClosed = 0;
+                var inLocalLockdown = 0;
                 $.getJSON(urlCountry, function (data) {    
                     var totalPeopleInLockdown;                
                     $.each(data, function (key, entry) {
@@ -112,7 +115,7 @@
                         }
 
                         table.append($('<tr>')
-                            .append($('<td></td>').html("<a href=\"index.html?countrycode="+entry.abbreviation+"\">"+entry.name+"</a>"))
+                            .append($('<td></td>').html("<a href=\"index.html?countrycode="+entry.id+"\">"+entry.name+"</a>"))
                             .append($('<td></td>').html(lockdown))
                             .append($('<td></td>').html(entry.situation.quarantaine))
                             .append($('<td></td>').html(entry.situation.school))
@@ -126,18 +129,23 @@
                             inLockdown++;
                             schoolClosed++;
                         }
-                        if (entry.situation.school && entry.situation.state === "NO") {
+                        if (entry.situation.school && entry.situation.state !== "YES") {
                             schoolClosed++;
                         }
                         total++;
                         if (entry.population && entry.situation.state ===  "YES") {
                             totalPeopleInLockdown = parseInt(totalPeopleInLockdown) + parseInt(entry.population) || 0
                         }
-                    })
+                        if (entry.situation.state === "LOCAL") {
+                            inLocalLockdown++;
+                        }
+                    });
                     $("#totalCountries").html(total);
                     $("#inLockdown").html(inLockdown);
+                    $("#inLocalLockdown").html(inLocalLockdown);
                     $("#schoolClosed").html(schoolClosed);
                     afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
+
                 });
 
                 let tableState = $('#lockdownUSState');
@@ -154,7 +162,7 @@
                         }
 
                         tableState.append($('<tr>')
-                            .append($('<td></td>').html("<a href=\"index.html?countrycode=US&statecode="+entry.abbreviation+"\">"+entry.name+"</a>"))
+                            .append($('<td></td>').html("<a href=\"index.html?countrycode=US&statecode="+entry.id+"\">"+entry.name+"</a>"))
                             .append($('<td></td>').html(lockdown))
                             .append($('<td></td>').html(entry.situation.quarantaine))
                             .append($('<td></td>').html(entry.situation.school))
@@ -188,7 +196,7 @@
             <div id="measures">
                 <div class="icon-text">
                     <img src="images/washhands.png">
-                    <span class="text">Wash your hands thorough with <a href="https://amzn.to/2Qbz5lT"
+                    <span class="text">Wash your hands thoroughly with <a href="https://amzn.to/2Qbz5lT"
                             title="Affiliate link for hand soap on Amazon.co.uk">soap</a>.</span>
                 </div>
                 <div class="icon-text">
@@ -197,7 +205,7 @@
                 </div>
                 <div class="icon-text">
                     <img src="images/wipe.png">
-                    <span class="text">Wipe down doorhandles and other objets with <a href="https://amzn.to/2Q7EuKy"
+                    <span class="text">Wipe down doorhandles and other objects with <a href="https://amzn.to/2Q7EuKy"
                             title="Affiliate link for alcohol wipes on Amazon.co.uk">alcohol wipes</a>.</span>
                 </div>
                 <div class="icon-text">
