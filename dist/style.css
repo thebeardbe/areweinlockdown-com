@@ -46,7 +46,7 @@ h3{font-size:15px;}
 #center .section-title{margin-bottom:30px;}
 #center #selection {text-align:center; margin-bottom: 25px;}
 #center #virus{width:350px;height:350px;margin:0 auto 40px auto;background:url(images/virus.png) 0 0 no-repeat;background-size: 100% 100%;text-align:center;}
-#center #virus #result{padding-top:150px;display:block;font-size:90px;font-weight:bold;color:#62c4c3}
+#center #virus #result{padding-top:160px;display:block;font-size:65px;font-weight:bold;color:#62c4c3}
 #center .status-note{padding-bottom:20px;font-size:16px;font-weight:bold;text-align:center;}
 #center #counter{height:40px;margin-bottom:25px;text-align:center;}
 #center #counter .dcountstyle{font-size:18px;font-weight:bold;}
@@ -106,9 +106,23 @@ h3{font-size:15px;}
 #top #numbers span, #center #numbers span {font-size: 2em;text-align: center; color:#FF5F5F; margin: 10px auto 40px auto; display: block; font-weight: bold;}
 
 /* Map styling */
-#chartdiv { width: 75%; height: 500px; margin: 0 auto;
-
+#map {width: 100%; display: flex; flex-direction: row; flex-wrap: nowrap;justify-content: space-evenly;}
+#chartdiv { width: 750px; height: 400px;margin: 0 auto; border: 5px solid #62c4c3; border-radius: 50px;padding: 10px;}
+/* Loading Map */
+#loading {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-350px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
 }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 @media only screen and (max-width:1279px){
 	.frame {max-width: 100%;}
@@ -127,6 +141,7 @@ h3{font-size:15px;}
 @media only screen and (max-width:767px) and (orientation: portrait){
 	.frame{width:100%;}
 	#center #page-title span {width: 100%;}
+	#chartdiv{width: 75%; height: 100%}
 	
 }
 @media only screen and (max-width:479px) and (orientation: portrait){
@@ -135,7 +150,7 @@ h3{font-size:15px;}
 	#top .frame ul li { font-size: 1.2em;}
 	#center { margin-top: 80px;}
 	#center #virus { width: 300px; height: 300px;}
-	#center #virus #result { padding-top: 130px; font-size: 80px}
+	#center #virus #result { padding-top: 140px; font-size: 50px}
 	
 }
 @media only screen and (max-width:319px) and (orientation: portrait){

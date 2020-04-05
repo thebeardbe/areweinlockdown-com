@@ -4,7 +4,7 @@
         "id": "AF",
         "population" : "29121286",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "quarantaine" : "Stay at home policy in Kabul and other cities. 65+ need to stay home",
             "event" : "Ban on all sports events",
             "school" : "Schools are closed",
@@ -19,11 +19,11 @@
         "population" : "2987000",
         "situation": {
             "state" : "YES",
+            "quarantaine" : "Stay at home policy. Essential travel only. Curfew between 1pm and 5am.",
             "travel" : "All borders closed. Travel by car only between 5am and 8am and 12pm and 1pm",
             "school" : "Schools are closed.",
             "restaurant" : "Restaurants and bars are closed.",
             "event" :"All events and group activities are prohibited.",
-            "quarantaine" : "Stay at home policy. Essential travel only. Curfew between 1pm and 5am.",
             "note" :"<a href=\"http://www.ishp.gov.al/\" target=\"_blank\">More info in Albanian</a>"
         }
     },
@@ -32,7 +32,7 @@
         "id": "DZ",
         "population" : "34586000",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "quarantaine" : "Curfew in Algiers, Batna, Tizi Ouzou, Setif, Tipaza, Constantine, Medea Oran, El Qued and Boumerdes from 7pm to 7am. Blida in lockdown.",
             "school" : "Schools are closed",
             "restaurant" : "Restaurants and bars are closed.",
@@ -330,7 +330,7 @@
         "id": "BR",
         "population" : "201103350",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "travel" : "Borders with Venezuela closed, other borders under consideration.",
             "quarantaine" : "Voluntary 7-day quarantaine applied, Santa Catarina and São Paulo in lockdown.",
             "note" : "<a href=\"https://www.saude.gov.br/\" target=\"_blank\">More info</a>"
@@ -415,7 +415,7 @@
         "id": "CA",
         "population" : "33679000",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "quarantaine" : "Stay at home policy, not mandatory",
             "school" : "Schools are closed except in NWT",
             "shop" : "All non essentail shops are closed in several provinces.",
@@ -471,7 +471,7 @@
         "id": "CL",
         "population" : "16746500",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "note" : "State of exception declared on 18th of march for 90 days. <a href=\"https://www.gob.cl/coronavirus/\" target=\"_blank\">More info</a>",
             "quarantaine" : "Curfew in place from 10:00 pm to 5:00 am. Regional Lockdowns in place.",
             "travel" : "Borders closed",
@@ -486,7 +486,7 @@
         "id": "CN",
         "population" : "1330044000",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "quarantaine" : "Lockdown in some cities, mainly in the province of Hubei.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "travel" : "Borders closed, Travel restrictions in large parts of the country"
@@ -672,8 +672,8 @@
         "id": "EC",
         "population" : "14790610",
         "situation": {
-            "state" : "NO",
-            "quarantaine" : "Curfew in place",
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy and curfew in place 2pm to 5am ",
             "travel" : "Borders closed.",
             "school" : "Schools are closed",
             "event" : "Ban on all public activities"
@@ -684,8 +684,14 @@
         "id": "EG",
         "population" : "80471870",
         "situation": {
-            "state" : "NO",
-            "travel" : "Thermal scans on arrival."
+            "state" : "LOCAL",
+            "remark" : "Restrictions in effect till at least April 12:",
+            "quarantaine" : "Curfew from 7pm till 6am. Several villages in quarantaine",
+            "restaurant" : "Bars and night clubs are closed",
+            "school" : "Schools are closed",
+            "shop" : "Non essentail shops are closed.",
+            "health" : "Several hospitals closed for sterilization",
+            "travel" : "Air travel suspended. Thermal scanners at ports of entry"
         }
     },
     {
@@ -715,7 +721,10 @@
         "population" : "5792985",
         "situation": {
             "state" : "NO",
-            "travel" : "Travellers scanned for signs of illness on arrival."
+            "school" : "Schools are closed",
+            "event" : "Ban on all recreational events, sports, culture and other with 10 or more participants",
+            "travel" : "Air travel suspended. Travellers scanned for signs of illness on arrival.",
+            "note" : "<a href=\"http://shabait.com/\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -724,8 +733,10 @@
         "population" : "1291170",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other with 100+ participants.",
-            "school" : "Schools are closed.",
+            "event" : "Ban on all recreational events, sports, culture and other. Max 2 person gatherings.",
+            "school" : "Schools are closed. Kindergarten open based on local decision",
+            "restaurant" : "Bars and restaurants are closed. Delivery and take-away are allowed.",
+            "shop" : "Non essentail shops are closed.",
             "travel" : "Sanitary border control"
         }
     },
@@ -764,7 +775,7 @@
         "id": "FJ",
         "population" : "875985",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "quarantaine" : "Capital Suva and Lautoka's in lockdown from April 2",
             "event" : "No international events allowed",
             "travel" : "Cruiseships denied docking. Travel ban on Italy, Iran, South Korea, China"
@@ -775,7 +786,7 @@
         "id": "FI",
         "population" : "5244000",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "travel": "Borders closed to non-essential travel. Starting 12am on 19 March",
             "school" : "Schools are closed",
             "event" : "Gatherings above 10 participants are restricted",
@@ -855,7 +866,7 @@
         "id": "DE",
         "population" : "81802260",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "event" : "Ban on all recreational events, sports, culture and other. All gatherings above 2 are banned.",
             "school" : "Schools and daycare are closed.",
             "restaurant" : "Restaurants and bars are closed, Delivery allowed",
@@ -928,7 +939,10 @@
         "population" : "13550440",
         "situation": {
             "state" : "NO",
-            "travel" : "Banned entry to citizens of all European countries, United States, Canada, Iran, China and South Korea"
+            "quarantaine" : "Curfew from 4pm to 4am",
+            "shop" : "Non essentail shops are closed.",
+            "travel" : "Closing of borders",
+            "note" : "State of calamity since March 5. "
         }
     },
     {
@@ -951,8 +965,7 @@
             "state" : "NO",
             "travel" : "Borders are closed. Air travel suspended",
             "event" : "All events cancelled",
-            "school" : "Schools are closed",
-            "remark" : "But restrictions in place till at least 31st of March 2020."
+            "school" : "Schools are closed"
         }
     },
     {
@@ -1042,9 +1055,10 @@
         "id": "ID",
         "population" : "242968340",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "quarantaine" : "All students of West Kalimantan are quarantained for 2 weeks",
-            "travel" : "Thermal scanners installed in airports",
+            "restaurant" : "Cafés, bars, night clubs and movie theaters closed.",
+            "travel" : "Borders closed for foreigners. Thermal scanners installed in airports",
             "school" : "Schools are closed."
         }
     },
@@ -1161,7 +1175,7 @@
         "id": "KZ",
         "population" : "15340000",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "quarantaine" : "Cities of Almaty and Nur-Sultan are under quarantaine",
             "travel" : "Airports closed, except for departing international flights from 22th of March. Borders closed for foreigners",
             "school" : "Schools are closed in the quarantained areas.",
@@ -1206,7 +1220,7 @@
         "id": "KW",
         "population" : "2789132",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "school" : "Schools are closed.",
             "shop" : "All non essentail shops are closed.",
             "event" : "All events cancelled",
@@ -1301,8 +1315,11 @@
         "id": "LI",
         "population" : "35000",
         "situation": {
-            "state" : "NO",
-            "remark" : "No restrictions in place."
+            "state" : "YES",
+            "quarantaine"  : "Stay at home policy",
+            "shop" : "Non essentail shops are closed.",
+            "school" : "Schools are closed",
+            "restaurant" : "Restaurants and bars are closed."
         }
     },
     {
@@ -1321,8 +1338,12 @@
         "id": "LU",
         "population" : "497540",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy, non essential travel prohibited",
+            "shop" : "Non essentail shops are closed.",
+            "event" : "Ban on all recreational events, sports, culture and other",
             "restaurants" : "Bars and restaurants close.",
+            "health" : "No visitors in health facilities.",
             "school" : "Schools are closed."
         }
     },
@@ -1354,7 +1375,7 @@
         "id": "MG",
         "population" : "21281845",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "quarantaine" : "Strict confinement measures in Antananarivo and Toamasina. Curfew in place from 8pm and 5am.",
             "event" : "Ban on all recreational events, sports, culture and other",
             "shop" : "Non essentail shops are closed.",
@@ -1392,7 +1413,7 @@
         "id": "MV",
         "population" : "395650",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "restaurant" : "Hotels and guesthouses need to deny new tourists.",
             "travel" : "Islands with confirmed cases are on travel lockdown. Travellers from several countries are banned. Cruiseships are denied access.",
             "note" : "<a href=\"https://covid19.health.gov.mv/en/\" target=\"_blank\">More info</a>. State of Public Health Emergency declared on 12th of March. "
@@ -1476,9 +1497,11 @@
         "id": "MX",
         "population" : "112468855",
         "situation": {
-            "state" : "NO",
-            "quarantaine" : "Mexico city stay at home policy.",
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy,.",
             "event" : "Ban on all recreational events, sports, culture and other.",
+            "shop" : "Non essentail shops are closed.",
+            "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools closed from 20th of March till 20th of april.",
             "note" : "<a href=\"https://coronavirus.gob.mx/\" target=\"_blank\">More info</a>, More restrictions on state level"
         }
@@ -1662,7 +1685,7 @@
         "id": "NG",
         "population" : "154000000",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "quarantaine" : "Lagos, FCT and Ogun State are in lockdown",
             "travel" : "Borders closed",
             "shop" : "All non essentail shops are closed.",
@@ -1792,7 +1815,7 @@
         "id": "PH",
         "population" : "99900177",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "quarantaine" : "Luzon island in lockdown.",
             "travel" : "Borders closed."
         }
@@ -1842,7 +1865,7 @@
         "id": "QA",
         "population" : "840825",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "school" : "Schools are closed.",
             "shop" : "Non essentail shops are closed.",
             "quarantaine" : "Stay at home policy",
@@ -1898,7 +1921,6 @@
             "health" : "Sick people need to stay in self-quarantaine.",
             "shop" : "All non essentail shops are closed.",
             "school" : "Schools are closed",
-            
             "event" : "Some Areas ban on all recreational events, sports, culture and other events with 300 participants or more.",
             "travel" : "Borders closed. All national and international passenger flights cancelled"
         }
@@ -1996,7 +2018,7 @@
         "id": "SA",
         "population" : "25731775",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "school" : "Schools are closed.",
             "shop" : "All non essentail shops are closed.",
             "event" : "All events cancelled",
@@ -2099,7 +2121,9 @@
         "population" : "2007000",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other with 500 or more participants",
+            "quarantaine" : "Stay at home policy, confined to own municipality",
+            "shop" : "Non essentail shops are closed.",
+            "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools and daycare are closed.",
             "travel" : "Border control, borders partially closed."
         }
@@ -2425,9 +2449,9 @@
         "id": "US",
         "population" : "310232865",
         "situation": {
-            "state" : "NO",
-            "remark" : "Current situation, needs updating going to split it up in different states.",
-            "quarantaine" : "About half of the states are lockdown, select a state to see it's status",
+            "state" : "LOCAL",
+            "remark" : "Current situation: <a href=\".",
+            "quarantaine" : "Over half of the states are lockdown, select a state to see it's status",
             "note" : "You can select every state. ",
             "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors.",
             "event" : "Large gatherings, sport events are cancelled. 10 person max limit.",

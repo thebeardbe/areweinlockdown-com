@@ -55,8 +55,10 @@
                 <h2>Quick Facts</h2>
                 <h1>Number of countries In Lockdown</h1>
                 <span id="inLockdown"></span>
-                <h1 class="alt">Total number of people in Lockdown</h1>
+                <h1 class="alt">Total number of people in nationwide lockdown</h1>
                 <span id="totalPeopleLockdown"></span>
+                <h1>Number of countries with Local lockdowns</h1>
+                <span id="inLocalLockdown"></span>
                 <h1>Number of countries with schools closed</h1>
                 <span id="schoolClosed"></span>
                 <h1 class="alt">Total number of countries listed</h1>
@@ -102,6 +104,7 @@
                 var total = 1;
                 var inLockdown = 0;
                 var schoolClosed = 0;
+                var inLocalLockdown = 0;
                 $.getJSON(urlCountry, function (data) {    
                     var totalPeopleInLockdown;                
                     $.each(data, function (key, entry) {
@@ -126,18 +129,23 @@
                             inLockdown++;
                             schoolClosed++;
                         }
-                        if (entry.situation.school && entry.situation.state === "NO") {
+                        if (entry.situation.school && entry.situation.state !== "YES") {
                             schoolClosed++;
                         }
                         total++;
                         if (entry.population && entry.situation.state ===  "YES") {
                             totalPeopleInLockdown = parseInt(totalPeopleInLockdown) + parseInt(entry.population) || 0
                         }
-                    })
+                        if (entry.situation.state === "LOCAL") {
+                            inLocalLockdown++;
+                        }
+                    });
                     $("#totalCountries").html(total);
                     $("#inLockdown").html(inLockdown);
+                    $("#inLocalLockdown").html(inLocalLockdown);
                     $("#schoolClosed").html(schoolClosed);
                     afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
+
                 });
 
                 let tableState = $('#lockdownUSState');

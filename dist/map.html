@@ -36,6 +36,12 @@
     <script src="//www.amcharts.com/lib/4/core.js"></script>
     <script src="//www.amcharts.com/lib/4/maps.js"></script>
     <script src="//www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+    <script>
+        $(document).on({
+            ajaxStart: function () { $("#loading").show(); },
+            ajaxStop: function () { $("#loading").hide(); }
+        });
+    </script>
 </head>
 
 <body>
@@ -49,233 +55,369 @@
     </script>
     <div id="center">
         <div class="frame">
-            <h1 id="page-title"><span>Map with government responses.</span></h2>
+            <h1 id="page-title"><span>Map with government responses.</span></h1>
+            <div ïd="map">
                 <div id="chartdiv"></div>
-                <div id="info"></div>
-                <script>
-                    const urlCountry = "countrylist.json";
-                    $.getJSON(urlCountry, function (countries) {
-                        var lockdownYES = [];
-                        var lockdownNO = ['AQ'];
-                        $.each(countries, function (keyData, entryData) {
-                            if (entryData.situation.state === "YES") {
-                                lockdownYES.push(entryData.id);
-                            } else {
-                                lockdownNO.push(entryData.id);
-                            }
-                        })
-                        
-                        
-                        
-                        // Create map instance
-                        var chart = am4core.create("chartdiv", am4maps.MapChart);
+                <div id="loading"><img src="images/virus.png" alt="" width="120" height="120" /></div>
+                <div id="answer">
+                    <div id="virus">
+                        <span id="result"></span>
 
-                        // Set map definition
-                        chart.geodata = am4geodata_worldLow;
+                    </div>
+                    <h2 id="remark" class="remark"></h2>
+                    <div id="remark">
+                        <div id="quarantaine" class="icon-text">
+                            <div class="icon">
+                                <img src="images/home.png" width="150px">
+                            </div>
+                            <span id="quarantaineText" class="text"></span>
+                        </div>
+                        <div id="event" class="icon-text">
+                            <div class="icon">
+                                <img src="images/event.png" width="130px">
+                            </div>
+                            <span id="eventText" class="text"></span>
+                        </div>
+                        <div id="school" class="icon-text">
+                            <div class="icon">
+                                <img src="images/school.png" width="150px">
+                            </div>
+                            <span id="schoolText" class="text"></span>
+                        </div>
+                        <div id="shop" class="icon-text">
+                            <div class="icon">
+                                <img src="images/shop.png" width="150px">
+                            </div>
+                            <span id="shopText" class="text"></span>
+                        </div>
+                        <div id="restaurant" class="icon-text">
+                            <div class="icon">
+                                <img src="images/restaurant.png" width="150px">
+                            </div>
+                            <span id="restaurantText" class="text"></span>
+                        </div>
+                        <div id="travel" class="icon-text">
+                            <div class="icon">
+                                <img src="images/world.png" width="150px">
+                            </div>
+                            <span id="travelText" class="text"></span>
+                        </div>
+                        <div id="health" class="icon-text">
+                            <div class="icon">
+                                <img src="images/health.png" width="150px">
+                            </div>
+                            <span id="healthText" class="text"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                // ------------------
+                // | HIDE all icons |
+                // ------------------
+                $("#answer").hide();
+                $("#event").hide();
+                $("#school").hide();
+                $("#shop").hide();
+                $("#travel").hide();
+                $("#health").hide();
+                $("#quarantaine").hide();
+                $("#restaurant").hide();
+                $("#note").hide();
+                $("#state-dropdown").hide();
 
-                        // Set projection
-                        chart.projection = new am4maps.projections.Miller();
+                const urlCountry = "countrylist.json";
+                $.getJSON(urlCountry, function (countries) {
+                    var lockdownYES = [];
+                    var lockdownLocal = [];
+                    $.each(countries, function (keyData, entryData) {
+                        if (entryData.situation.state === "YES") {
+                            lockdownYES.push(entryData.id);
+                        } else if (entryData.situation.state === "LOCAL") {
+                            lockdownLocal.push(entryData.id);
+                        }
+                    })
 
-                        // -----------------------------
-                        // | Map countries in lockdown |
-                        // -----------------------------
 
-                        // Create map polygon series
-                        var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
 
-                        // Make map load polygon (like country names) data from GeoJSON
-                        polygonSeries.useGeodata = true;
+                    // Create map instance
+                    var chart = am4core.create("chartdiv", am4maps.MapChart);
 
-                        // Add some custom data
-                        polygonSeries.data = JSON.parse(JSON.stringify(countries));
-                        polygonSeries.include = lockdownYES;
-                        console.log(lockdownYES);
+                    // Set map definition
+                    chart.geodata = am4geodata_worldLow;
 
-                        // Configure series
-                        var polygonTemplate = polygonSeries.mapPolygons.template;
-                        polygonTemplate.tooltipText = "{name} {situation.state}";
-                        polygonTemplate.fill = am4core.color("#FF5F5F");
-                        polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                        polygonTemplate.events.on("over", function (ev) {
-                            var data = ev.target.dataItem.dataContext;
-                            var info = document.getElementById("info");
-                            info.innerHTML = "<h3>" + data.name + " (" + data.id + ")</h3>";
-                            if (data.population) {
-                                info.innerHTML += data.population;
-                            }
-                            else {
-                                info.innerHTML += "<i>No description provided.</i>"
-                            }
-                        });
+                    // Set projection
+                    chart.projection = new am4maps.projections.Miller();
 
-                        // Create hover state and set alternative fill color
-                        var hs = polygonTemplate.states.create("hover");
-                        hs.properties.fill = am4core.color("#3a4249");
+                    // -----------------------------
+                    // | Map countries in lockdown |
+                    // -----------------------------
 
-                        // Remove Antarctica
-                        polygonSeries.exclude = ["AQ"];
+                    // Create map polygon series
+                    var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
 
-                        // Add zoom control
-                        chart.zoomControl = new am4maps.ZoomControl();
+                    // Make map load polygon (like country names) data from GeoJSON
+                    polygonSeries.useGeodata = true;
 
-                        // ---------------------------------
-                        // | Map countries not in lockdown |
-                        // ---------------------------------
+                    // Add some custom data
+                    polygonSeries.data = JSON.parse(JSON.stringify(countries));
+                    polygonSeries.include = lockdownYES;
 
-                        var polygonSeriesNo = chart.series.push(new am4maps.MapPolygonSeries());
-
-                        // Make map load polygon (like country names) data from GeoJSON
-                        polygonSeriesNo.useGeodata = true;
-
-                        // Add some custom data
-                        polygonSeriesNo.data = JSON.parse(JSON.stringify(countries));
-                        lockdownYES.push("AQ");
-                        polygonSeriesNo.exclude = lockdownYES;
-                        
-
-                        // Configure series
-                        var polygonTemplate = polygonSeriesNo.mapPolygons.template;
-                        polygonTemplate.tooltipText = "{name} {situation.state}";
-                        polygonTemplate.fill = am4core.color("#62c4c3");
-                        polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                        polygonTemplate.events.on("over", function (ev) {
-                            var data = ev.target.dataItem.dataContext;
-                            var info = document.getElementById("info");
-                            info.innerHTML = "<h3>" + data.name + " (" + data.id + ")</h3>";
-                            if (data.population) {
-                                info.innerHTML += data.population;
-                            }
-                            else {
-                                info.innerHTML += "<i>No description provided.</i>"
-                            }
-                        });
-
-                        // Create hover state and set alternative fill color
-                        var hs = polygonTemplate.states.create("hover");
-                        hs.properties.fill = am4core.color("#3a4249");
-
-                        // Add zoom control
-                        chart.zoomControl = new am4maps.ZoomControl();
+                    // Configure series
+                    var polygonTemplate = polygonSeries.mapPolygons.template;
+                    polygonTemplate.tooltipText = "{name} {situation.state}";
+                    polygonTemplate.fill = am4core.color("#FF5F5F");
+                    polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
+                    polygonTemplate.events.on("over", function (ev) {
+                        var data = ev.target.dataItem.dataContext;
+                        changeOutput(data);
                     });
-                </script>
-                <span id="contact_info"></span>
-                <script>
-                    $("#contact_info").load("contact.html");
-                </script>
-                <h2>How to minimize the risk of infection?</h2>
-                <div id="measures">
-                    <div class="icon-text">
-                        <img src="images/washhands.png">
-                        <span class="text">Wash your hands thorough with <a href="https://amzn.to/2Qbz5lT"
-                                title="Affiliate link for hand soap on Amazon.co.uk">soap</a>.</span>
-                    </div>
-                    <div class="icon-text">
-                        <img src="images/distance.png">
-                        <span class="text">Keep at least 1m distance between you and the others.</span>
-                    </div>
-                    <div class="icon-text">
-                        <img src="images/wipe.png">
-                        <span class="text">Wipe down doorhandles and other objets with <a href="https://amzn.to/2Q7EuKy"
-                                title="Affiliate link for alcohol wipes on Amazon.co.uk">alcohol wipes</a>.</span>
-                    </div>
-                    <div class="icon-text">
-                        <img src="images/cover.png">
-                        <span class="text">Cover your mouth and hands with a <a href="https://amzn.to/33bRc0d"
-                                title="Affiliate link for paper hankies on Amazon.co.uk">paper towel</a>.</span>
-                    </div>
-                    <div class="icon-text">
-                        <img src="images/group.png">
-                        <span class="text">Avoid groups</span>
-                    </div>
+
+                    // Create hover state and set alternative fill color
+                    var hs = polygonTemplate.states.create("hover");
+                    hs.properties.fill = am4core.color("#3a4249");
+
+                    // Remove Antarctica
+                    polygonSeries.exclude = ["AQ"];
+
+                    // -------------------------------------
+                    // | Map countries with local lockdown |
+                    // -------------------------------------
+
+                    var polygonSeriesLocal = chart.series.push(new am4maps.MapPolygonSeries());
+
+                    // Make map load polygon (like country names) data from GeoJSON
+                    polygonSeriesLocal.useGeodata = true;
+
+                    // Add some custom data
+                    polygonSeriesLocal.data = JSON.parse(JSON.stringify(countries));
+                    polygonSeriesLocal.include = lockdownLocal;
+
+
+                    // Configure series
+                    var polygonTemplate = polygonSeriesLocal.mapPolygons.template;
+                    polygonTemplate.tooltipText = "{name} {situation.state}";
+                    polygonTemplate.fill = am4core.color("#f2daae");
+                    polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
+                    polygonTemplate.events.on("over", function (ev) {
+                        var data = ev.target.dataItem.dataContext;
+                        changeOutput(data);
+                    });
+
+                    // Create hover state and set alternative fill color
+                    var hs = polygonTemplate.states.create("hover");
+                    hs.properties.fill = am4core.color("#3a4249");
+
+
+                    // ---------------------------------
+                    // | Map countries not in lockdown |
+                    // ---------------------------------
+
+                    var polygonSeriesNo = chart.series.push(new am4maps.MapPolygonSeries());
+
+                    // Make map load polygon (like country names) data from GeoJSON
+                    polygonSeriesNo.useGeodata = true;
+
+                    // Add some custom data
+                    polygonSeriesNo.data = JSON.parse(JSON.stringify(countries));
+                    lockdownYES.push("AQ");
+                    polygonSeriesNo.exclude = lockdownYES.concat(lockdownLocal);
+
+
+                    // Configure series
+                    var polygonTemplate = polygonSeriesNo.mapPolygons.template;
+                    polygonTemplate.tooltipText = "{name} {situation.state}";
+                    polygonTemplate.fill = am4core.color("#62c4c3");
+                    polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
+                    polygonTemplate.events.on("over", function (ev) {
+                        var data = ev.target.dataItem.dataContext;
+                        changeOutput(data);
+                    });
+
+                    // Create hover state and set alternative fill color
+                    var hs = polygonTemplate.states.create("hover");
+                    hs.properties.fill = am4core.color("#3a4249");
+
+                    // Add zoom control
+                    chart.zoomControl = new am4maps.ZoomControl();
+                });
+                function changeOutput(entry) {
+                    $("#answer").show();
+                    $("#event").hide();
+                    $("#school").hide();
+                    $("#shop").hide();
+                    $("#travel").hide();
+                    $("#health").hide();
+                    $("#quarantaine").hide();
+                    $("#restaurant").hide();
+                    $("#note").hide();
+                    $("#result").html(entry.situation.state);
+                    if (entry.situation.event) {
+                        $("#event").show();
+                        $("#eventText").html(entry.situation.event);
+
+                    }
+                    if (entry.situation.school) {
+                        $("#school").show();
+                        $("#schoolText").html(entry.situation.school);
+
+                    }
+                    if (entry.situation.shop) {
+                        $("#shop").show();
+                        $("#shopText").html(entry.situation.shop);
+
+                    }
+                    if (entry.situation.travel) {
+                        $("#travel").show();
+                        $("#travelText").html(entry.situation.travel);
+
+                    }
+                    if (entry.situation.health) {
+                        $("#health").show();
+                        $("#healthText").html(entry.situation.health);
+
+                    }
+                    if (entry.situation.quarantaine) {
+                        $("#quarantaine").show();
+                        $("#quarantaineText").html(entry.situation.quarantaine);
+
+                    }
+                    if (entry.situation.restaurant) {
+                        $("#restaurant").show();
+                        $("#restaurantText").html(entry.situation.restaurant);
+
+                    }
+                    if (entry.situation.remark) {
+                        $("#remark").html(entry.situation.remark);
+                    } else {
+                        $("#remark").html("Current restrictions");
+                    }
+                    if (entry.situation.note) {
+                        $("#note").show();
+                        $("#note").html(entry.situation.note);
+                    }
+                };
+            </script>
+            <span id="contact_info"></span>
+            <script>
+                $("#contact_info").load("contact.html");
+            </script>
+            <h2>How to minimize the risk of infection?</h2>
+            <div id="measures">
+                <div class="icon-text">
+                    <img src="images/washhands.png">
+                    <span class="text">Wash your hands thorough with <a href="https://amzn.to/2Qbz5lT"
+                            title="Affiliate link for hand soap on Amazon.co.uk">soap</a>.</span>
                 </div>
-                <h2>What are the symptoms?</h2>
-                <div id="symptoms">
-                    <div class="icon-text">
-                        <img src="images/fever.png">
-                        <span class="text">Fever</span>
-                    </div>
-                    <div class="icon-text">
-                        <img src="images/cough.png">
-                        <span class="text">Dry cough</span>
-                    </div>
-                    <div class="icon-text">
-                        <img src="images/breath.png">
-                        <span class="text">Shortness of breath</span>
-                    </div>
-                    <div class="icon-text">
-                        <img src="images/throat.png">
-                        <span class="text">Sore throat</span>
-                    </div>
-                    <div class="icon-text">
-                        <img src="images/headache.png">
-                        <span class="text">Headaches</span>
-                    </div>
+                <div class="icon-text">
+                    <img src="images/distance.png">
+                    <span class="text">Keep at least 1m distance between you and the others.</span>
                 </div>
-                <h2>More information about Sars-COV-2 can be found in the following places</h2>
-                <div id="info">
-                    <div class="icon-text">
-                        <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">
-                            <span class="icon"><img src="images/who.jpg" width="150px" max-height="150px"></span>
-                            <span class="text">Official site of the WHO about COVID-19</span>
-                        </a>
-                    </div>
-                    <div class="icon-text">
-                        <a href="https://en.wikipedia.org/wiki/SARS-CoV-2" target="_blank">
-                            <span class="icon"><img src="images/Wikipedia-logo-v2.svg" width="150px"
-                                    max-height="150px"></span>
-                            <span class="text">Wikipedia</span>
-                        </a>
-                    </div>
-                    <div class="icon-text">
-                        <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
-                            target="_blank">
-                            <span class="icon"><img src="images/world.png" width="150px"></span>
-                            <span class="text">Numbers for the global spread by John Hopkins University.</span>
-                        </a>
-                    </div>
-                    <div class="icon-text">
-                        <a href="https://bit.ly/covid19-data" target="_blank">
-                            <span class="icon"><img src="images/info-beautifull.png" width="150px"></span>
-                            <span class="text">Information is beautiful COVID-19 Datapack</span>
-                        </a>
-                    </div>
-                    <div class="icon-text">
-                        <a href="https://www.worldometers.info/coronavirus/" target="_blank">
-                            <span class="icon"><img src="images/worldometer.png" width="150px"></span>
-                            <span class="text">Readable overview of all the cases.</span>
-                        </a>
-                    </div>
-                    <div class="icon-text">
-                        <a href="https://www.vectera.com?fpr=areweinlockdown-com" target="_blank">
-                            <span class="icon"><img
-                                    src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/eb08qif4/marketing_asset/banner/2986/logo_300.bc677b5eceae.png"
-                                    alt="vectera" width="250px" style="margin-top: 70px" /></span>
-                            <span class="text">Vectera video meetings without hassle in your browser. Free till 1st of
-                                june.
-                                (affiliate link)</span>
-                        </a>
-                    </div>
-                    <div class="icon-text">
-                        <a href="https://ncov2019.live/data" target="_blank">
-                            <span class="icon">
-                                <svg class="icon" style="width: 150px;" aria-hidden="true" focusable="false"
-                                    data-prefix="fas" data-icon="globe" class="svg-inline--fa fa-globe fa-w-16"
-                                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-                                    <path fill="currentColor"
-                                        d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z">
-                                    </path>
-                                </svg>
-                                <span class="text">nCoV2019 live independent data source.</span>
-                        </a>
-                    </div>
+                <div class="icon-text">
+                    <img src="images/wipe.png">
+                    <span class="text">Wipe down doorhandles and other objets with <a href="https://amzn.to/2Q7EuKy"
+                            title="Affiliate link for alcohol wipes on Amazon.co.uk">alcohol wipes</a>.</span>
                 </div>
+                <div class="icon-text">
+                    <img src="images/cover.png">
+                    <span class="text">Cover your mouth and hands with a <a href="https://amzn.to/33bRc0d"
+                            title="Affiliate link for paper hankies on Amazon.co.uk">paper towel</a>.</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/group.png">
+                    <span class="text">Avoid groups</span>
+                </div>
+            </div>
+            <h2>What are the symptoms?</h2>
+            <div id="symptoms">
+                <div class="icon-text">
+                    <img src="images/fever.png">
+                    <span class="text">Fever</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/cough.png">
+                    <span class="text">Dry cough</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/breath.png">
+                    <span class="text">Shortness of breath</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/throat.png">
+                    <span class="text">Sore throat</span>
+                </div>
+                <div class="icon-text">
+                    <img src="images/headache.png">
+                    <span class="text">Headaches</span>
+                </div>
+            </div>
+            <h2>More information about Sars-COV-2 can be found in the following places</h2>
+            <div id="info">
+                <div class="icon-text">
+                    <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">
+                        <span class="icon"><img src="images/who.jpg" width="150px" max-height="150px"></span>
+                        <span class="text">Official site of the WHO about COVID-19</span>
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a href="https://en.wikipedia.org/wiki/SARS-CoV-2" target="_blank">
+                        <span class="icon"><img src="images/Wikipedia-logo-v2.svg" width="150px"
+                                max-height="150px"></span>
+                        <span class="text">Wikipedia</span>
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
+                        target="_blank">
+                        <span class="icon"><img src="images/world.png" width="150px"></span>
+                        <span class="text">Numbers for the global spread by John Hopkins University.</span>
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a href="https://bit.ly/covid19-data" target="_blank">
+                        <span class="icon"><img src="images/info-beautifull.png" width="150px"></span>
+                        <span class="text">Information is beautiful COVID-19 Datapack</span>
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a href="https://www.worldometers.info/coronavirus/" target="_blank">
+                        <span class="icon"><img src="images/worldometer.png" width="150px"></span>
+                        <span class="text">Readable overview of all the cases.</span>
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a href="https://www.vectera.com?fpr=areweinlockdown-com" target="_blank">
+                        <span class="icon"><img
+                                src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/eb08qif4/marketing_asset/banner/2986/logo_300.bc677b5eceae.png"
+                                alt="vectera" width="250px" style="margin-top: 70px" /></span>
+                        <span class="text">Vectera video meetings without hassle in your browser. Free till 1st
+                            of
+                            june.
+                            (affiliate link)</span>
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a href="https://ncov2019.live/data" target="_blank">
+                        <span class="icon">
+                            <svg class="icon" style="width: 150px;" aria-hidden="true" focusable="false"
+                                data-prefix="fas" data-icon="globe" class="svg-inline--fa fa-globe fa-w-16" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                <path fill="currentColor"
+                                    d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z">
+                                </path>
+                            </svg>
+                            <span class="text">nCoV2019 live independent data source.</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <div id="copyrights">
         <div class="frame">
             Website build by <a id="annickandthebeard" href="https://www.annickandthebeard.be">Annick & The
                 Beard</a>. <br />
-            Inspiration of <a id="iseraleenregering" href="http://iseraleenregering.be">iseraleenregering.be</a> <br />
+            Inspiration of <a id="iseraleenregering" href="http://iseraleenregering.be">iseraleenregering.be</a>
+            <br />
             Icons provided by <a href="https://www.iconfinder.com/p/coronavirus-awareness-icons">Iconfinder</a><br />
             <a href="/privacy-policy.html">Privacy Policy</a>
         </div>
