@@ -1,7 +1,7 @@
 [
     {
         "name": "Alabama",
-        "abbreviation": "AL",
+        "id": "AL",
         "population" : "4903185",
         "situation": {
             "state" : "YES",
@@ -14,7 +14,7 @@
     },
     {
         "name": "Alaska",
-        "abbreviation": "AK",
+        "id": "AK",
         "population" : "731545",
         "situation": {
             "state" : "YES",
@@ -27,7 +27,7 @@
     },
     {
         "name": "American Samoa",
-        "abbreviation": "AS",
+        "id": "AS",
         "population" : "55640",
         "situation": {
             "state" : "NO",
@@ -40,7 +40,7 @@
     },
     {
         "name": "Arizona",
-        "abbreviation": "AZ",
+        "id": "AZ",
         "population" : "7278720",
         "situation": {
             "state" : "YES",
@@ -53,7 +53,7 @@
     },
     {
         "name": "Arkansas",
-        "abbreviation": "AR",
+        "id": "AR",
         "population" : "3017825",
         "situation": {
             "state" : "NO",
@@ -65,7 +65,7 @@
     },
     {
         "name": "California",
-        "abbreviation": "CA",
+        "id": "CA",
         "population" : "39512225",
         "situation": {
             "state" : "YES",
@@ -79,7 +79,7 @@
     },
     {
         "name": "Colorado",
-        "abbreviation": "CO",
+        "id": "CO",
         "population" : "5758735",
         "situation": {
             "state" : "YES",
@@ -92,7 +92,7 @@
     },
     {
         "name": "Connecticut",
-        "abbreviation": "CT",
+        "id": "CT",
         "population" : "3565290",
         "situation": {
             "state" : "YES",
@@ -106,7 +106,7 @@
     },
     {
         "name": "Delaware",
-        "abbreviation": "DE",
+        "id": "DE",
         "population" : "973765",
         "situation": {
             "state" : "YES",
@@ -120,7 +120,7 @@
     },
     {
         "name": "District of Columbia",
-        "abbreviation": "DC",
+        "id": "DC",
         "population" : "705750",
         "situation": {
             "state" : "YES",
@@ -134,7 +134,7 @@
     },
     {
         "name": "Florida",
-        "abbreviation": "FL",
+        "id": "FL",
         "population" : "21477740",
         "situation": {
             "state" : "YES",
@@ -147,7 +147,7 @@
     },
     {
         "name": "Georgia",
-        "abbreviation": "GA",
+        "id": "GA",
         "population" : "10617425",
         "situation": {
             "state" : "YES",
@@ -160,7 +160,7 @@
     },
     {
         "name": "Guam",
-        "abbreviation": "GU",
+        "id": "GU",
         "population" : "165720",
         "situation": {
             "state" : "NO",
@@ -173,7 +173,7 @@
     },
     {
         "name": "Hawaii",
-        "abbreviation": "HI",
+        "id": "HI",
         "population" : "1415870",
         "situation": {
             "state" : "YES",
@@ -187,7 +187,7 @@
     },
     {
         "name": "Idaho",
-        "abbreviation": "ID",
+        "id": "ID",
         "population" : "1792065",
         "situation": {
             "state" : "YES",
@@ -201,7 +201,7 @@
     },
     {
         "name": "Illinois",
-        "abbreviation": "IL",
+        "id": "IL",
         "population" : "12671820",
         "situation": {
             "state" : "YES",
@@ -215,7 +215,7 @@
     },
     {
         "name": "Indiana",
-        "abbreviation": "IN",
+        "id": "IN",
         "population" : "6732220",
         "situation": {
             "state" : "YES",
@@ -229,7 +229,7 @@
     },
     {
         "name": "Iowa",
-        "abbreviation": "IA",
+        "id": "IA",
         "population" : "3155070",
         "situation": {
             "state" : "NO",
@@ -242,7 +242,7 @@
     },
     {
         "name": "Kansas",
-        "abbreviation": "KS",
+        "id": "KS",
         "population" : "2913315",
         "situation": {
             "state" : "YES",
@@ -254,7 +254,7 @@
     },
     {
         "name": "Kentucky",
-        "abbreviation": "KY",
+        "id": "KY",
         "population" : "4467675",
         "situation": {
             "state" : "NO",
@@ -268,7 +268,7 @@
     },
     {
         "name": "Louisiana",
-        "abbreviation": "LA",
+        "id": "LA",
         "population" : "4648795",
         "situation": {
             "state" : "YES",
@@ -282,7 +282,7 @@
     },
     {
         "name": "Maine",
-        "abbreviation": "ME",
+        "id": "ME",
         "population" : "1344210",
         "situation": {
             "state" : "YES",
@@ -296,7 +296,7 @@
     },
     {
         "name": "Maryland",
-        "abbreviation": "MD",
+        "id": "MD",
         "population" : "6045680",
         "situation": {
             "state" : "YES",
@@ -309,7 +309,7 @@
     },
     {
         "name": "Massachusettes",
-        "abbreviation": "MA",
+        "id": "MA",
         "population" : "6949505",
         "situation": {
             "state" : "NO",
@@ -324,7 +324,7 @@
     },
     {
         "name": "Michigan",
-        "abbreviation": "MI",
+        "id": "MI",
         "population" : "9986855",
         "situation": {
             "state" : "YES",
@@ -338,7 +338,7 @@
     },
     {
         "name": "Minnesota",
-        "abbreviation": "MN",
+        "id": "MN",
         "population" : "5639632",
         "situation": {
             "state" : "YES",
@@ -352,7 +352,7 @@
     },
     {
         "name": "Mississippi",
-        "abbreviation": "MS",
+        "id": "MS",
         "population" : "2976150",
         "situation": {
             "state" : "YES",
@@ -365,7 +365,7 @@
     },
     {
         "name": "Missouri",
-        "abbreviation": "MO",
+        "id": "MO",
         "population" : "6137430",
         "situation": {
             "state" : "YES",
@@ -379,7 +379,7 @@
     },
     {
         "name": "Montana",
-        "abbreviation": "MT",
+        "id": "MT",
         "population" : "1068780",
         "situation": {
             "state" : "YES",
@@ -393,7 +393,7 @@
     },
     {
         "name": "Nebraska",
-        "abbreviation": "NE",
+        "id": "NE",
         "population" : "1934410",
         "situation": {
             "state" : "NO",
@@ -405,7 +405,7 @@
     },
     {
         "name": "Nevada",
-        "abbreviation": "NV",
+        "id": "NV",
         "population" : "3080160",
         "situation": {
             "state" : "YES",
@@ -419,7 +419,7 @@
     },
     {
         "name": "New Hampshire",
-        "abbreviation": "NH",
+        "id": "NH",
         "population" : "1359710",
         "situation": {
             "state" : "YES",
@@ -433,7 +433,7 @@
     },
     {
         "name": "New Jersey",
-        "abbreviation": "NJ",
+        "id": "NJ",
         "population" : "8882190",
         "situation": {
             "state" : "YES",
@@ -447,7 +447,7 @@
     },
     {
         "name": "New Mexico",
-        "abbreviation": "NM",
+        "id": "NM",
         "population" : "2096830",
         "situation": {
             "state" : "YES",
@@ -461,7 +461,7 @@
     },
     {
         "name": "New York",
-        "abbreviation": "NY",
+        "id": "NY",
         "population" : "19453560",
         "situation": {
             "state" : "YES",
@@ -475,7 +475,7 @@
     },
     {
         "name": "North Carolina",
-        "abbreviation": "NC",
+        "id": "NC",
         "population" : "10488085",
         "situation": {
             "state" : "YES",
@@ -489,7 +489,7 @@
     },
     {
         "name": "North Dakota",
-        "abbreviation": "ND",
+        "id": "ND",
         "population" : "762060",
         "situation": {
             "state" : "NO",
@@ -501,7 +501,7 @@
     },
     {
         "name": "Ohio",
-        "abbreviation": "OH",
+        "id": "OH",
         "population" : "11689100",
         "situation": {
             "state" : "YES",
@@ -516,7 +516,7 @@
     },
     {
         "name": "Oklahoma",
-        "abbreviation": "OK",
+        "id": "OK",
         "population" : "3956970",
         "situation": {
             "state" : "NO",
@@ -529,7 +529,7 @@
     },
     {
         "name": "Oregon",
-        "abbreviation": "OR",
+        "id": "OR",
         "population" : "4217740",
         "situation": {
             "state" : "YES",
@@ -543,7 +543,7 @@
     },
     {
         "name": "Pennsylvania",
-        "abbreviation": "PE",
+        "id": "PE",
         "population" : "12801990",
         "situation": {
             "state" : "YES",
@@ -557,7 +557,7 @@
     },
     {
         "name": "Rhode Island",
-        "abbreviation": "RI",
+        "id": "RI",
         "population" : "1059360",
         "situation": {
             "state" : "YES",
@@ -571,7 +571,7 @@
     },
     {
         "name": "South Carolina",
-        "abbreviation": "SC",
+        "id": "SC",
         "population" : "5148715",
         "situation": {
             "state" : "YES",
@@ -584,7 +584,7 @@
     },
     {
         "name": "South Dakota",
-        "abbreviation": "SD",
+        "id": "SD",
         "population" : "884660",
         "situation": {
             "state" : "YES",
@@ -596,7 +596,7 @@
     },
     {
         "name": "Tennessee",
-        "abbreviation": "TN",
+        "id": "TN",
         "population" : "6833175",
         "situation": {
             "state" : "NO",
@@ -609,7 +609,7 @@
     },
     {
         "name": "Texas",
-        "abbreviation": "TX",
+        "id": "TX",
         "population" : "28995880",
         "situation": {
             "state" : "YES",
@@ -622,7 +622,7 @@
     },
     {
         "name": "Utah",
-        "abbreviation": "UT",
+        "id": "UT",
         "population" : "1359710",
         "situation": {
             "state" : "NO",
@@ -635,7 +635,7 @@
     },
     {
         "name": "Vermont",
-        "abbreviation": "VT",
+        "id": "VT",
         "population" : "623990",
         "situation": {
             "state" : "YES",
@@ -649,7 +649,7 @@
     },
     {
         "name": "Virginia",
-        "abbreviation": "VA",
+        "id": "VA",
         "population" : "8535520",
         "situation": {
             "state" : "YES",
@@ -663,7 +663,7 @@
     },
     {
         "name": "Washington",
-        "abbreviation": "WA",
+        "id": "WA",
         "population" : "7614895",
         "situation": {
             "state" : "YES",
@@ -677,7 +677,7 @@
     },
     {
         "name": "West Virginia",
-        "abbreviation": "WV",
+        "id": "WV",
         "population" : "1787150",
         "situation": {
             "state" : "YES",
@@ -691,7 +691,7 @@
     },
     {
         "name": "Wisconsin",
-        "abbreviation": "WI",
+        "id": "WI",
         "population" : "5822435",
         "situation": {
             "state" : "YES",
@@ -705,7 +705,7 @@
     },
     {
         "name": "Wyoming",
-        "abbreviation": "WY",
+        "id": "WY",
         "population" : "1359710",
         "situation": {
             "state" : "NO",
