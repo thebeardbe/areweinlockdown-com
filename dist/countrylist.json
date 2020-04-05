@@ -710,8 +710,10 @@
         "id": "ER",
         "population" : "5792985",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy, non essential travel prohibited. Security forces enforce lockdown.",
             "school" : "Schools are closed",
+            "shop" : "Non essentail shops are closed.",
             "event" : "Ban on all recreational events, sports, culture and other with 10 or more participants",
             "travel" : "Air travel suspended. Travellers scanned for signs of illness on arrival.",
             "note" : "<a href=\"http://shabait.com/\" target=\"_blank\">More info</a>"
