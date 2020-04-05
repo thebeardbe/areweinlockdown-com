@@ -371,17 +371,6 @@
         }
     },
     {
-        "name": "Burma / Myanmar",
-        "id": "MN",
-        "population" : "53414400",
-        "situation": {
-            "state" : "NO",
-            "travel" : "Borders are closed for foreigners.",
-            "shop" : "Thermal screening in volunteer shops",
-            "note" : "<a href=\"https://mohs.gov.mm/Main/content/publication/2019-ncov\" target=\"_blank\">More info</a>"
-        }
-    },
-    {
         "name": "Burundi",
         "id": "BI",
         "population" : "9863100",
@@ -415,13 +404,14 @@
         "id": "CA",
         "population" : "33679000",
         "situation": {
-            "state" : "YES",
+            "state" : "LOCAL",
             "quarantaine" : "Stay at home policy, not mandatory",
-            "school" : "Schools are closed except in NWT",
+            "school" : "Schools are closed.",
             "shop" : "All non essentail shops are closed in several provinces.",
-            "restaurant" : "Restaurants and bars are closed in several provinces, reduced capacity in others.",
-            "event" : "Several provinces have banned all gatherings. Some have banned larger than 5. Others have no limit.",
-            "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed, Some provincial borders also closed."
+            "restaurant" : "Restaurants and bars are closed in most provinces, reduced capacity in others.",
+            "event" : "Some provinces have banned all gatherings. Some have banned larger than 5. Others have no limit.",
+            "travel" : "Travellers must adhere to self-quarantaine of 14 days. Borders closed, Some provincial borders also closed.",
+            "note" : "<a href=\"https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Canada#Provincial_and_territorial\" target=\"_blank\">More info on state level</a>"
         }
     },
     {
@@ -970,7 +960,16 @@
     },
     {
         "name": "Guyana",
-        "id": "Gy",
+        "id": "GY",
+        "population" : "748486",
+        "situation": {
+            "state" : "NO",
+            "remark" : "No restrictions known."
+        }
+    },
+    {
+        "name": "Guyane Française",
+        "id": "GF",
         "population" : "748486",
         "situation": {
             "state" : "NO",
@@ -1591,6 +1590,17 @@
             "event" : "Ban on all recreational events, sports, culture and other with 50 or more participants",
             "travel" : "All borders closed for foreigners. Self-quarantaine for every traveller.",
             "note" : "<a href=\"http://www.misau.gov.mz/\" target=\"_blank\">More info</a>"
+        }
+    },
+    {
+        "name": "Myanmar",
+        "id": "MM",
+        "population" : "53414400",
+        "situation": {
+            "state" : "NO",
+            "travel" : "Borders are closed for foreigners.",
+            "shop" : "Thermal screening in volunteer shops",
+            "note" : "<a href=\"https://mohs.gov.mm/Main/content/publication/2019-ncov\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -2392,7 +2402,7 @@
     },
     {
         "name": "Uganda",
-        "id": "UH",
+        "id": "UG",
         "population" : "33398680",
         "situation": {
             "state" : "NO",
