@@ -326,9 +326,9 @@
 
                                 }
                                 if ("remark" in entry.situation) {
-                                    $("#remark").html(entry.situation.remark);
+                                    $("#remark").html(entry.name + ": " + entry.situation.remark);
                                 } else {
-                                    $("#remark").html("Current restrictions");
+                                    $("#remark").html(entry.name + ": Current restrictions");
                                 }
                                 if ("note" in entry.situation) {
                                     $("#note").show();
