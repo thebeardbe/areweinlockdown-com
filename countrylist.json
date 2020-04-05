@@ -2450,8 +2450,8 @@
         "population" : "310232865",
         "situation": {
             "state" : "LOCAL",
-            "remark" : "Current situation: <a href=\".",
-            "quarantaine" : "Over half of the states are lockdown, select a state to see it's status",
+            "remark" : "Current situation: .",
+            "quarantaine" : "Over half of the states are lockdown, (<a href=\"/index.html?countrycode=US\">Info on state level</a>)",
             "note" : "You can select every state. ",
             "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors.",
             "event" : "Large gatherings, sport events are cancelled. 10 person max limit.",
