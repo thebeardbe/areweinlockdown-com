@@ -28,7 +28,7 @@ h3{font-size:15px;}
 #top .frame ul li { display: block; height: 34px; font-size: 2em; margin: auto 5%; list-style: none; }
 #top .frame ul li a { display: block; height: 34px; color: #fff;}
 #top .frame ul li a:hover, #top .frame ul li a:active { color: #FF5F5F;}
-#top .frame span {}
+
 
 /* Styling center */ 
 #center { margin-top: 80px;}
@@ -109,7 +109,8 @@ h3{font-size:15px;}
 #map {width: 100%; display: flex; flex-direction: row; flex-wrap: nowrap;justify-content: space-evenly;}
 #chartdiv { width: 750px; height: 400px;margin: 0 auto; border: 5px solid #62c4c3; border-radius: 50px;padding: 10px;}
 /* Loading Map */
-#loading {
+#loading { height: 500px; margin-top: -500px;}
+#loading #loadingIcon {
     position: relative;
     top: 50%;
     left: 50%;
@@ -118,7 +119,8 @@ h3{font-size:15px;}
     margin:-350px 0 0 -60px;
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+	animation:spin 4s linear infinite;
+	display: block;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }

@@ -58,7 +58,7 @@
             <h1 id="page-title"><span>Map with government responses.</span></h1>
             <div ïd="map">
                 <div id="chartdiv"></div>
-                <div id="loading"><img src="images/virus.png" alt="" width="120" height="120" /></div>
+                <div id="loading"><span id="loadingIcon"><img src="images/virus.png" alt="" width="120" height="120" /></span></div>
                 <div id="answer">
                     <div id="virus">
                         <span id="result"></span>
@@ -288,9 +288,9 @@
 
                     }
                     if (entry.situation.remark) {
-                        $("#remark").html(entry.situation.remark);
-                    } else {
-                        $("#remark").html("Current restrictions");
+                        $("#remark").html(entry.name + ": " + entry.situation.remark);
+                    } else { 
+                        $("#remark").html(entry.name + ": Current restrictions");
                     }
                     if (entry.situation.note) {
                         $("#note").show();
