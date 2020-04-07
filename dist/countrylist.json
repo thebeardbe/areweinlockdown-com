@@ -150,9 +150,10 @@
             "event" : "Ban on all recreational events, sports, culture and other. No gathering above 5 persons.",
             "restaurant" : "Restaurants, bars and hotels are closed.",
             "school" : "Schools are closed",
-            "shop" : "All non essential shops are closed. Essential shops open with limited hours. Face mask inside store obligated.",
+            "shop" : "All non essential shops are closed. Essential shops open with limited hours.",
             "travel" : "Borders with Italy and Switzerland closed, German border closed from german side.",
-            "quarantaine" : "Only leaving home for necessary duties. Several areas in full lockdown."
+            "quarantaine" : "Only leaving home for necessary duties. Several areas in full lockdown.",
+            "facemask" : "Obligation to wear facemasks in public."
 
         }
     },
@@ -307,11 +308,13 @@
         "population" : "4590000",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Curfew from 8pm until 5am.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools are closed.",
             "shop" : "Non essentail shops are closed.",
-            "travel" : "Ban on entry for travellers from China, South Korea, Japan, Italy, Iran, France, Romania, Germany, Austria, Spain, Switzerland, and Belgium."
+            "travel" : "Ban on entry for travellers from China, South Korea, Japan, Italy, Iran, France, Romania, Germany, Austria, Spain, Switzerland, and Belgium.",
+            "facemask" : "Obligation to wear facemasks in public."
         }
     },
     {
@@ -359,7 +362,8 @@
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools are closed.",
             "shop" : "All non essential shops are closed.",
-            "travel" : "Borders closed for foreigners."
+            "travel" : "Borders closed for foreigners.",
+            "facemask" : "Obligation to wear facemasks in public."
         }
     },
     {
@@ -595,7 +599,8 @@
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
             "shop" : "All non essentail shops are closed.",
-            "quarantaine" : "Only essential movement prohibited. Obligation to wear a face mask",
+            "quarantaine" : "Only essential movement prohibited.",
+            "facemask" : "Obligation to wear facemasks in public.",
             "travel" : "Complete travel ban."
         }
     },
@@ -1061,6 +1066,7 @@
             "quarantaine" : "All students of West Kalimantan are quarantained for 2 weeks",
             "restaurant" : "Cafés, bars, night clubs and movie theaters closed.",
             "travel" : "Borders closed for foreigners. Thermal scanners installed in airports",
+            "facemask" : "Obligation to wear facemasks outside",
             "school" : "Schools are closed."
         }
     },
@@ -1114,6 +1120,7 @@
             "school" : "Schools are closed.",
             "travel" : "Flights from and to some affected areas suspended.",
             "quarantaine" : "Stay at home and no travel outside 150m from your house.",
+            "facemask" : "Obligation to wear facemasks in public.",
             "note" : "National state of emergency since 19th of March."
         }
     },
@@ -2131,7 +2138,7 @@
             "shop": "All non-vital institutions closed. Between 9am - 12am only 65+ allowed",
             "travel" : "Border control reinstated. Airports closed. All non-residents are banned.",
             "health" : "Hospital only take emergency cases, in case of covid-19 concerns call 0917-222-682.",
-            "quarantaine" : "Obligation to wear a face mask or facial covering."
+            "facemask" : "Obligation to wear a face mask or facial covering."
         }
     },
     {
@@ -2144,7 +2151,8 @@
             "shop" : "Non essentail shops are closed.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools and daycare are closed.",
-            "travel" : "Border control, borders partially closed."
+            "travel" : "Border control, borders partially closed.",
+            "facemask" : "Obligation to wear facemasks and gloves in public."
         }
     },
     {

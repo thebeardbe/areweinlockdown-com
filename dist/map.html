@@ -106,6 +106,12 @@
                             <div class="icon">
                                 <img src="images/health.png" width="150px">
                             </div>
+                            <div id="facemask" class="icon-text">
+                                <div class="icon">
+                                    <img src="images/facemask.png" width="150px">
+                                </div>
+                                <span id="facemaskText" class="text"></span>
+                            </div>
                             <span id="healthText" class="text"></span>
                         </div>
                     </div>
@@ -123,6 +129,7 @@
                 $("#health").hide();
                 $("#quarantaine").hide();
                 $("#restaurant").hide();
+                $("#facemask").hide();
                 $("#note").hide();
                 $("#state-dropdown").hide();
 
@@ -250,6 +257,7 @@
                     $("#health").hide();
                     $("#quarantaine").hide();
                     $("#restaurant").hide();
+                    $("#facemask").hide();
                     $("#note").hide();
                     $("#result").html(entry.situation.state);
                     if (entry.situation.event) {
@@ -285,6 +293,11 @@
                     if (entry.situation.restaurant) {
                         $("#restaurant").show();
                         $("#restaurantText").html(entry.situation.restaurant);
+
+                    }
+                    if (entry.situation.facemask) {
+                        $("#facemask").show();
+                        $("#facemaskText").html(entry.situation.facemask);
 
                     }
                     if (entry.situation.remark) {

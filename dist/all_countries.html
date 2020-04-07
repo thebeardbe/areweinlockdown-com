@@ -77,6 +77,7 @@
                     <th>Shops</th>
                     <th>Travel</th>
                     <th>Health</th>
+                    <th>Facemask</th>
                     <th>Note</th>
                 </tr>
             </table>
@@ -91,6 +92,7 @@
                     <th>Shops</th>
                     <th>Travel</th>
                     <th>Health</th>
+                    <th>Facemask</th>
                     <th>Note</th>
                 </tr>
             </table>
@@ -123,6 +125,7 @@
                             .append($('<td></td>').html(entry.situation.shop))
                             .append($('<td></td>').html(entry.situation.travel))
                             .append($('<td></td>').html(entry.situation.health))
+                            .append($('<td></td>').html(entry.situation.facemask))
                             .append($('<td></td>').html(entry.situation.note))
                             .append($('</tr>')));
                         if (entry.situation.state === "YES") {
@@ -170,6 +173,7 @@
                             .append($('<td></td>').html(entry.situation.shop))
                             .append($('<td></td>').html(entry.situation.travel))
                             .append($('<td></td>').html(entry.situation.health))
+                            .append($('<td></td>').html(entry.situation.facemask))
                             .append($('<td></td>').html(entry.situation.note))
                             .append($('</tr>')));
                         if (entry.population && entry.situation.state ===  "YES") {
