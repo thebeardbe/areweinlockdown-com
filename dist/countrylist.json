@@ -161,7 +161,8 @@
         "id": "AZ",
         "population" : "8303500",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy, non essential travel prohibited", 
             "event" : "Ban on all recreational events, sports, culture and other.",
             "health" : "Visits to medical facilities prohibited.",
             "shop" : "Checking of temperature before entering the malls",
@@ -1376,9 +1377,9 @@
         "id": "MG",
         "population" : "21281845",
         "situation": {
-            "state" : "LOCAL",
-            "quarantaine" : "Strict confinement measures in Antananarivo and Toamasina. Curfew in place from 8pm and 5am.",
-            "event" : "Ban on all recreational events, sports, culture and other",
+            "state" : "YES",
+            "quarantaine" : "Strict confiment policy since april 3. Valid authorization needed",
+            "event" : "Ban on all recreational events, sports, culture and other, gatherings above 50 persons illegal",
             "shop" : "Non essentail shops are closed.",
             "school" : "Schools are closed.",
             "travel" : "Suspension of all air travel. All public transport suspended"
@@ -1698,7 +1699,7 @@
         "population" : "154000000",
         "situation": {
             "state" : "LOCAL",
-            "quarantaine" : "Lagos, FCT and Ogun State are in lockdown",
+            "quarantaine" : "Lagos, FCT, Kano and Ogun State are in lockdown",
             "travel" : "Borders closed",
             "shop" : "All non essentail shops are closed.",
             "event" : "Ban on all recreational events, sports, culture and other",
@@ -1886,7 +1887,7 @@
         }
     },
     {
-        "name": "Republic of Congo",
+        "name": "Republic of the Congo",
         "id": "CG",
         "population" : "3039125",
         "situation": {
@@ -2434,10 +2435,12 @@
         "id": "UE",
         "population" : "4975595",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "quarantaine" : "Stay at home policy, non essential travel prohibited",
             "event" : "All events cancelled.",
             "restaurant" : "Bars and restaurants are closed.",
-            "shop" : "Malls are closed",
+            "shop" : "Non essentail shops are closed.",
+            "school" : "Schools are closed",
             "travel" : "Quarantaine for travellers arriving."
         }
     },
