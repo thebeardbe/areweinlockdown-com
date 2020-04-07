@@ -520,6 +520,7 @@
         "population" : "3956970",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Advisory shelter in place since April 2",
             "remark" : "State of emergency since 15th of March",
             "event" : "Ban on all gatherings and events above 11 participants.",
             "school" : "Schools and daycare are closed",
@@ -576,7 +577,7 @@
         "situation": {
             "state" : "YES",
             "remark" : "State of emergency since 13th of March",
-            "quarantaine" : "Shelter in place on regional level",
+            "quarantaine" : "Shelter in place since April 7",
             "event" : "Ban on all gatherings and events above 50 participants.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
@@ -587,9 +588,9 @@
         "id": "SD",
         "population" : "884660",
         "situation": {
-            "state" : "YES",
+            "state" : "NO",
             "remark" : "State of emergency since 13th of March",
-            "quarantaine" :"Shelter in place on regional level",
+            "quarantaine" :"Shelter in place",
             "event" : "Ban on all gatherings and events above 50 participants.",
             "school" : "Schools and daycare are closed"
         }
@@ -599,9 +600,9 @@
         "id": "TN",
         "population" : "6833175",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "remark" : "State of emergency since 12th of March",
-            "quarantaine" : "Advisory shelter in place since 30th of March",
+            "quarantaine" : "Shelter in place since April 2",
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed"
@@ -625,7 +626,7 @@
         "id": "UT",
         "population" : "1359710",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "remark" : "State of emergency since 6th of March",
             "quarantaine" : "Shelter in place on regional level",
             "event" : "Ban on all gatherings and events above 10 participants.",
@@ -708,7 +709,7 @@
         "id": "WY",
         "population" : "1359710",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
             "remark" : "State of emergency since 12th of March",
             "quarantaine" :"Shelter in place on regional level",
             "event" : "Ban on all gatherings and events above 10 participants.",

@@ -105,6 +105,12 @@
                         </div>
                         <span id="healthText" class="text"></span>
                     </div>
+                    <div id="facemask" class="icon-text">
+                        <div class="icon">
+                            <img src="images/facemask.png" width="150px">
+                        </div>
+                        <span id="facemaskText" class="text"></span>
+                    </div>
                 </div>
                 <h3 id="note"></h3>
             </div>
@@ -137,6 +143,7 @@
                 $("#health").hide();
                 $("#quarantaine").hide();
                 $("#restaurant").hide();
+                $("#facemask").hide();
                 $("#note").hide();
                 $("#state-dropdown").hide();
                 
@@ -277,6 +284,7 @@
                     $("#health").hide();
                     $("#quarantaine").hide();
                     $("#restaurant").hide();
+                    $("#facemask").hide();
                     $("#note").hide();
                     if (code === "country") {
                         urlParams.set('countrycode', val);
@@ -323,6 +331,11 @@
                                 if ("restaurant" in entry.situation) {
                                     $("#restaurant").show();
                                     $("#restaurantText").html(entry.situation.restaurant);
+
+                                }
+                                if ("facemask" in entry.situation) {
+                                    $("#facemask").show();
+                                    $("#facemaskText").html(entry.situation.facemask);
 
                                 }
                                 if ("remark" in entry.situation) {
