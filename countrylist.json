@@ -2095,7 +2095,13 @@
         "id": "SG",
         "population" : "4701070",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "remark" : "Restrictions in effect from the April 7 till at least May 4:",
+            "quarantaine" : "Stay at home policy, non essential travel prohibited",
+            "shop" : "Non essentail shops are closed.",
+            "school" : "Schools are closed",
+            "event" : "Ban on all recreational events, sports, culture and other",
+            "restaurant" : "Restaurants and bars are closed.",
             "travel" : "Borders are closed for foreigners.",
             "note" : "<a href=\"https://www.moh.gov.sg/covid-19\" target=\"_blank\">More info</a>"
         }
