@@ -481,10 +481,11 @@
         "id": "CN",
         "population" : "1330044000",
         "situation": {
-            "state" : "LOCAL",
-            "quarantaine" : "Lockdown in some cities, mainly in the province of Hubei.",
+            "state" : "NO",
+            "remark" : "Last full lockdown ended on April 7, however there are still some restrictions: ",
             "event" : "Ban on all recreational events, sports, culture and other.",
-            "travel" : "Borders closed, Travel restrictions in large parts of the country"
+            "travel" : "Borders closed, Travel restrictions in large parts of the country",
+            "facemask" : "Parts of the country are making facemasks mandatory."
         }
     },
     {
@@ -507,6 +508,7 @@
             "shop" : "All non essentail shops are closed.",
             "restaurant" : "Restaurants and bars are closed.",
             "quarantaine" : "Shelter in place till at least April 12. All adults over 70 have to stay in their residence till the 31ste of may.",
+            "facemask" : "Obligation to wear facemasks in public",
             "note" : "State of emergency declared. <a href=\"https://d2jsqrio60m94k.cloudfront.net/\" target=\"_blank\">More information</a>"
         }
     },
@@ -566,6 +568,7 @@
         "situation": {
             "state" : "NO",
             "travel" : "Borders are closed for foreigners.",
+            "facemask" : "Obligation to wear facemasks in public",
             "note" :"<a href=\"https://salud.msp.gob.cu/\" target=\"_blank\">More info</a>"
         }
     },
@@ -870,6 +873,7 @@
             "restaurant" : "Restaurants and bars are closed, Delivery allowed",
             "shop" : "Non essentail shops are closed.",
             "travel" : "Borders with Austria, Denmark, France, Luxembourg and Switzerland closed from 16th of March 2020.",
+            "facemask" : "Obligation to wear facemasks in public",
             "quarantaine" : "Non essential transport prohibited. Stay at home policy in most states."
         }
     },
@@ -1133,6 +1137,7 @@
             "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
             "shop" : "Non essential shops and factories closed",
             "health" : "No visitors in health facilities.",
+            "facemask" : "Obligation to wear facemasks in public",
             "note" : "<a href=\"https://www.epicentro.iss.it/coronavirus/\" target=\"_blank\">More info in Italian</a>"
         }
     },
@@ -1200,7 +1205,8 @@
             "quarantaine" : "Curfew from 7pm till 5am",
             "restaurant" : "Restaurants and bars are closed. Take-away and delivery is allowed.",
             "event" : "Ban on all recreational events, sports, culture and other",
-            "travel" : "All borders closed for foreigners"
+            "travel" : "All borders closed for foreigners",
+            "facemask" : "Obligation to wear a face mask or facial covering in public."
         }
     },
     {
@@ -1561,6 +1567,7 @@
             "travel" : "All borders closed for foreigners. All commercial international flights, passenger rail and car traffic suspended",
             "restaurant" :"Bars are closed. Reduction of opening hours of restaurants",
             "event" : "Ban on all gatherings till 30th of april",
+            "facemask" : "Obligation to wear facemasks in public",
             "note" : "<a href=\"http://www.mfa.gov.mn/?lang=en/\" target=\"_blank\">More info</a>"
         }
     },
@@ -1837,7 +1844,8 @@
         "situation": {
             "state" : "LOCAL",
             "quarantaine" : "Luzon island in lockdown.",
-            "travel" : "Borders closed."
+            "travel" : "Borders closed.",
+            "facemask" :"Obligation to wear a face mask or facial covering in public."
         }
     },
     {
@@ -1942,7 +1950,8 @@
             "shop" : "All non essentail shops are closed.",
             "school" : "Schools are closed",
             "event" : "Some Areas ban on all recreational events, sports, culture and other events with 300 participants or more.",
-            "travel" : "Borders closed. All national and international passenger flights cancelled"
+            "travel" : "Borders closed. All national and international passenger flights cancelled",
+            "facemask" : "Parts of the country are making facemasks mandatory."
         }
     },
     {
@@ -2302,6 +2311,7 @@
             "state": "NO",
             "health": "Mandatory to declare symptoms. Buying restrictions, max 2 face-masks per person.",
             "travel" : "Borders closed for foreigners.",
+            "facemask" : "Obligation to wear facemasks in public",
             "note" : "<a href=\"https://www.cdc.gov.tw/En\" target=\"_blank\">More info</a>"
         }
     },
@@ -2391,6 +2401,7 @@
             "quarantaine" : "All intercity transport banned",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed",
+            "facemask" : "Obligation to wear facemasks in public",
             "travel" : "No flights from China, Germany, France, Italy, Iran, Iraq, Spain, Norway, Denmark, Belgium, South-Korea, Sweden, Austria and the Netherlands. Borders with Iran, Iraq closed"
         }
     },
@@ -2486,6 +2497,7 @@
             "travel": "All visitors from China, Korea, European Schengen states, UK, Ireland and Dubai mandatory self-isolation. No public transport allowed for those visitors.",
             "event" : "Large gatherings, sport events are cancelled. 10 person max limit.",
             "restaurant" : "About half of the states have closed bars and restaurants, take-away allowed.",
+            "facemask" : "Parts of the country are making facemasks mandatory.",
             "school" : "Schools are closed in most states, <a href=\"https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html?fbclid=IwAR0uVK-4QvE5NyOeH1z2v4jbICGDuukg6jk5THuXVQYZILFYduJ-Mpv3mXY\" target=\"_blank\">Map of School closures</a>"
         }
     }, 
@@ -2508,7 +2520,8 @@
         "situation": {
             "state" : "NO",
             "event" : "Ban on all recreational events, sports, culture and other.",
-            "travel" : "Borders closed for foreigners."
+            "travel" : "Borders closed for foreigners.",
+            "facemask" : "Obligation to wear a face mask or facial covering in public."
         }
     },
     {
@@ -2528,7 +2541,8 @@
             "state" : "YES",
             "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
             "shop" : "Non essential shops closed, 1 trip a week to the store allowed",
-            "health" : "No visitors in health facilities."
+            "health" : "No visitors in health facilities.",
+            "facemask" : "Obligation to wear a face mask or facial covering in public."
         }
     },
     {
@@ -2541,7 +2555,8 @@
             "school" : "Schools are closed",
             "restaurant" :"Bars and restaurants are closed.",
             "shop" : "Non essentail shops are closed.",
-            "travel" : "Borders closed for foreigners."
+            "travel" : "Borders closed for foreigners.",
+            "facemask": "Obligation to wear a face mask or facial covering in public."
         }
     },
     {
