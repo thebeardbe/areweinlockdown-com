@@ -223,7 +223,8 @@
             "state" : "NO",
             "event" : "Large scale events suspended.",
             "travel" : "Temperature screening at airports.",
-            "school" : "Universities cancelled classes"
+            "school" : "Universities cancelled classes",
+            "note" : "<a href=\"http://http://stopcovid.belta.by/\" target=\"_blank\">More info</a>"
         }
     },
     {
@@ -1044,7 +1045,8 @@
         "situation": {
             "state" : "NO",
             "school" : "Universities and secondary Schools are closed.",
-            "event" : "Ban on all recreational events, sports, culture and other above 100 participants."
+            "event" : "Ban on all recreational events, sports, culture and other above 20 participants. Marc 24 - May 4",
+            "travel" : "All travellers need to quarantaine for 2 weeks."
         }
     },
     {
@@ -1737,6 +1739,7 @@
         "population" : "5009150",
         "situation": {
             "state" : "NO",
+            "remark" : "Restrictions in effect till at least April 20:",
             "school" : "Schools are closed.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "restaurant" : "Restaurants, bars are closed.",
@@ -1834,7 +1837,9 @@
             "travel" : "International and national travel completely forbidden. Personal vehicles banned only public transport",
             "school" : "Schools are closed",
             "quarantaine" : "Curfew from 8pm till 5am. all non essential transport banned.",
-            "shop" : "All non essentail shops are closed. 1 person per family for shopping"
+            "shop" : "All non essentail shops are closed. 1 person per family for shopping",
+            "note" : ""
+
         }
     },
     {
@@ -2152,10 +2157,10 @@
     },
     {
         "name": "Slovenia",
-        "id": "SL",
+        "id": "SI",
         "population" : "2007000",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
             "quarantaine" : "Stay at home policy, confined to own municipality",
             "shop" : "Non essentail shops are closed.",
             "event" : "Ban on all recreational events, sports, culture and other.",
@@ -2276,7 +2281,9 @@
         "population" : "9555895",
         "situation": {
             "state" : "NO",
-            "event" : "Ban on all recreational events, sports, culture and other with 50 or more participants"
+            "quarantaine" : "Advisory stay at home for 70+ and people who feel ill",
+            "event" : "Ban on all recreational events, sports, culture and other with 50 or more participants",
+            "school" : "Universities and senior high schools are closed"
         }
     },
     {
