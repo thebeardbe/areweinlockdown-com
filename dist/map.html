@@ -278,30 +278,7 @@
                     // Add zoom control
                     chart.zoomControl = new am4maps.ZoomControl();
 
-                    /* Add legend */
-                    var legend = new am4maps.Legend();
-                    legend.parent = chart.chartContainer;
-                    legend.background.fill = am4core.color("#000");
-                    legend.background.fillOpacity = 0.15;
-                    legend.width = 150;
-                    legend.align = "left";
-                    legend.valign = "bottom";
-                    legend.padding(10, 15, 20, 15);
-                    legend.data = [{
-                        "name": "Nationwide",
-                        "fill": "#FF5F5F"
-                    }, {
-                        "name": "Local",
-                        "fill": "#f2daae"
-                    }, {
-                        "name": "None",
-                        "fill": "#62c4c3"
-                    }];
-                    legend.itemContainers.template.hitable = false;
-                    legend.itemContainers.template.focusable = false;
-
-                    var legendTitle = legend.createChild(am4core.Label);
-                    legendTitle.text = "Lockdown state:";
+                    
                 });
 
                 // --------------------------------------------
