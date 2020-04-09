@@ -482,8 +482,9 @@
         "id": "CN",
         "population" : "1330044000",
         "situation": {
-            "state" : "NO",
-            "remark" : "Last full lockdown ended on April 7, however there are still some restrictions: ",
+            "state" : "LOCAL",
+            "remark" : "Big lockdown ended April 7, however there are still some restrictions: ",
+            "quarantaine" : "Full lockdown in city of Suifenhe",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "travel" : "Borders closed, Travel restrictions in large parts of the country",
             "facemask" : "Parts of the country are making facemasks mandatory."
@@ -1108,10 +1109,10 @@
         "population" : "4622920",
         "situation": {
             "state" : "YES",
-            "event" : "Ban on all recreational events, sports, culture and other above 100 participants.",
+            "event" : "Ban on all recreational events, sports, culture and other. You can only go out alone.",
             "school" : "Schools are closed.",
-            "shop" :"All non essentail shops are closed in several provinces.",
-            "quarantaine" : "Stay at home policy except for shopping for basic necessities, daily exercise, any medical need and travelling to and from essential work. .",
+            "shop" :"All non essentail shops are closed. Non essential work is cancelled as well",
+            "quarantaine" : "Stay at home policy except for shopping for basic necessities, daily exercise in a 2km range, any medical need and travelling to and from essential work. .",
             "health" : "No visitors in health facilities. Non essential procedures cancelled.",
             "travel" : "Flights from and to some affected areas suspended."
         }
