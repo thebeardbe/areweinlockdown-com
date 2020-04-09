@@ -146,7 +146,8 @@ h3{font-size:15px;}
 @media only screen and (max-width:767px) and (orientation: portrait){
 	.frame{width:100%;}
 	#center #page-title span {width: 100%;}
-	#chartdiv{width: 75%; height: 100%}
+	#chartdiv{width: 75%; height: 100%; border-radius: 20px;}
+	#map #tabs {width: 100%; margin-left: 50px;}
 	
 }
 @media only screen and (max-width:479px) and (orientation: portrait){
