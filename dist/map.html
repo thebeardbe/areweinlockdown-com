@@ -44,7 +44,7 @@
     </script>
 </head>
 
-<body>
+<body id="map">
     <div id="top">
     </div>
     <script>
@@ -56,13 +56,13 @@
     <div id="center">
         <div class="frame">
             <h1 id="page-title"><span>Map with government responses.</span></h1>
-            <div ïd="map">
+            
+            <div id="map"> 
                 <div id="chartdiv"></div>
                 <div id="loading"><span id="loadingIcon"><img src="images/virus.png" alt="" width="120" height="120" /></span></div>
                 <div id="answer">
                     <div id="virus">
                         <span id="result"></span>
-
                     </div>
                     <h2 id="remark" class="remark"></h2>
                     <div id="remark">
@@ -118,6 +118,27 @@
                 </div>
             </div>
             <script>
+                // -----------------------
+                // | Add selected to tab |
+                // -----------------------
+                var urlParams = new URLSearchParams(window.location.search);
+                if (urlParams.get('map')) {
+                    switch(urlParams.get('map')) {
+                        case "states" :
+                            $("#USTab").addClass("selected");
+                            break;
+                        case "school" :
+                            $("#schoolTab").addClass("selected");
+                            break;
+                        case "facemask" :
+                            $("#facemaskTab").addClass("selected");
+                            break;
+                        default:
+                        $("#worldTab").addClass("selected");
+                    }
+
+                }
+                
                 // ------------------
                 // | HIDE all icons |
                 // ------------------
@@ -175,7 +196,7 @@
                     polygonTemplate.tooltipText = "{name} {situation.state}";
                     polygonTemplate.fill = am4core.color("#FF5F5F");
                     polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                    polygonTemplate.events.on("over", function (ev) {
+                    polygonTemplate.events.on("click", function (ev) {
                         var data = ev.target.dataItem.dataContext;
                         changeOutput(data);
                     });
@@ -206,7 +227,7 @@
                     polygonTemplate.tooltipText = "{name} {situation.state}";
                     polygonTemplate.fill = am4core.color("#f2daae");
                     polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                    polygonTemplate.events.on("over", function (ev) {
+                    polygonTemplate.events.on("click", function (ev) {
                         var data = ev.target.dataItem.dataContext;
                         changeOutput(data);
                     });
@@ -236,7 +257,7 @@
                     polygonTemplate.tooltipText = "{name} {situation.state}";
                     polygonTemplate.fill = am4core.color("#62c4c3");
                     polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                    polygonTemplate.events.on("over", function (ev) {
+                    polygonTemplate.events.on("click", function (ev) {
                         var data = ev.target.dataItem.dataContext;
                         changeOutput(data);
                     });
