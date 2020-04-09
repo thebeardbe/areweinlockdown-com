@@ -33,9 +33,10 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="//www.amcharts.com/lib/4/core.js"></script>
-    <script src="//www.amcharts.com/lib/4/maps.js"></script>
-    <script src="//www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+    <script src="https://www.amcharts.com/lib/4/maps.js"></script>
+    <script src="https://www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+    <script src="https://www.amcharts.com/lib/4/geodata/usaLow.js"></script>
     <script>
         $(document).on({
             ajaxStart: function () { $("#loading").show(); },
@@ -56,10 +57,16 @@
     <div id="center">
         <div class="frame">
             <h1 id="page-title"><span>Map with government responses.</span></h1>
-            
-            <div id="map"> 
+            <h3>click on the map for details</h3>
+            <ul id="tabs">
+                <li><a href="map.html?map=world" title="Map of the world" id="worldTab">World</a></li>
+                <li><a href="map.html?map=states" title="Map of US states" id="USTab">US states</a></li>
+           
+            </ul>
+            <div id="map">
                 <div id="chartdiv"></div>
-                <div id="loading"><span id="loadingIcon"><img src="images/virus.png" alt="" width="120" height="120" /></span></div>
+                <div id="loading"><span id="loadingIcon"><img src="images/virus.png" alt="" width="120"
+                            height="120" /></span></div>
                 <div id="answer">
                     <div id="virus">
                         <span id="result"></span>
@@ -122,23 +129,22 @@
                 // | Add selected to tab |
                 // -----------------------
                 var urlParams = new URLSearchParams(window.location.search);
-                if (urlParams.get('map')) {
-                    switch(urlParams.get('map')) {
-                        case "states" :
-                            $("#USTab").addClass("selected");
-                            break;
-                        case "school" :
-                            $("#schoolTab").addClass("selected");
-                            break;
-                        case "facemask" :
-                            $("#facemaskTab").addClass("selected");
-                            break;
-                        default:
+                switch (urlParams.get('map')) {
+                    case "states":
+                        $("#USTab").addClass("selected");
+                        urlCountry = "us-state.json";
+                        break;
+                    case "school":
+                        $("#schoolTab").addClass("selected");
+                        break;
+                    case "facemask":
+                        $("#facemaskTab").addClass("selected");
+                        break;
+                    default:
                         $("#worldTab").addClass("selected");
-                    }
-
+                        urlCountry = "countrylist.json";
                 }
-                
+
                 // ------------------
                 // | HIDE all icons |
                 // ------------------
@@ -154,7 +160,6 @@
                 $("#note").hide();
                 $("#state-dropdown").hide();
 
-                const urlCountry = "countrylist.json";
                 $.getJSON(urlCountry, function (countries) {
                     var lockdownYES = [];
                     var lockdownLocal = [];
@@ -172,7 +177,11 @@
                     var chart = am4core.create("chartdiv", am4maps.MapChart);
 
                     // Set map definition
-                    chart.geodata = am4geodata_worldLow;
+                    if (urlParams.get('map') === "states") {
+                        chart.geodata = am4geodata_usaLow;
+                    } else {
+                        chart.geodata = am4geodata_worldLow;
+                    }
 
                     // Set projection
                     chart.projection = new am4maps.projections.Miller();
@@ -196,7 +205,7 @@
                     polygonTemplate.tooltipText = "{name} {situation.state}";
                     polygonTemplate.fill = am4core.color("#FF5F5F");
                     polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                    polygonTemplate.events.on("click", function (ev) {
+                    polygonTemplate.events.on("hit", function (ev) {
                         var data = ev.target.dataItem.dataContext;
                         changeOutput(data);
                     });
@@ -227,7 +236,7 @@
                     polygonTemplate.tooltipText = "{name} {situation.state}";
                     polygonTemplate.fill = am4core.color("#f2daae");
                     polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                    polygonTemplate.events.on("click", function (ev) {
+                    polygonTemplate.events.on("hit", function (ev) {
                         var data = ev.target.dataItem.dataContext;
                         changeOutput(data);
                     });
@@ -257,7 +266,7 @@
                     polygonTemplate.tooltipText = "{name} {situation.state}";
                     polygonTemplate.fill = am4core.color("#62c4c3");
                     polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                    polygonTemplate.events.on("click", function (ev) {
+                    polygonTemplate.events.on("hit", function (ev) {
                         var data = ev.target.dataItem.dataContext;
                         changeOutput(data);
                     });
@@ -268,7 +277,36 @@
 
                     // Add zoom control
                     chart.zoomControl = new am4maps.ZoomControl();
+
+                    /* Add legend */
+                    var legend = new am4maps.Legend();
+                    legend.parent = chart.chartContainer;
+                    legend.background.fill = am4core.color("#000");
+                    legend.background.fillOpacity = 0.15;
+                    legend.width = 150;
+                    legend.align = "left";
+                    legend.valign = "bottom";
+                    legend.padding(10, 15, 20, 15);
+                    legend.data = [{
+                        "name": "Nationwide",
+                        "fill": "#FF5F5F"
+                    }, {
+                        "name": "Local",
+                        "fill": "#f2daae"
+                    }, {
+                        "name": "None",
+                        "fill": "#62c4c3"
+                    }];
+                    legend.itemContainers.template.hitable = false;
+                    legend.itemContainers.template.focusable = false;
+
+                    var legendTitle = legend.createChild(am4core.Label);
+                    legendTitle.text = "Lockdown state:";
                 });
+
+                // --------------------------------------------
+                // | Function for dynamically changing output |
+                // --------------------------------------------
                 function changeOutput(entry) {
                     $("#answer").show();
                     $("#event").hide();
@@ -323,7 +361,7 @@
                     }
                     if (entry.situation.remark) {
                         $("#remark").html(entry.name + ": " + entry.situation.remark);
-                    } else { 
+                    } else {
                         $("#remark").html(entry.name + ": Current restrictions");
                     }
                     if (entry.situation.note) {
@@ -375,7 +413,8 @@
                         <span class="icon"><img
                                 src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/eb08qif4/marketing_asset/banner/2986/logo_300.bc677b5eceae.png"
                                 alt="vectera" width="250px" style="margin-top: 70px" /></span>
-                        <span class="text">Vectera video meetings without hassle in your browser. Free till 1st of june (affiliate link)</span>
+                        <span class="text">Vectera video meetings without hassle in your browser. Free till 1st of june
+                            (affiliate link)</span>
                     </a>
                 </div>
                 <div class="icon-text">
