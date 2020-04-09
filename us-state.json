@@ -1,7 +1,7 @@
 [
     {
         "name": "Alabama",
-        "id": "AL",
+        "id": "US-AL",
         "population" : "4903185",
         "situation": {
             "state" : "YES",
@@ -14,7 +14,7 @@
     },
     {
         "name": "Alaska",
-        "id": "AK",
+        "id": "US-AK",
         "population" : "731545",
         "situation": {
             "state" : "YES",
@@ -27,7 +27,7 @@
     },
     {
         "name": "American Samoa",
-        "id": "AS",
+        "id": "US-AS",
         "population" : "55640",
         "situation": {
             "state" : "NO",
@@ -40,7 +40,7 @@
     },
     {
         "name": "Arizona",
-        "id": "AZ",
+        "id": "US-AZ",
         "population" : "7278720",
         "situation": {
             "state" : "YES",
@@ -53,7 +53,7 @@
     },
     {
         "name": "Arkansas",
-        "id": "AR",
+        "id": "US-AR",
         "population" : "3017825",
         "situation": {
             "state" : "NO",
@@ -65,7 +65,7 @@
     },
     {
         "name": "California",
-        "id": "CA",
+        "id": "US-CA",
         "population" : "39512225",
         "situation": {
             "state" : "YES",
@@ -79,7 +79,7 @@
     },
     {
         "name": "Colorado",
-        "id": "CO",
+        "id": "US-CO",
         "population" : "5758735",
         "situation": {
             "state" : "YES",
@@ -92,7 +92,7 @@
     },
     {
         "name": "Connecticut",
-        "id": "CT",
+        "id": "US-CT",
         "population" : "3565290",
         "situation": {
             "state" : "YES",
@@ -106,7 +106,7 @@
     },
     {
         "name": "Delaware",
-        "id": "DE",
+        "id": "US-DE",
         "population" : "973765",
         "situation": {
             "state" : "YES",
@@ -120,7 +120,7 @@
     },
     {
         "name": "District of Columbia",
-        "id": "DC",
+        "id": "US-DC",
         "population" : "705750",
         "situation": {
             "state" : "YES",
@@ -134,7 +134,7 @@
     },
     {
         "name": "Florida",
-        "id": "FL",
+        "id": "US-FL",
         "population" : "21477740",
         "situation": {
             "state" : "YES",
@@ -147,7 +147,7 @@
     },
     {
         "name": "Georgia",
-        "id": "GA",
+        "id": "US-GA",
         "population" : "10617425",
         "situation": {
             "state" : "YES",
@@ -160,7 +160,7 @@
     },
     {
         "name": "Guam",
-        "id": "GU",
+        "id": "US-GU",
         "population" : "165720",
         "situation": {
             "state" : "NO",
@@ -173,7 +173,7 @@
     },
     {
         "name": "Hawaii",
-        "id": "HI",
+        "id": "US-HI",
         "population" : "1415870",
         "situation": {
             "state" : "YES",
@@ -187,7 +187,7 @@
     },
     {
         "name": "Idaho",
-        "id": "ID",
+        "id": "US-ID",
         "population" : "1792065",
         "situation": {
             "state" : "YES",
@@ -201,7 +201,7 @@
     },
     {
         "name": "Illinois",
-        "id": "IL",
+        "id": "US-IL",
         "population" : "12671820",
         "situation": {
             "state" : "YES",
@@ -215,7 +215,7 @@
     },
     {
         "name": "Indiana",
-        "id": "IN",
+        "id": "US-IN",
         "population" : "6732220",
         "situation": {
             "state" : "YES",
@@ -229,7 +229,7 @@
     },
     {
         "name": "Iowa",
-        "id": "IA",
+        "id": "US-IA",
         "population" : "3155070",
         "situation": {
             "state" : "NO",
@@ -242,7 +242,7 @@
     },
     {
         "name": "Kansas",
-        "id": "KS",
+        "id": "US-KS",
         "population" : "2913315",
         "situation": {
             "state" : "YES",
@@ -254,7 +254,7 @@
     },
     {
         "name": "Kentucky",
-        "id": "KY",
+        "id": "US-KY",
         "population" : "4467675",
         "situation": {
             "state" : "NO",
@@ -268,7 +268,7 @@
     },
     {
         "name": "Louisiana",
-        "id": "LA",
+        "id": "US-LA",
         "population" : "4648795",
         "situation": {
             "state" : "YES",
@@ -282,7 +282,7 @@
     },
     {
         "name": "Maine",
-        "id": "ME",
+        "id": "US-ME",
         "population" : "1344210",
         "situation": {
             "state" : "YES",
@@ -296,7 +296,7 @@
     },
     {
         "name": "Maryland",
-        "id": "MD",
+        "id": "US-MD",
         "population" : "6045680",
         "situation": {
             "state" : "YES",
@@ -309,7 +309,7 @@
     },
     {
         "name": "Massachusettes",
-        "id": "MA",
+        "id": "US-MA",
         "population" : "6949505",
         "situation": {
             "state" : "NO",
@@ -324,7 +324,7 @@
     },
     {
         "name": "Michigan",
-        "id": "MI",
+        "id": "US-MI",
         "population" : "9986855",
         "situation": {
             "state" : "YES",
@@ -338,7 +338,7 @@
     },
     {
         "name": "Minnesota",
-        "id": "MN",
+        "id": "US-MN",
         "population" : "5639632",
         "situation": {
             "state" : "YES",
@@ -352,7 +352,7 @@
     },
     {
         "name": "Mississippi",
-        "id": "MS",
+        "id": "US-MS",
         "population" : "2976150",
         "situation": {
             "state" : "YES",
@@ -365,7 +365,7 @@
     },
     {
         "name": "Missouri",
-        "id": "MO",
+        "id": "US-MO",
         "population" : "6137430",
         "situation": {
             "state" : "YES",
@@ -379,7 +379,7 @@
     },
     {
         "name": "Montana",
-        "id": "MT",
+        "id": "US-MT",
         "population" : "1068780",
         "situation": {
             "state" : "YES",
@@ -393,7 +393,7 @@
     },
     {
         "name": "Nebraska",
-        "id": "NE",
+        "id": "US-NE",
         "population" : "1934410",
         "situation": {
             "state" : "NO",
@@ -405,7 +405,7 @@
     },
     {
         "name": "Nevada",
-        "id": "NV",
+        "id": "US-NV",
         "population" : "3080160",
         "situation": {
             "state" : "YES",
@@ -419,7 +419,7 @@
     },
     {
         "name": "New Hampshire",
-        "id": "NH",
+        "id": "US-NH",
         "population" : "1359710",
         "situation": {
             "state" : "YES",
@@ -433,7 +433,7 @@
     },
     {
         "name": "New Jersey",
-        "id": "NJ",
+        "id": "US-NJ",
         "population" : "8882190",
         "situation": {
             "state" : "YES",
@@ -447,7 +447,7 @@
     },
     {
         "name": "New Mexico",
-        "id": "NM",
+        "id": "US-NM",
         "population" : "2096830",
         "situation": {
             "state" : "YES",
@@ -461,7 +461,7 @@
     },
     {
         "name": "New York",
-        "id": "NY",
+        "id": "US-NY",
         "population" : "19453560",
         "situation": {
             "state" : "YES",
@@ -475,7 +475,7 @@
     },
     {
         "name": "North Carolina",
-        "id": "NC",
+        "id": "US-NC",
         "population" : "10488085",
         "situation": {
             "state" : "YES",
@@ -489,7 +489,7 @@
     },
     {
         "name": "North Dakota",
-        "id": "ND",
+        "id": "US-ND",
         "population" : "762060",
         "situation": {
             "state" : "NO",
@@ -501,7 +501,7 @@
     },
     {
         "name": "Ohio",
-        "id": "OH",
+        "id": "US-OH",
         "population" : "11689100",
         "situation": {
             "state" : "YES",
@@ -516,7 +516,7 @@
     },
     {
         "name": "Oklahoma",
-        "id": "OK",
+        "id": "US-OK",
         "population" : "3956970",
         "situation": {
             "state" : "NO",
@@ -530,7 +530,7 @@
     },
     {
         "name": "Oregon",
-        "id": "OR",
+        "id": "US-OR",
         "population" : "4217740",
         "situation": {
             "state" : "YES",
@@ -544,12 +544,12 @@
     },
     {
         "name": "Pennsylvania",
-        "id": "PE",
+        "id": "US-PE",
         "population" : "12801990",
         "situation": {
             "state" : "YES",
             "remark" : "State of emergency since 6th of March",
-            "quarantaine" : "Shelter in place since April 1",
+            "quarantaine" : "Statewide shelter in place since April 1",
             "event" : "Ban on all gatherings and events above 10 participants.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
@@ -558,7 +558,7 @@
     },
     {
         "name": "Rhode Island",
-        "id": "RI",
+        "id": "US-RI",
         "population" : "1059360",
         "situation": {
             "state" : "YES",
@@ -572,7 +572,7 @@
     },
     {
         "name": "South Carolina",
-        "id": "SC",
+        "id": "US-SC",
         "population" : "5148715",
         "situation": {
             "state" : "YES",
@@ -585,7 +585,7 @@
     },
     {
         "name": "South Dakota",
-        "id": "SD",
+        "id": "US-SD",
         "population" : "884660",
         "situation": {
             "state" : "NO",
@@ -597,7 +597,7 @@
     },
     {
         "name": "Tennessee",
-        "id": "TN",
+        "id": "US-TN",
         "population" : "6833175",
         "situation": {
             "state" : "YES",
@@ -610,7 +610,7 @@
     },
     {
         "name": "Texas",
-        "id": "TX",
+        "id": "US-TX",
         "population" : "28995880",
         "situation": {
             "state" : "YES",
@@ -623,7 +623,7 @@
     },
     {
         "name": "Utah",
-        "id": "UT",
+        "id": "US-UT",
         "population" : "1359710",
         "situation": {
             "state" : "LOCAL",
@@ -636,7 +636,7 @@
     },
     {
         "name": "Vermont",
-        "id": "VT",
+        "id": "US-VT",
         "population" : "623990",
         "situation": {
             "state" : "YES",
@@ -650,7 +650,7 @@
     },
     {
         "name": "Virginia",
-        "id": "VA",
+        "id": "US-VA",
         "population" : "8535520",
         "situation": {
             "state" : "YES",
@@ -664,7 +664,7 @@
     },
     {
         "name": "Washington",
-        "id": "WA",
+        "id": "US-WA",
         "population" : "7614895",
         "situation": {
             "state" : "YES",
@@ -678,7 +678,7 @@
     },
     {
         "name": "West Virginia",
-        "id": "WV",
+        "id": "US-WV",
         "population" : "1787150",
         "situation": {
             "state" : "YES",
@@ -692,7 +692,7 @@
     },
     {
         "name": "Wisconsin",
-        "id": "WI",
+        "id": "US-WI",
         "population" : "5822435",
         "situation": {
             "state" : "YES",
@@ -706,7 +706,7 @@
     },
     {
         "name": "Wyoming",
-        "id": "WY",
+        "id": "US-WY",
         "population" : "1359710",
         "situation": {
             "state" : "LOCAL",

@@ -106,8 +106,11 @@ h3{font-size:15px;}
 #top #numbers span, #center #numbers span {font-size: 2em;text-align: center; color:#FF5F5F; margin: 10px auto 40px auto; display: block; font-weight: bold;}
 
 /* Map styling */
-#map {width: 100%; display: flex; flex-direction: row; flex-wrap: nowrap;justify-content: space-evenly;}
-#chartdiv { width: 750px; height: 400px;margin: 0 auto; border: 5px solid #62c4c3; border-radius: 50px;padding: 10px;}
+#map {width: 100%;}
+#map #tabs { display: flex; list-style-type: none; width: 650px; justify-items: center;margin: 0 auto -5px auto;} 
+#map #tabs li a{ display: block;padding: 8px 10px; border: 5px solid #62c4c3; border-radius: 10px 10px 0px 0px; border-width: 5px 5px 0px 5px; margin: 5px;}
+#map #tabs li a:hover, #map #tabs li a.selected { background-color: #62c4c3; color: #fff;}
+#chartdiv { width: 750px; height: 400px;margin: 0 auto; border: 5px solid #62c4c3; border-radius: 50px;padding: 15px;}
 /* Loading Map */
 #loading { height: 500px; margin-top: -500px;}
 #loading #loadingIcon {
