@@ -544,7 +544,7 @@
     },
     {
         "name": "Pennsylvania",
-        "id": "US-PE",
+        "id": "US-PA",
         "population" : "12801990",
         "situation": {
             "state" : "YES",
