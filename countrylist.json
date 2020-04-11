@@ -1056,7 +1056,7 @@
         "population" : "1173108020",
         "situation": {
             "state" : "YES",
-            "quarantaine" : "Full lockdown.",
+            "quarantaine" : "Full lockdown. Lockdown is enforced by security forces.",
             "event" : "Events are cancelled",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Most schools are closed.",
@@ -1137,6 +1137,7 @@
         "population" : "60340328",
         "situation": {
             "state" : "YES",
+            "remark" : "restrictions apply from March 9 till May 3",
             "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
             "shop" : "Non essential shops and factories closed",
             "health" : "No visitors in health facilities.",
@@ -1753,7 +1754,8 @@
         "id": "OM",
         "population" : "2967720",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
+            "quarantaine" : "City of Muscat on lockdown",
             "travel" : "All national and international flights suspended from 29th of March",
             "event" : "Ban on all recreational events, sports, culture and other",
             "shop" : "Non essentail shops are closed.",
