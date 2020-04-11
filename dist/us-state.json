@@ -520,12 +520,12 @@
         "population" : "3956970",
         "situation": {
             "state" : "NO",
-            "quarantaine" : "Advisory shelter in place since April 2",
-            "remark" : "State of emergency since 15th of March",
+            "quarantaine" : "Suggested shelter in place since April 2",
+            "remark" : "State of emergency since 15th of March:",
             "event" : "Ban on all gatherings and events above 11 participants.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed on regional level.",
-            "shop" : "Non-essential shops are closed on regional level."
+            "shop" : "Non-essential shops are closed on regional level. Take-away is allowed."
         }
     },
     {

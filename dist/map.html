@@ -136,6 +136,7 @@
                         break;
                     case "school":
                         $("#schoolTab").addClass("selected");
+                        urlCountry = "countrylist.json";
                         break;
                     case "facemask":
                         $("#facemaskTab").addClass("selected");
@@ -160,126 +161,129 @@
                 $("#note").hide();
                 $("#state-dropdown").hide();
 
-                $.getJSON(urlCountry, function (countries) {
-                    var lockdownYES = [];
-                    var lockdownLocal = [];
-                    $.each(countries, function (keyData, entryData) {
-                        if (entryData.situation.state === "YES") {
-                            lockdownYES.push(entryData.id);
-                        } else if (entryData.situation.state === "LOCAL") {
-                            lockdownLocal.push(entryData.id);
-                        }
-                    })
-
-
-
-                    // Create map instance
-                    var chart = am4core.create("chartdiv", am4maps.MapChart);
-
-                    // Set map definition
-                    if (urlParams.get('map') === "states") {
-                        chart.geodata = am4geodata_usaLow;
-                    } else {
-                        chart.geodata = am4geodata_worldLow;
-                    }
-
-                    // Set projection
-                    chart.projection = new am4maps.projections.Miller();
-
-                    // -----------------------------
-                    // | Map countries in lockdown |
-                    // -----------------------------
-
-                    // Create map polygon series
-                    var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
-
-                    // Make map load polygon (like country names) data from GeoJSON
-                    polygonSeries.useGeodata = true;
-
-                    // Add some custom data
-                    polygonSeries.data = JSON.parse(JSON.stringify(countries));
-                    polygonSeries.include = lockdownYES;
-
-                    // Configure series
-                    var polygonTemplate = polygonSeries.mapPolygons.template;
-                    polygonTemplate.tooltipText = "{name} {situation.state}";
-                    polygonTemplate.fill = am4core.color("#FF5F5F");
-                    polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                    polygonTemplate.events.on("hit", function (ev) {
-                        var data = ev.target.dataItem.dataContext;
-                        changeOutput(data);
-                    });
-
-                    // Create hover state and set alternative fill color
-                    var hs = polygonTemplate.states.create("hover");
-                    hs.properties.fill = am4core.color("#3a4249");
-
-                    // Remove Antarctica
-                    polygonSeries.exclude = ["AQ"];
-
-                    // -------------------------------------
-                    // | Map countries with local lockdown |
-                    // -------------------------------------
-
-                    var polygonSeriesLocal = chart.series.push(new am4maps.MapPolygonSeries());
-
-                    // Make map load polygon (like country names) data from GeoJSON
-                    polygonSeriesLocal.useGeodata = true;
-
-                    // Add some custom data
-                    polygonSeriesLocal.data = JSON.parse(JSON.stringify(countries));
-                    polygonSeriesLocal.include = lockdownLocal;
-
-
-                    // Configure series
-                    var polygonTemplate = polygonSeriesLocal.mapPolygons.template;
-                    polygonTemplate.tooltipText = "{name} {situation.state}";
-                    polygonTemplate.fill = am4core.color("#f2daae");
-                    polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                    polygonTemplate.events.on("hit", function (ev) {
-                        var data = ev.target.dataItem.dataContext;
-                        changeOutput(data);
-                    });
-
-                    // Create hover state and set alternative fill color
-                    var hs = polygonTemplate.states.create("hover");
-                    hs.properties.fill = am4core.color("#3a4249");
-
-
-                    // ---------------------------------
-                    // | Map countries not in lockdown |
-                    // ---------------------------------
-
-                    var polygonSeriesNo = chart.series.push(new am4maps.MapPolygonSeries());
-
-                    // Make map load polygon (like country names) data from GeoJSON
-                    polygonSeriesNo.useGeodata = true;
-
-                    // Add some custom data
-                    polygonSeriesNo.data = JSON.parse(JSON.stringify(countries));
-                    lockdownYES.push("AQ");
-                    polygonSeriesNo.exclude = lockdownYES.concat(lockdownLocal);
-
-
-                    // Configure series
-                    var polygonTemplate = polygonSeriesNo.mapPolygons.template;
-                    polygonTemplate.tooltipText = "{name} {situation.state}";
-                    polygonTemplate.fill = am4core.color("#62c4c3");
-                    polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
-                    polygonTemplate.events.on("hit", function (ev) {
-                        var data = ev.target.dataItem.dataContext;
-                        changeOutput(data);
-                    });
-
-                    // Create hover state and set alternative fill color
-                    var hs = polygonTemplate.states.create("hover");
-                    hs.properties.fill = am4core.color("#3a4249");
-
-                    // Add zoom control
-                    chart.zoomControl = new am4maps.ZoomControl();
-
+                if (urlParams.get('map') === "school"){
                     
-                });
+                }else{
+                    $.getJSON(urlCountry, function (countries) {
+                        var lockdownYES = [];
+                        var lockdownLocal = [];
+                        $.each(countries, function (keyData, entryData) {
+                            if (entryData.situation.state === "YES") {
+                                lockdownYES.push(entryData.id);
+                            } else if (entryData.situation.state === "LOCAL") {
+                                lockdownLocal.push(entryData.id);
+                            }
+                        })
+
+
+
+                        // Create map instance
+                        var chart = am4core.create("chartdiv", am4maps.MapChart);
+
+                        // Set map definition
+                        if (urlParams.get('map') === "states") {
+                            chart.geodata = am4geodata_usaLow;
+                        } else {
+                            chart.geodata = am4geodata_worldLow;
+                        }
+
+                        // Set projection
+                        chart.projection = new am4maps.projections.Miller();
+
+                        // -----------------------------
+                        // | Map countries in lockdown |
+                        // -----------------------------
+
+                        // Create map polygon series
+                        var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+
+                        // Make map load polygon (like country names) data from GeoJSON
+                        polygonSeries.useGeodata = true;
+
+                        // Add some custom data
+                        polygonSeries.data = JSON.parse(JSON.stringify(countries));
+                        polygonSeries.include = lockdownYES;
+
+                        // Configure series
+                        var polygonTemplate = polygonSeries.mapPolygons.template;
+                        polygonTemplate.tooltipText = "{name} {situation.state}";
+                        polygonTemplate.fill = am4core.color("#FF5F5F");
+                        polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
+                        polygonTemplate.events.on("hit", function (ev) {
+                            var data = ev.target.dataItem.dataContext;
+                            changeOutput(data);
+                        });
+
+                        // Create hover state and set alternative fill color
+                        var hs = polygonTemplate.states.create("hover");
+                        hs.properties.fill = am4core.color("#3a4249");
+
+                        // Remove Antarctica
+                        polygonSeries.exclude = ["AQ"];
+
+                        // -------------------------------------
+                        // | Map countries with local lockdown |
+                        // -------------------------------------
+
+                        var polygonSeriesLocal = chart.series.push(new am4maps.MapPolygonSeries());
+
+                        // Make map load polygon (like country names) data from GeoJSON
+                        polygonSeriesLocal.useGeodata = true;
+
+                        // Add some custom data
+                        polygonSeriesLocal.data = JSON.parse(JSON.stringify(countries));
+                        polygonSeriesLocal.include = lockdownLocal;
+
+
+                        // Configure series
+                        var polygonTemplate = polygonSeriesLocal.mapPolygons.template;
+                        polygonTemplate.tooltipText = "{name} {situation.state}";
+                        polygonTemplate.fill = am4core.color("#f2daae");
+                        polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
+                        polygonTemplate.events.on("hit", function (ev) {
+                            var data = ev.target.dataItem.dataContext;
+                            changeOutput(data);
+                        });
+
+                        // Create hover state and set alternative fill color
+                        var hs = polygonTemplate.states.create("hover");
+                        hs.properties.fill = am4core.color("#3a4249");
+
+
+                        // ---------------------------------
+                        // | Map countries not in lockdown |
+                        // ---------------------------------
+
+                        var polygonSeriesNo = chart.series.push(new am4maps.MapPolygonSeries());
+
+                        // Make map load polygon (like country names) data from GeoJSON
+                        polygonSeriesNo.useGeodata = true;
+
+                        // Add some custom data
+                        polygonSeriesNo.data = JSON.parse(JSON.stringify(countries));
+                        lockdownYES.push("AQ");
+                        polygonSeriesNo.exclude = lockdownYES.concat(lockdownLocal);
+
+
+                        // Configure series
+                        var polygonTemplate = polygonSeriesNo.mapPolygons.template;
+                        polygonTemplate.tooltipText = "{name} {situation.state}";
+                        polygonTemplate.fill = am4core.color("#62c4c3");
+                        polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
+                        polygonTemplate.events.on("hit", function (ev) {
+                            var data = ev.target.dataItem.dataContext;
+                            changeOutput(data);
+                        });
+
+                        // Create hover state and set alternative fill color
+                        var hs = polygonTemplate.states.create("hover");
+                        hs.properties.fill = am4core.color("#3a4249");
+
+                        // Add zoom control
+                        chart.zoomControl = new am4maps.ZoomControl();
+                    
+                    });
+                }
 
                 // --------------------------------------------
                 // | Function for dynamically changing output |
