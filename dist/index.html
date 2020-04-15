@@ -22,6 +22,11 @@
     <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- CSV Parser-->
+    <script src="https://rawgit.com/mholt/PapaParse/master/papaparse.min.js"></script>
+
+    <!-- Social share buttons -->
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2550570-18"></script>
     <script>
@@ -39,7 +44,7 @@
 
 <body>
     <div id="top">
-        
+
     </div>
     <script>
         // ---------------
@@ -47,6 +52,7 @@
         // ---------------
         $("#top").load("header.html");
     </script>
+
     <div id="center">
         <div class="frame">
             <h1 id="page-title"><span class="bg">Are we in <strong>LOCKDOWN</strong>?</span></h1>
@@ -62,7 +68,26 @@
 
                 </div>
                 <h2 id="remark" class="remark"></h2>
-                <div id="remark">
+                <h3 id="dates"></h3>
+                <table id="cases">
+                    <tr>
+                        <th>Active</th>
+                        <th>Confirmed</th>
+                        <th>Deaths</th>
+                        <th>Recovered</th>
+                        <th>Death rate</th>
+                    </tr>
+                    <tr>
+                        <td id="active"></td>
+                        <td id="confirmed"></td>
+                        <td id="deaths"></td>
+                        <td id="recovered"></td>
+                        <td id="deathRate"></td>
+                    </tr>
+                </table>
+                <p>Case data from <a
+                        href="https://bnonews.com/index.php/2020/04/the-latest-coronavirus-cases/">BNO News</a></p>
+                <div id="remarks">
                     <div id="quarantaine" class="icon-text">
                         <div class="icon">
                             <img src="images/home.png" width="150px">
@@ -135,7 +160,8 @@
                 // ------------------
                 // | HIDE all icons |
                 // ------------------
-                $("#answer").hide();
+                $("#virus").hide();
+                $("#dates").hide();
                 $("#event").hide();
                 $("#school").hide();
                 $("#shop").hide();
@@ -146,7 +172,7 @@
                 $("#facemask").hide();
                 $("#note").hide();
                 $("#state-dropdown").hide();
-                
+
                 // --------------------------------------------
                 // | Populate dropdown with list of Countries |
                 // --------------------------------------------
@@ -156,12 +182,12 @@
                 var urlParams = new URLSearchParams(window.location.search);
                 dropdown.append('<option selected="true" disabled>Choose your country</option>');
                 dropdown.prop('selectedIndex', 0);
-                const urlCountry = 'countrylist.json'; 
+                const urlCountry = 'countrylist.json';
                 var total = 1;
                 var inLockdown = 0;
                 var inLocalLockdown = 0;
                 var totalPeopleLockdown = 0;
-                var schoolClosed = 0;          
+                var schoolClosed = 0;
                 $.getJSON(urlCountry, function (data) {
                     var totalPeopleInLockdown;
                     $.each(data, function (key, entry) {
@@ -189,9 +215,9 @@
                     $("#inLockdown").html(inLockdown);
                     $("#inLocalLockdown").html(inLocalLockdown);
                     $("#schoolClosed").html(schoolClosed);
-                    afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
+                    afterJson(totalPeopleInLockdown, "totalPeopleLockdown");
                     dropdown.select2({
-                    
+
                     });
                 });
                 // --------------------------------------------
@@ -203,7 +229,7 @@
                 dropdownState.append('<option selected="true" disabled>Choose your State</option>');
                 dropdownState.prop('selectedIndex', 0);
                 const urlState = 'us-state.json';
-                
+
                 $.getJSON(urlState, function (data) {
                     var totalPeopleInLockdown = 0;
                     $.each(data, function (key, entry) {
@@ -218,9 +244,9 @@
                             }
                         }
                     })
-                    afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
+                    afterJson(totalPeopleInLockdown, "totalPeopleLockdown");
                     dropdownState.select2({
-                            
+
                     });
                 });
                 $("#state-select").hide();
@@ -230,18 +256,24 @@
                 // ------------------------------------------------
 
                 if (urlParams.has("countrycode")) {
-                    if (urlParams.get("countrycode") === "US")
-                    {
+                    if (urlParams.get("countrycode") === "US") {
                         if (urlParams.has("statecode")) {
                             changeOutput(urlParams.get("statecode"), urlState, "state");
-                        }else {
+                        } else {
                             changeOutput(urlParams.get("countrycode"), urlCountry, "country");
                         }
                         $("#state-select").show();
-                    }else {
+                    } else {
                         changeOutput(urlParams.get("countrycode"), urlCountry, "country");
                         $("#state-select").hide();
                     }
+                } else {
+
+                    // -----------------------------
+                    // | Get Global stats of cases |
+                    // -----------------------------
+
+                    CSVParse("https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vR30F8lYP3jG7YOq8es0PBpJIE5yvRVZffOyaqC0GgMBN6yt0Q-NI8pxS7hd1F9dYXnowSC6zpZmW9D/pub?range=A6:H213&output=csv", "TOTAL");
                 }
                 $(document).ready(function () {
                     $("#country-dropdown").change(function () {
@@ -249,7 +281,7 @@
                         changeOutput(selected_value, urlCountry, "country");
                         if (selected_value === "US") {
                             $("#state-select").show();
-                        }else{
+                        } else {
                             $("#state-select").hide();
                         }
                     });
@@ -263,11 +295,58 @@
                 // | Function to handle JSON call |
                 // --------------------------------
                 function afterJson(val, key) {
-                    if (key === "totalPeopleLockdown"){
+                    if (key === "totalPeopleLockdown") {
                         totalPeopleLockdown = parseInt(totalPeopleLockdown) + parseInt(val);
                         $("#totalPeopleLockdown").html(new Intl.NumberFormat().format(totalPeopleLockdown));
                     }
                 }
+                // --------------------------------
+                // | Function to handle BNO stats |
+                // --------------------------------
+                function CSVParse(CSVfile, CSVLocation, code) {
+                    var caseConfirmed = 0;
+                    var caseDeaths = 0;
+                    var caseRecovered = 0;
+                    var caseNewConfirmed = 0;
+                    var caseNewRecovered = 0;
+                    var caseNewDeaths = 0;
+                    var caseDate = 0;
+                    var caseActive = 0;
+                    var caseNewActive = 0;
+                    var caseDeathRate;
+                    Papa.parse(CSVfile, {
+                        download: true,
+                        header: true,
+                        complete: function (CSVresults) {
+                            console.log(CSVresults);
+                            $.each(CSVresults.data, function (caseKey, caseEntry) {
+                                if (code === "state"){ 
+                                    locationKey = caseEntry['UNITED STATES'];
+                                }else{
+                                    locationKey = caseEntry.LOCATION;
+                                }
+                                if (locationKey == CSVLocation) {
+                                    caseConfirmed = Number(caseEntry.Cases.replace(/[^0-9.]/g, ""));
+                                    caseDeaths = Number(caseEntry.Deaths.replace(/[^0-9.]/g, ""));
+                                    caseRecovered = Number(caseEntry.Recovered.replace(/[^0-9.]/g, ""));
+                                    caseNewConfirmed = Number(caseEntry['New cases'].replace(/[^0-9.]/g, ""));
+                                    caseNewDeaths = Number(caseEntry['New deaths'].replace(/[^0-9.]/g, ""));
+                                    caseActive = caseConfirmed - caseRecovered - caseDeaths;
+                                    caseDeathRate = caseEntry['Death rate'];
+                                }
+
+                                $("#confirmed").html(caseConfirmed.toLocaleString(window.document.documentElement.lang) + " <span class='new'>(" + caseNewConfirmed.toLocaleString(window.document.documentElement.lang) + ")</span>");
+                                $("#deaths").html(caseDeaths.toLocaleString(window.document.documentElement.lang) + " <span class='new'>(" + caseNewDeaths.toLocaleString(window.document.documentElement.lang) + ")</span>");
+                                $("#recovered").html(caseRecovered.toLocaleString(window.document.documentElement.lang));
+                                $("#active").html(caseActive.toLocaleString(window.document.documentElement.lang));
+                                $("#deathRate").html(caseDeathRate);
+                                $("#numbers").show();
+                            });
+                        }
+                    });
+                }
+
+
 
                 // -----------------------------------
                 // | Function to show or hide values |
@@ -276,7 +355,8 @@
                 // | code = switch for UrlParams     |
                 // -----------------------------------
                 function changeOutput(val, url, code) {
-                    $("#answer").hide();
+                    $("#virus").hide();
+                    $("#dates").hide();
                     $("#event").hide();
                     $("#school").hide();
                     $("#shop").hide();
@@ -288,12 +368,12 @@
                     $("#note").hide();
                     if (code === "country") {
                         urlParams.set('countrycode', val);
-                    }else if (code === "state") {
+                    } else if (code === "state") {
                         urlParams.set('statecode', val);
                     }
-                    
+
                     window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
-                    $("#answer").show();
+                    $("#virus").show();
                     $.getJSON(url, function (data) {
                         $.each(data, function (key, entry) {
                             if (entry.id === val) {
@@ -343,11 +423,27 @@
                                 } else {
                                     $("#remark").html(entry.name + ": Current restrictions");
                                 }
+                                if ("start" in entry.situation || "end" in entry.situation){
+                                    if ("start" in entry.situation && "end" in entry.situation) {
+                                        $("#dates").html("From " + entry.situation.start + " till at least " + entry.situation.end);
+                                    }else if ("start" in entry.situation) {
+                                        $("#dates").html("From " + entry.situation.start);
+                                    }else if ("end" in entry.situation) {
+                                        $("#dates").html("Till at least " + entry.situation.end);
+                                    }
+                                    $("#dates").show();
+                                }
                                 if ("note" in entry.situation) {
                                     $("#note").show();
                                     $("#note").html(entry.situation.note);
                                 }
-                            };
+                                if (code === "state") {
+                                    CSVParse("https://docs.google.com/spreadsheets/d/e/2PACX-1vR30F8lYP3jG7YOq8es0PBpJIE5yvRVZffOyaqC0GgMBN6yt0Q-NI8pxS7hd1F9dYXnowSC6zpZmW9D/pub?gid=1902046093&range=A5:I69&output=csv", entry.name, code);
+                                } else {
+                                    CSVParse("https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vR30F8lYP3jG7YOq8es0PBpJIE5yvRVZffOyaqC0GgMBN6yt0Q-NI8pxS7hd1F9dYXnowSC6zpZmW9D/pub?range=A6:H213&output=csv", entry.name, code);
+                                }
+                            }
+
                         });
                     });
                 }
@@ -491,6 +587,7 @@
             "theme": "edgeless"
         });
     </script>
+    <script src="https://unpkg.com/social-likes-next/dist/social-likes.min.js"></script>
 </body>
 
 </html>

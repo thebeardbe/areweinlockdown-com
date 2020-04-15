@@ -21,6 +21,8 @@
     <meta property="article:publisher" content="https://annickandthebeard.be" />
     <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Social share buttons -->
+    <script src="social-likes.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2550570-18"></script>
     <script>
@@ -51,22 +53,10 @@
             <script>
                 $("#contact_info").load("contact.html");
             </script>
-            <div id="numbers">
-                <h2>Quick Facts</h2>
-                <h1>Number of countries In Lockdown</h1>
-                <span id="inLockdown"></span>
-                <h1 class="alt">Total number of people in nationwide lockdown</h1>
-                <span id="totalPeopleLockdown"></span>
-                <h1>Number of countries with Local lockdowns</h1>
-                <span id="inLocalLockdown"></span>
-                <h1>Number of countries with schools closed</h1>
-                <span id="schoolClosed"></span>
-                <h1 class="alt">Total number of countries listed</h1>
-                <span id="totalCountries"></span>
-            </div>
             <h2 id="stats"></h2>
             <h2>Lockdow state by Country</h2>
             <h3><a href="#usstates">All states of the USA</a></h3>
+            <input type="text" id="searchCountry" onkeyup="filterTable('searchCountry', 'lockdownState')" placeholder="Search for countries..">
             <table id="lockdownState">
                 <tr>
                     <th>Country</th>
@@ -82,6 +72,7 @@
                 </tr>
             </table>
             <h2><a id="usstates">Lockdown State by state in the United States</a></h2>
+            <input type="text" id="searchStates" onkeyup="filterTable('searchStates', 'lockdownUSState')" placeholder="Search for states..">
             <table id="lockdownUSState">
                 <tr>
                     <th>State</th>
@@ -102,11 +93,6 @@
                 //table.empty();
                 const urlCountry = 'countrylist.json';
                 // Populate dropdown with list of provinces
-                var totalPeopleLockdown = 0;
-                var total = 1;
-                var inLockdown = 0;
-                var schoolClosed = 0;
-                var inLocalLockdown = 0;
                 $.getJSON(urlCountry, function (data) {    
                     var totalPeopleInLockdown;                
                     $.each(data, function (key, entry) {
@@ -128,27 +114,7 @@
                             .append($('<td></td>').html(entry.situation.facemask))
                             .append($('<td></td>').html(entry.situation.note))
                             .append($('</tr>')));
-                        if (entry.situation.state === "YES") {
-                            inLockdown++;
-                            schoolClosed++;
-                        }
-                        if (entry.situation.school && entry.situation.state !== "YES") {
-                            schoolClosed++;
-                        }
-                        total++;
-                        if (entry.population && entry.situation.state ===  "YES") {
-                            totalPeopleInLockdown = parseInt(totalPeopleInLockdown) + parseInt(entry.population) || 0
-                        }
-                        if (entry.situation.state === "LOCAL") {
-                            inLocalLockdown++;
-                        }
                     });
-                    $("#totalCountries").html(total);
-                    $("#inLockdown").html(inLockdown);
-                    $("#inLocalLockdown").html(inLocalLockdown);
-                    $("#schoolClosed").html(schoolClosed);
-                    afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
-
                 });
 
                 let tableState = $('#lockdownUSState');
@@ -176,23 +142,33 @@
                             .append($('<td></td>').html(entry.situation.facemask))
                             .append($('<td></td>').html(entry.situation.note))
                             .append($('</tr>')));
-                        if (entry.population && entry.situation.state ===  "YES") {
-                            totalPeopleInLockdown = parseInt(totalPeopleInLockdown) + parseInt(entry.population) || 0
-                        }
                     })
-                    afterJson(totalPeopleInLockdown , "totalPeopleLockdown");
                 });
 
-                // --------------------------------
-                // | Function to handle JSON call |
-                // --------------------------------
-                function afterJson(val, key) {
-                    if (key === "totalPeopleLockdown"){
-                        totalPeopleLockdown = parseInt(totalPeopleLockdown) + parseInt(val);
-                        $("#totalPeopleLockdown").html(new Intl.NumberFormat().format(totalPeopleLockdown));
+                // ----------------
+                // | filter table |
+                // ----------------
+                function filterTable(filterID, tableID) {
+                  // Declare variables
+                  var input, filter, table, tr, td, i, txtValue;
+                  input = document.getElementById(filterID);
+                  filter = input.value.toUpperCase();
+                  table = document.getElementById(tableID);
+                  tr = table.getElementsByTagName("tr");
+                
+                  // Loop through all table rows, and hide those who don't match the search query
+                  for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[0];
+                    if (td) {
+                      txtValue = td.textContent || td.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                      } else {
+                        tr[i].style.display = "none";
+                      }
                     }
+                  }
                 }
-
             </script>
 
 

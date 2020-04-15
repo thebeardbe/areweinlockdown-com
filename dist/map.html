@@ -21,6 +21,11 @@
     <meta property="article:publisher" content="https://annickandthebeard.be" />
     <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- CSV Parser-->
+    <script src="https://rawgit.com/mholt/PapaParse/master/papaparse.min.js"></script>
+
+    <!-- Social share buttons -->
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2550570-18"></script>
     <script>
@@ -32,6 +37,7 @@
     </script>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <!-- Map javascript AMcharts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://www.amcharts.com/lib/4/core.js"></script>
     <script src="https://www.amcharts.com/lib/4/maps.js"></script>
@@ -61,18 +67,40 @@
             <ul id="tabs">
                 <li><a href="map.html?map=world" title="Map of the world" id="worldTab">World</a></li>
                 <li><a href="map.html?map=states" title="Map of US states" id="USTab">US states</a></li>
-           
+
             </ul>
             <div id="map">
                 <div id="chartdiv"></div>
-                <div id="loading"><span id="loadingIcon"><img src="images/virus.png" alt="" width="120"
-                            height="120" /></span></div>
+                <div id="loading">
+                    <span id="loadingIcon">
+                        <img src="images/virus.png" alt="" width="120" height="120" />
+                    </span>
+                </div>
                 <div id="answer">
                     <div id="virus">
                         <span id="result"></span>
                     </div>
                     <h2 id="remark" class="remark"></h2>
-                    <div id="remark">
+                    <h3 id="dates"></h3>
+                    <table id="cases">
+                        <tr>
+                            <th>Active</th>
+                            <th>Confirmed (new)</th>
+                            <th>Deaths (new)</th>
+                            <th>Recovered</th>
+                            <th>Death rate</th>
+                        </tr>
+                        <tr>
+                            <td id="active"></td>
+                            <td id="confirmed"></td>
+                            <td id="deaths"></td>
+                            <td id="recovered"></td>
+                            <td id="deathRate"></td>
+                        </tr>
+                    </table>
+                    <p>Case data from <a href="https://bnonews.com/index.php/2020/04/the-latest-coronavirus-cases/">BNO
+                            News</a></p>
+                    <div id="remarks">
                         <div id="quarantaine" class="icon-text">
                             <div class="icon">
                                 <img src="images/home.png" width="150px">
@@ -133,23 +161,29 @@
                     case "states":
                         $("#USTab").addClass("selected");
                         urlCountry = "us-state.json";
+                        code = "states";
                         break;
                     case "school":
                         $("#schoolTab").addClass("selected");
                         urlCountry = "countrylist.json";
+                        code = "school";
                         break;
                     case "facemask":
                         $("#facemaskTab").addClass("selected");
+                        code = "facemask";
                         break;
                     default:
                         $("#worldTab").addClass("selected");
                         urlCountry = "countrylist.json";
+                        code = "country";
                 }
+
+                CSVParse("https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vR30F8lYP3jG7YOq8es0PBpJIE5yvRVZffOyaqC0GgMBN6yt0Q-NI8pxS7hd1F9dYXnowSC6zpZmW9D/pub?range=A6:H213&output=csv", "TOTAL", "world");
 
                 // ------------------
                 // | HIDE all icons |
                 // ------------------
-                $("#answer").hide();
+                $("#virus").hide();
                 $("#event").hide();
                 $("#school").hide();
                 $("#shop").hide();
@@ -158,12 +192,12 @@
                 $("#quarantaine").hide();
                 $("#restaurant").hide();
                 $("#facemask").hide();
+                $("#dates").hide();
                 $("#note").hide();
-                $("#state-dropdown").hide();
 
-                if (urlParams.get('map') === "school"){
-                    
-                }else{
+                if (urlParams.get('map') === "school") {
+
+                } else {
                     $.getJSON(urlCountry, function (countries) {
                         var lockdownYES = [];
                         var lockdownLocal = [];
@@ -211,7 +245,7 @@
                         polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
                         polygonTemplate.events.on("hit", function (ev) {
                             var data = ev.target.dataItem.dataContext;
-                            changeOutput(data);
+                            changeOutput(data, code);
                         });
 
                         // Create hover state and set alternative fill color
@@ -242,7 +276,7 @@
                         polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
                         polygonTemplate.events.on("hit", function (ev) {
                             var data = ev.target.dataItem.dataContext;
-                            changeOutput(data);
+                            changeOutput(data, code);
                         });
 
                         // Create hover state and set alternative fill color
@@ -272,7 +306,7 @@
                         polygonTemplate.propertyFields.fill = am4core.color("#00ff00");
                         polygonTemplate.events.on("hit", function (ev) {
                             var data = ev.target.dataItem.dataContext;
-                            changeOutput(data);
+                            changeOutput(data, code);
                         });
 
                         // Create hover state and set alternative fill color
@@ -281,15 +315,15 @@
 
                         // Add zoom control
                         chart.zoomControl = new am4maps.ZoomControl();
-                    
+
                     });
                 }
 
                 // --------------------------------------------
                 // | Function for dynamically changing output |
                 // --------------------------------------------
-                function changeOutput(entry) {
-                    $("#answer").show();
+                function changeOutput(entry, mapType) {
+                    $("#virus").show();
                     $("#event").hide();
                     $("#school").hide();
                     $("#shop").hide();
@@ -298,6 +332,7 @@
                     $("#quarantaine").hide();
                     $("#restaurant").hide();
                     $("#facemask").hide();
+                    $("#dates").hide();
                     $("#note").hide();
                     $("#result").html(entry.situation.state);
                     if (entry.situation.event) {
@@ -345,11 +380,73 @@
                     } else {
                         $("#remark").html(entry.name + ": Current restrictions");
                     }
+                    if ("start" in entry.situation || "end" in entry.situation) {
+                        if ("start" in entry.situation && "end" in entry.situation) {
+                            $("#dates").html("From " + entry.situation.start + " till at least " + entry.situation.end);
+                        } else if ("start" in entry.situation) {
+                            $("#dates").html("From " + entry.situation.start);
+                        } else if ("end" in entry.situation) {
+                            $("#dates").html("Till at least " + entry.situation.end);
+                        }
+                        $("#dates").show();
+                    }
                     if (entry.situation.note) {
                         $("#note").show();
                         $("#note").html(entry.situation.note);
                     }
+                    if (mapType === "states") {
+                        CSVParse("https://docs.google.com/spreadsheets/d/e/2PACX-1vR30F8lYP3jG7YOq8es0PBpJIE5yvRVZffOyaqC0GgMBN6yt0Q-NI8pxS7hd1F9dYXnowSC6zpZmW9D/pub?gid=1902046093&range=A5:I69&output=csv", entry.name, "state");
+                    } else {
+                        CSVParse("https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vR30F8lYP3jG7YOq8es0PBpJIE5yvRVZffOyaqC0GgMBN6yt0Q-NI8pxS7hd1F9dYXnowSC6zpZmW9D/pub?range=A6:H213&output=csv", entry.name, "country");
+                    }
                 };
+
+                // --------------------------------
+                // | Function to handle BNO stats |
+                // --------------------------------
+                function CSVParse(CSVfile, CSVLocation, code) {
+                    var caseConfirmed = 0;
+                    var caseDeaths = 0;
+                    var caseRecovered = 0;
+                    var caseNewConfirmed = 0;
+                    var caseNewRecovered = 0;
+                    var caseNewDeaths = 0;
+                    var caseDate = 0;
+                    var caseActive = 0;
+                    var caseNewActive = 0;
+                    var caseDeathRate;
+                    console.log("test CSVparse");
+                    Papa.parse(CSVfile, {
+                        download: true,
+                        header: true,
+                        complete: function (CSVresults) {
+                            console.log(CSVresults);
+                            $.each(CSVresults.data, function (caseKey, caseEntry) {
+                                if (code === "state") {
+                                    locationKey = caseEntry['UNITED STATES'];
+                                } else {
+                                    locationKey = caseEntry.LOCATION;
+                                }
+                                if (locationKey == CSVLocation) {
+                                    caseConfirmed = Number(caseEntry.Cases.replace(/[^0-9.]/g, ""));
+                                    caseDeaths = Number(caseEntry.Deaths.replace(/[^0-9.]/g, ""));
+                                    caseRecovered = Number(caseEntry.Recovered.replace(/[^0-9.]/g, ""));
+                                    caseNewConfirmed = Number(caseEntry['New cases'].replace(/[^0-9.]/g, ""));
+                                    caseNewDeaths = Number(caseEntry['New deaths'].replace(/[^0-9.]/g, ""));
+                                    caseActive = caseConfirmed - caseRecovered - caseDeaths;
+                                    caseDeathRate = caseEntry['Death rate'];
+                                }
+
+                                $("#confirmed").html(caseConfirmed.toLocaleString(window.document.documentElement.lang) + " <span class='new'>(" + caseNewConfirmed.toLocaleString(window.document.documentElement.lang) + ")</span>");
+                                $("#deaths").html(caseDeaths.toLocaleString(window.document.documentElement.lang) + " <span class='new'>(" + caseNewDeaths.toLocaleString(window.document.documentElement.lang) + ")</span>");
+                                $("#recovered").html(caseRecovered.toLocaleString(window.document.documentElement.lang));
+                                $("#active").html(caseActive.toLocaleString(window.document.documentElement.lang));
+                                $("#deathRate").html(caseDeathRate);
+                                $("#numbers").show();
+                            });
+                        }
+                    });
+                }
             </script>
             <span id="contact_info"></span>
             <script>
