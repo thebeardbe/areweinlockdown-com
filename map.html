@@ -427,6 +427,14 @@
                                 } else {
                                     locationKey = caseEntry.LOCATION;
                                 }
+                                switch (CSVLocation) {
+                                    case "Democratic republic of the Congo":
+                                        CSVLocation = "DR Congo";
+                                        break;
+                                    case "Republic of the Congo": 
+                                        CSVLocation = "Congo Republic";
+                                        break;
+                                }
                                 if (locationKey == CSVLocation) {
                                     caseConfirmed = Number(caseEntry.Cases.replace(/[^0-9.]/g, ""));
                                     caseDeaths = Number(caseEntry.Deaths.replace(/[^0-9.]/g, ""));
