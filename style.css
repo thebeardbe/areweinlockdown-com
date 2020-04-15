@@ -43,6 +43,7 @@ h3{font-size:15px;}
 #center h3 a, #top h3 a { text-decoration: underline; font-weight: bold;}
 #center #note {font-size: 20px}
 #center .remark {color:#62c4c3; text-decoration: none;}
+#center #dates {color: #62c4c3; font-size: 1.5em;}
 #center .section-title{margin-bottom:30px;}
 #center #selection {text-align:center; margin-bottom: 25px;}
 #center #virus{width:350px;height:350px;margin:0 auto 40px auto;background:url(images/virus.png) 0 0 no-repeat;background-size: 100% 100%;text-align:center;}
@@ -50,10 +51,10 @@ h3{font-size:15px;}
 #center .status-note{padding-bottom:20px;font-size:16px;font-weight:bold;text-align:center;}
 #center #counter{height:40px;margin-bottom:25px;text-align:center;}
 #center #counter .dcountstyle{font-size:18px;font-weight:bold;}
-#center #remark {text-align: center;margin: 75px 0 50px 0px;font-size: 18px;display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
-#center #remark .icon-text {flex-grow: 1; max-width: 150px;}
-#center #remark .icon-text .text {display: block;}
-#center #remark .icon-text .icon {width: 150px;}
+#center #remarks {text-align: center;margin: 75px 0 50px 0px;font-size: 18px;display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
+#center #remarks .icon-text {flex-grow: 1; max-width: 150px;}
+#center #remarks .icon-text .text {display: block;}
+#center #remarks .icon-text .icon {width: 150px;}
 #center #measures {text-align: center;margin: 75px 0 50px 0px;font-size: 18px;display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-evenly;}
 #center #measures .icon-text {flex-grow: 1; max-width: 200px;}
 #center #measures .icon-text .text {display: block;}
@@ -89,9 +90,8 @@ h3{font-size:15px;}
 .bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}
 
 /* Table styling */
-
-#center table { display: block; overflow-x: scroll; width: 100%}
-#center #lockdownState, #center #lockdownUSState { border-spacing: 0; font-size: 1.3em; position: relative;}
+#center #searchCountry, #center #searchStates { display: block; width: 20%; margin: 0 0 0 5%; background-image: url("images/search.png"); background-size: 30px; background-position: 99%; background-repeat: no-repeat; border: 1px solid #3a4249; margin-bottom: 20px; padding: 20px 0px 20px 10px;}
+#center #lockdownState, #center #lockdownUSState { margin: 0 auto; display: block; overflow-x: scroll; width: 90%; border-spacing: 0; font-size: 1.3em; position: relative;}
 #center #lockdownState th, #center #lockdownUSState th {background: #62c4c3; position: sticky; top: 0px;}
 #center #lockdownState tr > th, #center #lockdownState tr > td, #center #lockdownUSState tr > th, #center #lockdownUSState tr > td {padding: 8px; border: 1px solid #62c4c3;margin:0px;}
 #center #lockdownState tr > th, #center #lockdownUSState tr > th{ border-color: #fff;}
@@ -102,6 +102,9 @@ h3{font-size:15px;}
 
 /* Numbers styling */
 #center #numbers {border: 5px solid #62c4c3; border-radius: 50px; width: 50%; margin: 0 auto;}
+#center #cases {border: 5px solid #62c4c3; border-radius: 50px; width: 40%; margin: 0 auto; color: #62c4c3; font-size:1.25em; padding: 10px;}
+#center #cases td {text-align: center; color: #FF5F5F;}
+#center p {text-align: center; padding: 10px;}
 #top h1, #center #numbers h1 {text-align: center; color:#62c4c3; margin: 0 auto;}
 #top #numbers span, #center #numbers span {font-size: 2em;text-align: center; color:#FF5F5F; margin: 10px auto 40px auto; display: block; font-weight: bold;}
 
@@ -142,12 +145,15 @@ h3{font-size:15px;}
 @media only screen and (max-width:1023px){
 	.frame {max-width: 100%;}
 	#top .frame {max-width: 1023px; padding: 10px;}
+	#center table { width: 100%;}
+	#center #searchCountry, #center #searchStates { width: 100%; }
 }
 @media only screen and (max-width:767px) and (orientation: portrait){
 	.frame{width:100%;}
 	#center #page-title span {width: 100%;}
 	#chartdiv{width: 75%; height: 100%; border-radius: 20px;}
 	#map #tabs {width: 100%; margin-left: 50px;}
+	#center #cases { width: 90%; font-size: 0.8em;}
 	
 }
 @media only screen and (max-width:479px) and (orientation: portrait){

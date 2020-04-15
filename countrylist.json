@@ -19,6 +19,7 @@
         "population" : "2987000",
         "situation": {
             "state" : "YES",
+            "start" : "March 13",
             "quarantaine" : "Stay at home policy. Essential travel only. Curfew between 1pm and 5am.",
             "travel" : "All borders closed. Travel by car only between 5am and 8am and 12pm and 1pm",
             "school" : "Schools are closed.",
@@ -47,6 +48,8 @@
         "population" : "84000",
         "situation": {
             "state" : "YES",
+            "start" : "March 17",
+            "end" : "May 11",
             "school" : "Schools are closed",
             "shop" : "Non essential shops closed",
             "travel" : "Borders closed",
@@ -71,10 +74,14 @@
         "id": "AI",
         "population" : "13300",
         "situation": {
-            "state" : "NO",
-            "school" : "Schools are closed in the week of 16th of March 2020",
-            "event" : "Ban on all recreational events, sports, culture with international attendees.",
-            "travel" : "NO direct flights from Europe and UK and all indirect arrivals 14 day obligatuary quarantaine."
+            "start" : "March 27",
+            "end" : "April 21",
+            "state" : "YES",
+            "shop" : "Non essentail shops are closed.",
+            "restaurant" : "Restaurants and bars are closed. Take-away is allowed.",
+            "school" : "Schools are closed",
+            "event" : "Ban on all recreational events, sports, culture and other.",
+            "travel" : "No direct flights from Europe and UK and all indirect arrivals 14 day obligatuary quarantaine."
         }
     },
     {
@@ -92,7 +99,9 @@
         "population" : "41343000",
         "situation": {
             "state" : "YES",
-            "Remark" : "These restrictions will be in place till form the 19the of march till the 31st of march 2020",
+            "start" : "March 20",
+            "end" : "April 26",
+            "Remark" : "Following restrictions are in place:",
             "quarantaine" : "Everybody has to stay at home. Army and police enforcement.",
             "travel" : "Borders closed",
             "school" : "Schools are closed",
@@ -107,7 +116,8 @@
         "id": "AM",
         "population" : "2968000",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "start" : "March 24",
             "event" : "Ban on all recreational events, sports, culture and other with 20 or more participants",
             "quarantaine" : "Restrictions on movement within the country.",
             "school" : "Schools are closed",
@@ -147,13 +157,14 @@
         "population" : "8205000",
         "situation": {
             "state" : "YES",
+            "start" : "March 16",
             "event" : "Ban on all recreational events, sports, culture and other. No gathering above 5 persons.",
-            "restaurant" : "Restaurants, bars and hotels are closed.",
-            "school" : "Schools are closed",
-            "shop" : "All non essential shops are closed. Essential shops open with limited hours.",
+            "restaurant" : "Restaurants, bars and hotels are closed till at least half may",
+            "school" : "Schools are closed, planned reopening from May 11 onwards",
+            "shop" : "Essential shops, small shops(< 400 sq m), hardware stores and garden centers open since April 14.",
             "travel" : "Borders with Italy and Switzerland closed, German border closed from german side.",
-            "quarantaine" : "Only leaving home for necessary duties. Several areas in full lockdown.",
-            "facemask" : "Obligation to wear facemasks in public."
+            "quarantaine" : "Only leaving home for necessary duties.",
+            "facemask" : "Obligation to wear facemasks in stores and public transport."
 
         }
     },
@@ -232,8 +243,10 @@
         "id": "BE",
         "population" : "10403000",
         "situation": {
+            "start" : "March 18",
+            "end" : "April 19",
             "state" : "YES",
-            "remark" : "Following restrictions in effect from 18th of March 2020 12pm till 19th of april 2020:",
+            "remark" : "Following restrictions in effect:",
             "quarantaine" : "Everybody has to stay at home. Except for physical exercise alone or with people living under the same roof.",
             "restaurant" : "Bars and restaurants are closed. Delivery is possible.",
             "event" : "All events and group activities are prohibited.",
@@ -294,7 +307,8 @@
         "population" : "9947500",
         "situation": {
             "state" : "YES",
-            "remark" : "Restrictions in effect from the March 25:",
+            "start" : "March 25",
+            "remark" : "Following restrictions apply",
             "travel" : "Ban on all international flights. Borders closed for foreigners.",
             "shop" : "All shops are open from 8am till 3pm",
             "quarantaine" : "Full lockdown 24h at home, shopping 1 day in the week depending on your id-card number.",
@@ -505,11 +519,13 @@
         "population" : "47790000",
         "situation": {
             "state" : "YES",
+            "start" : "March 24",
+            "end" : "April 27",
             "travel" : "All international flights suspended starting 23rd of March 2020. Borders closed for foreigners.",
             "school" : "Schools and daycare are closed",
             "shop" : "All non essentail shops are closed.",
             "restaurant" : "Restaurants and bars are closed.",
-            "quarantaine" : "Shelter in place till at least April 12. All adults over 70 have to stay in their residence till the 31ste of may.",
+            "quarantaine" : "Shelter in place. All adults over 70 have to stay in their residence till the 31ste of may.",
             "facemask" : "Obligation to wear facemasks in public",
             "note" : "State of emergency declared. <a href=\"https://d2jsqrio60m94k.cloudfront.net/\" target=\"_blank\">More information</a>"
         }
@@ -600,13 +616,14 @@
         "population" : "10476000",
         "situation": {
             "state" : "YES",
+            "start" : "March 16",
             "event" : "Ban on all recreational events, sports, culture and other",
             "restaurant" : "Restaurants and bars are closed.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
-            "shop" : "All non essentail shops are closed.",
+            "shop" : "Essentail shops and shops that sell hobby goods and building material are open since April 9, all others are closed.",
             "quarantaine" : "Only essential movement prohibited.",
             "facemask" : "Obligation to wear facemasks in public.",
-            "travel" : "Complete travel ban."
+            "travel" : "Travellers must adhere to self-quarantaine of 14 days."
         }
     },
     {
@@ -624,9 +641,10 @@
         "population" : "5484000",
         "situation": {
             "state" : "YES",
-            "event" : "Ban on all recreational events, sports, culture and other.",
+            "start" : "March 11",
+            "event" : "Ban on all recreational events, sports, culture and other. Gathering above 10 people prohibited",
             "restaurant" : "Restaurants and bars are closed.",
-            "school" : "Schools are closed, but daycare for children without other solutions.",
+            "school" : "Schools and daycare are open since April 15.",
             "shop" : "All non essentail shops are closed.",
             "travel" : "All borders closed."
         }
@@ -686,7 +704,7 @@
         "population" : "80471870",
         "situation": {
             "state" : "LOCAL",
-            "remark" : "Restrictions in effect till at least April 12:",
+            "remark" : "Restrictions in effect:",
             "quarantaine" : "Curfew from 7pm till 6am. Several villages in quarantaine",
             "restaurant" : "Bars and night clubs are closed",
             "school" : "Schools are closed",
@@ -701,6 +719,8 @@
         "population" : "6052065",
         "situation": {
             "state" : "YES",
+            "start" : "March 21",
+            "end" : "April 20",
             "quarantaine" : "30 day quarantaine starting 21st of March",
             "shop" : "All non essentail shops are closed.",
             "note" :"<a href=\"http://cov.salud.gob.sv/\" target=\"_blank\">More info</a>"
@@ -805,6 +825,8 @@
         "id": "FR",
         "population" : "64768390",
         "situation": {
+            "start" : "March 17",
+            "end" : "May 11",
             "state" : "YES",
             "quarantaine" : "Stay at home, only necessary travel and exercise in a radius of 1km of your home.",
             "school" : "Schools are closed",
@@ -1056,6 +1078,8 @@
         "population" : "1173108020",
         "situation": {
             "state" : "YES",
+            "start" : "March 25",
+            "end" : "May 3",
             "quarantaine" : "Full lockdown. Lockdown is enforced by security forces.",
             "event" : "Events are cancelled",
             "restaurant" : "Restaurants and bars are closed.",
@@ -1097,7 +1121,8 @@
         "population" : "29671605",
         "situation": {
             "state" : "YES",
-            "remark" : "But restrictions in place from 17th through 24th of March 2020.",
+            "start" : "March 17",
+            "remark" : "Following restrictions in effect:",
             "quarantaine" : "24h curfew on several cities including Bagdad and stay at home policy.",
             "travel" : "Borders closed. International flights cancelled",
             "event" : "Ban on all recreational events, sports, culture and other."
@@ -1137,9 +1162,11 @@
         "population" : "60340328",
         "situation": {
             "state" : "YES",
-            "remark" : "restrictions apply from March 9 till May 3",
+            "start" : "March 9",
+            "end" : "May 3",
+            "remark" : "Following restrictions apply",
             "quarantaine" : "Everybody has to stay at home. Every outing has to be justified.",
-            "shop" : "Non essential shops and factories closed",
+            "shop" : "Essential shops and shops selling books, stationery and clothes for babies and young children are open. Most factories closed",
             "health" : "No visitors in health facilities.",
             "facemask" : "Obligation to wear facemasks in public",
             "note" : "<a href=\"https://www.epicentro.iss.it/coronavirus/\" target=\"_blank\">More info in Italian</a>"
@@ -1170,9 +1197,10 @@
         "id": "JP",
         "population" : "127288000",
         "situation": {
-            "state" : "NO",
+            "state" : "LOCAL",
+            "remark" : "State of emergency declared on April 7, 2020.",
             "school" : "Schools are closed.",
-            "travel" : "Flights from and to China, Italy, Iceland, Iran, South Korea, Spain and Switzerland. "
+            "travel" : "Effectively barring entrance to the country to visitors from 73 countries and regions. "
         }
     },
     {
@@ -2351,10 +2379,13 @@
         "id": "TH",
         "population" : "67089500",
         "situation": {
-            "state": "NO",
+            "state": "YES",
+            "start" : "March 27",
             "quarantaine" : "10:00 p.m. to 4:00 a.m. Land travel banned. Only transport of food and essentials, emergency vehicles and vehicles with permission allowed.",
-            "travel": "All new arrivals banned.",
-            "event" : "All event "
+            "travel": "All new arrivals banned. Borders closed",
+            "restaurant" : "Restaurants and bars are closed. Take-away is allowed.",
+            "shop" : "Non essentail shops are closed.",
+            "event" : "All event banned"
         }
     },
     {
