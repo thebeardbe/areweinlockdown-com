@@ -1943,7 +1943,9 @@
         "population" : "3039125",
         "situation": {
             "state" : "YES",
-            "remark" : "Restrictions in effect from March 31 to at least April 30:",
+            "start" : "March 31",
+            "end" : "April 30",
+            "remark" : "Restrictions in effect:",
             "quarantaine" : "Curfew from 8pm till 5am. Stay at home policy",
             "shop" : "All non essentail shops are closed.",
             "event" : "Ban on all recreational events, sports, culture and other",
