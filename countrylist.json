@@ -244,14 +244,14 @@
         "population" : "10403000",
         "situation": {
             "start" : "March 18",
-            "end" : "April 19",
+            "end" : "May 3",
             "state" : "YES",
             "remark" : "Following restrictions in effect:",
             "quarantaine" : "Everybody has to stay at home. Except for physical exercise alone or with people living under the same roof.",
-            "restaurant" : "Bars and restaurants are closed. Delivery is possible.",
-            "event" : "All events and group activities are prohibited.",
+            "restaurant" : "Bars and restaurants are closed. Delivery and take-away is possible.",
+            "event" : "All events and group activities are prohibited. Mass events are prohibited till August 31.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions.",
-            "shop" : "All non essential shops are closed.",
+            "shop" : "All non essential shops are closed. Garden centres and DIY shops can open from April 18",
             "travel" : "Borders closed to non-essential travel. All travellers need to maintain 2 week self-quarantaine.",
             "note" : "More info on <a href=\"https://www.info-coronavirus.be/en/faqs/\" target=\"_blank\">info-coronavirus.be</a>"
         }
@@ -1391,7 +1391,8 @@
             "event" : "Ban on all recreational events, sports, culture and other",
             "restaurants" : "Bars and restaurants close.",
             "health" : "No visitors in health facilities.",
-            "school" : "Schools are closed."
+            "school" : "Schools are closed.",
+            "facemask" : "Obligation to wear a face mask or facial covering in public when social distancing is not possible."
         }
     },
     {
