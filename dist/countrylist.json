@@ -209,7 +209,9 @@
         "id": "BD",
         "population" : "156118500",
         "situation": {
-            "state" : "NO",
+            "state" : "YES",
+            "start" : "March 26",
+            "end" : "April 25",
             "remark" : "Restrictions in effect from the February 5 2020:",
             "school" : "Schools are closed",
             "shop" : "All non essentail shops are closed.",
@@ -674,7 +676,11 @@
         "population" : "9826820",
         "situation": {
             "state" : "NO",
-            "remark" : "No restrictions"
+            "remark" : "Restrictions in effect:",
+            "shop" : "All non essentail shops are closed.",
+            "quarantaine" : "Curfew from 5pm till 6am",
+            "travel" : "Borders closed",
+            "school" : "Schools and daycare are closed."
         }
     },
     {
@@ -1268,7 +1274,7 @@
         "population" : "2789132",
         "situation": {
             "state" : "LOCAL",
-            "school" : "Schools are closed.",
+            "school" : "Schools are closed till August 4.",
             "shop" : "All non essentail shops are closed.",
             "event" : "All events cancelled",
             "quarantaine" : "Curfew from 10pm to 4am. City of Qatif in lockdown.",
@@ -1347,11 +1353,13 @@
         "id": "LY",
         "population" : "6461455",
         "situation": {
-            "state" : "NO",
-            "quarantaine" : "Curfew in the whole country in the East from 14:00 to 07:00, in the West from 15:00 to 07:00",
+            "state" : "YES",
+            "start" : "April 17",
+            "end" : "April 27",
+            "quarantaine" : "24-hour curfew in the whole country",
             "event" : "Events are prohibited",
             "school" : "Schools are closed",
-            "restaurant" : "Bars and restaurants have to close at 4pm.",
+            "restaurant" : "Bars and restaurant are closed.",
             "shop" : "All non essentail shops are closed.",
             "travel" : "Borders closed, airport closed",
             "note" : "<a href=\"https://ncdc.org.ly/Ar/\" target=\"_blank\">More info</a>"
@@ -1610,7 +1618,10 @@
         "population" : "666730",
         "situation": {
             "state" : "NO",
+            "quarantaine" : "Curfew from 7pm until 5am on weekdays complete between saturday 1pm till monday 5am.",
             "school" : "Schools are closed.",
+            "shops" : "Non essential shops closed.",
+            "event" : "Ban on all recreational events, sports, culture and other.",
             "note" : "More updates needed!"
         }
     },
@@ -2070,8 +2081,12 @@
         "id": "SM",
         "population" : "31480",
         "situation": {
-            "state" : "NO",
-            "remark" : "No restrictions in place."
+            "state" : "YES",
+            "quarantaine" : "Safer at home policy",
+            "shop" : "Non essentail shops are closed.",
+            "restaurant" : "Restaurants and bars are closed.",
+            "school" :"Schools and daycare are closed.",
+
         }
     },
     {
@@ -2444,11 +2459,12 @@
         "population" : "77804120",
         "situation": {
             "state" : "NO",
-            "quarantaine" : "All intercity transport banned",
+            "quarantaine" : "All intercity transport banned, 24h curfews during weekends.",
             "event" : "Ban on all recreational events, sports, culture and other.",
             "school" : "Schools are closed",
             "facemask" : "Obligation to wear facemasks in public",
-            "travel" : "No flights from China, Germany, France, Italy, Iran, Iraq, Spain, Norway, Denmark, Belgium, South-Korea, Sweden, Austria and the Netherlands. Borders with Iran, Iraq closed"
+            "restaurant" : "Restaurants and bars are closed. Take-away and delivery is allowed.",
+            "travel" : "Borders are closed"
         }
     },
     {
