@@ -1878,6 +1878,8 @@
         "population" : "29907000",
         "situation": {
             "state" : "YES",
+            "start" : "March 16",
+            "end" : "May 10",
             "remark" : "Restrictions in effect from the 16th of March:",
             "travel" : "International and national travel completely forbidden. Personal vehicles banned only public transport",
             "school" : "Schools are closed",
