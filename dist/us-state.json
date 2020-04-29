@@ -471,7 +471,8 @@
             "event" : "Ban on all gatherings and events.",
             "school" : "Schools and daycare are closed",
             "restaurant" : "Bars and restaurants are closed, take-away and delivery allowed",
-            "shop" : "Non-essential shops are closed"
+            "shop" : "Non-essential shops are closed",
+            "facemask" : ""
         }
     },
     {
