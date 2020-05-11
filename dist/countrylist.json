@@ -247,13 +247,13 @@
         "situation": {
             "start" : "March 18",
             "end" : "May 11",
-            "state" : "YES",
+            "state" : "NO",
             "remark" : "Following restrictions in effect:",
-            "quarantaine" : "Everybody has to stay at home. Except for physical exercise alone or with people living under the same roof.",
+            "quarantaine" : "Stay at home advised. Allowed to visit 1 family.",
             "restaurant" : "Bars and restaurants are closed. Delivery and take-away is possible.",
             "event" : "All events and group activities are prohibited. Mass events are prohibited till August 31.",
             "school" : "Schools are closed, but daycare stays open. Schools need to provide daycare for children without other solutions. Schools start reopening partially from May 18",
-            "shop" : "All non essential shops are closed except garden centres and DIY shops. All other shops are to be reopened by May 11",
+            "shop" : "All shops are open since May 11.",
             "travel" : "Borders closed to non-essential travel. All travellers need to maintain 2 week self-quarantaine.",
             "note" : "More info on <a href=\"https://www.info-coronavirus.be/en/faqs/\" target=\"_blank\">info-coronavirus.be</a>"
         }
@@ -1879,7 +1879,7 @@
         "situation": {
             "state" : "YES",
             "start" : "March 16",
-            "end" : "May 10",
+            "end" : "May 24",
             "remark" : "Restrictions in effect from the 16th of March:",
             "travel" : "International and national travel completely forbidden. Personal vehicles banned only public transport",
             "school" : "Schools are closed",
